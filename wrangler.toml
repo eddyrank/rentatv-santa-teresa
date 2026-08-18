@@ -1,0 +1,18 @@
+#:schema node_modules/wrangler/assets/config-schema.json
+name = "rentatv-santa-teresa"
+type = "javascript"
+compatibility_date = "2024-08-18"
+
+[env.production]
+routes = [
+  { pattern = "rentatv-santa-teresa.pages.dev", zone_name = "pages.dev" }
+]
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_paths = ["src/**/*.astro", "src/**/*.ts", "public/**/*"]
+
+[build.upload]
+format = "service-worker"
+main = "./dist/entry.mjs"
