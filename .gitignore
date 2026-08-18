@@ -1,7 +1,28 @@
-dist/
+# Dependencies
 node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
 .astro/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
 .DS_Store
-*.log
+Thumbs.db
+
+# Environment
 .env
-.env.production
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
