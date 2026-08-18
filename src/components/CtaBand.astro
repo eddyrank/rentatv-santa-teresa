@@ -1,0 +1,31 @@
+---
+import { whatsappLink, site } from '../data/site';
+import WhatsAppIcon from './WhatsAppIcon.astro';
+
+interface Props {
+  title?: string;
+  body?: string;
+  message?: string;
+}
+const {
+  title = 'Ready to ride?',
+  body = 'Send your dates and how many riders. We reply in minutes during opening hours.',
+  message,
+} = Astro.props;
+---
+
+<!-- Surface fill rather than an accent wash: the reference reserves the accent
+     hue for the action itself, never for large background areas. -->
+<section class="page-x section-y">
+  <div class="rounded-media bg-surface px-6 py-12 text-center lg:px-12">
+    <h2 class="text-h3 sm:text-h2">{title}</h2>
+    <p class="mx-auto mt-3 max-w-lg text-base text-muted">{body}</p>
+    <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+      <a href={message ? whatsappLink(message) : whatsappLink()} class="btn-primary" rel="noopener" target="_blank">
+        <WhatsAppIcon class="h-4 w-4" />
+        Message us on WhatsApp
+      </a>
+      <a href={`tel:${site.phoneHref}`} class="btn-outline">Call {site.phoneDisplay}</a>
+    </div>
+  </div>
+</section>

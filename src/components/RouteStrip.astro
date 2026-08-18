@@ -1,0 +1,33 @@
+---
+/**
+ * Distances riders actually cover, ordered south to north along the coast.
+ * Rendered as a scrollable row of surface chips rather than a bordered board —
+ * the reference separates content with background shifts, not divider rules.
+ *
+ * PLACEHOLDER — confirm distances and ride times with the owner.
+ */
+interface Stop { place: string; km: string; note: string; }
+interface Props { stops?: Stop[]; }
+
+const defaultStops: Stop[] = [
+  { place: 'Playa Carmen', km: '0 km', note: 'Start' },
+  { place: 'Santa Teresa', km: '2 km', note: '5 min' },
+  { place: 'Playa Hermosa', km: '5 km', note: '12 min' },
+  { place: 'Manzanillo', km: '14 km', note: '35 min' },
+  { place: 'Montezuma', km: '22 km', note: '50 min' },
+];
+
+const { stops = defaultStops } = Astro.props;
+---
+
+<ol class="flex gap-3 overflow-x-auto pb-2">
+  {stops.map((stop, i) => (
+    <li class="min-w-[9rem] shrink-0 rounded-md bg-surface px-4 py-3">
+      <span class="block text-micro text-muted">{stop.km}</span>
+      <span class="mt-0.5 block text-base font-semibold text-ink-2">{stop.place}</span>
+      <span class="mt-0.5 block text-micro text-muted">
+        {i === 0 ? stop.note : `${stop.note} ride`}
+      </span>
+    </li>
+  ))}
+</ol>

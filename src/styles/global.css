@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-canvas font-sans text-body text-ink-2 antialiased;
+  }
+
+  h1 { @apply text-h1 font-semibold text-ink-2; }
+  h2 { @apply text-h2 font-semibold text-ink-2; }
+  h3 { @apply text-h3 font-semibold text-ink-2; }
+  h4 { @apply text-h4 font-semibold text-ink-2; }
+
+  :focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #222222;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .page-x { @apply mx-auto w-full max-w-content px-6 lg:px-12; }
+  .section-y { @apply py-6 lg:py-12; }
+
+  /* Primary: WhatsApp green. The single highest-priority action. */
+  .btn-primary {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-pill bg-cta px-6 py-3 text-base font-semibold text-white transition duration-200 ease-airbnb hover:bg-cta-hover;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-xs bg-surface px-6 py-3 text-base font-semibold text-ink-2 transition duration-200 ease-airbnb hover:bg-hairline;
+  }
+
+  .btn-outline {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-pill border border-ink-2 bg-transparent px-6 py-3 text-base font-semibold text-ink-2 transition duration-200 ease-airbnb hover:bg-surface;
+  }
+
+  .card {
+    @apply rounded-media bg-canvas p-6 shadow-card transition duration-200 ease-airbnb;
+  }
+
+  .card-interactive { @apply hover:shadow-card-hover; }
+
+  .media-frame {
+    @apply overflow-hidden rounded-media bg-surface;
+  }
+
+  .link-list { @apply text-ink-2 transition duration-200 ease-airbnb hover:underline; }
+
+  .link-inline { @apply font-medium text-ink-2 underline underline-offset-2 hover:text-ink; }
+
+  .tab { @apply rounded-sm px-3 py-2 text-body text-muted transition duration-200 ease-airbnb hover:text-ink-2; }
+  .tab-active { @apply bg-surface text-ink-2; }
+
+  .field-label { @apply mb-1.5 block text-micro font-medium text-muted; }
+
+  .field-input {
+    @apply block w-full rounded-md border border-hairline bg-canvas px-4 py-3 text-base text-ink-2 transition duration-200 ease-airbnb placeholder:text-muted hover:border-ink-2;
+  }
+
+  .eyebrow { @apply text-body font-medium text-muted; }
+}

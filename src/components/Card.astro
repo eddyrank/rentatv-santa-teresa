@@ -1,0 +1,32 @@
+---
+interface Props {
+  title: string;
+  body: string;
+  href?: string;
+  linkLabel?: string;
+  icon?: 'route' | 'clock' | 'shield' | 'pin' | 'wrench' | 'group';
+}
+const { title, body, href, linkLabel, icon } = Astro.props;
+
+const paths: Record<string, string> = {
+  route: 'M4 19h4a4 4 0 0 0 4-4V9a4 4 0 0 1 4-4h4M17 2l3 3-3 3M7 22l-3-3 3-3',
+  clock: 'M12 7v5l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z',
+  shield: 'M12 3l7 3v6c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6l7-3z',
+  pin: 'M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11zM12 10.5v.01',
+  wrench: 'M14.7 6.3a4 4 0 0 0 5 5L21 21l-3 0-8.5-8.5a4 4 0 0 1-5-5L7 9l3-3-1.5-2.5 3-1z',
+  group: 'M17 20v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9.5 6.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0zM22 20v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75',
+};
+---
+
+<article class:list={['card flex flex-col', href && 'card-interactive']}>
+  {icon && (
+    <svg class="mb-4 h-6 w-6 text-accent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d={paths[icon]} />
+    </svg>
+  )}
+  <h3 class="text-h4">{title}</h3>
+  <p class="mt-2 flex-1 text-base text-muted">{body}</p>
+  {href && (
+    <a href={href} class="link-inline mt-4 self-start text-base">{linkLabel || title}</a>
+  )}
+</article>

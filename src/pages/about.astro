@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Card from '../components/Card.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { site } from '../data/site';
+---
+
+<BaseLayout
+  title="About us | ATV rentals in Santa Teresa | Rent ATV Santa Teresa"
+  description="A local ATV rental operation in Santa Teresa, Costa Rica. Maintained quads, honest rates, free hotel delivery and riders who know the roads between Mal País and Montezuma."
+>
+  <Breadcrumb items={[{ label: 'About', href: '/about' }]} />
+  <PageHero
+    eyebrow="Who we are"
+    title="A local operation, not a franchise"
+    subtitle="We rent quads on the road we live on. That means maintained machines, straight answers about where you should and should not ride, and someone who picks up when you call."
+  />
+
+  <section class="page-x section-y" aria-labelledby="story">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+      <div>
+        <SectionHeading eyebrow="How we work" title="Fewer quads, better kept" />
+        <p class="mt-6 text-base text-muted">
+          <!-- PLACEHOLDER: replace with the owner's real story — how long he has
+               been in Santa Teresa, how the business started, what he rode first. -->
+          We keep a small fleet rather than a large one, because a quad that has been
+          out every day for a month without a service is a quad that will let you down
+          on the road to Manzanillo. Every machine is checked, cleaned and fuelled
+          between rentals.
+        </p>
+        <p class="mt-4 text-base text-muted">
+          We would rather tell you a route is a bad idea in green season than take
+          your money and let you find out. If the rivers are up, we will say so. If
+          you have never ridden before, we will start you on the coast road instead
+          of the hills.
+        </p>
+      </div>
+
+      <!-- PLACEHOLDER IMAGE — owner with the fleet, 20px media mask -->
+      <div class="media-frame flex aspect-[4/3] items-center justify-center">
+        <p class="text-body text-muted">Photo placeholder</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="principles">
+    <SectionHeading eyebrow="What you can count on" title="Four commitments" />
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <Card icon="wrench" title="Maintained quads" body="Serviced between rentals, not once a season. Brakes, tyres and oil checked every time a machine goes out." />
+      <Card icon="pin" title="Local knowledge" body="We ride these roads ourselves. The map you get marks the good stops and the sections to skip after rain." />
+      <Card icon="shield" title="Clear terms" body="You will know what the insurance covers and what the deposit is before you sign. No charges appearing at the end." />
+      <Card icon="clock" title="We answer" body="Message us on WhatsApp and you get a person, usually within minutes during opening hours." />
+    </div>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="area">
+    <div class="max-w-3xl">
+      <SectionHeading eyebrow="Where we operate" title="Along this stretch of coast" />
+      <p class="mt-6 text-base text-muted">
+        We rent and deliver throughout {site.areaServed.slice(0, -1).join(', ')} and
+        {' '}{site.areaServed[site.areaServed.length - 1]}. If you are staying
+        somewhere further out on the Nicoya Peninsula, message us — depending on the
+        dates we can often still make it work.
+      </p>
+      <p class="mt-4 text-base text-muted">
+        Ready to go? Look at <a href="/atv-rentals" class="link-inline">ATV rentals</a>,
+        check <a href="/pricing" class="link-inline">rates</a>, or
+        <a href="/contact" class="link-inline">get in touch</a>.
+      </p>
+    </div>
+  </section>
+
+  <CtaBand />
+</BaseLayout>

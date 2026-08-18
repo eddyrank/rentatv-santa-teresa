@@ -1,0 +1,57 @@
+---
+import { site, nav } from '../data/site';
+
+const year = new Date().getFullYear();
+---
+
+<!-- The background shift from canvas to surface is the section separator.
+     The reference forbids adding divider lines between footer columns. -->
+<footer class="mt-auto bg-surface">
+  <div class="page-x section-y">
+    <div class="grid gap-10 md:grid-cols-3">
+      <div>
+        <h2 class="text-body font-semibold text-ink-2">Rent ATV Santa Teresa</h2>
+        <!-- NAP as crawlable text, never an image. Matches the JSON-LD exactly. -->
+        <address class="mt-4 space-y-1 text-body not-italic text-muted">
+          <span class="block">{site.address.street}</span>
+          <span class="block">{site.address.locality}, {site.address.region}</span>
+          <span class="block">{site.address.countryName}</span>
+        </address>
+        <ul class="mt-4 space-y-1 text-body">
+          <li><a href={`tel:${site.phoneHref}`} class="link-list">{site.phoneDisplay}</a></li>
+          <li><a href={`mailto:${site.email}`} class="link-list">{site.email}</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-body font-semibold text-ink-2">Hours</h2>
+        <dl class="mt-4 space-y-2 text-body text-muted">
+          {site.hours.map((block) => (
+            <div class="flex justify-between gap-4 md:justify-start md:gap-3">
+              <dt>{block.label}</dt>
+              <dd class="text-ink-2">{block.time}</dd>
+            </div>
+          ))}
+        </dl>
+        <p class="mt-4 text-body text-muted">
+          Riding after dark is not recommended. The main road is unlit and unpaved.
+        </p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <h2 class="text-body font-semibold text-ink-2">Explore</h2>
+        <ul class="mt-4 space-y-2 text-body">
+          <li><a href="/" class="link-list">Home</a></li>
+          {nav.map((item) => (
+            <li><a href={item.href} class="link-list">{item.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-2 border-t border-hairline pt-6 text-body text-muted sm:flex-row sm:items-center sm:justify-between">
+      <p>&copy; {year} {site.name}</p>
+      <p>{site.areaServed.slice(0, 4).join(' · ')}</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Card from '../components/Card.astro';
+import CtaBand from '../components/CtaBand.astro';
+import RouteStrip from '../components/RouteStrip.astro';
+import InfoCard from '../components/InfoCard.astro';
+import { site } from '../data/site';
+import { serviceSchema } from '../data/schema';
+
+const schema = serviceSchema({
+  name: 'ATV rentals in Santa Teresa',
+  description:
+    'Self-drive ATV rentals in Santa Teresa, Costa Rica by the half day, day or week. Fully automatic with 4x4 storage box. Helmets and free hotel delivery included.',
+  url: `${site.url}/atv-rentals`,
+});
+
+const fleet = [
+  {
+    name: 'Single-seat 250cc',
+    body: 'The standard quad and the easiest to learn on. Fully automatic, light enough to handle in soft sand, and plenty of power for the coast road and the Mal País loop.',
+    specs: ['1 rider', 'Automatic', '4x4 storage box'],
+  },
+  {
+    name: 'Two-seat 350cc',
+    body: 'A longer frame with a passenger seat and grab rail. The usual choice for couples, or for a parent riding with an older child.',
+    specs: ['2 riders', 'Automatic', '4x4 storage box'],
+  },
+  {
+    name: 'Trail 450cc',
+    body: 'More ground clearance and torque for the inland hills toward Manzanillo, the steep villa driveways, and green-season mud. For riders with previous experience.',
+    specs: ['1 rider', 'High clearance', '4x4 storage box'],
+  },
+];
+
+const included = [
+  'A helmet for every rider',
+  'Full tank of fuel at pickup',
+  'Marked route map of the area',
+  'Basic liability insurance',
+  'Free delivery and collection in Santa Teresa',
+  'Roadside help anywhere we rent',
+  '4x4 storage box on every quad',
+];
+
+const bring = [
+  'A valid driver license from your home country - the physical card, not a photo',
+  'Closed shoes. Flip-flops are not safe on a quad and we cannot rent to you in them',
+  'Sunglasses or eye protection - the road is very dusty in dry season',
+  'A card or cash for the security deposit, refunded on return',
+];
+---
+
+<BaseLayout
+  title="ATV rentals in Santa Teresa | Self-drive quad hire | Rent ATV Santa Teresa"
+  description="Self-drive ATV rentals in Santa Teresa, Costa Rica. Fully automatic quads with 4x4 storage box, helmets, route map, insurance and free hotel delivery included."
+  schema={schema}
+>
+  <Breadcrumb items={[{ label: 'ATV rentals', href: '/atv-rentals' }]} />
+  <PageHero
+    eyebrow="Self-drive"
+    title="ATV rentals in Santa Teresa"
+    subtitle="Take the keys and explore on your own schedule. All our quads are fully automatic with a 4x4 storage box. Helmets, fuel, insurance and a route map come with every rental, and we deliver to your hotel at no extra cost."
+  />
+
+  <section class="page-x section-y" aria-labelledby="fleet">
+    <SectionHeading
+      eyebrow="The fleet"
+      title="Three quads, three kinds of trip"
+      subtitle="All automatic, all serviced between rentals. If you are not sure which suits you, tell us where you want to go and we will match you."
+    />
+    <div class="mt-8 grid gap-6 md:grid-cols-3">
+      {fleet.map((quad) => (
+        <article class="flex flex-col">
+          <div class="media-frame flex aspect-[4/3] items-center justify-center">
+            <p class="text-body text-muted">Photo placeholder</p>
+          </div>
+          <h3 class="mt-4 text-h4">{quad.name}</h3>
+          <p class="mt-2 flex-1 text-base text-muted">{quad.body}</p>
+          <ul class="mt-4 flex flex-wrap gap-2">
+            {quad.specs.map((spec) => (
+              <li class="rounded-sm bg-surface px-3 py-1.5 text-body text-muted">{spec}</li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="bg-contrast section-y" aria-labelledby="whats-included">
+    <div class="page-x">
+      <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+        <div>
+          <SectionHeading eyebrow="What you get" title="Included with every rental" />
+          <ul class="mt-6 space-y-3">
+            {included.map((item) => (
+              <li class="flex items-start gap-3 text-base text-ink-2">
+                <svg class="mt-1 h-4 w-4 shrink-0 text-ink-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                  <path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <SectionHeading eyebrow="What to bring" title="Turn up with these" />
+          <ul class="mt-6 space-y-3">
+            {bring.map((item) => (
+              <li class="flex items-start gap-3 text-base text-ink-2">
+                <svg class="mt-1 h-4 w-4 shrink-0 text-ink-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 8v4M12 16h.01" stroke-linecap="round" />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="guided">
+    <SectionHeading
+      eyebrow="Prefer not to lead"
+      title="Ride with a guide"
+      subtitle="If it is your first time on a quad, or you want the inland routes that are hard to find alone, we run guided rides on request."
+    />
+    <div class="mt-8 grid gap-6 md:grid-cols-3">
+      <Card icon="group" title="Sunset coast ride" body="North along the beach road to Playa Hermosa, timed so you are parked on the sand as the sun goes down. The easiest ride we run and the one to pick if you have never ridden." />
+      <Card icon="route" title="Waterfall ride" body="Inland on jungle track with two river crossings and a stop long enough to swim. This is the section most self-drive riders never find." />
+      <Card icon="pin" title="Cabo Blanco loop" body="South through Mal País to the reserve boundary, then back over the hill road. Steep and rocky in places, for riders comfortable on loose ground." />
+    </div>
+    <p class="mt-6 text-base text-muted">
+      Guided rides run on request rather than a fixed schedule. Message us with your
+      dates and group size and we will tell you what is possible that week.
+    </p>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="multi-day">
+    <SectionHeading
+      eyebrow="Staying a while"
+      title="Rates drop from three days"
+      subtitle="Santa Teresa runs several kilometres along one road. If you are here for a week, renting day by day is the expensive way to do it."
+    />
+    <div class="mt-8 grid gap-6 sm:grid-cols-4">
+      <InfoCard label="Under 3 days" value="$65/day" detail="Half-day and full-day rentals" />
+      <InfoCard label="3 to 7 days" value="$60/day" detail="The most popular range" />
+      <InfoCard label="Over 7 days" value="$55/day" detail="Weekly and longer" />
+      <InfoCard label="Two weeks+" value="$50/day" detail="Our best rate" />
+    </div>
+    <p class="mt-6 text-base text-muted">
+      One security deposit covers the whole period regardless of length, and if a quad
+      develops a fault mid-rental we bring a replacement rather than leaving you without
+      transport. Full rates on the <a href="/pricing" class="link-inline">pricing page</a>.
+    </p>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="where-to-go">
+    <SectionHeading
+      eyebrow="Where to go"
+      title="How far you can get"
+      subtitle="Distances along the coast road from Playa Carmen, heading north."
+    />
+    <div class="mt-8">
+      <RouteStrip />
+    </div>
+  </section>
+
+  <CtaBand
+    title="Reserve a quad"
+    body="Tell us your dates, how many riders, and where you are staying. We will confirm availability and bring it to you."
+    message="Hi! I'd like to book an ATV rental in Santa Teresa."
+  />
+</BaseLayout>

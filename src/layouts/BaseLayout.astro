@@ -1,0 +1,94 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  schema?: object | object[];
+  ogImage?: string;
+  twitterCard?: 'summary' | 'summary_large_image';
+  robots?: string;
+}
+
+const {
+  title,
+  description = `${site.tagline}. Self-drive ATV rentals, guided jungle and beach rides, and multi-day rates. Book on WhatsApp.`,
+  canonical,
+  schema,
+  // PLACEHOLDER — add a real 1200x630 share image at public/og-default.jpg
+  ogImage = `${site.url}/og-default.jpg`,
+  twitterCard = 'summary_large_image',
+  robots = 'index, follow',
+} = Astro.props;
+
+// trailingSlash is set to 'never', so strip the slash Astro leaves on interior
+// paths. The root stays bare too, matching what @astrojs/sitemap emits.
+const cleanPath = Astro.url.pathname.replace(/\/+$/, '');
+const canonicalUrl = canonical || new URL(cleanPath, Astro.site).href.replace(/\/$/, '');
+const schemaBlocks = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Favicons & theme -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#FFFFFF" />
+
+    <!-- No webfont request. Airbnb Cereal VF is proprietary, so we use the
+         reference's documented fallback stack, which is system-native and
+         renders with zero network latency. -->
+
+    <!-- Search -->
+    <meta name="robots" content={robots} />
+    <meta name="geo.region" content="CR-P" />
+    <meta name="geo.placename" content="Santa Teresa, Costa Rica" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content={twitterCard} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Structured data -->
+    {schemaBlocks.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
+
+    <title>{title}</title>
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <!-- Skip link: ink pill, 30px radius, matching the reference recipe. -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-4 focus:z-50 focus:rounded-pill focus:bg-ink-2 focus:px-5 focus:py-3 focus:text-base focus:font-semibold focus:text-canvas"
+      >Skip to main content</a
+    >
+    <Header />
+    <main id="main-content" class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

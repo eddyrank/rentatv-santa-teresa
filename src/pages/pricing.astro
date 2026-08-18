@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import CtaBand from '../components/CtaBand.astro';
+
+const rentalRates = [
+  { period: 'Half day (4 hours)', single: '$65', double: '$65', trail: '$65' },
+  { period: 'Full day (24 hours)', single: '$65', double: '$65', trail: '$65' },
+  { period: '3 to 4 days, per day', single: '$60', double: '$60', trail: '$60' },
+  { period: '5 to 6 days, per day', single: '$60', double: '$60', trail: '$60' },
+  { period: '7 days or more, per day', single: '$55', double: '$55', trail: '$55' },
+  { period: '14 days or more, per day', single: '$50', double: '$50', trail: '$50' },
+];
+
+const extras = [
+  { label: 'Security deposit', detail: 'Held on card or in cash, refunded on return. Amount depends on quad type.' },
+  { label: 'Fuel', detail: 'Full at pickup, full on return. Refuelling on your behalf is charged at cost.' },
+  { label: 'Delivery', detail: 'Free in Santa Teresa, Playa Carmen and Mal País. Small fee to Manzanillo or Montezuma.' },
+  { label: 'Optional damage cover', detail: 'Available per day. Reduces what you are liable for if the quad comes back damaged.' },
+  { label: 'Guided rides', detail: 'Priced per person and quoted on request, since routes depend on conditions that week.' },
+  { label: 'Payment', detail: 'Cash in colones or US dollars, or card. Nothing is charged until pickup.' },
+];
+---
+
+<BaseLayout
+  title="ATV rental prices in Santa Teresa | Rent ATV Santa Teresa"
+  description="ATV rental prices in Santa Teresa, Costa Rica. Half-day, full-day and weekly quad rates with helmets, insurance and free hotel delivery included."
+>
+  <Breadcrumb items={[{ label: 'Pricing', href: '/pricing' }]} />
+  <PageHero
+    eyebrow="Rates"
+    title="Pricing"
+    subtitle="Every rate includes helmets, fuel at pickup, basic insurance and free delivery within Santa Teresa. No booking fee and nothing added at the counter."
+  />
+
+  <section class="page-x section-y" aria-labelledby="rental-rates">
+    <SectionHeading
+      eyebrow="Self-drive"
+      title="Rental rates"
+      subtitle="Rates are per quad, not per person. A two-seater carries a passenger at no extra charge."
+    />
+
+    <div class="mt-8 overflow-x-auto">
+      <table class="w-full min-w-[34rem] border-collapse text-left text-base">
+        <caption class="sr-only">Self-drive ATV rental rates by duration and quad type</caption>
+        <thead>
+          <tr class="border-b border-hairline">
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Duration</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Single-seat 250cc</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Two-seat 350cc</th>
+            <th scope="col" class="py-3 text-body font-semibold text-muted">Trail 450cc</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rentalRates.map((row) => (
+            <tr class="border-b border-hairline">
+              <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.period}</th>
+              <td class="py-4 pr-4 font-semibold text-ink-2">{row.single}</td>
+              <td class="py-4 pr-4 font-semibold text-ink-2">{row.double}</td>
+              <td class="py-4 font-semibold text-ink-2">{row.trail}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="mt-6 text-base text-muted">
+      See what comes with each rental on the
+      <a href="/atv-rentals" class="link-inline">ATV rentals page</a>.
+    </p>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="extras">
+    <div class="max-w-3xl">
+      <SectionHeading eyebrow="The fine print" title="Deposits, fuel and extras" />
+      <dl class="mt-8 divide-y divide-hairline border-t border-hairline">
+        {extras.map((item) => (
+          <div class="flex flex-col gap-1 py-5 sm:flex-row sm:justify-between sm:gap-8">
+            <dt class="font-semibold text-ink-2">{item.label}</dt>
+            <dd class="text-base text-muted sm:max-w-md sm:text-right">{item.detail}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <CtaBand
+    title="Get a quote"
+    body="Rates shift slightly between high and green season. Send your dates and we will confirm the exact price."
+    message="Hi! I'd like to book an ATV rental in Santa Teresa."
+  />
+</BaseLayout>

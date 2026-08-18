@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Card from '../components/Card.astro';
+import InfoCard from '../components/InfoCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Faq from '../components/Faq.astro';
+import RouteStrip from '../components/RouteStrip.astro';
+import { site } from '../data/site';
+import { localBusinessSchema, websiteSchema, faqSchema } from '../data/schema';
+
+const faqs = [
+  {
+    q: 'Do I need a licence to rent an ATV in Santa Teresa?',
+    a: 'Yes. Costa Rican law requires a valid driver’s licence from your home country to operate an ATV on public roads. A standard car licence is enough — you do not need a motorcycle endorsement. Bring the physical licence, not a photo of it.',
+  },
+  {
+    q: 'Can you deliver the ATV to my hotel?',
+    a: 'Yes, and it is free anywhere in Santa Teresa, Playa Carmen and Mal País. We bring the quad to you, walk you through the controls and collect it from the same spot when your rental ends. Delivery further out to Manzanillo or Montezuma is available for a small fee.',
+  },
+  {
+    q: 'Is insurance included?',
+    a: 'Basic liability coverage is included in every rental. We will explain what it does and does not cover before you sign, so there are no surprises. Optional damage coverage is available if you would rather not carry the risk on the rougher inland trails.',
+  },
+  {
+    q: 'What are the roads actually like?',
+    a: 'The main coastal road is unpaved, rutted and very dusty in dry season, then soft and washed-out in green season. It is exactly why so many visitors ride quads here rather than drive. Inland routes toward Manzanillo include steep sections and river crossings that are best ridden with a guide.',
+  },
+];
+
+const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
+---
+
+<BaseLayout
+  title="ATV rentals in Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
+  description="Rent an ATV in Santa Teresa, Costa Rica. Self-drive quad rentals by the half day, day or week, with guided rides available. Free hotel delivery. Book on WhatsApp."
+  schema={schema}
+>
+  <Hero
+    title="The best way to see Santa Teresa is on four wheels"
+    subtitle="Santa Teresa runs on a dirt road, and a quad handles it better than anything else. Rent by the day, ride with a guide, or keep one for your whole stay."
+  />
+
+  <!-- Rental options at a glance -->
+  <section class="page-x section-y" aria-labelledby="at-a-glance">
+    <h2 id="at-a-glance" class="sr-only">Rental details at a glance</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <InfoCard label="Half day" value="4 hours" detail="Enough for the beach road and a sunset at Playa Hermosa." />
+      <InfoCard label="Full day" value="24 hours" detail="Our most popular rental. Pick up any time, return the next morning." />
+      <InfoCard label="Delivery" value="Free" detail="To any hotel in Santa Teresa, Playa Carmen or Mal País." />
+      <InfoCard label="Riders" value="1 or 2" detail="Two-seater quads available for couples and parents riding with a child." />
+    </div>
+  </section>
+
+  <!-- Why a quad -->
+  <section class="page-x section-y" aria-labelledby="why-quad">
+    <div class="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-12">
+      <div>
+        <SectionHeading eyebrow="Why a quad, not a car" title="The road is the reason" />
+        <p class="mt-6 text-base text-muted">
+          There is one main road through Santa Teresa and it is not paved. In dry
+          season it is washboard and dust; in green season it turns to mud with
+          standing water at the low points. Rental cars struggle with it, and the
+          steep driveways up to the hillside villas are worse.
+        </p>
+        <p class="mt-4 text-base text-muted">
+          A quad handles all of it, parks anywhere, and turns a fifteen-minute walk
+          in the heat into a two-minute ride. It is the local answer, which is why
+          you will see far more ATVs here than cars.
+        </p>
+        <a href="/atv-rentals" class="btn-secondary mt-8">See rental options</a>
+      </div>
+
+      <div class="grid gap-6 sm:grid-cols-2">
+        <Card icon="shield" title="Helmets for every rider" body="Included with every rental, in adult and youth sizes. Costa Rican law requires them on public roads." />
+        <Card icon="wrench" title="Serviced between rentals" body="Every quad is checked, fuelled and cleaned before it goes out. If something fails on the road, we come to you." />
+        <Card icon="pin" title="Route map included" body="A marked map of the good rides, the places worth stopping, and the sections to avoid after rain." />
+        <Card icon="clock" title="Flexible pickup" body="Same-day rentals when we have quads free. Message in the morning and you can be riding by lunch." />
+      </div>
+    </div>
+  </section>
+
+  <!-- Where you can get -->
+  <section class="page-x section-y" aria-labelledby="where">
+    <SectionHeading
+      eyebrow="How far you can get"
+      title="Rides worth taking"
+      subtitle="Distances along the coast road from Playa Carmen, heading north."
+    />
+    <div class="mt-8">
+      <RouteStrip />
+    </div>
+    <div class="mt-8 grid gap-6 md:grid-cols-3">
+      <Card title="The coast road" body="Playa Carmen up to Playa Hermosa and back. Flat, straightforward and stunning near sunset. The right first ride if you have never been on a quad." />
+      <Card title="Mal País and Cabo Blanco" body="South instead of north, through the fishing village at Mal País to the edge of Cabo Blanco reserve. Quieter road, good swimming stops along the way." />
+      <Card title="Manzanillo and the hills" body="Inland climbs, river crossings and long views back over the coast. Rough in places, and better ridden with a guide — ask us when you book." />
+    </div>
+  </section>
+
+  <!-- Visit us -->
+  <section class="page-x section-y" aria-labelledby="visit-us">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+      <div>
+        <SectionHeading eyebrow="Find us" title="Where to pick up" />
+        <address class="mt-6 space-y-1 text-base not-italic text-muted">
+          <span class="block font-semibold text-ink-2">{site.name}</span>
+          <span class="block">{site.address.street}</span>
+          <span class="block">{site.address.locality}, {site.address.region}, {site.address.countryName}</span>
+        </address>
+        <dl class="mt-6 space-y-3 text-base">
+          <div class="flex gap-4">
+            <dt class="w-24 shrink-0 text-muted">Phone</dt>
+            <dd><a href={`tel:${site.phoneHref}`} class="link-list">{site.phoneDisplay}</a></dd>
+          </div>
+          <div class="flex gap-4">
+            <dt class="w-24 shrink-0 text-muted">Email</dt>
+            <dd><a href={`mailto:${site.email}`} class="link-list">{site.email}</a></dd>
+          </div>
+          {site.hours.map((block) => (
+            <div class="flex gap-4">
+              <dt class="w-24 shrink-0 text-muted">{block.label.split(' ')[0]}</dt>
+              <dd>{block.label} · {block.time}</dd>
+            </div>
+          ))}
+        </dl>
+        <p class="mt-6 text-base text-muted">
+          Not near the shop? We deliver free to hotels in Santa Teresa, Playa Carmen
+          and Mal País — just send your hotel name when you book.
+        </p>
+      </div>
+
+      <!-- PLACEHOLDER — embed Google Map here, inside the 20px media mask -->
+      <div class="media-frame flex min-h-[320px] items-center justify-center">
+        <p class="text-body text-muted">Map placeholder</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="page-x section-y" aria-labelledby="faq-heading">
+    <SectionHeading eyebrow="Before you book" title="Common questions" />
+    <div class="mt-8 max-w-3xl">
+      <Faq items={faqs} />
+    </div>
+    <a href="/faq" class="link-inline mt-8 inline-block text-base">Read all questions</a>
+  </section>
+
+  <CtaBand message="Hi! I'd like to check ATV availability in Santa Teresa." />
+</BaseLayout>

@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { whatsappLink } from '../data/site';
+import WhatsAppIcon from '../components/WhatsAppIcon.astro';
+---
+
+<BaseLayout
+  title="Page not found | Rent ATV Santa Teresa"
+  description="That page does not exist. Head back to the homepage to find ATV rentals and rates in Santa Teresa, Costa Rica."
+  robots="noindex, nofollow"
+>
+  <section class="page-x section-y">
+    <div class="mx-auto max-w-lg py-12 text-center">
+      <h1 class="text-h2 sm:text-h1">Page not found</h1>
+      <p class="mt-4 text-lead text-muted">
+        The page you are looking for does not exist or has been moved. Everything
+        below will get you back on the road.
+      </p>
+
+      <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+        <a href="/" class="btn-primary">Back to homepage</a>
+        <a href={whatsappLink()} class="btn-secondary" rel="noopener" target="_blank">
+          <WhatsAppIcon class="h-4 w-4" />
+          Message us
+        </a>
+      </div>
+
+      <ul class="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-base">
+        <li><a href="/atv-rentals" class="link-list underline underline-offset-2">ATV rentals</a></li>
+        <li><a href="/pricing" class="link-list underline underline-offset-2">Pricing</a></li>
+        <li><a href="/faq" class="link-list underline underline-offset-2">FAQ</a></li>
+        <li><a href="/contact" class="link-list underline underline-offset-2">Contact</a></li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
