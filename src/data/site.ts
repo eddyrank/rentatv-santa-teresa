@@ -15,12 +15,12 @@ export const site = {
   url: 'https://rentatvsantateresa.com',
   tagline: 'ATV rentals and guided rides in Santa Teresa, Costa Rica',
 
-  // PLACEHOLDER — replace with the real number, keep this exact format everywhere.
-  phoneDisplay: '+506 0000-0000',
-  phoneHref: '+50600000000',
+  // Same line handles calls and WhatsApp.
+  phoneDisplay: '+506 6152 7014',
+  phoneHref: '+50661527014',
 
-  // PLACEHOLDER — digits only, country code first, no + or spaces.
-  whatsappNumber: '50600000000',
+  // Digits only, country code first, no + or spaces — wa.me link format.
+  whatsappNumber: '50661527014',
 
   // PLACEHOLDER
   email: 'hola@rentatvsantateresa.com',
