@@ -31,16 +31,20 @@ const { title, subtitle, ctaSecondary = { label: 'See rates', href: '/pricing' }
       </p>
     </div>
 
-    <!-- ATV product photo: floating on gradient background -->
-    <div class="flex items-center justify-center bg-gradient-to-br from-contrast to-surface rounded-media min-h-[400px]">
-      <img 
-        src="/hero-atv.png" 
-        alt="Red Honda ATV quad bike with 4x4 storage box" 
-        width="500" 
-        height="400" 
-        loading="eager" 
+    <!-- Floating product shot. No frame or fill behind it: the PNG alpha does
+         the work, and a soft contact shadow keeps it from looking pasted on. -->
+    <div class="flex items-center justify-center">
+      <img
+        src="/atv-hero.webp"
+        srcset="/atv-hero-700.webp 700w, /atv-hero.webp 1400w"
+        sizes="(min-width: 1024px) 50vw, 100vw"
+        alt="Red Honda Rancher ATV with front and rear cargo racks, available to rent in Santa Teresa"
+        width="1400"
+        height="919"
+        loading="eager"
         fetchpriority="high"
-        class="max-w-full h-auto drop-shadow-lg"
+        decoding="async"
+        class="h-auto w-full max-w-xl [filter:drop-shadow(0_28px_28px_rgba(0,0,0,0.20))]"
       />
     </div>
   </div>
