@@ -1,0 +1,44 @@
+---
+/**
+ * Responsive photo. Every image on the site goes through here so srcset,
+ * dimensions and loading hints stay consistent — explicit width/height on all
+ * of them prevents layout shift as they load.
+ */
+interface Props {
+  name: string;
+  alt: string;
+  widths?: number[];
+  sizes?: string;
+  ratio?: string;
+  eager?: boolean;
+  class?: string;
+}
+
+const {
+  name,
+  alt,
+  widths = [800, 1200],
+  sizes = '(min-width: 1024px) 33vw, 100vw',
+  ratio = 'aspect-[4/3]',
+  eager = false,
+  class: className = '',
+} = Astro.props;
+
+const largest = widths[widths.length - 1];
+const srcset = widths.map((w) => `/photos/${name}-${w}.webp ${w}w`).join(', ');
+---
+
+<div class:list={[ratio, 'overflow-hidden', className]}>
+  <img
+    src={`/photos/${name}-${largest}.webp`}
+    srcset={srcset}
+    sizes={sizes}
+    alt={alt}
+    width={largest}
+    height={Math.round((largest * 3) / 4)}
+    loading={eager ? 'eager' : 'lazy'}
+    fetchpriority={eager ? 'high' : undefined}
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>

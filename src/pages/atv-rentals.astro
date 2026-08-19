@@ -7,6 +7,8 @@ import Card from '../components/Card.astro';
 import CtaBand from '../components/CtaBand.astro';
 import RouteStrip from '../components/RouteStrip.astro';
 import InfoCard from '../components/InfoCard.astro';
+import Photo from '../components/Photo.astro';
+import PhotoBand from '../components/PhotoBand.astro';
 import { site } from '../data/site';
 import { serviceSchema } from '../data/schema';
 
@@ -19,19 +21,25 @@ const schema = serviceSchema({
 
 const fleet = [
   {
-    name: 'Single-seat 250cc',
-    body: 'The standard quad and the easiest to learn on. Fully automatic, light enough to handle in soft sand, and plenty of power for the coast road and the Mal País loop.',
-    specs: ['1 rider', 'Automatic', '4x4 storage box'],
+    photo: 'quad-angle',
+    alt: 'Red Can-Am Outlander 450 4x4 at an angle showing front rack, seat and rear cargo box',
+    name: 'Can-Am Outlander 450 4x4',
+    body: 'Our whole fleet is the same machine, so there is no guessing about what you will be handed. Fully automatic, selectable 4x4, and enough ground clearance for the hill roads and green-season mud.',
+    specs: ['Fully automatic', 'Selectable 4x4', '1-2 riders'],
   },
   {
-    name: 'Two-seat 350cc',
-    body: 'A longer frame with a passenger seat and grab rail. The usual choice for couples, or for a parent riding with an older child.',
-    specs: ['2 riders', 'Automatic', '4x4 storage box'],
+    photo: 'quad-side',
+    alt: 'Side view of the Can-Am Outlander 450 showing the locking rear cargo box',
+    name: 'Locking cargo box',
+    body: 'A hard box on the back of every quad, plus front and rear racks. Bags, towels, groceries and wet shoes go in it, which is the difference between a quad you can run errands on and one you cannot.',
+    specs: ['Lockable', 'Front + rear racks', 'Fits daypacks'],
   },
   {
-    name: 'Trail 450cc',
-    body: 'More ground clearance and torque for the inland hills toward Manzanillo, the steep villa driveways, and green-season mud. For riders with previous experience.',
-    specs: ['1 rider', 'High clearance', '4x4 storage box'],
+    photo: 'quad-front',
+    alt: 'Front view of the Can-Am Outlander 450 showing brush guard and headlights',
+    name: 'Set up for these roads',
+    body: 'Brush guard, mirrors and working lights on every machine. Serviced between rentals rather than once a season, because the dust and salt air here are hard on everything.',
+    specs: ['Brush guard', 'Mirrors', 'Serviced each rental'],
   },
 ];
 
@@ -68,14 +76,14 @@ const bring = [
   <section class="page-x section-y" aria-labelledby="fleet">
     <SectionHeading
       eyebrow="The fleet"
-      title="Three quads, three kinds of trip"
-      subtitle="All automatic, all serviced between rentals. If you are not sure which suits you, tell us where you want to go and we will match you."
+      title="One machine, properly kept"
+      subtitle="We run a single model rather than a mixed fleet, so every rental is the same known quantity and the parts we stock fit every machine."
     />
     <div class="mt-8 grid gap-6 md:grid-cols-3">
       {fleet.map((quad) => (
         <article class="flex flex-col">
-          <div class="media-frame flex aspect-[4/3] items-center justify-center">
-            <p class="text-body text-muted">Photo placeholder</p>
+          <div class="photo-card">
+            <Photo name={quad.photo} alt={quad.alt} />
           </div>
           <h3 class="mt-4 text-h4">{quad.name}</h3>
           <p class="mt-2 flex-1 text-base text-muted">{quad.body}</p>

@@ -6,12 +6,10 @@ import SectionHeading from '../components/SectionHeading.astro';
 import CtaBand from '../components/CtaBand.astro';
 
 const rentalRates = [
-  { period: 'Half day (4 hours)', single: '$65', double: '$65', trail: '$65' },
-  { period: 'Full day (24 hours)', single: '$65', double: '$65', trail: '$65' },
-  { period: '3 to 4 days, per day', single: '$60', double: '$60', trail: '$60' },
-  { period: '5 to 6 days, per day', single: '$60', double: '$60', trail: '$60' },
-  { period: '7 days or more, per day', single: '$55', double: '$55', trail: '$55' },
-  { period: '14 days or more, per day', single: '$50', double: '$50', trail: '$50' },
+  { period: 'Under 3 days', rate: '$65', per: 'per day' },
+  { period: '3 to 7 days', rate: '$60', per: 'per day' },
+  { period: 'Over 7 days', rate: '$55', per: 'per day' },
+  { period: '2 weeks or more', rate: '$50', per: 'per day' },
 ];
 
 const extras = [
@@ -39,27 +37,26 @@ const extras = [
     <SectionHeading
       eyebrow="Self-drive"
       title="Rental rates"
-      subtitle="Rates are per quad, not per person. A two-seater carries a passenger at no extra charge."
+      subtitle="Rates are per quad, not per person, and a passenger rides at no extra charge. Every rate includes helmets, the cargo box and free delivery in Santa Teresa."
     />
 
     <div class="mt-8 overflow-x-auto">
-      <table class="w-full min-w-[34rem] border-collapse text-left text-base">
-        <caption class="sr-only">Self-drive ATV rental rates by duration and quad type</caption>
+      <table class="w-full min-w-[28rem] border-collapse text-left text-base">
+        <caption class="sr-only">Can-Am Outlander 450 rental rates by length of rental</caption>
         <thead>
           <tr class="border-b border-hairline">
-            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Duration</th>
-            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Single-seat 250cc</th>
-            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Two-seat 350cc</th>
-            <th scope="col" class="py-3 text-body font-semibold text-muted">Trail 450cc</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Length of rental</th>
+            <th scope="col" class="py-3 text-body font-semibold text-muted">Can-Am Outlander 450 4x4</th>
           </tr>
         </thead>
         <tbody>
           {rentalRates.map((row) => (
             <tr class="border-b border-hairline">
               <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.period}</th>
-              <td class="py-4 pr-4 font-semibold text-ink-2">{row.single}</td>
-              <td class="py-4 pr-4 font-semibold text-ink-2">{row.double}</td>
-              <td class="py-4 font-semibold text-ink-2">{row.trail}</td>
+              <td class="py-4">
+                <span class="text-h4 font-semibold text-ink-2">{row.rate}</span>
+                <span class="ml-1 text-body text-muted">{row.per}</span>
+              </td>
             </tr>
           ))}
         </tbody>

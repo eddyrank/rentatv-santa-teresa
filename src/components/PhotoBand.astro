@@ -1,0 +1,53 @@
+---
+/**
+ * Full-bleed dark band with a fleet photo. This is the page's main visual
+ * break: the reference system is light end to end, which reads flat on a page
+ * that only has a handful of photos. One dark full-width band gives the scroll
+ * a beat and lets the red machines carry real contrast.
+ *
+ * Text sits beside the image rather than over it, so the photo is never
+ * obscured and contrast never depends on the picture behind it.
+ */
+import { whatsappLink } from '../data/site';
+import WhatsAppIcon from './WhatsAppIcon.astro';
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  body: string;
+  cta?: boolean;
+}
+const { eyebrow, title, body, cta = true } = Astro.props;
+---
+
+<section class="bg-deep">
+  <div class="page-x section-y">
+    <div class="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
+      <div>
+        {eyebrow && <p class="rule-marque text-body font-medium text-white/60">{eyebrow}</p>}
+        <h2 class="text-h3 text-white sm:text-h2">{title}</h2>
+        <p class="mt-4 max-w-lg text-base leading-relaxed text-white/70">{body}</p>
+        {cta && (
+          <a href={whatsappLink()} class="btn-primary mt-8" rel="noopener" target="_blank">
+            <WhatsAppIcon class="h-4 w-4" />
+            Check availability
+          </a>
+        )}
+      </div>
+
+      <div class="photo-card">
+        <img
+          src="/photos/fleet-wide-1800.webp"
+          srcset="/photos/fleet-wide-1200.webp 1200w, /photos/fleet-wide-1800.webp 1800w"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          alt="Four red Can-Am Outlander quads with cargo boxes lined up and ready for rental in Santa Teresa"
+          width="1800"
+          height="1013"
+          loading="lazy"
+          decoding="async"
+          class="aspect-[16/9]"
+        />
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+---
+import { whatsappLink } from '../data/site';
+import WhatsAppIcon from './WhatsAppIcon.astro';
+
+interface Props { message?: string; }
+const { message } = Astro.props;
+---
+
+<div class="sticky-cta">
+  <a
+    href={message ? whatsappLink(message) : whatsappLink()}
+    class="btn-primary w-full"
+    rel="noopener"
+    target="_blank"
+  >
+    <WhatsAppIcon class="h-4 w-4" />
+    Book on WhatsApp
+  </a>
+</div>
+<!-- Spacer so the fixed bar never covers the last line of the footer. -->
+<div class="h-20 lg:hidden" aria-hidden="true"></div>

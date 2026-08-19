@@ -14,8 +14,15 @@ export default {
         // WhatsApp green — now the single primary CTA color
         'cta': '#25D366',
         'cta-hover': '#1da851',
-        // Contrast section: warm sand/clay gradient anchor
+        // Contrast section: warm sand
         'contrast': '#F5E6D3',
+        // Deep near-black for full-bleed photo bands. The reference system is
+        // light throughout; this is a deliberate extension to create the
+        // rhythm a photography-led page needs.
+        'deep': '#141414',
+        // Pulled from the fleet's own red. Used only as a thin emphasis rule
+        // and on price chips — never as a surface fill.
+        'marque': '#D6262B',
       },
       fontFamily: {
         sans: ['-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Helvetica Neue','Arial','sans-serif'],

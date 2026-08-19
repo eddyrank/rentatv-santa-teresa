@@ -12,11 +12,11 @@ const { title, subtitle, ctaSecondary = { label: 'See rates', href: '/pricing' }
 ---
 
 <section class="page-x section-y">
-  <div class="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
+  <div class="grid items-center gap-8 lg:grid-cols-[5fr_7fr] lg:gap-12">
     <div>
-      <p class="eyebrow">Santa Teresa, Costa Rica</p>
-      <h1 class="mt-3 text-h2 sm:text-h1">{title}</h1>
-      <p class="mt-4 max-w-xl text-lead text-muted">{subtitle}</p>
+      <p class="eyebrow rule-marque">Santa Teresa, Costa Rica</p>
+      <h1 class="text-h2 sm:text-[52px] sm:leading-[54px]">{title}</h1>
+      <p class="mt-5 max-w-xl text-lead text-muted">{subtitle}</p>
 
       <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
         <a href={whatsappLink()} class="btn-primary" rel="noopener" target="_blank">
@@ -26,25 +26,37 @@ const { title, subtitle, ctaSecondary = { label: 'See rates', href: '/pricing' }
         <a href={ctaSecondary.href} class="btn-secondary">{ctaSecondary.label}</a>
       </div>
 
-      <p class="mt-4 text-body text-muted">
-        Same-day pickup · Free hotel delivery in Santa Teresa
-      </p>
+      <!-- Hard numbers immediately under the CTA: the two things a renter
+           wants confirmed before they message. -->
+      <dl class="mt-8 flex flex-wrap gap-x-10 gap-y-4 border-t border-hairline pt-6">
+        <div>
+          <dt class="text-body text-muted">From</dt>
+          <dd class="stat-num">$50<span class="text-h4 font-normal text-muted">/day</span></dd>
+        </div>
+        <div>
+          <dt class="text-body text-muted">Delivery</dt>
+          <dd class="stat-num">Free</dd>
+        </div>
+        <div>
+          <dt class="text-body text-muted">Riders</dt>
+          <dd class="stat-num">1–2</dd>
+        </div>
+      </dl>
     </div>
 
-    <!-- Floating product shot. No frame or fill behind it: the PNG alpha does
-         the work, and a soft contact shadow keeps it from looking pasted on. -->
-    <div class="flex items-center justify-center">
+    <!-- The actual machine you rent. -->
+    <div class="photo-card shadow-card">
       <img
-        src="/atv-hero.webp"
-        srcset="/atv-hero-700.webp 700w, /atv-hero.webp 1400w"
-        sizes="(min-width: 1024px) 50vw, 100vw"
-        alt="Red Honda Rancher ATV with front and rear cargo racks, available to rent in Santa Teresa"
-        width="1400"
-        height="919"
+        src="/photos/quad-angle-1200.webp"
+        srcset="/photos/quad-angle-800.webp 800w, /photos/quad-angle-1200.webp 1200w"
+        sizes="(min-width: 1024px) 58vw, 100vw"
+        alt="Red Can-Am Outlander 450 4x4 with front and rear racks and a locking rear cargo box, ready to rent in Santa Teresa"
+        width="1200"
+        height="900"
         loading="eager"
         fetchpriority="high"
         decoding="async"
-        class="h-auto w-full max-w-xl [filter:drop-shadow(0_28px_28px_rgba(0,0,0,0.20))]"
+        class="aspect-[4/3]"
       />
     </div>
   </div>

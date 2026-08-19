@@ -4,6 +4,7 @@ import PageHero from '../components/PageHero.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import Card from '../components/Card.astro';
+import Photo from '../components/Photo.astro';
 import CtaBand from '../components/CtaBand.astro';
 import { site } from '../data/site';
 ---
@@ -39,9 +40,12 @@ import { site } from '../data/site';
         </p>
       </div>
 
-      <!-- PLACEHOLDER IMAGE — owner with the fleet, 20px media mask -->
-      <div class="media-frame flex aspect-[4/3] items-center justify-center">
-        <p class="text-body text-muted">Photo placeholder</p>
+      <div class="photo-card shadow-card">
+        <Photo
+          name="fleet-line"
+          alt="Red Can-Am Outlander quads with cargo boxes lined up outside in Santa Teresa"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+        />
       </div>
     </div>
   </section>
