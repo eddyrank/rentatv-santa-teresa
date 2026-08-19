@@ -14,18 +14,19 @@ const {
 } = Astro.props;
 ---
 
-<!-- Surface fill rather than an accent wash: the reference reserves the accent
-     hue for the action itself, never for large background areas. -->
+<!-- The conversion moment. Inset rounded panel rather than full bleed, so it
+     stays visually distinct from the footer directly beneath it while using
+     the same jungle-green material. WhatsApp green reads at 7.6:1 here. -->
 <section class="page-x section-y">
-  <div class="rounded-media bg-surface px-6 py-12 text-center lg:px-12">
-    <h2 class="text-h3 sm:text-h2">{title}</h2>
-    <p class="mx-auto mt-3 max-w-lg text-base text-muted">{body}</p>
+  <div class="on-dark rounded-media px-6 py-14 text-center lg:px-12">
+    <h2 class="text-h3 on-dark-heading sm:text-h2">{title}</h2>
+    <p class="mx-auto mt-3 max-w-lg text-base on-dark-body">{body}</p>
     <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
       <a href={message ? whatsappLink(message) : whatsappLink()} class="btn-primary" rel="noopener" target="_blank">
         <WhatsAppIcon class="h-4 w-4" />
         Message us on WhatsApp
       </a>
-      <a href={`tel:${site.phoneHref}`} class="btn-outline">Call {site.phoneDisplay}</a>
+      <a href={`tel:${site.phoneHref}`} class="btn-on-dark">Call {site.phoneDisplay}</a>
     </div>
   </div>
 </section>

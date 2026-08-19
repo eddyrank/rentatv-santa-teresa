@@ -16,10 +16,15 @@ export default {
         'cta-hover': '#1da851',
         // Contrast section: warm sand
         'contrast': '#F5E6D3',
-        // Deep near-black for full-bleed photo bands. The reference system is
-        // light throughout; this is a deliberate extension to create the
-        // rhythm a photography-led page needs.
-        'deep': '#141414',
+        // Jungle green. Anchors every dark surface on the site: photo bands,
+        // the conversion panel and the footer. Chosen at 166deg hue, 23deg away
+        // from WhatsApp green (142deg), so the CTA stays clearly separate
+        // instead of blending into the background. 15:1 against white text.
+        jungle: {
+          900: '#0A2019', // deepest, for layering inside dark surfaces
+          800: '#0E2B24', // the primary dark surface
+          700: '#14382E', // raised cards and dividers on dark
+        },
         // Pulled from the fleet's own red. Used only as a thin emphasis rule
         // and on price chips — never as a surface fill.
         'marque': '#D6262B',

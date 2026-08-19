@@ -20,13 +20,13 @@ interface Props {
 const { eyebrow, title, body, cta = true } = Astro.props;
 ---
 
-<section class="bg-deep">
+<section class="on-dark">
   <div class="page-x section-y">
     <div class="grid items-center gap-8 lg:grid-cols-2 lg:gap-14">
       <div>
-        {eyebrow && <p class="rule-marque text-body font-medium text-white/60">{eyebrow}</p>}
-        <h2 class="text-h3 text-white sm:text-h2">{title}</h2>
-        <p class="mt-4 max-w-lg text-base leading-relaxed text-white/70">{body}</p>
+        {eyebrow && <p class="rule-marque text-body font-medium on-dark-label">{eyebrow}</p>}
+        <h2 class="text-h3 on-dark-heading sm:text-h2">{title}</h2>
+        <p class="mt-4 max-w-lg text-base leading-relaxed on-dark-body">{body}</p>
         {cta && (
           <a href={whatsappLink()} class="btn-primary mt-8" rel="noopener" target="_blank">
             <WhatsAppIcon class="h-4 w-4" />

@@ -49,6 +49,12 @@
     @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-pill border border-ink-2 bg-transparent px-6 py-3 text-base font-semibold text-ink-2 transition duration-200 ease-airbnb hover:bg-surface;
   }
 
+  /* Outline button for use on jungle-green surfaces. The light-mode outline
+     button uses ink borders, which disappear on dark. */
+  .btn-on-dark {
+    @apply inline-flex min-h-[48px] items-center justify-center gap-2 rounded-pill border border-white/35 bg-transparent px-6 py-3 text-base font-semibold text-white transition duration-200 ease-airbnb hover:border-white hover:bg-white/10;
+  }
+
   .card {
     @apply rounded-media bg-canvas p-6 shadow-card transition duration-200 ease-airbnb;
   }
@@ -103,6 +109,22 @@
 
   /* --- Stat --- */
   .stat-num { @apply text-h2 font-semibold leading-none text-ink-2; }
+
+  /* --- Dark surfaces --------------------------------------------------- */
+  /* One shared treatment for every dark block on the site, so the photo band,
+     the conversion panel and the footer are visibly the same material rather
+     than three separate dark things. */
+  .on-dark { @apply bg-jungle-800 text-white; }
+
+  .on-dark-heading { @apply text-white; }
+  .on-dark-body    { @apply text-white/70; }
+  .on-dark-label   { @apply text-white/55; }
+  .on-dark-rule    { @apply border-white/15; }
+
+  /* Links on dark: underline on hover only, matching the light-mode footer. */
+  .on-dark-link {
+    @apply text-white/75 transition duration-200 ease-airbnb hover:text-white hover:underline;
+  }
 
   /* --- Sticky mobile action bar ---------------------------------------- */
   /* On a phone the CTA scrolls away almost immediately. This keeps the one
