@@ -66,11 +66,61 @@ const bring = [
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'ATV rentals', href: '/atv-rentals' }]} />
-  <PageHero
-    eyebrow="Self-drive"
-    title="ATV rentals in Santa Teresa"
-    subtitle="Take the keys and explore on your own schedule. All our quads are fully automatic with a 4x4 storage box. Helmets, fuel, insurance and a route map come with every rental, and we deliver to your hotel at no extra cost."
-  />
+
+  <!-- Hero: headline left, booking widget right -->
+  <section class="page-x section-y" aria-labelledby="rentals-hero">
+    <div class="grid items-start gap-8 lg:grid-cols-[5fr_6fr] lg:gap-12">
+
+      <!-- Left: copy -->
+      <div>
+        <p class="eyebrow rule-marque">Self-drive · Santa Teresa</p>
+        <h1 id="rentals-hero" class="mt-4 text-h2 sm:text-h1">
+          ATV rentals in Santa Teresa
+        </h1>
+        <p class="mt-5 max-w-lg text-lead text-muted">
+          Take the keys and go. All our quads are fully automatic with a
+          locking 4x4 cargo box. Helmets, fuel and a route map included.
+          Free delivery to your hotel.
+        </p>
+
+        <!-- Quick spec chips -->
+        <ul class="mt-6 flex flex-wrap gap-2">
+          {[
+            'Can-Am Outlander 450',
+            'Fully automatic',
+            '4x4 selectable',
+            'Locking cargo box',
+            'Free delivery',
+            'Helmets included',
+          ].map((s) => (
+            <li class="rounded-sm bg-surface px-3 py-1.5 text-body text-muted">{s}</li>
+          ))}
+        </ul>
+
+        <!-- Pricing anchor so they know the number before opening the widget -->
+        <dl class="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-hairline pt-5">
+          <div>
+            <dt class="text-body text-muted">From</dt>
+            <dd class="stat-num">$50<span class="text-h4 font-normal text-muted">/day</span></dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Delivery</dt>
+            <dd class="stat-num">Free</dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Riders</dt>
+            <dd class="stat-num">1–2</dd>
+          </div>
+        </dl>
+      </div>
+
+      <!-- Right: booking widget -->
+      <div>
+        <BookingWidget />
+      </div>
+
+    </div>
+  </section>
 
   <section class="page-x section-y" aria-labelledby="fleet">
     <SectionHeading
@@ -158,13 +208,6 @@ const bring = [
     />
     <div class="mt-8">
       <RouteStrip />
-    </div>
-  </section>
-
-  <section class="page-x section-y" aria-labelledby="book-atv">
-    <h2 id="book-atv" class="sr-only">Book a quad</h2>
-    <div class="mx-auto max-w-2xl">
-      <BookingWidget />
     </div>
   </section>
 
