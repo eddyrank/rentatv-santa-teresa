@@ -115,33 +115,50 @@ Airbnb has 8 million photographed listings to carry the emotional weight. This s
 
 ## 6. Content needed from the owner
 
-**Blocking launch:**
-1. **Phone number and WhatsApp number** — currently `+506 0000-0000` / `50600000000`
-2. **All pricing** — every figure on `/pricing` is `$00`
-3. **Physical address** — Santa Teresa has no formal street numbering; use whatever wording the Google Business Profile uses, verbatim
-4. **Email address**
-5. **Real fleet details** — engine sizes, seat counts, how many quads
+### Blocking launch — the site cannot convert without these
 
-**Important but not blocking:**
-6. Actual opening hours (currently Mon–Sat 7–6, Sun 8–5)
-7. Real tour names, durations, difficulty ratings, departure times
-8. Confirmation of distances/ride times in `RouteStrip.astro`
-9. Deposit amounts and insurance terms — **have these reviewed by someone who knows Costa Rican rental law before publishing**
-10. The owner's story for `/about`
-11. GPS coordinates from the Google Business Profile pin
-12. Social profile URLs for `sameAs`
+1. **WhatsApp number.** `src/data/site.ts` currently holds `50600000000`, which is not a real number. **Every CTA on the site opens a chat to nowhere.** This is the single highest-priority item: the entire site is built around WhatsApp as the booking channel, so until this is real, the site generates zero leads no matter how much traffic it gets.
+2. **Phone number** — displayed as `+506 0000-0000` in the footer, contact page and schema.
+3. **Email address** — `hola@rentatvsantateresa.com` is invented.
+4. **Physical address** — Santa Teresa has no formal street numbering. Use whatever wording the Google Business Profile uses, verbatim, so the NAP matches.
 
-## 7. Photo assets needed
+All four live in one file (`src/data/site.ts`) and propagate everywhere automatically.
 
-| Location | Shot |
+### Important, not blocking
+
+5. Real opening hours (currently Mon–Sat 7–6, Sun 8–5).
+6. GPS coordinates from the Google Business Profile pin.
+7. Confirmation of the distances and ride times in `RouteStrip.astro`.
+8. Deposit amount and insurance terms — **have these reviewed by someone who knows Costa Rican rental law before publishing.**
+9. The owner's real story for `/about`.
+10. Social profile URLs for `sameAs` in the schema.
+
+### Resolved
+
+- ~~Pricing~~ — real rates in place: $65 under 3 days, $60 for 3–7, $55 over 7, $50 for two weeks or more.
+- ~~Fleet details~~ — corrected to Can-Am Outlander 450 4x4, single-model fleet, automatic, locking cargo box.
+- ~~Share image~~ — `og-default.jpg` generated from a real fleet photo.
+
+## 7. Photo assets
+
+### Supplied and in use
+
+| File | Used on |
 |---|---|
-| Homepage hero | Rider on the red dirt main road, late afternoon |
-| `/atv-rentals` fleet ×3 | Each quad model, **4:3**, clean and consistent — the system masks these at 20px radius |
-| `/atv-rentals` guided section ×3 | One landscape shot per ride — waterfall, sunset beach, hill views |
-| `/about` | Owner with the fleet |
-| `og-default.jpg` | 1200×630 share image (a generated placeholder is in place) |
+| `quad-angle` | Homepage hero, fleet card |
+| `quad-side` | Fleet card, homepage gallery |
+| `quad-front` | Fleet card, homepage gallery |
+| `fleet-line` | Homepage gallery, About |
+| `fleet-wide` | Full-bleed dark band |
+| `og-default.jpg` | Social share card (generated from `quad-angle`) |
 
-Use descriptive filenames (`santa-teresa-atv-beach-road.webp`, not `IMG_4532.jpg`), WebP format, explicit width/height, `loading="lazy"` below the fold.
+All are responsive WebP at two widths, served through `Photo.astro` with explicit dimensions.
+
+### Still worth shooting
+
+- **A clean hero shot.** The current hero photo has a dumpster, power lines and construction in the background. One quad against a plain wall or the beach would lift the top of the page more than any code change. Shot against a plain background, it can be cut out to float with no frame.
+- Riders actually on the coast road or beach — people in the frame convert better than parked machines.
+- The pickup location, so arriving customers recognise it.
 
 ## 8. Integrations to configure
 
@@ -151,18 +168,22 @@ Use descriptive filenames (`santa-teresa-atv-beach-road.webp`, not `IMG_4532.jpg
 4. **Analytics** — Plausible or GA4
 5. **Google Search Console** — verify the domain and submit `sitemap-index.xml`
 
-## 9. Deployment (Netlify)
+## 9. Deployment
 
-```bash
-git init && git add -A && git commit -m "Initial site"
-# push to GitHub, then connect the repo in Netlify
-```
+**Live:** https://rentatv-santa-teresa.throbbing-hill-7e73.workers.dev
+**Repo:** https://github.com/eddyrank/rentatv-santa-teresa
 
-- Build command: `npm run build`
-- Publish directory: `dist`
-- Auto-deploys on push to `main`
-- Add the custom domain in Netlify and enable the free SSL certificate
-- Netlify serves `404.html` automatically for unmatched routes
+GitHub is the source of truth. Every push to `main` triggers `.github/workflows/deploy.yml`, which installs with `npm ci`, builds, verifies `dist/index.html` exists, and deploys to Cloudflare Workers via `wrangler`. Typical run: about 30 seconds.
+
+Cloudflare serves the site as Static Assets, configured in `wrangler.jsonc`:
+- `html_handling: drop-trailing-slash` — matches Astro's `trailingSlash: 'never'` so URLs, canonical tags and the sitemap all agree. Without this every interior page 307-redirects and contradicts its own canonical.
+- `not_found_handling: 404-page` — serves the custom noindexed 404.
+
+**Secrets** live in GitHub repo settings, never in the codebase: `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+
+**Rollback:** revert the commit and push, or redeploy a previous version from the Cloudflare dashboard.
+
+**Note:** if the Cloudflare dashboard's own Git integration is still connected, disconnect it. Its build configuration is broken and will keep firing failed builds alongside the working Actions deploy.
 
 ## 10. Future: CMS for non-technical editing
 

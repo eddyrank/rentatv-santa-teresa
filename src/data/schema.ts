@@ -11,12 +11,16 @@ export const localBusinessSchema = {
   '@id': `${site.url}/#business`,
   additionalType: 'https://www.wikidata.org/wiki/Q188841',
   name: site.name,
-  description: `Self-drive ATV rentals, guided ATV tours and multi-day rates in Santa Teresa, Costa Rica. Free delivery to hotels in Santa Teresa and Mal País.`,
+  description: `Self-drive Can-Am Outlander 450 4x4 ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic with a locking cargo box, helmets included, free hotel delivery in Santa Teresa and Mal País.`,
   url: site.url,
   telephone: site.phoneDisplay,
   email: site.email,
-  // PLACEHOLDER — replace with a real photo URL once assets are supplied.
-  image: `${site.url}/images/atv-santa-teresa.jpg`,
+  // Google uses this in rich results, so it must resolve. Points at the real
+  // fleet photo rather than a path that does not exist.
+  image: [
+    `${site.url}/photos/quad-angle-1200.webp`,
+    `${site.url}/photos/fleet-wide-1800.webp`,
+  ],
   priceRange: '$$',
   currenciesAccepted: 'CRC, USD',
   paymentAccepted: 'Cash, Credit Card',
