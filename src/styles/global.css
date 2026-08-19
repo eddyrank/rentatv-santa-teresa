@@ -135,13 +135,19 @@
   }
 
   /* --- Contrast band ---------------------------------------------------- */
-  /* One dark section per page, built from the existing ink token rather than a
-     new hue. Photography reads far stronger against it than against white, and
-     it gives the eye somewhere to land on a long scroll. */
-  .band-dark { @apply bg-ink-2 text-canvas; }
-  .band-dark h2, .band-dark h3 { @apply text-canvas; }
-  .band-dark .eyebrow { @apply text-canvas/60; }
-  .band-dark .stat-label { @apply text-canvas/60; }
+  /* Warm sand band. The alternate light surface, used once per page so every
+     page has the same white / sand / jungle rhythm rather than sand appearing
+     on a single page as an orphan. */
+  .band-sand { @apply bg-sand; }
+
+  /* Dark section band. Uses the same jungle-green material as the photo band,
+     conversion panel and footer — previously this was ink black, which made the
+     first dark block on the homepage a different colour from every other one. */
+  .band-dark { @apply bg-jungle-800 text-white; }
+  .band-dark h2, .band-dark h3 { @apply text-white; }
+  .band-dark .eyebrow { @apply text-white/55; }
+  .band-dark .stat-label { @apply text-white/55; }
+  .band-dark .stat-num { @apply text-white; }
 
   /* --- Stats ------------------------------------------------------------ */
   .stat-value { @apply text-h2 font-semibold leading-none tracking-tight sm:text-h1; }

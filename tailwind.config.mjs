@@ -8,14 +8,15 @@ export default {
         'ink-2': '#222222',
         muted: '#6C6C6C',
         hairline: '#DDDDDD',
-        surface: '#F7F7F7',
+        surface: '#F7F4EE',      // warm neutral: chips, secondary buttons, media wells
         canvas: '#FFFFFF',
         error: '#C13515',
         // WhatsApp green — now the single primary CTA color
         'cta': '#25D366',
         'cta-hover': '#1da851',
-        // Contrast section: warm sand
-        'contrast': '#F5E6D3',
+        // Sand. The alternate light section background, used once per page so
+        // the scroll alternates white / sand / jungle rather than running flat.
+        sand: '#F3E8D8',
         // Jungle green. Anchors every dark surface on the site: photo bands,
         // the conversion panel and the footer. Chosen at 166deg hue, 23deg away
         // from WhatsApp green (142deg), so the CTA stays clearly separate
