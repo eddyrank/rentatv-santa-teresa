@@ -13,7 +13,7 @@ export const site = {
   name: 'Rent ATV Santa Teresa',
   domain: 'rentatvsantateresa.com',
   url: 'https://rentatvsantateresa.com',
-  tagline: 'ATV rentals and guided rides in Santa Teresa, Costa Rica',
+  tagline: 'ATV rentals in Santa Teresa, Costa Rica',
 
   // Same line handles calls and WhatsApp.
   phoneDisplay: '+506 6152 7014',

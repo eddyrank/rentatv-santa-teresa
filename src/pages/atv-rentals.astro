@@ -3,12 +3,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
-import Card from '../components/Card.astro';
 import CtaBand from '../components/CtaBand.astro';
 import RouteStrip from '../components/RouteStrip.astro';
 import InfoCard from '../components/InfoCard.astro';
 import Photo from '../components/Photo.astro';
-import PhotoBand from '../components/PhotoBand.astro';
 import { site } from '../data/site';
 import { serviceSchema } from '../data/schema';
 
@@ -130,23 +128,6 @@ const bring = [
         </div>
       </div>
     </div>
-  </section>
-
-  <section class="page-x section-y" aria-labelledby="guided">
-    <SectionHeading
-      eyebrow="Prefer not to lead"
-      title="Ride with a guide"
-      subtitle="If it is your first time on a quad, or you want the inland routes that are hard to find alone, we run guided rides on request."
-    />
-    <div class="mt-8 grid gap-6 md:grid-cols-3">
-      <Card icon="group" title="Sunset coast ride" body="North along the beach road to Playa Hermosa, timed so you are parked on the sand as the sun goes down. The easiest ride we run and the one to pick if you have never ridden." />
-      <Card icon="route" title="Waterfall ride" body="Inland on jungle track with two river crossings and a stop long enough to swim. This is the section most self-drive riders never find." />
-      <Card icon="pin" title="Cabo Blanco loop" body="South through Mal País to the reserve boundary, then back over the hill road. Steep and rocky in places, for riders comfortable on loose ground." />
-    </div>
-    <p class="mt-6 text-base text-muted">
-      Guided rides run on request rather than a fixed schedule. Message us with your
-      dates and group size and we will tell you what is possible that week.
-    </p>
   </section>
 
   <section class="page-x section-y" aria-labelledby="multi-day">
