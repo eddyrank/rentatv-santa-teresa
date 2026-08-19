@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rentatv-santa-teresa",
+  "compatibility_date": "2026-08-18",
+  // Static Assets: serves the Astro build output directly from Cloudflare's
+  // edge. No server script needed — this is a fully static site.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
