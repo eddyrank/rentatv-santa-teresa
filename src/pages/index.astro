@@ -6,6 +6,7 @@ import Card from '../components/Card.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Faq from '../components/Faq.astro';
 import RouteStrip from '../components/RouteStrip.astro';
+import BookingWidget from '../components/BookingWidget.astro';
 import PhotoBand from '../components/PhotoBand.astro';
 import Photo from '../components/Photo.astro';
 import Photo from '../components/Photo.astro';
@@ -210,6 +211,14 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
       <Faq items={faqs} />
     </div>
     <a href="/faq" class="link-inline mt-8 inline-block text-base">Read all questions</a>
+  </section>
+
+  <!-- Booking widget above the final CTA band -->
+  <section class="page-x" aria-labelledby="book-widget">
+    <h2 id="book-widget" class="sr-only">Book a quad</h2>
+    <div class="mx-auto max-w-2xl">
+      <BookingWidget />
+    </div>
   </section>
 
   <CtaBand message="Hi! I'd like to check ATV availability in Santa Teresa." />

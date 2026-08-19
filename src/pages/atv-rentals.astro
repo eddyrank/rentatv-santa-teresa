@@ -5,6 +5,7 @@ import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import CtaBand from '../components/CtaBand.astro';
 import RouteStrip from '../components/RouteStrip.astro';
+import BookingWidget from '../components/BookingWidget.astro';
 import InfoCard from '../components/InfoCard.astro';
 import Photo from '../components/Photo.astro';
 import { site } from '../data/site';
@@ -157,6 +158,13 @@ const bring = [
     />
     <div class="mt-8">
       <RouteStrip />
+    </div>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="book-atv">
+    <h2 id="book-atv" class="sr-only">Book a quad</h2>
+    <div class="mx-auto max-w-2xl">
+      <BookingWidget />
     </div>
   </section>
 

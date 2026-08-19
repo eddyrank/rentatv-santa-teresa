@@ -4,6 +4,7 @@ import PageHero from '../components/PageHero.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import WhatsAppIcon from '../components/WhatsAppIcon.astro';
+import BookingWidget from '../components/BookingWidget.astro';
 import { site, whatsappLink } from '../data/site';
 ---
 
@@ -21,15 +22,18 @@ import { site, whatsappLink } from '../data/site';
   <section class="page-x section-y" aria-labelledby="contact-methods">
     <div class="grid gap-10 lg:grid-cols-2 lg:gap-16">
 
-      <!-- Primary: WhatsApp -->
-      <div>
-        <SectionHeading eyebrow="Book on WhatsApp" title="Start a conversation" />
-        <p class="mt-4 text-base text-muted">
-          Tell us your arrival date, how many days you need the quad, and which
-          hotel you are staying at. We will confirm availability and arrange
-          delivery at no extra cost.
-        </p>
+      <!-- Booking widget -->
+      <div class="lg:col-span-1">
+        <BookingWidget />
+      </div>
 
+      <!-- No widget = just WA button fallback -->
+      <div class="hidden lg:block">
+        <SectionHeading eyebrow="Or reach us directly" title="Just want to chat?" />
+        <p class="mt-4 text-base text-muted">
+          No dates yet? Message us directly on WhatsApp and we will help you
+          figure out what works for your trip.
+        </p>
         <a
           href={whatsappLink("Hi! I'd like to rent an ATV in Santa Teresa.")}
           class="btn-primary mt-8 w-full sm:w-auto"
