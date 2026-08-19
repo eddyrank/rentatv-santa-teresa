@@ -72,11 +72,7 @@
   .tab { @apply rounded-sm px-3 py-2 text-body text-muted transition duration-200 ease-airbnb hover:text-ink-2; }
   .tab-active { @apply bg-surface text-ink-2; }
 
-  .field-label { @apply mb-1.5 block text-micro font-medium text-muted; }
 
-  .field-input {
-    @apply block w-full rounded-md border border-hairline bg-canvas px-4 py-3 text-base text-ink-2 transition duration-200 ease-airbnb placeholder:text-muted hover:border-ink-2;
-  }
 
   .eyebrow { @apply text-body font-medium text-muted; }
 
