@@ -1,8 +1,10 @@
 ---
 /**
- * Responsive photo. Every image on the site goes through here so srcset,
- * dimensions and loading hints stay consistent — explicit width/height on all
- * of them prevents layout shift as they load.
+ * Responsive photo. Every image goes through here so srcset, aspect ratio and
+ * loading hints stay consistent, and so width/height always match the rendered
+ * shape — mismatched dimensions cause layout shift as images load.
+ *
+ * `ratio` takes a plain "w/h" string, e.g. "4/3" or "3/2".
  */
 interface Props {
   name: string;
@@ -19,23 +21,24 @@ const {
   alt,
   widths = [800, 1200],
   sizes = '(min-width: 1024px) 33vw, 100vw',
-  ratio = 'aspect-[4/3]',
+  ratio = '4/3',
   eager = false,
   class: className = '',
 } = Astro.props;
 
+const [rw, rh] = ratio.split('/').map(Number);
 const largest = widths[widths.length - 1];
 const srcset = widths.map((w) => `/photos/${name}-${w}.webp ${w}w`).join(', ');
 ---
 
-<div class:list={[ratio, 'overflow-hidden', className]}>
+<div class:list={['overflow-hidden', className]} style={`aspect-ratio: ${rw} / ${rh}`}>
   <img
     src={`/photos/${name}-${largest}.webp`}
     srcset={srcset}
     sizes={sizes}
     alt={alt}
     width={largest}
-    height={Math.round((largest * 3) / 4)}
+    height={Math.round((largest * rh) / rw)}
     loading={eager ? 'eager' : 'lazy'}
     fetchpriority={eager ? 'high' : undefined}
     decoding="async"
