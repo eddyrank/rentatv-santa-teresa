@@ -44,19 +44,21 @@ const { title, subtitle, ctaSecondary = { label: 'See rates', href: '/pricing' }
       </dl>
     </div>
 
-    <!-- The actual machine you rent. -->
-    <div class="photo-card shadow-card">
+    <!-- Floating cutout of the actual Can-Am they rent. No frame or fill:
+         the alpha channel does the work and a soft contact shadow keeps it
+         from reading as pasted on. -->
+    <div class="flex items-center justify-center">
       <img
-        src="/photos/quad-angle-1200.webp"
-        srcset="/photos/quad-angle-800.webp 800w, /photos/quad-angle-1200.webp 1200w"
-        sizes="(min-width: 1024px) 58vw, 100vw"
-        alt="Red Can-Am Outlander 450 4x4 with front and rear racks and a locking rear cargo box, ready to rent in Santa Teresa"
+        src="/canam-float-1200.webp"
+        srcset="/canam-float-700.webp 700w, /canam-float-1200.webp 1200w"
+        sizes="(min-width: 1024px) 55vw, 100vw"
+        alt="Red Can-Am Outlander 450 4x4 with a locking rear cargo box, the quad available to rent in Santa Teresa"
         width="1200"
-        height="900"
+        height="807"
         loading="eager"
         fetchpriority="high"
         decoding="async"
-        class="aspect-[4/3]"
+        class="h-auto w-full max-w-2xl [filter:drop-shadow(0_30px_26px_rgba(0,0,0,0.22))]"
       />
     </div>
   </div>

@@ -3,7 +3,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import Card from '../components/Card.astro';
-import InfoCard from '../components/InfoCard.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Faq from '../components/Faq.astro';
 import RouteStrip from '../components/RouteStrip.astro';
@@ -53,22 +52,11 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     <StatBand
       stats={[
         { value: '450cc', label: 'Can-Am Outlander, 4x4' },
-        { value: '2 up', label: 'Passenger seat and backrest' },
+        { value: 'Automatic', label: 'No gears to learn' },
+        { value: 'Locking box', label: 'On the back of every quad' },
         { value: '22 km', label: 'Coast road to Montezuma' },
-        { value: 'Free', label: 'Hotel delivery in Santa Teresa' },
       ]}
     />
-  </section>
-
-  <!-- Rental options at a glance -->
-  <section class="page-x section-y" aria-labelledby="at-a-glance">
-    <h2 id="at-a-glance" class="sr-only">Rental details at a glance</h2>
-    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-      <InfoCard label="Half day" value="4 hours" detail="Enough for the beach road and a sunset at Playa Hermosa." />
-      <InfoCard label="Full day" value="24 hours" detail="Our most popular rental. Pick up any time, return the next morning." />
-      <InfoCard label="Delivery" value="Free" detail="To any hotel in Santa Teresa, Playa Carmen or Mal País." />
-      <InfoCard label="The machine" value="Can-Am 450" detail="Outlander 450 4x4, fully automatic, with a locking rear cargo box." />
-    </div>
   </section>
 
   <!-- Dark contrast band: the fleet, shot in Santa Teresa -->
