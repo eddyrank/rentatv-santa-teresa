@@ -6,6 +6,11 @@
   // edge. No server script needed — this is a fully static site.
   "assets": {
     "directory": "./dist",
+    // Astro is configured with trailingSlash: 'never', and the canonical tags
+    // and sitemap both emit slash-free URLs. Cloudflare's default is to force a
+    // trailing slash, which made every interior page 307-redirect and disagree
+    // with its own canonical. Drop the slash so all three agree.
+    "html_handling": "drop-trailing-slash",
     "not_found_handling": "404-page"
   }
 }
