@@ -16,11 +16,11 @@ export const site = {
   tagline: 'ATV rentals in Santa Teresa, Costa Rica',
 
   // Same line handles calls and WhatsApp.
-  phoneDisplay: '+506 6152 7014',
-  phoneHref: '+50661527014',
+  phoneDisplay: '+972 50-241-6969',
+  phoneHref: '+972502416969',
 
   // Digits only, country code first, no + or spaces — wa.me link format.
-  whatsappNumber: '50661527014',
+  whatsappNumber: '972502416969',
 
   // PLACEHOLDER
   email: 'hola@rentatvsantateresa.com',
