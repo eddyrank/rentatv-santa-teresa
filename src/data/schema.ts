@@ -14,7 +14,6 @@ export const localBusinessSchema = {
   description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery in Santa Teresa and Mal País.`,
   url: site.url,
   telephone: site.phoneDisplay,
-  email: site.email,
   // Google uses this in rich results, so it must resolve. Points at the real
   // fleet photo rather than a path that does not exist.
   image: [
