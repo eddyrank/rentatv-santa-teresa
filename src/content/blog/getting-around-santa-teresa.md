@@ -3,6 +3,8 @@ title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors actually get around and why an ATV is the most practical option for most people."
 pubDate: 2026-08-19
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
+image: "" # Add photo path here e.g. /photos/blog/santa-teresa-road.webp
+imageAlt: "The main road through Santa Teresa, partially paved and lined with jungle"
 featured: true
 ---
 

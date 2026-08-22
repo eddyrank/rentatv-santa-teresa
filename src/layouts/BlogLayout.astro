@@ -99,13 +99,36 @@ const articleSchema = {
         </div>
       </header>
 
-      <!-- Post image -->
-      {image && (
-        <div class="media-frame mb-10 aspect-[16/9]">
-          <img src={image} alt={imageAlt || title} width="800" height="450"
-            loading="eager" decoding="async" class="h-full w-full object-cover" />
-        </div>
-      )}
+      <!-- Post image — real photo or branded placeholder -->
+      <div class="media-frame mb-10 aspect-[16/9] overflow-hidden">
+        {image ? (
+          <img
+            src={image}
+            alt={imageAlt || title}
+            width="800"
+            height="450"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            class="h-full w-full object-cover"
+          />
+        ) : (
+          <div class="flex h-full flex-col items-center justify-center gap-3 bg-jungle-800">
+            <img
+              src="/canam-float-700.webp"
+              alt="Can-Am Outlander 450 ATV in Santa Teresa"
+              width="280"
+              height="188"
+              loading="eager"
+              decoding="async"
+              class="h-auto w-48 opacity-90 [filter:drop-shadow(0_12px_16px_rgba(0,0,0,0.4))]"
+            />
+            <p class="font-sans text-xs uppercase tracking-widest text-white/40">
+              Santa Teresa, Costa Rica
+            </p>
+          </div>
+        )}
+      </div>
 
       <!-- Body -->
       <div class="prose-content">
