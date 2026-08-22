@@ -50,8 +50,7 @@ export const site = {
   socialProfiles: [] as string[],
 
   hours: [
-    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '07:00', closes: '18:00', label: 'Monday – Saturday', time: '7:00am – 6:00pm' },
-    { days: ['Sunday'], opens: '08:00', closes: '17:00', label: 'Sunday', time: '8:00am – 5:00pm' },
+    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '06:00', closes: '23:00', label: 'Every day', time: '6:00am – 11:00pm' },
   ],
 
   areaServed: [

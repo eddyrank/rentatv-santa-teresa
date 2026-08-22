@@ -158,50 +158,53 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     </div>
   </section>
 
-  <!-- Visit us -->
+  <!-- Delivery + map -->
   <section class="page-x section-y" aria-labelledby="visit-us">
-    <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+    <div class="grid gap-8 lg:grid-cols-2 lg:gap-12 lg:items-center">
       <div>
-        <SectionHeading eyebrow="Find us" title="Where to pick up" />
-        <address class="mt-6 space-y-1 text-base not-italic text-muted">
-          <span class="block font-semibold text-ink-2">{site.name}</span>
-          <span class="block">{site.address.street}</span>
-          <span class="block">{site.address.locality}, {site.address.region}, {site.address.countryName}</span>
-        </address>
-        <dl class="mt-6 space-y-3 text-base">
-          <div class="flex gap-4">
-            <dt class="w-24 shrink-0 text-muted">Phone</dt>
-            <dd><a href={`tel:${site.phoneHref}`} class="link-list">{site.phoneDisplay}</a></dd>
-          </div>
-          <div class="flex gap-4">
-            <dt class="w-24 shrink-0 text-muted">Email</dt>
-            <dd><a href={`mailto:${site.email}`} class="link-list">{site.email}</a></dd>
-          </div>
-          {site.hours.map((block) => (
-            <div class="flex gap-4">
-              <dt class="w-24 shrink-0 text-muted">{block.label.split(' ')[0]}</dt>
-              <dd>{block.label} · {block.time}</dd>
-            </div>
-          ))}
-        </dl>
-        <p class="mt-6 text-base text-muted">
-          Not near the shop? We deliver free to hotels in Santa Teresa, Playa Carmen
-          and Mal País — just send your hotel name when you book.
+        <SectionHeading eyebrow="No pickup needed" title="We come to you" />
+        <p class="mt-5 text-lead text-muted">
+          You do not need to go anywhere. We deliver the ATV directly to your
+          hotel, Airbnb, or wherever you are staying in Santa Teresa.
         </p>
+        <ul class="mt-6 space-y-3 text-base text-ink-2">
+          <li class="flex items-start gap-3">
+            <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Free delivery to Santa Teresa, Playa Carmen and Mal País
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Available every day, 6:00am to 11:00pm
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            We collect from the same spot at the end of your rental
+          </li>
+          <li class="flex items-start gap-3">
+            <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Just send your hotel name when you book on WhatsApp
+          </li>
+        </ul>
+        <dl class="mt-6 flex gap-8 border-t border-hairline pt-5">
+          <div>
+            <dt class="text-body text-muted">Phone / WhatsApp</dt>
+            <dd class="mt-1 font-semibold text-ink-2">
+              <a href={`tel:${site.phoneHref}`} class="link-list">{site.phoneDisplay}</a>
+            </dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Hours</dt>
+            <dd class="mt-1 font-semibold text-ink-2">Every day · 6am – 11pm</dd>
+          </div>
+        </dl>
       </div>
 
       <div>
-        <Photo
-          name="quad-front"
-          alt="Front view of an ATV available for rent in Santa Teresa"
-          sizes="(min-width: 1024px) 50vw, 100vw"
-          ratio="4/3"
-        />
-        <div class="media-frame overflow-hidden" style="min-height:300px">
+        <div class="media-frame overflow-hidden" style="min-height:360px">
           <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31476.47!2d-85.18!3d9.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9fbb2e18f5bcb5%3A0x88c67a25b2e87ea2!2sSanta%20Teresa%2C%20Puntarenas%2C%20Costa%20Rica!5e0!3m2!1sen!2s!4v1724000000000!5m2!1sen!2s"
               width="100%"
-              height="300"
+              height="360"
               style="border:0; border-radius:20px; display:block;"
               allowfullscreen=""
               loading="lazy"
