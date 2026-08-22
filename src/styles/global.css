@@ -157,3 +157,15 @@
     padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
   }
 }
+
+  /* --- Blog prose ---------------------------------------------------------- */
+  /* Scoped under .prose-content so it only affects blog post bodies. */
+  .prose-content { @apply text-base leading-relaxed text-ink-2; }
+  .prose-content h2 { @apply mt-10 mb-4 text-h3 font-semibold text-ink-2; }
+  .prose-content h3 { @apply mt-8 mb-3 text-h4 font-semibold text-ink-2; }
+  .prose-content p  { @apply mb-5 text-base leading-relaxed text-ink-2; }
+  .prose-content ul { @apply mb-5 space-y-2 pl-5; }
+  .prose-content li { @apply text-base text-ink-2 list-disc; }
+  .prose-content strong { @apply font-semibold text-ink-2; }
+  .prose-content a  { @apply font-medium text-ink-2 underline underline-offset-2 hover:text-ink; }
+  .prose-content hr { @apply my-10 border-hairline; }

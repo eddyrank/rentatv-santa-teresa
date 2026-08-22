@@ -73,6 +73,7 @@ export function whatsappLink(message = "Hi! I'd like to rent an ATV in Santa Ter
 export const nav = [
   { label: 'ATV rentals', href: '/atv-rentals' },
   { label: 'Pricing', href: '/pricing' },
+  { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },

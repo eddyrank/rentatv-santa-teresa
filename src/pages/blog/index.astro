@@ -1,0 +1,99 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import { site } from '../../data/site';
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const blogSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: `${site.name} — Blog`,
+  url: `${site.url}/blog`,
+  description: 'Travel guides, ATV tips and local knowledge for visitors to Santa Teresa, Costa Rica.',
+  publisher: {
+    '@type': 'Organization',
+    name: site.name,
+    url: site.url,
+  },
+};
+---
+
+<BaseLayout
+  title="Blog — ATV tips and Santa Teresa travel guides | Rent ATV Santa Teresa"
+  description="Travel guides, ATV riding tips and local knowledge for visitors to Santa Teresa, Costa Rica. Written by the team at Rent ATV Santa Teresa."
+  schema={blogSchema}
+>
+  <Breadcrumb items={[{ label: 'Blog', href: '/blog' }]} />
+  <PageHero
+    eyebrow="Local knowledge"
+    title="Santa Teresa travel guides"
+    subtitle="Practical guides for visitors — where to go, how to get around, and what to know before you ride."
+  />
+
+  <section class="page-x section-y">
+    {posts.length === 0 ? (
+      <p class="text-base text-muted">Posts coming soon.</p>
+    ) : (
+      <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => (
+          <article class="flex flex-col">
+            <a href={`/blog/${post.slug}`} class="group block">
+              <div class="media-frame aspect-[16/9] overflow-hidden bg-surface">
+                {post.data.image ? (
+                  <img
+                    src={post.data.image}
+                    alt={post.data.imageAlt || post.data.title}
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                    decoding="async"
+                    class="h-full w-full object-cover transition-transform duration-500 ease-airbnb group-hover:scale-[1.04]"
+                  />
+                ) : (
+                  <div class="flex h-full items-center justify-center bg-sand">
+                    <svg class="h-10 w-10 text-jungle-700/30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <path d="M4 16l4-4 4 4 4-8 4 4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                )}
+              </div>
+
+              <div class="mt-4 flex-1">
+                {post.data.tags.length > 0 && (
+                  <div class="mb-2 flex flex-wrap gap-1.5">
+                    {post.data.tags.slice(0, 2).map((tag) => (
+                      <span class="text-micro text-muted">{tag}</span>
+                    ))}
+                  </div>
+                )}
+                <h2 class="text-h4 leading-snug group-hover:underline group-hover:underline-offset-2">
+                  {post.data.title}
+                </h2>
+                <p class="mt-2 text-base text-muted line-clamp-2">{post.data.description}</p>
+              </div>
+
+              <div class="mt-4 flex items-center gap-2 text-body text-muted">
+                <time datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toLocaleDateString('en-US', {
+                    year: 'numeric', month: 'long', day: 'numeric',
+                  })}
+                </time>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    )}
+  </section>
+
+  <CtaBand
+    title="Ready to explore Santa Teresa?"
+    body="Rent a Can-Am Outlander 450 4x4 and go wherever you want. Free hotel delivery. Book on WhatsApp."
+    message="Hi! I'd like to rent an ATV in Santa Teresa."
+  />
+</BaseLayout>
