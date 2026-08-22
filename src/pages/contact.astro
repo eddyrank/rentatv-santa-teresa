@@ -69,8 +69,23 @@ import { site, whatsappLink } from '../data/site';
 
       <!-- Map -->
       <div class="flex flex-col gap-6">
-        <div class="media-frame overflow-hidden lg:flex-1" style="min-height:300px" set:html={`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31476.47!2d-85.18!3d9.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9fbb2e18f5bcb5%3A0x88c67a25b2e87ea2!2sSanta%20Teresa%2C%20Puntarenas%2C%20Costa%20Rica!5e0!3m2!1sen!2s!4v1724000000000!5m2!1sen!2s" width="100%" height="300" style="border:0;border-radius:20px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Santa Teresa delivery area"></iframe>`}>
+        <div id="contact-map" class="media-frame overflow-hidden lg:flex-1" style="min-height:300px; background:#0E2B24;">
         </div>
+        <script is:inline>
+          (function() {
+            var el = document.getElementById('contact-map');
+            if (!el) return;
+            var fr = document.createElement('iframe');
+            fr.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31476.47!2d-85.18!3d9.645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f9fbb2e18f5bcb5%3A0x88c67a25b2e87ea2!2sSanta%20Teresa%2C%20Puntarenas%2C%20Costa%20Rica!5e0!3m2!1sen!2s!4v1724000000000!5m2!1sen!2s';
+            fr.width = '100%'; fr.height = '300';
+            fr.style.cssText = 'border:0;border-radius:20px;display:block;';
+            fr.setAttribute('allowfullscreen', '');
+            fr.setAttribute('loading', 'lazy');
+            fr.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+            fr.setAttribute('title', 'Santa Teresa, Costa Rica — ATV rental delivery area');
+            el.appendChild(fr);
+          })();
+        </script>
 
         <div class="grid grid-cols-2 gap-4">
           <div class="card">
