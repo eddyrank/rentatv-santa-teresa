@@ -38,7 +38,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
 
 <BaseLayout
   title="ATV rentals in Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
-  description="Rent an ATV in Santa Teresa, Costa Rica. Self-drive Can-Am Outlander 450 4x4 by the half day, day or week, from $50 per day. Free hotel delivery. Book on WhatsApp."
+  description="Rent an ATV in Santa Teresa, Costa Rica. Self-drive Can-Am or Honda 4x4 quads by the half day, day or week, from $50 per day. Free hotel delivery. Book on WhatsApp."
   schema={schema}
 >
   <Hero
@@ -51,7 +51,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     <h2 id="stats" class="sr-only">The fleet in numbers</h2>
     <StatBand
       stats={[
-        { value: '450cc', label: 'Can-Am Outlander, 4x4' },
+        { value: '4x4', label: 'Can-Am & Honda fleet' },
         { value: 'Automatic', label: 'No gears to learn' },
         { value: 'Locking box', label: 'On the back of every quad' },
         { value: '22 km', label: 'Coast road to Montezuma' },
@@ -66,7 +66,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
         <div>
           <p class="eyebrow">The fleet</p>
           <h2 id="the-fleet" class="mt-2 text-h3 sm:text-h2">
-            Every quad is a Can-Am Outlander 450
+            Every quad is fully automatic and fitted with a locking cargo box
           </h2>
           <p class="mt-4 text-base text-canvas/70">
             One machine, kept properly, rather than a mixed fleet of whatever was
@@ -78,7 +78,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
         </div>
         <Photo
           name="fleet-line"
-          alt="Four red Can-Am Outlander 450 ATVs with top boxes, parked and ready to rent in Santa Teresa"
+          alt="Fully automatic 4x4 ATVs parked and ready to rent in Santa Teresa"
           sizes="(min-width: 1024px) 50vw, 100vw"
           ratio="4/3"
         />
@@ -129,7 +129,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     <div class="mt-8">
       <Photo
         name="quad-side-wide"
-        alt="Can-Am Outlander 450 with rear top box, side view, parked in Santa Teresa"
+        alt="ATV with rear cargo box, side view, parked in Santa Teresa"
         sizes="100vw"
         widths={[800, 1600]}
         ratio="3/2"
@@ -146,9 +146,15 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
   <section class="page-x section-y" aria-labelledby="gallery">
     <SectionHeading eyebrow="What you are getting" title="The actual machine" />
     <div class="mt-8 grid gap-6 sm:grid-cols-3">
-      <Photo name="quad-side" alt="Side view of a red Can-Am Outlander 450 showing the rear cargo box and 4x4 badge" />
-      <Photo name="quad-front" alt="Front view of a red Can-Am Outlander 450 with brush guard and front rack" />
-      <Photo name="fleet-line" alt="Red Can-Am Outlander quads lined up ready for rental in Santa Teresa" />
+      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
+                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
+              </div>
+      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
+                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
+              </div>
+      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
+                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
+              </div>
     </div>
   </section>
 
@@ -187,7 +193,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
       <div>
         <Photo
           name="quad-front"
-          alt="Front view of a Can-Am Outlander 450 ATV available for rent in Santa Teresa"
+          alt="Front view of an ATV available for rent in Santa Teresa"
           sizes="(min-width: 1024px) 50vw, 100vw"
           ratio="4/3"
         />

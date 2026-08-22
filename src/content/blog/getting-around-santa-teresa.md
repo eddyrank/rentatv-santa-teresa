@@ -42,7 +42,7 @@ Some visitors rent a car. The practical problem is that the roads leading to man
 
 For most visitors staying more than a day or two, renting an ATV in Santa Teresa is the most practical option. The reasons are straightforward.
 
-**They handle the road.** A Can-Am Outlander 450 4x4 with proper ground clearance handles the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
+**They handle the road.** Our 4x4 quads have proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
 
 **They go where you want.** You can ride to Playa Carmen for breakfast, check different surf breaks along the coast, stop wherever you want, and get back before dark. The route is yours.
 

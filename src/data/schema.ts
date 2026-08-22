@@ -11,7 +11,7 @@ export const localBusinessSchema = {
   '@id': `${site.url}/#business`,
   additionalType: 'https://www.wikidata.org/wiki/Q188841',
   name: site.name,
-  description: `Self-drive Can-Am Outlander 450 4x4 ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic with a locking cargo box, helmets included, free hotel delivery in Santa Teresa and Mal País.`,
+  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery in Santa Teresa and Mal País.`,
   url: site.url,
   telephone: site.phoneDisplay,
   email: site.email,

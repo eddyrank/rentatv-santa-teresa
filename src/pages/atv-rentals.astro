@@ -13,31 +13,31 @@ import { serviceSchema } from '../data/schema';
 const schema = serviceSchema({
   name: 'ATV rentals in Santa Teresa, Costa Rica',
   description:
-    'Rent a fully automatic Can-Am Outlander 450 4x4 ATV in Santa Teresa, Costa Rica. Helmets, fuel, route map and free hotel delivery included. From $50/day.',
+    'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet including Can-Am and Honda. Helmets, fuel, route map and free hotel delivery included. From $50/day.',
   url: `${site.url}/atv-rentals`,
 });
 
 const fleet = [
   {
-    photo: 'quad-angle',
-    alt: 'Red Can-Am Outlander 450 4x4 at an angle showing front rack, seat and rear cargo box',
-    name: 'Can-Am Outlander 450 4x4',
-    body: 'Our whole fleet uses the Can-Am Outlander 450, so there is no guessing about which ATV you will receive. The Outlander is fully automatic, has selectable 4x4, and provides the ground clearance needed for the dirt roads and uneven terrain around Santa Teresa, Mal País, and the surrounding areas.',
-    specs: ['Fully automatic', 'Selectable 4x4', '1–2 riders', 'Built for rugged dirt roads'],
+    photo: null,
+    alt: 'Can-Am Outlander 4x4 ATV available for rent in Santa Teresa',
+    name: 'Can-Am Outlander 4x4',
+    body: 'The Can-Am Outlander is one of the most capable machines we run. Fully automatic with selectable 4x4, it handles the unpaved tracks, the hill roads, and the muddy green-season sections without difficulty. A solid choice for riders who want to explore beyond the main road.',
+    specs: ['Fully automatic', 'Selectable 4x4', '1–2 riders', 'Locking cargo box'],
   },
   {
-    photo: 'quad-side',
-    alt: 'Side view of the Can-Am Outlander 450 showing the locking rear cargo box',
-    name: 'Locking cargo box',
-    body: 'Every quad has a hard locking box on the back, along with front and rear racks. It gives you somewhere secure to put daypacks, towels, groceries, surf gear, wet shoes, or other items while you are getting around town.',
-    specs: ['Lockable', 'Front + rear racks', 'Fits daypacks and everyday gear'],
+    photo: null,
+    alt: 'Honda ATV with front and rear racks available for rent in Santa Teresa',
+    name: 'Honda ATV',
+    body: 'The Honda in our fleet is reliable, easy to ride, and well suited to the coast road between Santa Teresa and Mal País. Fully automatic, comfortable for one or two riders, and fitted with a cargo box on the back for bags, towels, and beach gear.',
+    specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
   },
   {
-    photo: 'quad-front',
-    alt: 'Front view of the Can-Am Outlander 450 showing brush guard and headlights',
-    name: 'Set up for these roads',
-    body: "Our ATVs have brush guards, mirrors, and working lights. They are serviced between rentals rather than simply maintained once a season. Santa Teresa's combination of dust, salt air, rain, and rough dirt roads is hard on vehicles, so regular maintenance matters.",
-    specs: ['Brush guard', 'Mirrors', 'Working lights', 'Serviced between rentals'],
+    photo: null,
+    alt: 'Fully automatic 4x4 ATV set up for the roads around Santa Teresa',
+    name: 'What all our quads share',
+    body: "Every ATV in our fleet is fully automatic, has front and rear cargo racks, and comes with a locking box on the back. They are serviced between rentals, not once a season. Santa Teresa's combination of dust, salt air, rain, and rough tracks is hard on vehicles, and regular maintenance is the only thing that keeps them reliable.",
+    specs: ['All fully automatic', 'All 1–2 riders', 'All with locking cargo box', 'Serviced each rental'],
   },
 ];
 
@@ -67,7 +67,7 @@ const areas = [
 
 <BaseLayout
   title="ATV rentals in Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
-  description="Rent a fully automatic Can-Am Outlander 450 4x4 ATV in Santa Teresa, Costa Rica. Helmets, fuel, route map and free hotel delivery included. From $50/day."
+  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica — Can-Am or Honda, helmets, fuel and free hotel delivery included. From $50/day."
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'ATV rentals', href: '/atv-rentals' }]} />
@@ -82,19 +82,19 @@ const areas = [
         </h1>
         <p class="mt-5 max-w-lg text-lead text-muted">
           Rent an ATV in Santa Teresa and explore the beaches, jungle roads, and
-          surrounding areas at your own pace. Our fully automatic Can-Am Outlander
-          450 quads are built for the dirt roads and rugged terrain around Santa
+          surrounding areas at your own pace. Our fully automatic 4x4
+          quads are built for the dirt roads and rugged terrain around Santa
           Teresa and Mal País.
         </p>
         <p class="mt-4 max-w-lg text-base text-muted">
-          Every ATV comes with selectable 4x4, a locking cargo box, helmets, fuel,
+          Every ATV comes with 4x4, a locking cargo box, helmets, fuel,
           and a route map. We also offer free delivery and collection anywhere in
           Santa Teresa, making renting an ATV simple from your hotel, Airbnb, or
           other accommodation.
         </p>
         <ul class="mt-6 flex flex-wrap gap-2">
           {[
-            'Can-Am Outlander 450',
+            'Can-Am and Honda fleet',
             'Fully automatic',
             '4x4 selectable',
             'Locking cargo box',
@@ -149,7 +149,21 @@ const areas = [
       {fleet.map((quad) => (
         <article class="flex flex-col">
           <div class="photo-card">
-            <Photo name={quad.photo} alt={quad.alt} />
+            {quad.photo ? (
+              <Photo name={quad.photo} alt={quad.alt} />
+            ) : (
+              <div class="flex aspect-[4/3] items-center justify-center bg-jungle-800">
+                <img
+                  src="/canam-float-700.webp"
+                  alt={quad.alt}
+                  width="200"
+                  height="131"
+                  loading="lazy"
+                  decoding="async"
+                  class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]"
+                />
+              </div>
+            )}
           </div>
           <h3 class="mt-4 text-h4">{quad.name}</h3>
           <p class="mt-2 flex-1 text-base text-muted">{quad.body}</p>
@@ -251,7 +265,7 @@ const areas = [
     <dl class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {[
         { q: "Do I need a driver's license?", a: "Yes. You need a valid physical driver's license from your home country. A photo or digital copy is not accepted." },
-        { q: 'Can two people ride one ATV?', a: 'Yes. The Can-Am Outlander 450 can accommodate one or two riders.' },
+        { q: 'Can two people ride one ATV?', a: 'Yes. Every quad in our fleet can accommodate one or two riders.' },
         { q: 'Do you deliver in Santa Teresa?', a: 'Yes. Free delivery and collection within Santa Teresa.' },
         { q: 'Can I ride to Montezuma?', a: 'Yes. It is approximately 22 km and takes around 50 minutes depending on conditions.' },
         { q: 'Is 4x4 useful here?', a: 'Yes. Many roads are unpaved and can become rough or muddy.' },

@@ -36,17 +36,9 @@ const { eyebrow, title, body, cta = true } = Astro.props;
       </div>
 
       <div class="photo-card">
-        <img
-          src="/photos/fleet-wide-1800.webp"
-          srcset="/photos/fleet-wide-1200.webp 1200w, /photos/fleet-wide-1800.webp 1800w"
-          sizes="(min-width: 1024px) 50vw, 100vw"
-          alt="Four red Can-Am Outlander quads with cargo boxes lined up and ready for rental in Santa Teresa"
-          width="1800"
-          height="1013"
-          loading="lazy"
-          decoding="async"
-          class="aspect-[16/9]"
-        />
+      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
+                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
+              </div>
       </div>
     </div>
   </div>
