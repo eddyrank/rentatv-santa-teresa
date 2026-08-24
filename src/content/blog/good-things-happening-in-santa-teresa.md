@@ -18,9 +18,6 @@ A few years ago, options outside the main strip were limited. That's changed. Th
 
 Santa Teresa has always been a surf town, but the vibe in the water and around it has gotten more open. There are more beginner-friendly schools, more people willing to give newcomers pointers, and less of the territorial attitude that can show up in established surf spots. It still gets crowded at the popular breaks during peak season, but the overall culture leans toward sharing the wave rather than guarding it.
 
-## More local businesses, fewer big outside operators
-
-Walk the main road and most of what you see is still locally run — small hotels, family restaurants, independent tour operators. That matters for a town like this. Money spent locally tends to stay local, and it shows in how invested people are in keeping the place looking and feeling the way it does. It's part of why the town hasn't lost its character the way some other coastal spots have.
 
 ## The roads are slowly improving
 
