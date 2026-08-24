@@ -57,7 +57,7 @@ Body paragraphs
 
 ### Road accuracy
 
-The main road from Santa Teresa to Mal País is paved. Other routes, including inland tracks, hill roads, and the route north toward Manzanillo, are unpaved and can become rough and muddy in the green season. Never describe the entire road network as paved or entirely unpaved.
+The main road from Santa Teresa to Mal País and from Santa Teresa to Cobano is paved. Other routes, including inland tracks, hill roads, and the route north toward Manzanillo, are unpaved and can become rough and muddy in the green season. Never describe the entire road network as paved or entirely unpaved.
 
 ### Images are required in every post
 
