@@ -8,7 +8,6 @@ import Faq from '../components/Faq.astro';
 import RouteStrip from '../components/RouteStrip.astro';
 import BookingWidget from '../components/BookingWidget.astro';
 import Photo from '../components/Photo.astro';
-import Photo from '../components/Photo.astro';
 import StatBand from '../components/StatBand.astro';
 import StickyCta from '../components/StickyCta.astro';
 import { site } from '../data/site';
@@ -21,7 +20,7 @@ const faqs = [
   },
   {
     q: 'Can you deliver the ATV to my hotel?',
-    a: 'Yes, and it is free anywhere in Santa Teresa, Playa Carmen and Mal País. We bring the quad to you, walk you through the controls and collect it from the same spot when your rental ends. Delivery further out to Manzanillo or Montezuma is available for a small fee.',
+    a: 'Yes, and it is free anywhere across Santa Teresa, Mal País, Playa Carmen, Playa Hermosa, Cóbano and Cabuya. We bring the quad to you, walk you through the controls and collect it from the same spot when your rental ends. Message us if you are staying further out.',
   },
   {
     q: 'Is insurance included?',
@@ -38,7 +37,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
 
 <BaseLayout
   title="ATV rentals in Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
-  description="Rent an ATV in Santa Teresa, Costa Rica. Self-drive Can-Am or Honda 4x4 quads by the half day, day or week, from $50 per day. Free hotel delivery. Book on WhatsApp."
+  description="Rent an ATV in Santa Teresa, Costa Rica. Self-drive Can-Am, Honda or Kymco 4x4 quads by the day or week, from $50 per day. Free hotel delivery. Book on WhatsApp."
   schema={schema}
 >
   <Hero
@@ -51,7 +50,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     <h2 id="stats" class="sr-only">The fleet in numbers</h2>
     <StatBand
       stats={[
-        { value: '4x4', label: 'Can-Am & Honda fleet' },
+        { value: '4x4', label: 'Can-Am, Honda & Kymco' },
         { value: 'Automatic', label: 'No gears to learn' },
         { value: 'Locking box', label: 'On the back of every quad' },
         { value: '22 km', label: 'Coast road to Montezuma' },
@@ -69,16 +68,17 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
             Every quad is fully automatic and fitted with a locking cargo box
           </h2>
           <p class="mt-4 text-base text-canvas/70">
-            One machine, kept properly, rather than a mixed fleet of whatever was
-            cheapest. Selectable 4x4 for the hills and green-season mud, a lockable
-            top box for your bag and towels, and a passenger seat with a backrest so
-            two people can ride comfortably.
+            Three machines, not a mixed bag of whatever was cheapest — a Can-Am for
+            the hills and green-season mud, a Honda for easy coast-road riding, and a
+            Kymco for straightforward days on the flat. Every one gets a lockable top
+            box for your bag and towels, and a passenger seat with a backrest so two
+            people can ride comfortably.
           </p>
           <a href="/atv-rentals" class="btn-primary mt-8">See what's included</a>
         </div>
         <Photo
-          name="fleet-line"
-          alt="Fully automatic 4x4 ATVs parked and ready to rent in Santa Teresa"
+          name="fleet-canam-side"
+          alt="Red Can-Am 450 4x4 ATV, part of our mixed fleet in Santa Teresa"
           sizes="(min-width: 1024px) 50vw, 100vw"
           ratio="4/3"
         />
@@ -128,11 +128,10 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     </div>
     <div class="mt-8">
       <Photo
-        name="quad-side-wide"
-        alt="ATV with rear cargo box, side view, parked in Santa Teresa"
+        name="fleet-honda-side"
+        alt="Honda 4x4 ATV with rear cargo box, side view, parked in Santa Teresa"
         sizes="100vw"
-        widths={[800, 1600]}
-        ratio="3/2"
+        ratio="4/3"
       />
     </div>
     <div class="mt-8 grid gap-6 md:grid-cols-3">
@@ -146,15 +145,27 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
   <section class="page-x section-y" aria-labelledby="gallery">
     <SectionHeading eyebrow="What you are getting" title="The actual machine" />
     <div class="mt-8 grid gap-6 sm:grid-cols-3">
-      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
-                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
-              </div>
-      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
-                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
-              </div>
-      <div class="flex aspect-[4/3] items-center justify-center rounded-media bg-jungle-800">
-                <img src="/atv-hero-700.webp" alt="ATV rental Santa Teresa" width="200" height="132" loading="lazy" decoding="async" class="h-auto w-36 opacity-80 [filter:drop-shadow(0_8px_12px_rgba(0,0,0,0.4))]" />
-              </div>
+      <Photo
+        name="fleet-honda-side"
+        alt="Honda 4x4 ATV with locking rear cargo box and passenger backrest"
+        sizes="(min-width: 640px) 33vw, 100vw"
+        ratio="4/3"
+        class="rounded-media"
+      />
+      <Photo
+        name="fleet-canam-side"
+        alt="Red Can-Am 450 4x4 ATV parked in Santa Teresa"
+        sizes="(min-width: 640px) 33vw, 100vw"
+        ratio="4/3"
+        class="rounded-media"
+      />
+      <Photo
+        name="fleet-kymco-front"
+        alt="Black Kymco ATV parked with an ocean view over the jungle"
+        sizes="(min-width: 640px) 33vw, 100vw"
+        ratio="4/3"
+        class="rounded-media"
+      />
     </div>
   </section>
 
@@ -170,7 +181,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
         <ul class="mt-6 space-y-3 text-base text-ink-2">
           <li class="flex items-start gap-3">
             <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Free delivery to Santa Teresa, Playa Carmen and Mal País
+            Free delivery across Santa Teresa, Mal País, Playa Carmen, Playa Hermosa, Cóbano and Cabuya
           </li>
           <li class="flex items-start gap-3">
             <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round"/></svg>

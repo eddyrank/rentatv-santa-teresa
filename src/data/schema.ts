@@ -11,32 +11,28 @@ export const localBusinessSchema = {
   '@id': `${site.url}/#business`,
   additionalType: 'https://www.wikidata.org/wiki/Q188841',
   name: site.name,
-  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery in Santa Teresa and Mal País.`,
+  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery across Santa Teresa, Mal País, Playa Carmen, Playa Hermosa, Cóbano and Cabuya.`,
   url: site.url,
   telephone: site.phoneDisplay,
   // Google uses this in rich results, so it must resolve. Points at the real
   // fleet photo rather than a path that does not exist.
   image: [
-    `${site.url}/photos/quad-angle-1200.webp`,
-    `${site.url}/photos/fleet-wide-1800.webp`,
+    `${site.url}/photos/fleet-canam-side-1200.webp`,
+    `${site.url}/photos/fleet-honda-side-1200.webp`,
+    `${site.url}/photos/fleet-kymco-front-1200.webp`,
   ],
   priceRange: '$$',
   currenciesAccepted: 'CRC, USD',
   paymentAccepted: 'Cash, Credit Card',
+  // No streetAddress, geo or hasMap — this is a delivery-only business with no
+  // fixed storefront or GPS pin. `areaServed` below is what actually describes
+  // where it operates.
   address: {
     '@type': 'PostalAddress',
-    streetAddress: site.address.street,
     addressLocality: site.address.locality,
     addressRegion: site.address.region,
-    postalCode: site.address.postalCode,
     addressCountry: site.address.country,
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: site.geo.latitude,
-    longitude: site.geo.longitude,
-  },
-  hasMap: site.mapUrl,
   openingHoursSpecification: site.hours.map((block) => ({
     '@type': 'OpeningHoursSpecification',
     dayOfWeek: block.days,

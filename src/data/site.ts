@@ -5,8 +5,10 @@
  * Every place the business details appear — footer, contact page, JSON-LD
  * schema — reads from this file so the three can never drift apart.
  *
- * PLACEHOLDER VALUES ARE MARKED. Replace them before launch and make sure they
- * match the Google Business Profile listing character for character.
+ * This is a delivery-only, service-area business: no storefront, no email
+ * inbox, no fixed GPS pin. `address` is deliberately just locality/region, and
+ * `areaServed` is the real source of truth for where quads actually go.
+ * Remaining PLACEHOLDER values are still marked — confirm before launch.
  */
 
 export const site = {
@@ -22,44 +24,38 @@ export const site = {
   // Digits only, country code first, no + or spaces — wa.me link format.
   whatsappNumber: '50672388955',
 
-  // PLACEHOLDER
-  email: 'hola@rentatvsantateresa.com',
+  // No email inbox to monitor — WhatsApp is the only contact channel, by design.
 
+  // Confirmed: this is a delivery-only, service-area business. There is no
+  // storefront customers visit and no fixed GPS pin — quads go to wherever the
+  // customer is staying across the whole area in `areaServed` below. Keep the
+  // address to general locality/region only; never invent a street or geo pin.
   address: {
-    // PLACEHOLDER — Santa Teresa has no formal street numbering; most businesses
-    // use a landmark-relative address. Confirm the exact wording used on the
-    // Google Business Profile and mirror it here.
-    street: 'Calle Principal, 200m south of Playa Carmen intersection',
     locality: 'Santa Teresa',
     region: 'Puntarenas',
-    postalCode: '60111',
     country: 'CR',
     countryName: 'Costa Rica',
   },
 
-  // PLACEHOLDER — pull the true coordinates from the Google Business Profile pin.
-  geo: {
-    latitude: 9.6449,
-    longitude: -85.1669,
-  },
-
-  // PLACEHOLDER — replace with the real Google Maps share link.
-  mapUrl: 'https://maps.google.com/?q=Santa+Teresa+Costa+Rica',
-
-  // PLACEHOLDER — add real profile URLs. An empty array is better than a wrong one.
+  // Confirmed: no social profiles yet. An empty array is better than a wrong one.
   socialProfiles: [] as string[],
+
+  // Google Tag Manager container. Not tied to the domain — works the same on
+  // localhost, the workers.dev preview URL, and the live domain once it's live.
+  gtmId: 'GTM-N8MH829D',
 
   hours: [
     { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '06:00', closes: '23:00', label: 'Every day', time: '6:00am – 11:00pm' },
   ],
 
+  // Confirmed with the owner — the actual delivery area, not a fixed address.
   areaServed: [
     'Santa Teresa',
     'Mal País',
     'Playa Carmen',
     'Playa Hermosa',
-    'Montezuma',
     'Cóbano',
+    'Cabuya',
   ],
 };
 
@@ -74,6 +70,5 @@ export const nav = [
   { label: 'Pricing', href: '/pricing' },
   { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },
-  { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ];

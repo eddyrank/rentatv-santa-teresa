@@ -13,33 +13,36 @@ import { serviceSchema } from '../data/schema';
 const schema = serviceSchema({
   name: 'ATV rentals in Santa Teresa, Costa Rica',
   description:
-    'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet including Can-Am and Honda. Helmets, fuel, route map and free hotel delivery included. From $50/day.',
+    'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets, fuel, route map and free hotel delivery included. From $50/day.',
   url: `${site.url}/atv-rentals`,
 });
 
 const fleet = [
   {
-    photo: null,
-    alt: 'Can-Am Outlander 4x4 ATV available for rent in Santa Teresa',
+    photo: 'fleet-canam-side',
+    alt: 'Red Can-Am Outlander 450 4x4 ATV available for rent in Santa Teresa',
     name: 'Can-Am Outlander 4x4',
     body: 'The Can-Am Outlander is one of the most capable machines we run. Fully automatic with selectable 4x4, it handles the unpaved tracks, the hill roads, and the muddy green-season sections without difficulty. A solid choice for riders who want to explore beyond the main road.',
     specs: ['Fully automatic', 'Selectable 4x4', '1–2 riders', 'Locking cargo box'],
   },
   {
-    photo: null,
+    photo: 'fleet-honda-side',
     alt: 'Honda ATV with front and rear racks available for rent in Santa Teresa',
     name: 'Honda ATV',
     body: 'The Honda in our fleet is reliable, easy to ride, and well suited to the coast road between Santa Teresa and Mal País. Fully automatic, comfortable for one or two riders, and fitted with a cargo box on the back for bags, towels, and beach gear.',
     specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
   },
   {
-    photo: null,
-    alt: 'Fully automatic 4x4 ATV set up for the roads around Santa Teresa',
-    name: 'What all our quads share',
-    body: "Every ATV in our fleet is fully automatic, has front and rear cargo racks, and comes with a locking box on the back. They are serviced between rentals, not once a season. Santa Teresa's combination of dust, salt air, rain, and rough tracks is hard on vehicles, and regular maintenance is the only thing that keeps them reliable.",
-    specs: ['All fully automatic', 'All 1–2 riders', 'All with locking cargo box', 'Serviced each rental'],
+    photo: 'fleet-kymco-front',
+    alt: 'Black Kymco 4x4 ATV available for rent in Santa Teresa',
+    name: 'Kymco 4x4 ATV',
+    body: 'The Kymco is straightforward and easy to get comfortable on fast — a good fit if this is your first time on a quad or you just want simple, predictable handling on the coast road. Fully automatic, with the same locking cargo box and passenger seat as the rest of the fleet.',
+    specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
   },
 ];
+
+const fleetShared =
+  "Whichever machine you get, it is fully automatic, fitted with front and rear cargo racks and a locking box on the back, and serviced between rentals rather than once a season. Santa Teresa's combination of dust, salt air, rain, and rough tracks is hard on vehicles, and regular maintenance is the only thing that keeps any of them reliable.";
 
 const included = [
   'A helmet for every rider',
@@ -55,7 +58,7 @@ const bring = [
   "A valid driver's license from your home country — the physical card, not a photo",
   'Closed shoes (flip-flops are not safe on a quad)',
   'Sunglasses or eye protection',
-  'A card or cash for the security deposit, refunded on return',
+  'A card or cash for the security deposit (from $500), refunded on return',
 ];
 
 const areas = [
@@ -67,7 +70,7 @@ const areas = [
 
 <BaseLayout
   title="ATV rentals in Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
-  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica — Can-Am or Honda, helmets, fuel and free hotel delivery included. From $50/day."
+  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica — Can-Am, Honda or Kymco, helmets, fuel and free hotel delivery included. From $50/day."
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'ATV rentals', href: '/atv-rentals' }]} />
@@ -94,7 +97,7 @@ const areas = [
         </p>
         <ul class="mt-6 flex flex-wrap gap-2">
           {[
-            'Can-Am and Honda fleet',
+            'Can-Am, Honda & Kymco fleet',
             'Fully automatic',
             '4x4 selectable',
             'Locking cargo box',
@@ -144,7 +147,7 @@ const areas = [
 
   <!-- Fleet -->
   <section class="page-x section-y" aria-labelledby="fleet">
-    <SectionHeading eyebrow="The fleet" title="One machine, properly kept" subtitle="We run a single model rather than a mixed fleet, so every rental is the same known quantity and the parts we stock fit every machine." />
+    <SectionHeading eyebrow="The fleet" title="Three machines, properly kept" subtitle="We run three models rather than whatever was cheapest — each picked for what it does well, and every one of them serviced between rentals, not once a season." />
     <div class="mt-8 grid gap-6 md:grid-cols-3">
       {fleet.map((quad) => (
         <article class="flex flex-col">
@@ -175,6 +178,7 @@ const areas = [
         </article>
       ))}
     </div>
+    <p class="mt-8 max-w-3xl text-base text-muted">{fleetShared}</p>
   </section>
 
   <!-- Included / bring -->
@@ -213,7 +217,7 @@ const areas = [
   <section class="page-x section-y" aria-labelledby="multi-day">
     <SectionHeading eyebrow="Staying a while?" title="Rates drop from three days" subtitle="Santa Teresa runs several kilometres along the coast, and many visitors stay for a week or longer. If you are here for several days, renting day by day can quickly become expensive. Longer rentals give you a better daily rate and make it easier to explore Santa Teresa and the surrounding areas without arranging transportation every day." />
     <div class="mt-8 grid gap-6 sm:grid-cols-4">
-      <InfoCard label="Under 3 days" value="$65/day" detail="Half-day and full-day rentals" />
+      <InfoCard label="Under 3 days" value="$65/day" detail="Full-day rentals" />
       <InfoCard label="3 to 7 days" value="$60/day" detail="The most popular range" />
       <InfoCard label="Over 7 days" value="$55/day" detail="Weekly and longer" />
       <InfoCard label="Two weeks+" value="$50/day" detail="Our best rate" />

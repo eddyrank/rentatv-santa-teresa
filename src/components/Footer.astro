@@ -11,9 +11,9 @@ const year = new Date().getFullYear();
     <div class="grid gap-10 md:grid-cols-3">
       <div>
         <h2 class="text-body font-semibold on-dark-heading">Rent ATV Santa Teresa</h2>
-        <!-- NAP as crawlable text, never an image. Matches the JSON-LD exactly. -->
+        <!-- NAP as crawlable text, never an image. Matches the JSON-LD exactly.
+             No street line — delivery-only business, no fixed storefront. -->
         <address class="mt-4 space-y-1 text-body not-italic on-dark-body">
-          <span class="block">{site.address.street}</span>
           <span class="block">{site.address.locality}, {site.address.region}</span>
           <span class="block">{site.address.countryName}</span>
         </address>
