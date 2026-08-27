@@ -1,5 +1,5 @@
 ---
-import { site, nav, whatsappLink } from '../data/site';
+import { site, nav } from '../data/site';
 import WhatsAppIcon from './WhatsAppIcon.astro';
 
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
@@ -34,7 +34,7 @@ const isActive = (href: string) => path === href;
     </nav>
 
     <div class="flex items-center gap-3">
-      <a href={whatsappLink()} class="btn-primary hidden px-5 py-2.5 sm:inline-flex" rel="noopener" target="_blank">
+      <a href="/#book-now" class="btn-primary hidden px-5 py-2.5 sm:inline-flex">
         <WhatsAppIcon />
         Book on WhatsApp
       </a>
@@ -74,7 +74,7 @@ const isActive = (href: string) => path === href;
         </li>
       ))}
       <li class="py-4">
-        <a href={whatsappLink()} class="btn-primary w-full" rel="noopener" target="_blank">
+        <a href="/#book-now" class="btn-primary w-full">
           <WhatsAppIcon />
           Book on WhatsApp
         </a>
