@@ -13,7 +13,7 @@ import { serviceSchema } from '../data/schema';
 const schema = serviceSchema({
   name: 'ATV rentals in Santa Teresa, Costa Rica',
   description:
-    'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets, fuel and free hotel delivery included. From $50/day.',
+    'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $50/day.',
   url: `${site.url}/atv-rentals`,
 });
 
@@ -46,7 +46,7 @@ const fleetShared =
 
 const included = [
   'A helmet for every rider',
-  'Full tank of fuel at pickup',
+  'Full tank at pickup — return it full (fuel itself isn\'t included in the rate)',
   'Local route advice on where to ride',
   'Basic liability insurance',
   'Free delivery and collection in Santa Teresa',
@@ -70,7 +70,7 @@ const areas = [
 
 <BaseLayout
   title="ATV rentals in Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
-  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica — Can-Am, Honda or Kymco, helmets, fuel and free hotel delivery included. From $50/day."
+  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica — Can-Am, Honda or Kymco, helmets and free hotel delivery included, full tank at pickup. From $50/day."
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'ATV rentals', href: '/atv-rentals' }]} />
@@ -90,8 +90,8 @@ const areas = [
           Teresa and Mal País.
         </p>
         <p class="mt-4 max-w-lg text-base text-muted">
-          Every ATV comes with 4x4, a locking cargo box, helmets and fuel. We
-          also offer free delivery and collection anywhere in
+          Every ATV comes with 4x4, a locking cargo box and helmets, and
+          starts you off with a full tank. We also offer free delivery and collection anywhere in
           Santa Teresa, making renting an ATV simple from your hotel, Airbnb, or
           other accommodation.
         </p>
