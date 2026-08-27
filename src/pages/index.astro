@@ -113,6 +113,15 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
         <Card icon="clock" title="Flexible pickup" body="Same-day rentals when we have quads free. Message in the morning and you can be riding by lunch." />
       </div>
     </div>
+    <div class="mt-10">
+      <Photo
+        name="jungle-tunnel-road"
+        alt="Unpaved jungle road near Santa Teresa, the kind of terrain a 4x4 quad is built for"
+        sizes="100vw"
+        ratio="16/9"
+        class="rounded-media"
+      />
+    </div>
     </div>
   </section>
 
@@ -126,18 +135,43 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     <div class="mt-8">
       <RouteStrip />
     </div>
-    <div class="mt-8">
-      <Photo
-        name="fleet-honda-side"
-        alt="Honda 4x4 ATV with rear cargo box, side view, parked in Santa Teresa"
-        sizes="100vw"
-        ratio="4/3"
-      />
-    </div>
     <div class="mt-8 grid gap-6 md:grid-cols-3">
-      <Card title="The coast road" body="Playa Carmen up to Playa Hermosa and back. Flat, straightforward and stunning near sunset. The right first ride if you have never been on a quad." />
-      <Card title="Mal País and Cabo Blanco" body="South instead of north, through the fishing village at Mal País to the edge of Cabo Blanco reserve. Quieter road, good swimming stops along the way." />
-      <Card title="Manzanillo and the hills" body="Inland climbs, river crossings and long views back over the coast. Rough in places, and worth leaving until you have a day of riding behind you." />
+      <div>
+        <Photo
+          name="coast-road-beach"
+          alt="Playa Carmen to Playa Hermosa coast road beach, Santa Teresa"
+          sizes="(min-width: 768px) 33vw, 100vw"
+          ratio="4/3"
+          class="rounded-media"
+        />
+        <div class="mt-4">
+          <Card title="The coast road" body="Playa Carmen up to Playa Hermosa and back. Flat, straightforward and stunning near sunset. The right first ride if you have never been on a quad." />
+        </div>
+      </div>
+      <div>
+        <Photo
+          name="malpais-cove"
+          alt="Quiet cove near Mal País and Cabo Blanco, Santa Teresa"
+          sizes="(min-width: 768px) 33vw, 100vw"
+          ratio="4/3"
+          class="rounded-media"
+        />
+        <div class="mt-4">
+          <Card title="Mal País and Cabo Blanco" body="South instead of north, through the fishing village at Mal País to the edge of Cabo Blanco reserve. Quieter road, good swimming stops along the way." />
+        </div>
+      </div>
+      <div>
+        <Photo
+          name="manzanillo-headland"
+          alt="Jungle-covered headland on the road toward Manzanillo, Santa Teresa"
+          sizes="(min-width: 768px) 33vw, 100vw"
+          ratio="4/3"
+          class="rounded-media"
+        />
+        <div class="mt-4">
+          <Card title="Manzanillo and the hills" body="Inland climbs, river crossings and long views back over the coast. Rough in places, and worth leaving until you have a day of riding behind you." />
+        </div>
+      </div>
     </div>
   </section>
 
