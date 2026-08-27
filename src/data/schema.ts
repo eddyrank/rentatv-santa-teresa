@@ -11,7 +11,7 @@ export const localBusinessSchema = {
   '@id': `${site.url}/#business`,
   additionalType: 'https://www.wikidata.org/wiki/Q188841',
   name: site.name,
-  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery across Santa Teresa, Mal País, Playa Carmen, Playa Hermosa, Cóbano and Cabuya.`,
+  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $50 per day. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery in Santa Teresa, Mal País, Playa Carmen and Playa Hermosa, with an extra fee to Cóbano or Cabuya.`,
   url: site.url,
   telephone: site.phoneDisplay,
   // Google uses this in rich results, so it must resolve. Points at the real
