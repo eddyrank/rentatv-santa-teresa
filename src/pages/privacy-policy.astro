@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { site } from '../data/site';
+
+// PLACEHOLDER: this is a working draft written from the site's actual data
+// practices (WhatsApp contact, Google Tag Manager, no forms/accounts/payment
+// collection). Have it reviewed against Costa Rica's Law No. 8968 before
+// relying on it — not a substitute for legal advice.
+const lastUpdated = 'August 27, 2026';
+---
+
+<BaseLayout
+  title="Privacy Policy | Rent ATV Santa Teresa"
+  description="How Rent ATV Santa Teresa collects, uses and protects information from visitors to this site and from WhatsApp bookings."
+  robots="index, follow"
+>
+  <Breadcrumb items={[{ label: 'Privacy Policy', href: '/privacy-policy' }]} />
+  <PageHero
+    eyebrow="Legal"
+    title="Privacy Policy"
+    subtitle={`Last updated ${lastUpdated}`}
+  />
+
+  <section class="page-x section-y">
+    <div class="prose-content max-w-3xl">
+      <p>
+        Rent ATV Santa Teresa ("we", "us") operates rentatvsantateresa.com.
+        This page explains what information we collect when you use this
+        site or contact us, and how we use it. We do not sell your
+        information to anyone.
+      </p>
+
+      <h2>Information we collect</h2>
+      <p>
+        <strong>What you send us.</strong> When you message us on WhatsApp to
+        ask about or book a rental, we receive whatever you choose to share —
+        typically your name, phone number, travel dates, number of riders,
+        and where you are staying. We use this only to arrange and deliver
+        your rental.
+      </p>
+      <p>
+        <strong>What is collected automatically.</strong> Like most websites,
+        we use Google Tag Manager to understand how visitors use this site —
+        pages viewed, general location, device and browser type, and how you
+        arrived here. This is general usage data, not information that
+        identifies you personally.
+      </p>
+      <p>
+        We do not run a contact form, a newsletter sign-up, or user accounts,
+        and we do not collect payment information through this website.
+        Rentals are paid for in person, at pickup.
+      </p>
+
+      <h2>Cookies</h2>
+      <p>
+        This site uses cookies set by Google Tag Manager and Google Analytics
+        to measure how it is used. You can block or delete cookies in your
+        browser settings at any time — doing so will not stop you browsing
+        the site or messaging us on WhatsApp.
+      </p>
+
+      <h2>How we share information</h2>
+      <ul>
+        <li>
+          With the independent local ATV vendor fulfilling your booking, so
+          far as needed to arrange your rental — see our
+          <a href="/terms-and-conditions" class="link-inline">Terms &amp; Conditions</a>
+          for how rentals are provided.
+        </li>
+        <li>With service providers that help us run this site — currently Google (analytics) and Cloudflare (hosting).</li>
+        <li>We do not sell, rent or trade your information to anyone else for their own marketing.</li>
+      </ul>
+
+      <h2>How long we keep it</h2>
+      <p>
+        We keep WhatsApp conversations for as long as WhatsApp itself retains
+        them for us, and we do not maintain a separate customer database
+        beyond what is needed to arrange and deliver your rental.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>
+        Under Costa Rica's Law No. 8968 (Protection of the Person Regarding
+        the Processing of Their Personal Data), you can ask what information
+        we hold about you, ask us to correct it, or ask us to delete it.
+        Message us on WhatsApp to make a request and we will respond as
+        quickly as we can.
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        This site and our rentals are not directed at anyone under 18. We do
+        not knowingly collect information from children.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        We may update this policy from time to time. The date at the top
+        shows when it was last revised.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy? Message us on WhatsApp —{' '}
+        <a href={`tel:${site.phoneHref}`} class="link-inline">{site.phoneDisplay}</a>.
+      </p>
+    </div>
+  </section>
+
+  <CtaBand
+    title="Questions about your data?"
+    body="Message us directly on WhatsApp and we will answer as quickly as we can."
+    message="Hi! I have a question about your privacy policy."
+  />
+</BaseLayout>

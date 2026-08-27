@@ -1,0 +1,196 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { site } from '../data/site';
+
+// PLACEHOLDER: this is a working draft, not legal advice. Costa Rican rental
+// law and liability terms should be reviewed by a local attorney before this
+// page is relied on for protection — flagged the same way in chat.
+// The cancellation policy below is deliberately non-committal because no
+// specific cancellation terms have been confirmed with the owner yet.
+const lastUpdated = 'August 27, 2026';
+---
+
+<BaseLayout
+  title="Terms &amp; Conditions | Rent ATV Santa Teresa"
+  description="Booking, payment, deposit, delivery and liability terms for ATV rentals arranged through Rent ATV Santa Teresa."
+  robots="index, follow"
+>
+  <Breadcrumb items={[{ label: 'Terms & Conditions', href: '/terms-and-conditions' }]} />
+  <PageHero
+    eyebrow="Legal"
+    title="Terms &amp; Conditions"
+    subtitle={`Last updated ${lastUpdated} — please read before booking`}
+  />
+
+  <section class="page-x pt-6">
+    <div class="max-w-3xl rounded-media bg-surface p-6">
+      <p class="text-base font-semibold text-ink-2">Our role, in short</p>
+      <p class="mt-2 text-base text-muted">
+        Rent ATV Santa Teresa is a booking and coordination service. We
+        connect riders with independently owned and operated local ATV
+        vendors in the Santa Teresa area — we do not own, manufacture, or
+        directly maintain the vehicles ourselves. Each rental is provided and
+        equipped by the local operator we match you with. See "Our role" below
+        for what this means for you.
+      </p>
+    </div>
+  </section>
+
+  <section class="page-x section-y">
+    <div class="prose-content max-w-3xl">
+      <h2>Our role</h2>
+      <p>
+        Rent ATV Santa Teresa acts as a booking service connecting visitors
+        with independent, locally owned and operated ATV rental vendors
+        ("Partner Vendors") in and around Santa Teresa, Costa Rica. When you
+        book through us, your rental agreement for the vehicle itself is with
+        the Partner Vendor who supplies it — not with Rent ATV Santa Teresa
+        directly. We coordinate the booking, delivery, pricing and
+        communication on your behalf, and our Partner Vendors are responsible
+        for the condition, maintenance and roadworthiness of their own
+        vehicles.
+      </p>
+
+      <h2>Eligibility</h2>
+      <p>
+        To rent an ATV you must be at least 18 years old and hold a valid
+        driver's licence from your home country — a standard car licence is
+        enough. Bring the physical card; a photo on your phone is not
+        accepted.
+      </p>
+
+      <h2>Bookings &amp; payment</h2>
+      <p>
+        Bookings are made by messaging us on WhatsApp with your dates, number
+        of riders and where you are staying. Nothing is charged when you
+        reserve. Payment — in cash (Costa Rican colones or US dollars) or by
+        card — is due at pickup. Rates are listed on our{' '}
+        <a href="/pricing" class="link-inline">pricing page</a> and drop the
+        longer you rent.
+      </p>
+
+      <h2>Security deposit</h2>
+      <p>
+        A security deposit starting from $500, held on card or in cash, is
+        required at pickup and refunded on return, less the cost of any
+        damage beyond normal wear. The exact amount depends on the quad you
+        rent.
+      </p>
+
+      <h2>Delivery &amp; collection</h2>
+      <p>
+        We deliver free of charge within Santa Teresa, Mal País, Playa Carmen
+        and Playa Hermosa. Delivery to Cóbano or Cabuya carries an extra fee.
+        Message us your accommodation and we will confirm timing and any
+        applicable fee.
+      </p>
+
+      <h2>Assumption of risk</h2>
+      <p>
+        Riding an ATV is an inherently hazardous activity, made more so by
+        Santa Teresa's unpaved, uneven and sometimes muddy roads. By renting,
+        you acknowledge this risk and agree that you ride at your own risk.
+        Neither Rent ATV Santa Teresa nor the Partner Vendor supplying your
+        vehicle can guarantee your safety, and both disclaim liability for
+        injury, death or property damage to the fullest extent permitted
+        under Costa Rican law, except where caused by the Partner Vendor's own
+        gross negligence.
+      </p>
+
+      <h2>Rider responsibilities</h2>
+      <ul>
+        <li>Wear the helmet provided at all times while riding.</li>
+        <li>Hold a valid licence and carry it with you.</li>
+        <li>Obey Costa Rican traffic law and posted signage.</li>
+        <li>Never ride on protected beach sections or through nesting areas.</li>
+        <li>Avoid riding after dark — the coast road is unlit.</li>
+        <li>Do not operate the ATV under the influence of alcohol or drugs.</li>
+        <li>Carry no more than one passenger, and only on a two-seater model.</li>
+        <li>Do not lend the ATV to anyone not named on the rental agreement.</li>
+        <li>You are personally responsible for any traffic fines or penalties incurred during your rental.</li>
+      </ul>
+
+      <h2>Vehicle condition</h2>
+      <p>
+        Each ATV is provided by the Partner Vendor who owns it, and that
+        vendor is responsible for its mechanical condition, servicing and
+        roadworthiness. If you believe a vehicle is unsafe at pickup, tell us
+        immediately and do not ride it — we will arrange a replacement or a
+        refund of amounts not yet used.
+      </p>
+
+      <h2>Insurance &amp; damage</h2>
+      <p>
+        Basic liability coverage is included with every rental, arranged
+        through the Partner Vendor; ask us about its limits before you sign.
+        Optional damage cover is available for a daily fee and reduces what
+        you are liable for if the ATV is returned damaged. Where damage cover
+        is not taken, you are responsible for the cost of repairs, up to the
+        value of your security deposit and beyond it if repair costs exceed
+        that amount.
+      </p>
+
+      <h2>Cancellations</h2>
+      <p>
+        Plans change — message us as soon as you know and we will do what we
+        can to move your booking to a new date. Cancellation and refund terms
+        are confirmed with you directly on WhatsApp at the time of booking.
+      </p>
+
+      <h2>Prohibited use</h2>
+      <ul>
+        <li>No racing, stunt riding, or off-roading outside marked trails and roads.</li>
+        <li>No modifying the vehicle.</li>
+        <li>No use for any illegal purpose.</li>
+        <li>No removing or disabling safety equipment.</li>
+      </ul>
+
+      <h2>Indemnification</h2>
+      <p>
+        You agree to be responsible for, and to reimburse Rent ATV Santa
+        Teresa and the relevant Partner Vendor for, any loss, fine or claim
+        arising from your own negligent, reckless or unlawful use of the ATV,
+        to the extent permitted by Costa Rican law.
+      </p>
+
+      <h2>Limitation of liability</h2>
+      <p>
+        To the maximum extent permitted by law, Rent ATV Santa Teresa's role
+        is limited to coordinating your booking. Any claim relating to the
+        ATV itself — its mechanical condition, an accident, or an injury
+        arising from its use — should be directed to the Partner Vendor who
+        supplied the vehicle and, where applicable, their insurance. Rent ATV
+        Santa Teresa is not liable for indirect, incidental or consequential
+        damages arising from your rental.
+      </p>
+
+      <h2>Governing law</h2>
+      <p>
+        These terms are governed by the laws of Costa Rica. Any dispute will
+        be handled in the courts of Puntarenas province.
+      </p>
+
+      <h2>Changes to these terms</h2>
+      <p>
+        We may update these terms from time to time; the date at the top
+        shows the last revision. Continuing to book with us after a change
+        means you accept the updated terms.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about these terms? Message us on WhatsApp —{' '}
+        <a href={`tel:${site.phoneHref}`} class="link-inline">{site.phoneDisplay}</a>.
+      </p>
+    </div>
+  </section>
+
+  <CtaBand
+    title="Ready to book?"
+    body="Send your dates and how many riders. We reply in minutes during opening hours."
+    message="Hi! I have a question before booking an ATV in Santa Teresa."
+  />
+</BaseLayout>
