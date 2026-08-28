@@ -46,7 +46,10 @@ const articleSchema = {
 ---
 
 <BaseLayout
-  title={`${title} | Rent ATV Santa Teresa`}
+  {/* No " | Rent ATV Santa Teresa" suffix here — post titles are already
+      keyword-rich, and appending the brand pushes past Google's ~60-char
+      display limit and truncates the title in search results. */}
+  title={title}
   description={description}
   canonical={canonicalUrl}
   schema={articleSchema}
