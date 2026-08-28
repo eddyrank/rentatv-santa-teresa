@@ -5,6 +5,7 @@ import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import WhatsAppIcon from '../components/WhatsAppIcon.astro';
 import BookingWidget from '../components/BookingWidget.astro';
+import Card from '../components/Card.astro';
 import { site, whatsappLink } from '../data/site';
 ---
 
@@ -101,5 +102,59 @@ import { site, whatsappLink } from '../data/site';
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- How it works: adds real, non-duplicate content for a page that was
+       previously just a form + address block -->
+  <section class="band-sand section-y" aria-labelledby="how-it-works">
+    <div class="page-x">
+      <SectionHeading
+        eyebrow="How it works"
+        title="Booking takes three steps"
+        subtitle="There is no counter to visit and no reservation form to fill in beyond the dates. Everything runs through WhatsApp, start to finish."
+      />
+      <div class="mt-8 grid gap-6 sm:grid-cols-3">
+        <Card
+          icon="route"
+          title="1. Send your dates"
+          body="Message us your dates, number of riders and where you are staying. We check which quads are free and confirm the daily rate for the length of your stay."
+        />
+        <Card
+          icon="pin"
+          title="2. We deliver to you"
+          body="No pickup counter to find. The ATV comes to your hotel, Airbnb or villa, with a full tank and a helmet for every rider already on board."
+        />
+        <Card
+          icon="clock"
+          title="3. Ride from your door"
+          body="We walk you through the controls on the spot, you sign, and you are riding within minutes. Collection at the end works the same way, in reverse."
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery area -->
+  <section class="page-x section-y" aria-labelledby="delivery-area">
+    <SectionHeading
+      eyebrow="Where we deliver"
+      title="Free delivery across the Santa Teresa area"
+      subtitle="Delivery and collection are free anywhere between Santa Teresa and Playa Hermosa. Further out, we still come to you for a small extra fee."
+    />
+    <p class="mt-6 max-w-3xl text-base text-muted">
+      We deliver at no charge to {site.areaServed.slice(0, -1).join(', ')} and
+      {site.areaServed[site.areaServed.length - 1]}. If you are staying somewhere
+      not listed here, message us your location anyway — we can usually still
+      make it work, just ask before you book.
+    </p>
+    <p class="mt-4 max-w-3xl text-base text-muted">
+      Before you message us, it helps to have your rental dates, the number of
+      riders, and your accommodation's name on hand. If you are not sure what
+      is included or what you need to bring, the
+      <a href="/atv-rentals" class="link-inline">ATV rentals page</a> and the
+      <a href="/faq" class="link-inline">FAQ</a> cover licence requirements,
+      insurance and what to wear. For a broader look at getting around once you
+      arrive, see our guide to
+      <a href="/blog/getting-around-santa-teresa" class="link-inline">getting around Santa Teresa</a>.
+    </p>
   </section>
 </BaseLayout>
