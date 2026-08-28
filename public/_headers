@@ -1,0 +1,11 @@
+# Cloudflare reads this file (Workers Static Assets and Pages both support
+# it) and applies the listed headers to every response matching the path.
+#
+# HSTS: tells browsers to only ever reach this origin over HTTPS, for the
+# next year, on this domain and all subdomains, and to consider it eligible
+# for browser HSTS-preload lists. Cloudflare already terminates TLS and
+# redirects HTTP -> HTTPS at the edge, but that first request is still
+# vulnerable to a downgrade attack; this header removes that window entirely
+# for any browser that has visited before (or ships with the preload list).
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

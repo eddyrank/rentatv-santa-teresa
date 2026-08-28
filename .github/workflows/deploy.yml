@@ -50,3 +50,17 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # Tells IndexNow-participating search engines (Bing, Yandex and others)
+      # that every page may have changed, right after it actually goes live.
+      # The key file it points at lives at public/<key>.txt, deployed above.
+      # Non-fatal: a failed or slow ping here should never fail the deploy.
+      - name: Notify search engines via IndexNow
+        continue-on-error: true
+        run: |
+          KEY="0063205f8dbd9d3a2183945d6157939e"
+          HOST="rentatvsantateresa.com"
+          URLS=$(grep -oE '<loc>[^<]+</loc>' dist/sitemap-0.xml | sed -e 's#<loc>##' -e 's#</loc>##' | jq -R . | jq -s .)
+          curl -sS -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "{\"host\":\"$HOST\",\"key\":\"$KEY\",\"keyLocation\":\"https://$HOST/$KEY.txt\",\"urlList\":$URLS}"
