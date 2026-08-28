@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
 import { site } from '../data/site';
 
 interface Props {
@@ -55,16 +56,9 @@ const articleSchema = {
   schema={articleSchema}
   ogImage={ogImage}
 >
-  <!-- Breadcrumb -->
-  <nav aria-label="Breadcrumb" class="page-x pt-6">
-    <ol class="flex flex-wrap items-center gap-x-2 gap-y-1 text-body text-muted">
-      <li><a href="/" class="hover:text-ink-2">Home</a></li>
-      <li aria-hidden="true">/</li>
-      <li><a href="/blog" class="hover:text-ink-2">Blog</a></li>
-      <li aria-hidden="true">/</li>
-      <li aria-current="page" class="text-ink-2 truncate max-w-[200px]">{title}</li>
-    </ol>
-  </nav>
+  <!-- Breadcrumb: shared component emits both the visual trail and
+       BreadcrumbList JSON-LD, matching every other inner page on the site. -->
+  <Breadcrumb items={[{ label: 'Blog', href: '/blog' }, { label: title, href: `/blog/${slug}` }]} />
 
   <!-- Article -->
   <article class="page-x section-y">
