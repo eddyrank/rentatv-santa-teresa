@@ -66,7 +66,13 @@ export function whatsappLink(message = "Hi! I'd like to rent an ATV in Santa Ter
 
 /* Sentence case, matching the reference's written voice. */
 export const nav = [
-  { label: 'ATV rentals', href: '/atv-rentals' },
+  {
+    label: 'ATV rentals',
+    children: [
+      { label: 'Santa Teresa', href: '/atv-rentals' },
+      { label: 'Mal País', href: '/atv-rentals-mal-pais' },
+    ],
+  },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },

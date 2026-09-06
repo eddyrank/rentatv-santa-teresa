@@ -4,6 +4,8 @@ import WhatsAppIcon from './WhatsAppIcon.astro';
 
 const path = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isActive = (href: string) => path === href;
+const isParentActive = (item: (typeof nav)[number]) =>
+  'children' in item && item.children.some((child) => isActive(child.href));
 ---
 
 <header class="sticky top-0 z-40 border-b border-hairline bg-canvas">
@@ -21,13 +23,49 @@ const isActive = (href: string) => path === href;
       <ul class="flex items-center gap-1">
         {nav.map((item) => (
           <li>
-            <a
-              href={item.href}
-              aria-current={isActive(item.href) ? 'page' : undefined}
-              class:list={['tab block', isActive(item.href) && 'tab-active']}
-            >
-              {item.label}
-            </a>
+            {'children' in item ? (
+              <div class="group relative">
+                <button
+                  type="button"
+                  class:list={['tab flex items-center gap-1', isParentActive(item) && 'tab-active']}
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  {item.label}
+                  <svg class="h-3.5 w-3.5 text-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </button>
+                <ul
+                  class="invisible absolute left-0 top-full z-50 mt-1 min-w-[10rem] rounded-md border border-hairline bg-canvas py-2 opacity-0 shadow-card transition duration-150 ease-airbnb group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
+                  role="menu"
+                >
+                  {item.children.map((child) => (
+                    <li role="none">
+                      <a
+                        href={child.href}
+                        role="menuitem"
+                        aria-current={isActive(child.href) ? 'page' : undefined}
+                        class:list={[
+                          'block px-4 py-2 text-body text-muted hover:bg-surface hover:text-ink-2',
+                          isActive(child.href) && 'font-semibold text-ink-2',
+                        ]}
+                      >
+                        {child.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
+              <a
+                href={item.href}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+                class:list={['tab block', isActive(item.href) && 'tab-active']}
+              >
+                {item.label}
+              </a>
+            )}
           </li>
         ))}
       </ul>
@@ -60,18 +98,42 @@ const isActive = (href: string) => path === href;
   <nav id="mobile-menu" aria-label="Mobile navigation" class="hidden border-t border-hairline bg-canvas lg:hidden">
     <ul class="page-x flex flex-col py-2">
       {nav.map((item) => (
-        <li>
-          <a
-            href={item.href}
-            aria-current={isActive(item.href) ? 'page' : undefined}
-            class:list={[
-              'flex min-h-[48px] items-center border-b border-hairline text-base last:border-0',
-              isActive(item.href) ? 'font-semibold text-ink-2' : 'text-muted',
-            ]}
-          >
-            {item.label}
-          </a>
-        </li>
+        'children' in item ? (
+          <li class="border-b border-hairline last:border-0">
+            <span class="flex min-h-[48px] items-center text-base font-semibold text-ink-2">
+              {item.label}
+            </span>
+            <ul class="pb-2 pl-4">
+              {item.children.map((child) => (
+                <li>
+                  <a
+                    href={child.href}
+                    aria-current={isActive(child.href) ? 'page' : undefined}
+                    class:list={[
+                      'flex min-h-[40px] items-center text-base',
+                      isActive(child.href) ? 'font-semibold text-ink-2' : 'text-muted',
+                    ]}
+                  >
+                    {child.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ) : (
+          <li>
+            <a
+              href={item.href}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+              class:list={[
+                'flex min-h-[48px] items-center border-b border-hairline text-base last:border-0',
+                isActive(item.href) ? 'font-semibold text-ink-2' : 'text-muted',
+              ]}
+            >
+              {item.label}
+            </a>
+          </li>
+        )
       ))}
       <li class="py-4">
         <a href="/#book-now" class="btn-primary w-full">

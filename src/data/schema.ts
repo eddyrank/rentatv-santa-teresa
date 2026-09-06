@@ -71,6 +71,7 @@ export function serviceSchema(opts: {
   name: string;
   description: string;
   url: string;
+  offers?: { price: number; description: string }[];
 }) {
   return {
     '@context': 'https://schema.org',
@@ -81,5 +82,15 @@ export function serviceSchema(opts: {
     serviceType: 'ATV rental',
     provider: { '@id': `${site.url}/#business` },
     areaServed: site.areaServed.map((area) => ({ '@type': 'Place', name: area })),
+    ...(opts.offers?.length
+      ? {
+          offers: opts.offers.map((offer) => ({
+            '@type': 'Offer',
+            price: offer.price,
+            priceCurrency: 'USD',
+            description: offer.description,
+          })),
+        }
+      : {}),
   };
 }

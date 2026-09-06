@@ -52,7 +52,13 @@ const year = new Date().getFullYear();
         <ul class="mt-4 space-y-2 text-body">
           <li><a href="/" class="on-dark-link">Home</a></li>
           {nav.map((item) => (
-            <li><a href={item.href} class="on-dark-link">{item.label}</a></li>
+            'children' in item ? (
+              item.children.map((child) => (
+                <li><a href={child.href} class="on-dark-link">{item.label} — {child.label}</a></li>
+              ))
+            ) : (
+              <li><a href={item.href} class="on-dark-link">{item.label}</a></li>
+            )
           ))}
         </ul>
       </nav>

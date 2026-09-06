@@ -8,14 +8,34 @@ import BookingWidget from '../components/BookingWidget.astro';
 import InfoCard from '../components/InfoCard.astro';
 import Photo from '../components/Photo.astro';
 import { site, whatsappLink } from '../data/site';
-import { serviceSchema } from '../data/schema';
+import { serviceSchema, faqSchema } from '../data/schema';
 
-const schema = serviceSchema({
-  name: 'ATV rentals in Santa Teresa, Costa Rica',
-  description:
-    'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $50/day.',
-  url: `${site.url}/atv-rentals`,
-});
+const faqs = [
+  { q: "Do I need a driver's license?", a: "Yes. You need a valid physical driver's license from your home country. A photo or digital copy is not accepted." },
+  { q: 'Can two people ride one ATV?', a: 'Yes. Every quad in our fleet can accommodate one or two riders.' },
+  { q: 'Do you deliver in Santa Teresa?', a: 'Yes. Free delivery and collection within Santa Teresa.' },
+  { q: 'Can I ride to Montezuma?', a: 'Yes. It is approximately 22 km and takes around 50 minutes depending on conditions.' },
+  { q: 'Is 4x4 useful here?', a: 'Yes. Many roads are unpaved and can become rough or muddy.' },
+  { q: 'Is fuel included?', a: 'The tank is full when you pick up and is expected to come back full. Fuel itself is not included in the rental price, but you always start with a full tank.' },
+  { q: 'Are helmets included?', a: 'Yes. One helmet per rider, included with every rental.' },
+  { q: 'Can I rent for a week?', a: 'Yes. Longer rentals have discounted daily rates starting from 3 days.' },
+];
+
+const schema = [
+  serviceSchema({
+    name: 'ATV rentals in Santa Teresa, Costa Rica',
+    description:
+      'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $50/day.',
+    url: `${site.url}/atv-rentals`,
+    offers: [
+      { price: 65, description: 'Daily rate for rentals under 3 days' },
+      { price: 60, description: 'Daily rate for rentals of 3 to 7 days' },
+      { price: 55, description: 'Daily rate for rentals over 7 days' },
+      { price: 50, description: 'Daily rate for rentals of two weeks or more' },
+    ],
+  }),
+  faqSchema(faqs),
+];
 
 const fleet = [
   {
@@ -285,16 +305,7 @@ const areas = [
   <section class="page-x section-y" aria-labelledby="faq-rentals">
     <SectionHeading eyebrow="Quick answers" title="Frequently asked questions" />
     <dl class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {[
-        { q: "Do I need a driver's license?", a: "Yes. You need a valid physical driver's license from your home country. A photo or digital copy is not accepted." },
-        { q: 'Can two people ride one ATV?', a: 'Yes. Every quad in our fleet can accommodate one or two riders.' },
-        { q: 'Do you deliver in Santa Teresa?', a: 'Yes. Free delivery and collection within Santa Teresa.' },
-        { q: 'Can I ride to Montezuma?', a: 'Yes. It is approximately 22 km and takes around 50 minutes depending on conditions.' },
-        { q: 'Is 4x4 useful here?', a: 'Yes. Many roads are unpaved and can become rough or muddy.' },
-        { q: 'Is fuel included?', a: 'The tank is full when you pick up and is expected to come back full. Fuel itself is not included in the rental price, but you always start with a full tank.' },
-        { q: 'Are helmets included?', a: 'Yes. One helmet per rider, included with every rental.' },
-        { q: 'Can I rent for a week?', a: 'Yes. Longer rentals have discounted daily rates starting from 3 days.' },
-      ].map(({ q, a }) => (
+      {faqs.map(({ q, a }) => (
         <div class="rounded-md border border-hairline p-5">
           <dt class="font-semibold text-ink-2">{q}</dt>
           <dd class="mt-2 text-base text-muted">{a}</dd>
