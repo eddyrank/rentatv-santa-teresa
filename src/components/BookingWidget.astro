@@ -261,6 +261,11 @@ const { compact = false } = Astro.props;
     sendBtn.addEventListener('click', function () {
       const msg = buildMessage();
       const url = WA_BASE + '?text=' + encodeURIComponent(msg);
+      // GTM can't see this navigation natively (it's window.open, not a link
+      // click), so push a dataLayer event explicitly. GTM trigger: Custom
+      // Event named "whatsapp_click".
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'whatsapp_click', cta_location: 'booking_widget' });
       window.open(url, '_blank', 'noopener');
     });
   })();
