@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
+import ShareBar from '../components/ShareBar.astro';
 import { site } from '../data/site';
 
 interface Props {
@@ -21,7 +22,9 @@ const {
 } = Astro.props;
 
 const canonicalUrl = `${site.url}/blog/${slug}`;
-const ogImage = image || `${site.url}/og-default.jpg`;
+// `image` is a site-relative path (e.g. "/photos/x-1200.webp"); og:image and
+// share-intent URLs (Pinterest's `media` param) both need an absolute URL.
+const ogImage = image ? `${site.url}${image}` : `${site.url}/og-default.jpg`;
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -131,6 +134,9 @@ const articleSchema = {
       <div class="prose-content">
         <slot />
       </div>
+
+      <!-- Share -->
+      <ShareBar url={canonicalUrl} title={title} image={ogImage} />
 
       <!-- CTA -->
       <div class="mt-14 rounded-media bg-surface p-8 text-center">
