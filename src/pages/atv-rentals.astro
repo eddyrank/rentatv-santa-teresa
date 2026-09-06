@@ -56,7 +56,7 @@ const fleet = [
     photo: 'fleet-kymco-front',
     alt: 'Black Kymco 4x4 ATV available for rent in Santa Teresa',
     name: 'Kymco 4x4 ATV',
-    body: 'The Kymco is straightforward and easy to get comfortable on fast — a good fit if this is your first time on a quad or you just want simple, predictable handling on the coast road. Fully automatic, with the same locking cargo box and passenger seat as the rest of the fleet.',
+    body: 'The Kymco is straightforward and easy to get comfortable on fast, a good fit if this is your first time on a quad or you just want simple, predictable handling on the coast road. Fully automatic, with the same locking cargo box and passenger seat as the rest of the fleet.',
     specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
   },
 ];
@@ -66,7 +66,7 @@ const fleetShared =
 
 const included = [
   'A helmet for every rider',
-  'Full tank at pickup — return it full (fuel itself isn\'t included in the rate)',
+  'Full tank at pickup, return it full (fuel itself isn\'t included in the rate)',
   'Local route advice on where to ride',
   'Basic liability insurance',
   'Free delivery and collection in Santa Teresa',
@@ -75,7 +75,7 @@ const included = [
 ];
 
 const bring = [
-  "A valid driver's license from your home country — the physical card, not a photo",
+  "A valid driver's license from your home country: the physical card, not a photo",
   'Closed shoes (flip-flops are not safe on a quad)',
   'Sunglasses or eye protection',
   'A card or cash for the security deposit (from $500), refunded on return',
@@ -90,7 +90,7 @@ const areas = [
 
 <BaseLayout
   title="ATV Rentals Santa Teresa | Rent ATV Santa Teresa"
-  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica — Can-Am, Honda or Kymco. Helmets and free hotel delivery included. From $50/day."
+  description="Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica: Can-Am, Honda or Kymco. Helmets and free hotel delivery included. From $50/day."
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'ATV rentals', href: '/atv-rentals' }]} />
@@ -176,7 +176,7 @@ const areas = [
 
   <!-- Fleet -->
   <section class="page-x section-y" aria-labelledby="fleet">
-    <SectionHeading eyebrow="The fleet" title="Three machines, properly kept" subtitle="We run three models rather than whatever was cheapest — each picked for what it does well, and every one of them serviced between rentals, not once a season." />
+    <SectionHeading eyebrow="The fleet" title="Three machines, properly kept" subtitle="We run three models rather than whatever was cheapest, each picked for what it does well, and every one of them serviced between rentals, not once a season." />
     <div class="mt-8 grid gap-6 md:grid-cols-3">
       {fleet.map((quad) => (
         <article class="flex flex-col">

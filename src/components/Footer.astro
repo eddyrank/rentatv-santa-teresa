@@ -54,7 +54,7 @@ const year = new Date().getFullYear();
           {nav.map((item) => (
             'children' in item ? (
               item.children.map((child) => (
-                <li><a href={child.href} class="on-dark-link">{item.label} — {child.label}</a></li>
+                <li><a href={child.href} class="on-dark-link">{item.label} · {child.label}</a></li>
               ))
             ) : (
               <li><a href={item.href} class="on-dark-link">{item.label}</a></li>
