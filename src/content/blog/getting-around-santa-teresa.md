@@ -14,7 +14,7 @@ When I first started operating here, I watched a lot of visitors figure this out
 
 ## The roads here
 
-The main road from Santa Teresa through to Mal País is paved, which surprises some people who expect a fully off-road experience. What is not paved are the side roads, the tracks up to hillside villas, the routes through the hills toward Manzanillo, and large sections north of Santa Teresa toward Playa Hermosa and beyond.
+The main road from Santa Teresa through to [Mal País](/atv-rentals-mal-pais) is paved, which surprises some people who expect a fully off-road experience. What is not paved are the side roads, the tracks up to hillside villas, the routes through the hills toward Manzanillo, and large sections north of Santa Teresa toward Playa Hermosa and beyond.
 
 In the dry season, from December to April, the unpaved sections are heavily corrugated and dusty. In the green season, from May to November, they soften after heavy rain, with potholes and standing water at the lower points.
 
@@ -40,7 +40,7 @@ Some visitors rent a car. The practical problem is that the roads leading to man
 
 ### Renting an ATV
 
-For most visitors staying more than a day or two, renting an ATV in Santa Teresa is the most practical option. The reasons are straightforward.
+For most visitors staying more than a day or two, [renting an ATV](/atv-rentals) in Santa Teresa is the most practical option. The reasons are straightforward.
 
 **They handle the road.** Our 4x4 quads have proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
 
