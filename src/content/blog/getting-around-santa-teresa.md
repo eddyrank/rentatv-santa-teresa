@@ -36,7 +36,7 @@ For reaching Mal País to the south, Playa Hermosa to the north, or anything inv
 
 ### Renting a car
 
-Some visitors rent a car. The practical problem is that the roads leading to many accommodations, and the routes between beaches, are better suited to higher clearance vehicles. A standard rental car struggles on the rougher sections, and the cost of a daily car rental often exceeds the cost of an ATV rental, with less flexibility and more difficulty parking.
+Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose). The practical problem is that the roads leading to many accommodations, and the routes between beaches, are better suited to higher clearance vehicles. A standard rental car struggles on the rougher sections, and the cost of a daily car rental often exceeds the cost of an ATV rental, with less flexibility and more difficulty parking.
 
 ### Renting an ATV
 

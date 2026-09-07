@@ -22,9 +22,9 @@ Choose an ATV for flexible beach-hopping and regular local outings with light ge
 
 ### When an ATV Usually Makes Sense
 
-An ATV generally suits one or two licensed riders staying around Santa Teresa, Mal País, Playa Carmen, or Playa Hermosa. Its compact size makes it easy to park and position for repeated surf checks, restaurant visits, and errands.
+An ATV generally suits one or two licensed riders staying around Santa Teresa, [Mal País](/atv-rentals-mal-pais), Playa Carmen, or Playa Hermosa. Its compact size makes it easy to park and position for repeated surf checks, restaurant visits, and errands.
 
-A fully automatic ATV needs no manual gear changes, so anyone can hop on and go. The fully automatic fleet available locally, with Can-Am, Honda, and Kymco models, typically adds 4x4 traction, passenger seating, and secure storage for everyday coast-road travel.
+[A fully automatic ATV](/atv-rentals) needs no manual gear changes, so anyone can hop on and go. The fully automatic fleet available locally, with Can-Am, Honda, and Kymco models, typically adds 4x4 traction, passenger seating, and secure storage for everyday coast-road travel.
 
 ### When a Rental Car Usually Makes Sense
 
@@ -86,7 +86,7 @@ Use a car when your bags don't fit securely inside a locking cargo box or on app
 
 ## Make Safety and Legal Requirements Part of the Decision
 
-ATV renters need to meet the provider's minimum age requirement and carry a valid physical driver's licence. Read the agreement before you head out, including permitted roads, restricted use, insurance terms, and who's responsible for damage.
+ATV renters need to meet the provider's minimum age requirement and carry a [valid physical driver's licence](/faq). Read the agreement before you head out, including permitted roads, restricted use, insurance terms, and who's responsible for damage.
 
 Every rider should wear a helmet, and the driver needs closed-toe footwear. Stay sober, slow down on loose surfaces, and ask for local route advice and a controls walkthrough before you head out if you haven't ridden a quad before.
 
