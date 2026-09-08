@@ -14,7 +14,7 @@ Here's when each vehicle works well, what the local roads demand, and the costs 
 
 ## Start With How You Will Use Transport
 
-Santa Teresa stretches along a Pacific dirt road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you depends on where you're staying, how many people you're traveling with, what you need to carry, and whether you're planning regional day trips.
+Santa Teresa stretches along a paved coastal road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you depends on where you're staying, how many people you're traveling with, what you need to carry, and whether you're planning regional day trips.
 
 A quad is exposed, and that's exactly what makes it good for frequent short trips around town. A rental car gives you enclosed seating and more capacity, but it can be awkward on narrow access roads and rough tracks.
 
@@ -34,7 +34,7 @@ Consider a car if your plans include Tambor Airport, longer highway stretches, o
 
 ## Compare Santa Teresa Road Conditions
 
-The <a href="https://costaricafrontier.com/destinations/santa-teresa/" target="_blank" rel="nofollow noopener">main road through Santa Teresa is dirt</a> and runs parallel to several kilometres of open beach. Corrugation and dust are part of daily life during the dry months, and in the green season you'll find mud, ruts, soft edges, and pooled water instead.
+The main road through Santa Teresa is paved and runs parallel to several kilometres of open beach, though it turns partially unpaved on the stretch toward Montezuma. Corrugation and dust are part of daily life on the unpaved sections during the dry months, and in the green season you'll find mud, ruts, soft edges, and pooled water instead.
 
 Steep driveways leading to hillside villas can actually be harder than the coast road itself. Ask about that final approach to your accommodation, don't judge the whole trip by the main route alone.
 
