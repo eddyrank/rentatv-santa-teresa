@@ -57,11 +57,39 @@ Body paragraphs
 
 ### Road accuracy
 
-The main road from Santa Teresa to Mal País and from Santa Teresa to Cobano is paved. Other routes, including inland tracks, hill roads, and the route north toward Manzanillo, are unpaved and can become rough and muddy in the green season. Never describe the entire road network as paved or entirely unpaved.
+The main road from Santa Teresa to Mal País and from Santa Teresa to Cobano is paved. Other routes, including inland tracks, hill roads, the route north toward Manzanillo, and the stretch toward Montezuma, are unpaved and can become rough and muddy in the green season. Never describe the entire road network as paved or entirely unpaved, and never describe "the main road" itself as dirt or unpaved.
 
 ### Images are required in every post
 
 Every post must have image fields in its frontmatter. If a real photo has not been provided, leave the path as an empty string. The layout renders a branded placeholder automatically. Never skip the image fields.
+
+### Hero image must be unique per post
+
+Never reuse a hero image (the frontmatter `image` field) that is already the hero of another published post. Check the other files in `src/content/blog/` before picking one. The real photos available are in `public/photos/` (each as `-800.webp` and `-1200.webp`): `coast-road-beach`, `cove-sunset`, `fleet-canam-side`, `fleet-honda-side`, `fleet-kymco-front`, `jungle-trail`, `jungle-tunnel-road`, `malpais-cove`, `manzanillo-headland`. Pick whichever of these best fits the post's specific topic; use the frontmatter `image` field with the `-1200` path.
+
+### Body images — two to three per post
+
+Every post needs at least two, ideally three, images inside the body itself, not just the hero. Distribute them across sections rather than clustering them near the top, and place each one where it actually illustrates the surrounding paragraph (a road-condition photo in the roads section, a fleet photo in the ATV section, a destination photo in the distances/itinerary section, and so on).
+
+Body images are not Astro components (posts are plain markdown), so add them as raw HTML using the site's existing photo sizes and the `media-frame` utility class, matching the image's real aspect ratio so nothing shifts on load:
+
+```html
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
+  <img
+    src="/photos/jungle-trail-1200.webp"
+    srcset="/photos/jungle-trail-800.webp 800w, /photos/jungle-trail-1200.webp 1200w"
+    sizes="(min-width: 1024px) 700px, 100vw"
+    alt="Descriptive alt text, specific to what is in the photo"
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>
+```
+
+`jungle-trail` and `cove-sunset` are 1200x675 (use `aspect-ratio: 16/9`, `height="675"`); the rest are 1200x900 (`aspect-ratio: 4/3`, `height="900"`). Do not reuse the same photo already used as this post's own hero image, but reusing a photo that is another post's hero (as a body image, not a hero) is fine given the limited library.
 
 ## Frontmatter template (required for every post)
 
@@ -85,7 +113,7 @@ The `imageAlt` must be written even when the image path is empty. It describes t
 
 **Two to four H2 sections.** Each section answers one question the target reader actually has. Practical, specific, honest. Use personal anecdotes to illustrate points. Do not pad.
 
-**Closing paragraph (no heading, no "conclusion" heading).** End with a forward-looking line that connects naturally to renting a quad. Not a hard sell. The WhatsApp CTA is added automatically by the layout; do not include it in the markdown.
+**Conclusion (H2, required, always the last section before any FAQ).** Every post ends with a `## Conclusion` section: a short summary of the takeaway that connects naturally to renting a quad. Not a hard sell. If the post has a Frequently Asked Questions section, the Conclusion goes immediately before it, as the bridge out of the practical content and into the FAQ. The WhatsApp CTA is added automatically by the layout; do not include it in the markdown.
 
 ## Tone calibration
 
@@ -112,7 +140,7 @@ The `imageAlt` must be written even when the image path is empty. It describes t
 - Fleet: Can-Am Outlander 450 4x4, fully automatic, locking rear cargo box, front and rear racks
 - Delivery: free to hotels in Santa Teresa, Playa Carmen, Mal País
 - Rates: $65/day (under 3 days), $60/day (3-7 days), $55/day (7+ days), $50/day (14+ days)
-- Road: partially paved. Santa Teresa to Mal País is paved. Inland and northern routes are unpaved.
+- Road: partially paved. Santa Teresa to Mal País and to Cobano is paved. Inland routes, northern routes toward Manzanillo, and the stretch toward Montezuma are unpaved.
 - Distances: Playa Carmen 0 km, Santa Teresa 2 km, Playa Hermosa 5 km, Manzanillo 14 km, Montezuma 22 km
 - Licence: physical driver's licence required, photo not accepted
 - Closed shoes required (no flip-flops)
