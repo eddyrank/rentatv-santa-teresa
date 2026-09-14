@@ -65,7 +65,7 @@ ATV costs may include fuel and a refundable security deposit. Unsafe riding, pro
 
 ## Factor In Santa Teresa Road Conditions
 
-Although a small section of the town road is asphalted, the <a href="https://mytanfeet.com/cities-costa-rica/santa-teresa-costa-rica/" target="_blank" rel="nofollow noopener">majority of roads in Santa Teresa are unpaved and have potholes that worsen in the rainy season</a>. During the dry season, surfaces can become dusty and corrugated, while low points may soften, collect water, or become muddy during the green season.
+Although a small section of the town road is asphalted, the majority of roads in Santa Teresa are unpaved and have potholes that worsen in the rainy season. During the dry season, surfaces can become dusty and corrugated, while low points may soften, collect water, or become muddy during the green season.
 
 A short map distance does not guarantee a quick journey when traffic must slow for potholes, loose surfaces, standing water, or road work. Conditions vary with rainfall, maintenance, route, and the capabilities of the specific vehicle.
 
@@ -99,7 +99,7 @@ When arranging collection, provide the exact accommodation name and a location p
 
 ## Choose Based on Safety, Licence, and Confidence
 
-Documentation requirements vary by provider. <a href="https://www.quadtourscostarica.com/" target="_blank" rel="nofollow noopener">Pacific Dirt Road's rental requirements</a> list a passport or Costa Rican cédula, a valid driver's license, and a Visa or Mastercard for the security deposit; <a href="https://www.adventuretourscostarica.com/about/faqs/page/38" target="_blank" rel="nofollow noopener">Adventure Tours Costa Rica</a> states that renters must be at least 18 and notes that age requirements may vary by rental company.
+Documentation requirements vary by provider. Some Santa Teresa rental operators list a passport or Costa Rican cédula, a valid driver's license, and a Visa or Mastercard for the security deposit, and require renters to be at least 18, though age and document requirements can vary by rental company.
 
 An ATV is not suitable for everyone, particularly anyone uncomfortable controlling a vehicle on loose, wet, or uneven surfaces. Local route advice and a controls walkthrough before you set off help, but they don't remove the risks that come from speed, weather, traffic, or poor judgment.
 
@@ -194,7 +194,7 @@ It can be worthwhile for licensed adults making several daytime trips over multi
 
 #### Do You Need a Driver's Licence to Rent an ATV in Santa Teresa?
 
-Requirements vary by provider. <a href="https://www.quadtourscostarica.com/" target="_blank" rel="nofollow noopener">Pacific Dirt Road</a> lists a valid driver's license among the documents needed to rent an ATV or moto, along with a passport or Costa Rican cédula and a Visa or Mastercard for the security deposit.
+Requirements vary by provider. Most Santa Teresa rental operators list a valid driver's license among the documents needed to rent an ATV or moto, along with a passport or Costa Rican cédula and a Visa or Mastercard for the security deposit.
 
 #### How Much Does a Taxi Cost in Santa Teresa?
 
