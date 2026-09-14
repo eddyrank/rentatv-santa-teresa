@@ -24,7 +24,7 @@ This is not a complaint. It is part of what makes Santa Teresa feel the way it d
 
 ### Taxis
 
-Taxis exist in Santa Teresa and are useful for one-off trips, particularly airport transfers or late-night rides. For daily movement around town they become expensive quickly. If you are moving between the beach, your accommodation, a restaurant, and a surf spot several times a day, taxi costs add up to more than a rental over a multi-day stay.
+[Taxis exist in Santa Teresa](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) and are useful for one-off trips, particularly airport transfers or late-night rides. For daily movement around town they become expensive quickly. If you are moving between the beach, your accommodation, a restaurant, and a surf spot several times a day, taxi costs add up to more than a rental over a multi-day stay.
 
 There is also the waiting time. Taxis here are not like ordering an Uber. You call, you wait, sometimes you wait a long time.
 

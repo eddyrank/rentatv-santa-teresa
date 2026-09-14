@@ -87,7 +87,7 @@ Travelers can review general destination information through the [Costa Rica Tou
 
 ### ATV Access and Practical Limits
 
-Useful local features include 4x4 capability, ground clearance, locking cargo boxes, and passenger seating designed for the vehicle. These can help with hills, smaller bags, beach gear, and repeated trips along the coast.
+Useful local features include 4x4 capability, ground clearance, [locking cargo boxes](/atv-rentals), and passenger seating designed for the vehicle. These can help with hills, smaller bags, beach gear, and repeated trips along the coast.
 
 Use public roads only where permitted and follow local signs and rental instructions. Never assume beach riding is allowed, and avoid night riding, river crossings, or routes beyond your ability or rental agreement.
 
@@ -119,7 +119,7 @@ Keep valuables with you rather than placing them where they could be forgotten. 
 
 ## Match the Option to Your Itinerary
 
-No single option is right for every stay. Accommodation near Playa Carmen may place restaurants and services relatively close, while villas above Santa Teresa, stays in Playa Hermosa, or plans involving Mal País can create more frequent transportation needs.
+No single option is right for every stay. Accommodation near Playa Carmen may place restaurants and services relatively close, while villas above Santa Teresa, stays in [Playa Hermosa](/blog/getting-around-santa-teresa), or plans involving [Mal País](/atv-rentals-mal-pais) can create more frequent transportation needs.
 
 A mixed approach often works well. Use an ATV for suitable daytime journeys, then take a taxi when darkness, alcohol, heavy rain, fatigue, or unfamiliar roads increase the risk.
 
