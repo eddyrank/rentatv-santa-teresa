@@ -20,11 +20,11 @@ Service matters as well. I keep the fleet serviced between rentals and offer roa
 
 ### When You Can Probably Skip an ATV
 
-A two-night stay in central Playa Carmen or central Santa Teresa can work fine when the beach, meals, and essential shops sit close to your accommodation. You should also skip self-driving if you don't have a valid physical driver's licence, don't like rough-road conditions, or plan on drinking.
+A two-night stay in central Playa Carmen or central Santa Teresa can work fine when the beach, meals, and essential shops sit close to your accommodation. You should also skip self-driving if you don't have a [valid physical driver's licence](/faq), don't like rough-road conditions, or plan on drinking.
 
 ### When an ATV Makes Daily Travel Easier
 
-A quad earns its keep for hillside villas, Mal País accommodation, properties outside the central strip, or several trips a day. Think of it as transportation first. Independent exploring is a nice bonus, not the reason to rent.
+A quad earns its keep for hillside villas, [Mal País](/atv-rentals-mal-pais) accommodation, properties outside the central strip, or several trips a day. Think of it as transportation first. Independent exploring is a nice bonus, not the reason to rent.
 
 ## Map Your Accommodation and Daily Routes First
 

@@ -40,7 +40,7 @@ Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose
 
 ### Renting an ATV
 
-For most visitors staying more than a day or two, [renting an ATV](/atv-rentals) in Santa Teresa is the most practical option. The reasons are straightforward.
+[For most visitors staying more than a day or two](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), [renting an ATV](/atv-rentals) in Santa Teresa is the most practical option. The reasons are straightforward.
 
 **They handle the road.** Our 4x4 quads have proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
 
