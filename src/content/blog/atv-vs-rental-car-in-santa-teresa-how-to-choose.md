@@ -6,6 +6,11 @@ tags: ["santa teresa", "atv rental", "rental car", "travel tips"]
 image: "/photos/coast-road-beach-1200.webp"
 imageAlt: "The paved coastal road running along the beach through Santa Teresa"
 featured: true
+tldr:
+  - "An ATV suits one or two riders with light bags making frequent short trips around Santa Teresa, Mal País, Playa Carmen, and Playa Hermosa."
+  - "A rental car suits families, bigger groups, heavy luggage, airport transfers, and longer regional drives."
+  - "Compare the total cost for your whole stay (fuel, deposit, insurance, delivery), not the headline daily rate."
+  - "Many visitors mix the two: enclosed transport for arrival and departure, an ATV for the days in between."
 ---
 
 Your accommodation might look close to the beach on the map, but rough roads, hills, and scattered services make transport something you'll think about every day here. Comparing an ATV vs. rental car in Santa Teresa means looking past the price tag to terrain, passengers, luggage, weather, and distance.
@@ -14,7 +19,7 @@ Here's when each vehicle works well, what the local roads demand, and the costs 
 
 ## Start With How You Will Use Transport
 
-Santa Teresa stretches along a paved coastal road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you depends on where you're staying, how many people you're traveling with, what you need to carry, and whether you're planning regional day trips.
+Santa Teresa stretches along a paved coastal road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you [depends on where you're staying](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), how many people you're traveling with, what you need to carry, and whether you're planning regional day trips.
 
 A quad is exposed, and that's exactly what makes it good for frequent short trips around town. A rental car gives you enclosed seating and more capacity, but it can be awkward on narrow access roads and rough tracks.
 
@@ -84,7 +89,7 @@ Never push through a questionable water crossing just because you have 4x4. If y
 
 Compare the total cost for your whole stay, not just the advertised daily rate. Factor in fuel, delivery, insurance, parking, transfers, the security deposit, optional protection, and possible damage charges.
 
-Multi-day pricing changes the math since ATV rates drop after three days. An occasional ride with a driver or shuttle can work fine, but doing that over and over across several days can end up costing more than just having your own vehicle.
+Multi-day pricing changes the math since ATV rates drop after three days. [An occasional ride with a taxi or shuttle](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) can work fine, but doing that over and over across several days can end up costing more than just having your own vehicle.
 
 Before you book, confirm the fuel policy, deposit method, deductible, damage exclusions, and what the basic liability coverage actually protects. "Helmets and basic liability insurance included" doesn't mean every vehicle damage or rider expense is covered.
 

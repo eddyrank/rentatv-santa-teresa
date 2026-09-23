@@ -6,6 +6,11 @@ tags: ["santa teresa", "atv rental", "getting around", "travel tips"]
 image: "/photos/malpais-cove-1200.webp"
 imageAlt: "A quiet cove near Mal País, the kind of accommodation area where an ATV makes daily trips easier"
 featured: true
+tldr:
+  - "An ATV is not essential for a short stay in central Playa Carmen or central Santa Teresa where the beach, meals, and shops are close by."
+  - "It earns its keep for hillside villas, Mal País stays, properties off the main strip, or several trips a day."
+  - "Check your exact property pin and the final access road before you arrive. The last stretch to the door is often the hardest part."
+  - "Green-season rain turns unpaved roads muddy and slick, so plan unfamiliar rides in daylight and slow down."
 ---
 
 Your accommodation may look close to the beach on a map, yet sit above a steep, deeply rutted access road. If you're asking yourself whether you need an ATV in Santa Teresa, the answer depends on your location, daily plans, riding confidence, and the season. Here's how I'd think it through, and what to check before renting one in Costa Rica.
@@ -50,7 +55,7 @@ Steep driveways, loose gravel, deep ruts, and mud are exactly where 4x4 capabili
 
 ## Understand Santa Teresa Road Conditions by Season
 
-A small section of the town road is asphalted, but the majority of roads in Santa Teresa are unpaved, with potholes that worsen in the rainy season. In the dry season the surface turns dusty and corrugated, while the low points soften or turn muddy during the green season.
+The main road from Santa Teresa to Mal País and Cobano is paved, but a lot of the roads branching off it are not. Side streets, hill tracks, and villa driveways are dirt or gravel, with potholes that worsen in the rainy season. In the dry season the surface turns dusty and corrugated, while the low points soften or turn muddy during the green season.
 
 <div class="media-frame my-8" style="aspect-ratio: 16/9">
   <img
@@ -88,7 +93,7 @@ A self-drive ATV rental gives you flexible departure times, compact parking, and
 
 A UTV offers side-by-side seating and more carrying space, though its larger footprint can make narrow access and parking harder. A bicycle costs less to run but takes more effort in heat, rain, dust, and hills.
 
-For regional context before planning longer excursions, Costa Rica Tourism's [Nicoya Peninsula guide](https://www.visitcostarica.com/where-to-go/guanacaste/nicoya) is worth a look. Route distance, road surface, weather, luggage, and your own riding confidence should carry more weight than a single advertised daily price.
+For regional context before planning longer excursions, Costa Rica Tourism's [Nicoya Peninsula guide](https://www.visitcostarica.com/en/costa-rica/where-to-go/puntarenas) is worth a look. Route distance, road surface, weather, luggage, and your own riding confidence should carry more weight than a single advertised daily price.
 
 Published rates from other operators vary, so it's worth comparing more than one quote before you book. At Rent ATV Santa Teresa, rates decrease for rentals of three days or more, which is why the full-stay cost matters more than a one-day comparison.
 

@@ -5,6 +5,11 @@ pubDate: "2026-09-14"
 image: "/photos/jungle-trail-1200.webp"
 featured: true
 imageAlt: "A dirt trail through the jungle outside Santa Teresa, the kind of terrain where an ATV has a real edge over a taxi"
+tldr:
+  - "A taxi is the simpler pick for airport transfers, one-off trips, and evenings when nobody in your group should drive."
+  - "If you go out two or three times a day, taxi fares add up quickly and an ATV usually works out cheaper over a few days."
+  - "An ATV only makes sense if you carry a physical driver's licence and feel comfortable on loose, uneven roads."
+  - "A mixed plan works well: an ATV for daytime trips, a taxi after dark, in heavy rain, or after drinks."
 ---
 
 Your accommodation might look close to the beach or restaurants on a map, but the local roads can make a short trip take longer than you'd expect. For travelers comparing ATV vs. taxi Santa Teresa transportation, the right choice depends on where they are staying, how often they will go out, and whether they are comfortable driving on rough roads.
@@ -29,7 +34,7 @@ A taxi leaves navigation and vehicle control to someone familiar with local dust
 
 A quad suits licensed visitors making several trips a day between beaches, restaurants, surf breaks, shops, and accommodations. It's especially useful when plans change throughout the day.
 
-A fully automatic ATV fleet with Can-Am, Honda, and Kymco models offers straightforward controls, while 4x4 models can help on the unpaved coast road and some steep driveways. Rates decrease for rentals of three days or more with some providers, so compare multi-day terms rather than repeatedly booking single days.
+A fully automatic ATV fleet with Can-Am, Honda, and Kymco models offers straightforward controls, while 4x4 models can help on unpaved side roads and steep driveways. Rates decrease for rentals of three days or more with some providers, so compare multi-day terms rather than repeatedly booking single days.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -65,7 +70,7 @@ ATV costs may include fuel and a refundable security deposit. Unsafe riding, pro
 
 ## Factor In Santa Teresa Road Conditions
 
-Although a small section of the town road is asphalted, the majority of roads in Santa Teresa are unpaved and have potholes that worsen in the rainy season. During the dry season, surfaces can become dusty and corrugated, while low points may soften, collect water, or become muddy during the green season.
+The main road from Santa Teresa to Mal País and Cobano is paved, but many of the side roads, hill tracks, and access roads to accommodation are unpaved and have potholes that worsen in the rainy season. During the dry season, surfaces can become dusty and corrugated, while low points may soften, collect water, or become muddy during the green season.
 
 A short map distance does not guarantee a quick journey when traffic must slow for potholes, loose surfaces, standing water, or road work. Conditions vary with rainfall, maintenance, route, and the capabilities of the specific vehicle.
 
@@ -101,7 +106,7 @@ When arranging collection, provide the exact accommodation name and a location p
 
 Documentation requirements vary by provider. Some Santa Teresa rental operators list a passport or Costa Rican cédula, a valid driver's license, and a Visa or Mastercard for the security deposit, and require renters to be at least 18, though age and document requirements can vary by rental company.
 
-An ATV is not suitable for everyone, particularly anyone uncomfortable controlling a vehicle on loose, wet, or uneven surfaces. Local route advice and a controls walkthrough before you set off help, but they don't remove the risks that come from speed, weather, traffic, or poor judgment.
+[An ATV is not necessary or suitable for everyone](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), particularly anyone uncomfortable controlling a vehicle on loose, wet, or uneven surfaces. Local route advice and a controls walkthrough before you set off help, but they don't remove the risks that come from speed, weather, traffic, or poor judgment.
 
 ### Safe ATV Habits for First-Time Visitors
 

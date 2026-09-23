@@ -5,6 +5,8 @@ const blog = defineCollection({
   schema: z.object({
     title:       z.string(),
     description: z.string(),
+    // Required so every post (including future ones) ships with a TL;DR box.
+    tldr:        z.array(z.string()).min(2).max(5),
     pubDate:     z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     author:      z.string().default('Rent ATV Santa Teresa'),

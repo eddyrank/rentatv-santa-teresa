@@ -91,12 +91,24 @@ Body images are not Astro components (posts are plain markdown), so add them as 
 
 `jungle-trail` and `cove-sunset` are 1200x675 (use `aspect-ratio: 16/9`, `height="675"`); the rest are 1200x900 (`aspect-ratio: 4/3`, `height="900"`). Do not reuse the same photo already used as this post's own hero image, but reusing a photo that is another post's hero (as a body image, not a hero) is fine given the limited library.
 
+### TL;DR is required in every post
+
+Every post needs a `tldr` list in its frontmatter: 3 to 4 short bullet points (the schema allows 2 to 5) summarizing the practical takeaways. The layout renders it as a "TL;DR" box between the hero image and the body, and the build fails if it is missing. Same voice rules as the body (first person where natural, no em dashes, accurate road and rate facts). Each bullet is one or two sentences a skimmer could act on, not a teaser.
+
+### Internal linking: every new post gets linked from every older post
+
+When publishing a new post, edit every existing post in `src/content/blog/` with an earlier `pubDate` and add one contextual link to the new post (`/blog/new-slug`). Put the link on an existing phrase in the body where the new post genuinely expands on the point, or lightly rework a sentence so it fits; never add a "related posts" list or a bare "read more" line, and never link from inside the TL;DR, a heading, or the FAQ. Skip an older post only if it already links to the new one. The new post should also link out to at least two relevant older posts. Run `npm run build` afterwards.
+
 ## Frontmatter template (required for every post)
 
 ```yaml
 ---
 title: "Post title — sentence case, specific, keyword included"
 description: "One sentence, 150 chars max, includes the target keyword"
+tldr:
+  - "First practical takeaway, one or two sentences"
+  - "Second takeaway"
+  - "Third takeaway"
 pubDate: YYYY-MM-DD
 image: "" # Replace with /photos/blog/filename.webp when photo is provided
 imageAlt: "Descriptive alt text written as if for a sighted person — what is in the photo"

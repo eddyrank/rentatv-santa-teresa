@@ -6,6 +6,11 @@ tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
 featured: true
+tldr:
+  - "Santa Teresa runs several kilometres along the coast, so walking only works if you stay close to the main strip."
+  - "The main road through to Mal País is paved. Side roads, hill tracks, and the routes toward Manzanillo are not, and they get rough after rain."
+  - "Taxis are fine for airport runs and late nights, but daily rides add up fast and you often wait a long time."
+  - "For stays longer than a day or two, a 4x4 ATV is the most practical option, and I deliver it free to hotels in Santa Teresa, Playa Carmen, and Mal País."
 ---
 
 Santa Teresa is not a compact town. It runs several kilometres along a road that is paved through the main stretch and into Mal País, with side tracks, hill roads, and routes north toward Manzanillo that are unpaved and can get rough after rain. Getting from one end to the other, and to the areas around Playa Hermosa, Playa Carmen, and beyond, takes more than a short walk.
