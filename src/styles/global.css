@@ -169,3 +169,18 @@
   .prose-content strong { @apply font-semibold text-ink-2; }
   .prose-content a  { @apply font-medium text-ink-2 underline underline-offset-2 hover:text-ink; }
   .prose-content hr { @apply my-10 border-hairline; }
+
+  /* Checklist callout: raw HTML inside a post (<aside class="checklist">).
+     Sand well + a jungle-green rule so it reads as a to-do, not more prose. */
+  .prose-content .checklist { @apply my-8 rounded-media border-l-4 border-jungle-800 bg-sand p-6 sm:p-8; }
+  .prose-content .checklist-title { @apply mb-4 text-micro font-semibold uppercase tracking-widest text-ink-2; }
+  .prose-content .checklist ul { @apply mb-0 space-y-3 pl-0; }
+  .prose-content .checklist li { @apply relative list-none pl-9 font-medium text-ink-2; }
+  .prose-content .checklist li::before {
+    content: '';
+    @apply absolute left-0 top-0 h-6 w-6 rounded-full bg-jungle-800;
+  }
+  .prose-content .checklist li::after {
+    content: '';
+    @apply absolute left-[9px] top-[5px] h-3 w-1.5 rotate-45 border-b-2 border-r-2 border-canvas;
+  }

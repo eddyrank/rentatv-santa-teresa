@@ -37,13 +37,16 @@ Check the exact property pin instead of relying on a general Santa Teresa addres
 
 Common journeys include Playa Carmen to Santa Teresa, Santa Teresa to Playa Hermosa, and Santa Teresa to Mal País. The distances look short on a map, but dust, traffic, potholes, standing water, and ruts can slow you down more than you'd expect.
 
-Use this checklist before you arrive:
-
-- Open the exact property location in satellite view.
-- Ask whether the final access road is paved, gravel, or dirt.
-- Confirm whether the driveway gets difficult after rain.
-- Estimate how many separate trips you'll make each day.
-- Check whether secure overnight parking is available.
+<aside class="checklist" aria-labelledby="arrival-checklist">
+  <p id="arrival-checklist" class="checklist-title">Before you arrive: 5 checks</p>
+  <ul>
+    <li>Open the exact property location in satellite view.</li>
+    <li>Ask whether the final access road is paved, gravel, or dirt.</li>
+    <li>Confirm whether the driveway gets difficult after rain.</li>
+    <li>Estimate how many separate trips you'll make each day.</li>
+    <li>Check whether secure overnight parking is available.</li>
+  </ul>
+</aside>
 
 ### Compact Areas
 
