@@ -1,4 +1,4 @@
-import { site } from './site';
+import { site, rates, fleetModels } from './site';
 
 /**
  * AutoRental is a schema.org subtype of LocalBusiness and is the closest
@@ -54,6 +54,53 @@ export const websiteSchema = {
   inLanguage: 'en',
   publisher: { '@id': `${site.url}/#business` },
 };
+
+/**
+ * One Offer per machine, each carrying the tiered daily rate as
+ * UnitPriceSpecifications (unitCode DAY) with the rental-length band each tier
+ * applies to. Rates come from site.ts, so they cannot drift from the page.
+ */
+export function fleetOffersSchema(url: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'ATV rental in Santa Teresa, Costa Rica',
+    serviceType: 'ATV rental',
+    url,
+    provider: { '@id': `${site.url}/#business` },
+    areaServed: site.areaServed.map((area) => ({ '@type': 'Place', name: area })),
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'ATV rental rates',
+      itemListElement: fleetModels.map((model) => ({
+        '@type': 'Offer',
+        name: `${model.name} rental`,
+        url,
+        priceCurrency: 'USD',
+        availability: 'https://schema.org/InStock',
+        itemOffered: {
+          '@type': 'Product',
+          name: model.name,
+          category: 'Fully automatic ATV',
+          image: `${site.url}/photos/${model.photo}-1200.webp`,
+        },
+        priceSpecification: rates.map((tier) => ({
+          '@type': 'UnitPriceSpecification',
+          price: tier.price,
+          priceCurrency: 'USD',
+          unitCode: 'DAY',
+          name: tier.label,
+          eligibleQuantity: {
+            '@type': 'QuantitativeValue',
+            unitCode: 'DAY',
+            minValue: tier.minDays,
+            ...(tier.maxDays !== undefined ? { maxValue: tier.maxDays } : {}),
+          },
+        })),
+      })),
+    },
+  };
+}
 
 export function faqSchema(items: { q: string; a: string }[]) {
   return {

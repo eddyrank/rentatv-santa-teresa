@@ -4,19 +4,79 @@ import PageHero from '../components/PageHero.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import CtaBand from '../components/CtaBand.astro';
-import { whatsappLink } from '../data/site';
+import Faq from '../components/Faq.astro';
+import { site, whatsappLink, rates, dailyRate } from '../data/site';
+import { fleetOffersSchema, faqSchema } from '../data/schema';
 import BookingWidget from '../components/BookingWidget.astro';
 
-const rentalRates = [
-  { period: 'Under 3 days', rate: '$65', per: 'per day' },
-  { period: '3 to 7 days', rate: '$60', per: 'per day' },
-  { period: 'Over 7 days', rate: '$55', per: 'per day' },
-  { period: '2 weeks or more', rate: '$50', per: 'per day' },
+// Worked totals, computed from the rate table so they can never disagree with it.
+const exampleTotals = [1, 3, 5, 7, 10, 14].map((days) => ({
+  days,
+  rate: dailyRate(days),
+  total: days * dailyRate(days),
+}));
+
+// Deliberately no fares for the other options: they vary by operator, season
+// and route, and a stale number here would be worse than none.
+const comparison = [
+  {
+    option: 'ATV rental',
+    cost: `$${rates.at(-1)!.price}–$${rates[0].price} per day, per quad, not per person`,
+    roads: 'Handles the unpaved side roads, hill driveways and green-season mud',
+    bestFor: 'Stays of a few days or more with several trips a day',
+  },
+  {
+    option: 'Taxi',
+    cost: 'Per trip; fares depend on distance, time of day and road access',
+    roads: 'Fine on the main road; slower to reach hillside villas on rough tracks',
+    bestFor: 'Airport transfers, one-off trips and nights out',
+  },
+  {
+    option: 'Golf cart rental',
+    cost: 'Per day, like an ATV',
+    roads: 'Comfortable on the paved main road; low clearance and road tyres struggle on steep, muddy side roads',
+    bestFor: 'Short hops along the paved coast road in dry season',
+  },
+  {
+    option: 'Rental car',
+    cost: 'Daily rate plus mandatory insurance, usually collected at the airport',
+    roads: 'Needs 4x4 for the side roads; hard to park at busy beaches',
+    bestFor: 'Groups of three or more, or touring beyond the peninsula',
+  },
 ];
+
+const faqs = [
+  {
+    q: 'How much is the security deposit?',
+    a: 'From $500, depending on which quad you rent. It is held on a card or paid in cash at pickup, and it is one deposit for the whole rental, not a daily charge.',
+  },
+  {
+    q: 'When do I get my deposit back?',
+    a: 'When we collect the quad at the end of your rental and check it over. A cash deposit is handed straight back; a card hold is released at the same point, though your bank may take a few days to clear it from your statement.',
+  },
+  {
+    q: 'What can be deducted from the deposit?',
+    a: 'Damage beyond normal wear, and a refuelling charge if the quad comes back without a full tank. Optional damage cover reduces what you are liable for if you would rather not carry that risk.',
+  },
+  {
+    q: 'Is the price per person or per ATV?',
+    a: 'Per ATV. A passenger rides at no extra charge, and every rental includes a helmet for each rider.',
+  },
+  {
+    q: 'Is fuel included in the rate?',
+    a: 'No. The quad arrives with a full tank and should come back full. If it does not, we refuel it for you at an extra cost on top of the fuel itself, so it is cheaper to fill up before we collect it.',
+  },
+  {
+    q: 'Are there any other fees?',
+    a: 'No booking fee, and delivery is free in Santa Teresa, Mal País, Playa Carmen and Playa Hermosa. Delivery to Cóbano or Cabuya has an extra fee, and optional damage cover is charged per day if you choose it.',
+  },
+];
+
+const schema = [fleetOffersSchema(`${site.url}/pricing`), faqSchema(faqs)];
 
 const extras = [
   { label: 'Security deposit', detail: 'From $500, held on card or in cash, refunded on return. Amount depends on quad type.' },
-  { label: 'Fuel', detail: 'Full at pickup, full on return. Refuelling on your behalf is charged at cost.' },
+  { label: 'Fuel', detail: 'Full at pickup, full on return. Refuelling on your behalf is charged at an extra cost, not the pump price.' },
   { label: 'Delivery', detail: 'Free in Santa Teresa, Mal País, Playa Carmen and Playa Hermosa. Extra fee to Cóbano or Cabuya.' },
   { label: 'Optional damage cover', detail: 'Available per day. Reduces what you are liable for if the quad comes back damaged.' },
   { label: 'Payment', detail: 'Cash in colones or US dollars, or card. Nothing is charged until pickup.' },
@@ -24,14 +84,15 @@ const extras = [
 ---
 
 <BaseLayout
-  title="ATV rental prices in Santa Teresa | Rent ATV Santa Teresa"
-  description="ATV rental prices in Santa Teresa, Costa Rica. Daily and weekly quad rates with helmets, insurance and free hotel delivery included."
+  title="ATV Rental Prices Santa Teresa (2026) | Rent ATV Santa Teresa"
+  description="What an ATV rental costs in Santa Teresa, Costa Rica in 2026: $65/day down to $50/day for two weeks+, the $500 deposit explained, and how it compares to taxis, golf carts and cars."
+  schema={schema}
 >
   <Breadcrumb items={[{ label: 'Pricing', href: '/pricing' }]} />
   <PageHero
     eyebrow="Rates"
-    title="ATV rental prices in Santa Teresa"
-    subtitle="Every rate includes helmets, basic insurance and free delivery within Santa Teresa. You start with a full tank of fuel and return it full — fuel itself isn't included in the rate. No booking fee and nothing added at the counter."
+    title="ATV rental prices in Santa Teresa (2026)"
+    subtitle="Every rate includes helmets, basic insurance and free delivery within Santa Teresa. You start with a full tank of fuel and return it full; fuel itself isn't included in the rate. No booking fee and nothing added at the counter."
   />
 
   <section class="page-x section-y" aria-labelledby="rental-rates">
@@ -47,16 +108,16 @@ const extras = [
         <thead>
           <tr class="border-b border-hairline">
             <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Length of rental</th>
-            <th scope="col" class="py-3 text-body font-semibold text-muted">Fully automatic 4x4 ATV</th>
+            <th scope="col" class="py-3 text-body font-semibold text-muted">Any quad: Can-Am, Honda or Kymco</th>
           </tr>
         </thead>
         <tbody>
-          {rentalRates.map((row) => (
+          {rates.map((row) => (
             <tr class="border-b border-hairline">
-              <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.period}</th>
+              <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.label}</th>
               <td class="py-4">
-                <span class="text-h4 font-semibold text-ink-2">{row.rate}</span>
-                <span class="ml-1 text-body text-muted">{row.per}</span>
+                <span class="text-h4 font-semibold text-ink-2">${row.price}</span>
+                <span class="ml-1 text-body text-muted">per day</span>
               </td>
             </tr>
           ))}
@@ -65,8 +126,84 @@ const extras = [
     </div>
 
     <p class="mt-6 text-base text-muted">
-      See what comes with each rental on the
-      <a href="/" class="link-inline">ATV rental page</a>.
+      All three machines are the same price; only the security deposit varies
+      by quad. See the fleet and what comes with each rental on the
+      <a href="/" class="link-inline">ATV rental in Santa Teresa</a> page.
+    </p>
+  </section>
+
+  <!-- Worked totals: answers "how much will my trip cost" directly -->
+  <section class="band-sand" aria-labelledby="total-cost">
+    <div class="page-x section-y">
+      <SectionHeading
+        eyebrow="Total cost"
+        title="What an ATV rental costs for your trip"
+        subtitle="The rate for the whole rental is set by its length, so a longer stay lowers the price of every day, not just the extra ones. The deposit is on top, and you get it back."
+      />
+      <div class="mt-8 overflow-x-auto">
+        <table class="w-full min-w-[28rem] border-collapse text-left text-base">
+          <caption class="sr-only">Example total ATV rental cost in Santa Teresa by number of days</caption>
+          <thead>
+            <tr class="border-b border-hairline">
+              <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Rental length</th>
+              <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Daily rate</th>
+              <th scope="col" class="py-3 text-body font-semibold text-muted">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {exampleTotals.map((row) => (
+              <tr class="border-b border-hairline">
+                <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.days} {row.days === 1 ? 'day' : 'days'}</th>
+                <td class="py-4 pr-4 text-muted">${row.rate}</td>
+                <td class="py-4"><span class="text-h4 font-semibold text-ink-2">${row.total}</span></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-6 max-w-3xl text-base text-muted">
+        Fuel is extra: you start full and return full. Delivery is free in
+        Santa Teresa, Mal País, Playa Carmen and Playa Hermosa, and there is
+        no booking fee.
+      </p>
+    </div>
+  </section>
+
+  <!-- Comparison: cost structure, not invented fares for other operators -->
+  <section class="page-x section-y" aria-labelledby="compare">
+    <SectionHeading
+      eyebrow="Compare your options"
+      title="ATV vs taxi, golf cart or rental car"
+      subtitle="The cheapest option depends on how often you go out and where you are staying. Here is how the costs are structured and where each one works."
+    />
+    <div class="mt-8 overflow-x-auto">
+      <table class="w-full min-w-[40rem] border-collapse text-left text-base">
+        <caption class="sr-only">Cost and road comparison of ATV rental, taxi, golf cart and rental car in Santa Teresa</caption>
+        <thead>
+          <tr class="border-b border-hairline">
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Option</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">How you pay</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Santa Teresa roads</th>
+            <th scope="col" class="py-3 text-body font-semibold text-muted">Best for</th>
+          </tr>
+        </thead>
+        <tbody>
+          {comparison.map((row) => (
+            <tr class="border-b border-hairline align-top">
+              <th scope="row" class="py-4 pr-4 font-semibold text-ink-2">{row.option}</th>
+              <td class="py-4 pr-4 text-muted">{row.cost}</td>
+              <td class="py-4 pr-4 text-muted">{row.roads}</td>
+              <td class="py-4 text-muted">{row.bestFor}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-6 max-w-3xl text-base text-muted">
+      Two or three taxi rides a day add up quickly over a week, while one
+      planned outing may not justify keeping a vehicle. For the full breakdown,
+      read <a href="/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around" class="link-inline">ATV vs taxi in Santa Teresa</a>
+      and <a href="/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose" class="link-inline">ATV vs rental car</a>.
     </p>
   </section>
 
@@ -106,6 +243,15 @@ const extras = [
       </dl>
     </div>
     </div>
+  </section>
+
+  <!-- Deposit + cost FAQ -->
+  <section class="page-x section-y" aria-labelledby="pricing-faq">
+    <SectionHeading eyebrow="Deposits and costs" title="Pricing questions" />
+    <div class="mt-8 max-w-3xl">
+      <Faq items={faqs} />
+    </div>
+    <a href="/faq" class="link-inline mt-8 inline-block text-base">Read all questions</a>
   </section>
 
   <CtaBand

@@ -10,15 +10,27 @@ import { site, whatsappLink } from '../data/site';
 ---
 
 <BaseLayout
-  title="Contact — ATV Rentals Santa Teresa | Rent ATV Santa Teresa"
-  description="Message us on WhatsApp to book an ATV in Santa Teresa, Costa Rica. We reply within minutes and deliver free to Santa Teresa, Mal País and Hermosa."
+  title="Contact Us | WhatsApp, Phone & Hours | Rent ATV Santa Teresa"
+  description={`Contact Rent ATV Santa Teresa on WhatsApp or phone at ${site.phoneDisplay}. Open every day, 6am to 11pm, and we usually reply within minutes.`}
 >
   <Breadcrumb items={[{ label: 'Contact', href: '/contact' }]} />
   <PageHero
     eyebrow="Get in touch"
     title="Contact us"
-    subtitle="WhatsApp is the fastest way to reach us. Send your dates and number of riders — we deliver directly to your hotel, you never need to come to us."
+    subtitle="WhatsApp is the fastest way to reach us. Send your dates, the number of riders and where you are staying, and we will get back to you within minutes."
   />
+
+  <!-- Points rental-intent visitors (and search engines) at the home page,
+       which is the page that should rank for the rental keywords. -->
+  <div class="page-x mt-8">
+    <a href="/" class="card flex items-center justify-between gap-4 transition duration-200 ease-airbnb hover:border-ink-2">
+      <span>
+        <span class="block text-body text-muted">Looking for rates, the fleet or what is included?</span>
+        <span class="mt-1 block text-h4 font-semibold text-ink-2">ATV rental in Santa Teresa</span>
+      </span>
+      <svg class="h-5 w-5 shrink-0 text-ink-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+    </a>
+  </div>
 
   <section class="page-x section-y" aria-labelledby="contact-methods">
     <div class="grid gap-10 lg:grid-cols-2 lg:gap-16">
@@ -90,9 +102,9 @@ import { site, whatsappLink } from '../data/site';
 
         <div class="grid grid-cols-2 gap-4">
           <div class="card">
-            <p class="text-body text-muted">Delivery</p>
-            <p class="mt-1 text-h4 font-semibold">Free</p>
-            <p class="mt-1 text-body text-muted">Santa Teresa to Playa Hermosa</p>
+            <p class="text-body text-muted">Hours</p>
+            <p class="mt-1 text-h4 font-semibold">6am – 11pm</p>
+            <p class="mt-1 text-body text-muted">Every day</p>
           </div>
           <div class="card">
             <p class="text-body text-muted">Response</p>
@@ -122,7 +134,7 @@ import { site, whatsappLink } from '../data/site';
         <Card
           icon="pin"
           title="2. We deliver to you"
-          body="No pickup counter to find. The ATV comes to your hotel, Airbnb or villa, with a full tank and a helmet for every rider already on board."
+          body="No pickup counter to find. The ATV comes to your hotel, Airbnb or villa at the time we agreed."
         />
         <Card
           icon="clock"
@@ -133,28 +145,17 @@ import { site, whatsappLink } from '../data/site';
     </div>
   </section>
 
-  <!-- Delivery area -->
-  <section class="page-x section-y" aria-labelledby="delivery-area">
-    <SectionHeading
-      eyebrow="Where we deliver"
-      title="Free delivery across the Santa Teresa area"
-      subtitle="Delivery and collection are free anywhere between Santa Teresa and Playa Hermosa. Further out, we still come to you for a small extra fee."
-    />
+  <!-- Before you message -->
+  <section class="page-x section-y" aria-labelledby="before-you-message">
+    <SectionHeading eyebrow="Before you message" title="Have these ready" />
     <p class="mt-6 max-w-3xl text-base text-muted">
-      We deliver at no charge to {site.areaServed.slice(0, -1).join(', ')} and
-      {site.areaServed[site.areaServed.length - 1]}. If you are staying somewhere
-      not listed here, message us your location anyway — we can usually still
-      make it work, just ask before you book.
-    </p>
-    <p class="mt-4 max-w-3xl text-base text-muted">
-      Before you message us, it helps to have your rental dates, the number of
-      riders, and your accommodation's name on hand. If you are not sure what
-      is included or what you need to bring, the
-      <a href="/" class="link-inline">ATV rental page</a> and the
-      <a href="/faq" class="link-inline">FAQ</a> cover licence requirements,
-      insurance and what to wear. For a broader look at getting around once you
-      arrive, see our guide to
-      <a href="/blog/getting-around-santa-teresa" class="link-inline">getting around Santa Teresa</a>.
+      Your rental dates, the number of riders, and the name of your
+      accommodation. If you are staying outside Santa Teresa, Mal País,
+      Playa Carmen or Playa Hermosa, send your location and we will confirm
+      delivery. For rates, the fleet and what is included, see
+      <a href="/" class="link-inline">ATV rental in Santa Teresa</a>; licence
+      requirements, insurance and what to wear are in the
+      <a href="/faq" class="link-inline">FAQ</a>.
     </p>
   </section>
 </BaseLayout>

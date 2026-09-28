@@ -59,6 +59,29 @@ export const site = {
   ],
 };
 
+/**
+ * Daily rates, per quad (not per person). Same for every machine in the fleet;
+ * only the security deposit varies by quad. Pricing page, home page and the
+ * Offer schema all read these, so change a rate here and nowhere else.
+ */
+export const rates = [
+  { label: 'Under 3 days', minDays: 1, maxDays: 2, price: 65, detail: 'Full-day rentals' },
+  { label: '3 to 7 days', minDays: 3, maxDays: 7, price: 60, detail: 'The most popular range' },
+  { label: 'Over 7 days', minDays: 8, maxDays: 13, price: 55, detail: 'Weekly and longer' },
+  { label: 'Two weeks+', minDays: 14, maxDays: undefined, price: 50, detail: 'Our best rate' },
+];
+
+/** Daily rate for a rental of `days` days. */
+export function dailyRate(days: number) {
+  return rates.find((r) => days >= r.minDays && (r.maxDays === undefined || days <= r.maxDays))!.price;
+}
+
+export const fleetModels = [
+  { name: 'Can-Am Outlander 4x4', photo: 'fleet-canam-side' },
+  { name: 'Honda ATV', photo: 'fleet-honda-side' },
+  { name: 'Kymco 4x4 ATV', photo: 'fleet-kymco-front' },
+];
+
 /** Pre-fills the WhatsApp message so an inquiry arrives with context attached. */
 export function whatsappLink(message = "Hi! I'd like to rent an ATV in Santa Teresa.") {
   return `https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(message)}`;

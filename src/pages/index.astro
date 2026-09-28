@@ -11,7 +11,7 @@ import Photo from '../components/Photo.astro';
 import StatBand from '../components/StatBand.astro';
 import StickyCta from '../components/StickyCta.astro';
 import InfoCard from '../components/InfoCard.astro';
-import { site } from '../data/site';
+import { site, rates } from '../data/site';
 import { localBusinessSchema, websiteSchema, faqSchema, serviceSchema } from '../data/schema';
 
 const faqs = [
@@ -46,12 +46,7 @@ const schema = [
     description:
       'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $50/day.',
     url: site.url,
-    offers: [
-      { price: 65, description: 'Daily rate for rentals under 3 days' },
-      { price: 60, description: 'Daily rate for rentals of 3 to 7 days' },
-      { price: 55, description: 'Daily rate for rentals over 7 days' },
-      { price: 50, description: 'Daily rate for rentals of two weeks or more' },
-    ],
+    offers: rates.map((tier) => ({ price: tier.price, description: `Daily rate, ${tier.label.toLowerCase()}` })),
   }),
   faqSchema(faqs),
 ];
@@ -226,10 +221,9 @@ const bring = [
   <section id="rates" class="page-x section-y" aria-labelledby="multi-day">
     <SectionHeading eyebrow="Staying a while?" title="Rates drop from three days" subtitle="Santa Teresa runs several kilometres along the coast, and many visitors stay for a week or longer. Longer rentals give you a better daily rate and make it easier to explore Santa Teresa and the surrounding areas without arranging transportation every day." />
     <div class="mt-8 grid gap-6 sm:grid-cols-4">
-      <InfoCard label="Under 3 days" value="$65/day" detail="Full-day rentals" />
-      <InfoCard label="3 to 7 days" value="$60/day" detail="The most popular range" />
-      <InfoCard label="Over 7 days" value="$55/day" detail="Weekly and longer" />
-      <InfoCard label="Two weeks+" value="$50/day" detail="Our best rate" />
+      {rates.map((tier) => (
+        <InfoCard label={tier.label} value={`$${tier.price}/day`} detail={tier.detail} />
+      ))}
     </div>
     <p class="mt-6 text-base text-muted">One security deposit covers the whole rental period regardless of length. If your quad develops a fault during your rental, we will bring a replacement rather than leave you without transportation. Full rates on the <a href="/pricing" class="link-inline">pricing page</a>.</p>
   </section>
