@@ -2,6 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
+updatedDate: 2026-09-28
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -111,6 +112,26 @@ These are reasonable day-trip distances on an ATV, not marathon rides. Most visi
   />
 </div>
 
+## My guides for each decision
+
+This page is the overview. When a visitor asks me something more specific, these are the guides I send them to.
+
+### Do you actually need an ATV?
+
+Not everyone does. If you are staying two nights in central Playa Carmen with the beach, dinner, and a shop all within a few minutes' walk, you can probably skip one. If you are in a hillside villa, down in Mal País, or heading out several times a day, it changes everything. My guide to [whether an ATV is necessary in Santa Teresa](/blog/is-an-atv-necessary-for-getting-around-santa-teresa) walks through the questions I would ask about your exact property before you book anything.
+
+### ATV or taxi?
+
+Taxis win for the airport run and for evenings when nobody in your group should be driving. They lose once you are going out two or three times a day and waiting each time. In [ATV vs. taxi in Santa Teresa](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) I break down how quickly fares add up over a week, and why a lot of visitors end up using both.
+
+### ATV or rental car?
+
+A car makes sense for families, heavy luggage, and long drives across the peninsula. A quad makes sense for one or two people making short trips between beaches, surf breaks, and restaurants. [ATV vs. rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose) compares road conditions, comfort, and the real total cost of each, not just the headline daily rate.
+
+### Which ATV rental should you pick?
+
+If you have decided on a quad, the next question is who to rent from. I put together a comparison of [the best ATV rentals in Santa Teresa](/blog/best-atv-rentals-santa-teresa), covering vehicles, delivery, insurance, and prices from five providers, plus the checks I would run on any of them before handing over a deposit.
+
 ## What you need to rent
 
 To [rent an ATV in Santa Teresa](/blog/best-atv-rentals-santa-teresa) you need a valid [physical driver's licence](/faq) from your home country. A photo of the licence on your phone is not accepted. The physical card is required. A standard car licence is sufficient.
@@ -120,3 +141,7 @@ You also need closed shoes. Flip-flops are not safe on a quad and I will not han
 ## Free hotel delivery
 
 The quad comes to you. Give your hotel or Airbnb address, the ATV arrives, I walk you through the controls, and you start from wherever you are staying. At the end of the rental it is collected from the same spot. For visitors staying on the hills above Santa Teresa, or anywhere that is a walk from the main road, this saves time at both ends of the trip.
+
+## Conclusion
+
+Getting around Santa Teresa comes down to where you are staying, how often you head out, and how comfortable you are on a mix of paved and unpaved roads. For short stays in the centre, walking and the odd taxi can be enough. For most visitors staying longer, a quad is the simplest way to cover the coast from Playa Hermosa to Mal País on your own schedule. If that is you, message me with your dates and where you are staying, and I will bring one to the door.

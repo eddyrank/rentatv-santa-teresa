@@ -85,13 +85,13 @@ const articleSchema = {
 
         <div class="mt-6 flex items-center gap-3 border-t border-hairline pt-5 text-body text-muted">
           <time datetime={pubDate.toISOString()}>
-            {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
           </time>
           {updatedDate && (
             <>
               <span>·</span>
               <span>Updated <time datetime={updatedDate.toISOString()}>
-                {updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                {updatedDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
               </time></span>
             </>
           )}

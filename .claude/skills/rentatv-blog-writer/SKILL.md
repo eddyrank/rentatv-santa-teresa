@@ -120,6 +120,10 @@ Posts are plain markdown, so write it as raw HTML. The `.checklist` styles live 
 
 When publishing a new post, edit every existing post in `src/content/blog/` with an earlier `pubDate` and add one contextual link to the new post (`/blog/new-slug`). Put the link on an existing phrase in the body where the new post genuinely expands on the point, or lightly rework a sentence so it fits; never add a "related posts" list or a bare "read more" line, and never link from inside the TL;DR, a heading, or the FAQ. Skip an older post only if it already links to the new one. The new post should also link out to at least two relevant older posts. Run `npm run build` afterwards.
 
+### Pillar post: every new post gets a teaser in the hub
+
+`src/content/blog/getting-around-santa-teresa.md` is the pillar post. Its `## My guides for each decision` section has one H3 per post on the site: a question-style heading, two or three first-person sentences teasing the post's main takeaway, and a contextual link to it. When publishing a new post, add its H3 to that section (grouped with related guides, not just appended), and set the pillar's `updatedDate` to the publish date. This is in addition to the older-posts linking rule above.
+
 ## Frontmatter template (required for every post)
 
 ```yaml
