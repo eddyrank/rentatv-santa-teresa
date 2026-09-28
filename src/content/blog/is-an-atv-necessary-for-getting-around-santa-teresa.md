@@ -170,14 +170,17 @@ If you're not comfortable controlling a vehicle on an unpaved road, don't rent o
 
 ### A Simple Decision Checklist
 
-Ask yourself:
-
-- Is the property outside a compact area?
-- Will I make more than one separate trip each day?
-- Is the access road or driveway steep and unpaved?
-- Do I hold the required licence and feel confident riding?
-- Is significant rain likely during the stay?
-- Can I park the ATV securely overnight?
+<aside class="checklist" aria-labelledby="decision-checklist">
+  <p id="decision-checklist" class="checklist-title">Do you need an ATV? 6 questions</p>
+  <ul>
+    <li>Is the property outside a compact area?</li>
+    <li>Will I make more than one separate trip each day?</li>
+    <li>Is the access road or driveway steep and unpaved?</li>
+    <li>Do I hold the required licence and feel confident riding?</li>
+    <li>Is significant rain likely during the stay?</li>
+    <li>Can I park the ATV securely overnight?</li>
+  </ul>
+</aside>
 
 More "yes" answers around difficult access and frequent trips point toward an ATV. Uncertainty about licence requirements, vehicle control, or safe riding points the other way.
 

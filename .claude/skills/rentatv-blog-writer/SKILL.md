@@ -113,7 +113,7 @@ Posts are plain markdown, so write it as raw HTML. The `.checklist` styles live 
 
 - The title is short and concrete, ideally with the count ("Before you ride: 4 checks", "Pickup day: what to bring"). Give it an `id` that is unique within the post.
 - The callout replaces any lead-in sentence like "Use this checklist before you arrive:". Don't write both.
-- 3 to 7 items, each one action starting with a verb, one sentence, no em dashes.
+- Keep it scannable: 3 to 9 items, each one sentence, no em dashes. Items start with a verb, except a self-check list, which can use yes/no questions ("Will I make more than one trip a day?").
 - Markdown doesn't render inside the `<aside>`, so links go in as `<a href="/...">` tags.
 
 ### Internal linking: every new post gets linked from every older post

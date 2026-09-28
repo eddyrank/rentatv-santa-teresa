@@ -135,13 +135,16 @@ Avoid night riding, unsecured bags, excessive speed, and unfamiliar steep tracks
 
 ## Use This Simple Choice Framework
 
-Work through the decision in five steps:
-
-1. Count every passenger, including children.
-2. List suitcases, boards, groceries, and child equipment.
-3. Map your accommodation, regular stops, and day-trip destinations.
-4. Check the season, recent rainfall, and driveway conditions.
-5. Estimate how many local journeys you will make each day.
+<aside class="checklist" aria-labelledby="choice-steps">
+  <p id="choice-steps" class="checklist-title">Choose your vehicle in 5 steps</p>
+  <ul>
+    <li>Count every passenger, including children.</li>
+    <li>List suitcases, boards, groceries, and child equipment.</li>
+    <li>Map your accommodation, regular stops, and day-trip destinations.</li>
+    <li>Check the season, recent rainfall, and driveway conditions.</li>
+    <li>Estimate how many local journeys you will make each day.</li>
+  </ul>
+</aside>
 
 A mixed plan can work better than relying on just one vehicle for the whole trip. Some visitors book enclosed transport for arrival and departure, then use an ATV only for the local part of their stay.
 

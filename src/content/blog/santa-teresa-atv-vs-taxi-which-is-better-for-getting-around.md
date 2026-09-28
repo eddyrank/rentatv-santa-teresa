@@ -166,18 +166,20 @@ Transportation demand rises during the December to April high season. If mobilit
 
 For a taxi, ask about the approximate fare, exact pickup point, luggage, passenger limits, payment method, expected wait, and return availability. Share difficult road access before the driver begins the journey.
 
-For an ATV, ask about:
-
-- Minimum age and driver's licence requirements
-- Helmet sizing and whether every passenger receives one
-- Basic liability insurance and what it covers
-- Security deposit amount and refund process
-- Fuel policy and refueling expectations
-- Delivery and collection area
-- Mechanical roadside support
-- Passenger capacity and cargo storage
-- Prohibited roads, beaches, river crossings, and night riding
-- Damage responsibility and optional coverage
+<aside class="checklist" aria-labelledby="atv-operator-questions">
+  <p id="atv-operator-questions" class="checklist-title">Ask your ATV operator: 9 checks</p>
+  <ul>
+    <li>Check the minimum age and driver's licence requirements.</li>
+    <li>Confirm every passenger gets a helmet that fits.</li>
+    <li>Ask what basic liability insurance covers, who pays for damage, and whether optional coverage is available.</li>
+    <li>Ask the security deposit amount and how it's refunded.</li>
+    <li>Check the fuel policy and refueling expectations.</li>
+    <li>Confirm the delivery and collection area.</li>
+    <li>Ask what mechanical roadside support is included.</li>
+    <li>Check passenger capacity and cargo storage.</li>
+    <li>Ask which roads, beaches, river crossings, and night riding are off limits.</li>
+  </ul>
+</aside>
 
 Some providers have helmets and basic liability insurance included. Operational standards can also include ATVs serviced between rentals, plus roadside help and replacement for mechanical faults, but confirm how these terms apply to your booking.
 
