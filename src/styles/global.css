@@ -170,6 +170,13 @@
   .prose-content a  { @apply font-medium text-ink-2 underline underline-offset-2 hover:text-ink; }
   .prose-content hr { @apply my-10 border-hairline; }
 
+  /* Comparison tables: raw HTML inside a post (<div class="table-wrap"><table>).
+     The wrapper scrolls sideways on phones instead of widening the page. */
+  .prose-content .table-wrap { @apply my-8 overflow-x-auto; }
+  .prose-content table { @apply w-full border-collapse text-left text-sm; }
+  .prose-content th { @apply border-b border-hairline px-3 py-2 font-semibold text-ink-2; }
+  .prose-content td { @apply border-b border-hairline px-3 py-2 align-top text-ink-2; }
+
   /* Checklist callout: raw HTML inside a post (<aside class="checklist">).
      Sand well + a jungle-green rule so it reads as a to-do, not more prose. */
   .prose-content .checklist { @apply my-8 rounded-media border-l-4 border-jungle-800 bg-sand p-6 sm:p-8; }
