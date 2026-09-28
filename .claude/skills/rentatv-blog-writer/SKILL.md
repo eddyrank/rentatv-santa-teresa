@@ -178,6 +178,17 @@ The `imageAlt` must be written even when the image path is empty. It describes t
 - Licence: physical driver's licence required, photo not accepted
 - Closed shoes required (no flip-flops)
 
+## Slug (filename) rules
+
+The filename is the URL: `src/content/blog/atv-vs-taxi-santa-teresa.md` publishes at `/blog/atv-vs-taxi-santa-teresa`. Don't add a `slug:` frontmatter field; the filename is the only source of truth. The slug is never just the title run through a slugifier.
+
+- 3 to 5 words, lowercase, hyphen-separated, no dates or numbers that will go stale.
+- Lead with the primary keyword, then the place: `atv-vs-rental-car-santa-teresa`, not `atv-vs-rental-car-in-santa-teresa-how-to-choose`.
+- Drop filler words: is, a, an, the, in, for, to, of, which, how-to, what, guide, best, better.
+- Say "santa-teresa" once at most. Use another place name (`mal-pais`, `playa-hermosa`) only if the post is actually about that place.
+- Check that no existing post in `src/content/blog/` already uses the slug or one that's nearly the same.
+- A published post's slug never changes silently. Renaming a live post means a 301 in `public/_redirects` and updating every internal link to it, so only do it when asked.
+
 ## File output format
 
 When producing a complete post ready to commit, output it as a single markdown code block. Add the target path as the first comment inside the block:
