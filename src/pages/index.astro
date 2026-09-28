@@ -75,6 +75,18 @@ const fleet = [
   },
 ];
 
+const gallery = [
+  { photo: 'marazul-rocks-sunset', alt: 'Sunset over the rocks at low tide on Mar Azul beach, near Santa Teresa' },
+  { photo: 'marazul-reflection-sunset', alt: 'An orange sunset reflected in wet sand at Mar Azul' },
+  { photo: 'marazul-canopy-sunset', alt: 'Footprints in the sand under the trees at Mar Azul in late-afternoon light' },
+  { photo: 'headland-beach-quiet', alt: 'An empty beach below a jungle-covered headland on the southern Nicoya Peninsula' },
+  { photo: 'palm-beach-cloudy', alt: 'Palm trees at the top of a quiet beach near Santa Teresa on a cloudy afternoon' },
+  { photo: 'rock-from-water', alt: 'A rock outcrop seen from the water off the coast near Santa Teresa' },
+  { photo: 'headland-from-water', alt: 'The coastline and a jungle headland seen from the water under green-season clouds' },
+  { photo: 'main-street-paved', alt: 'The paved main street through Santa Teresa, lined with palms and parked motorbikes' },
+  { photo: 'gravel-road-junction', alt: 'A gravel side road junction in Santa Teresa with potholes and loose surface' },
+];
+
 const included = [
   'A helmet for every rider',
   'Full tank at pickup, return it full (fuel itself isn\'t included in the rate)',
@@ -135,8 +147,8 @@ const bring = [
           <a href="#fleet" class="btn-primary mt-8">Compare the three quads</a>
         </div>
         <Photo
-          name="fleet-canam-side"
-          alt="Red Can-Am 450 4x4 ATV, part of our mixed fleet in Santa Teresa"
+          name="atv-beach-sunset"
+          alt="A red 4x4 quad with a cargo box parked under the trees at Mar Azul beach at sunset"
           sizes="(min-width: 1024px) 50vw, 100vw"
           ratio="4/3"
         />
@@ -207,8 +219,8 @@ const bring = [
     </div>
     <div class="mt-10">
       <Photo
-        name="jungle-tunnel-road"
-        alt="Unpaved jungle road near Santa Teresa, the kind of terrain a 4x4 quad is built for"
+        name="side-road-wide"
+        alt="A potholed dirt side road off the main street in Santa Teresa, the kind of surface a 4x4 quad is built for"
         sizes="100vw"
         ratio="16/9"
         class="rounded-media"
@@ -285,8 +297,8 @@ const bring = [
       </div>
       <div>
         <Photo
-          name="malpais-cove"
-          alt="Quiet cove near Mal País and Cabo Blanco, Santa Teresa"
+          name="malpais-tidepools-sunset"
+          alt="Low-tide rock pools at sunset on the coast south of Santa Teresa toward Mal País"
           sizes="(min-width: 768px) 33vw, 100vw"
           ratio="4/3"
           class="rounded-media"
@@ -307,6 +319,22 @@ const bring = [
           <Card title="Manzanillo and the hills" body="Inland climbs, river crossings and long views back over the coast. Rough in places, and worth leaving until you have a day of riding behind you." />
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Photo gallery: shot on rides around Santa Teresa -->
+  <section id="gallery" class="page-x section-y pt-0" aria-label="Photos from rides around Santa Teresa">
+    <SectionHeading eyebrow="Out on the quad" title="What a day of riding looks like" subtitle="Beaches, back roads and sunsets from rides around Santa Teresa and Mar Azul." />
+    <div class="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+      {gallery.map((shot, i) => (
+        <Photo
+          name={shot.photo}
+          alt={shot.alt}
+          sizes={i === 0 ? '(min-width: 1024px) 50vw, 100vw' : '(min-width: 1024px) 25vw, 50vw'}
+          ratio="4/3"
+          class:list={['rounded-media', i === 0 && 'col-span-2 lg:row-span-2']}
+        />
+      ))}
     </div>
   </section>
 
