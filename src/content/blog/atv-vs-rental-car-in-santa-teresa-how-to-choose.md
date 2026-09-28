@@ -57,14 +57,14 @@ The main road through Santa Teresa is paved and runs parallel to several kilomet
 
 Steep driveways leading to hillside villas can actually be harder than the coast road itself. Ask about that final approach to your accommodation, don't judge the whole trip by the main route alone.
 
-<div class="media-frame my-8" style="aspect-ratio: 16/9">
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/jungle-trail-1200.webp"
-    srcset="/photos/jungle-trail-800.webp 800w, /photos/jungle-trail-1200.webp 1200w"
+    src="/photos/dirt-side-road-1200.webp"
+    srcset="/photos/dirt-side-road-800.webp 800w, /photos/dirt-side-road-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="An unpaved side trail near Santa Teresa, the kind of route that gets rough in the green season"
+    alt="An unpaved side road in Santa Teresa with potholes and SUVs parked along the edge"
     width="1200"
-    height="675"
+    height="900"
     loading="lazy"
     decoding="async"
     class="h-full w-full object-cover"

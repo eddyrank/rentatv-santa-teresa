@@ -37,6 +37,20 @@ Check the exact property pin instead of relying on a general Santa Teresa addres
 
 Common journeys include Playa Carmen to Santa Teresa, Santa Teresa to Playa Hermosa, and Santa Teresa to Mal País. The distances look short on a map, but dust, traffic, potholes, standing water, and ruts can slow you down more than you'd expect.
 
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
+  <img
+    src="/photos/side-road-atv-view-1200.webp"
+    srcset="/photos/side-road-atv-view-800.webp 800w, /photos/side-road-atv-view-1200.webp 1200w"
+    sizes="(min-width: 1024px) 700px, 100vw"
+    alt="A dirt access road in Santa Teresa seen from the seat of an ATV, the kind of final stretch to check before you book"
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>
+
 <aside class="checklist" aria-labelledby="arrival-checklist">
   <p id="arrival-checklist" class="checklist-title">Before you arrive: 5 checks</p>
   <ul>

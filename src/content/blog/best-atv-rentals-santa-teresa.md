@@ -3,8 +3,8 @@ title: "5 Best ATV Rentals in Santa Teresa for 2026"
 description: "Compare the best ATV rentals in Santa Teresa: vehicles, delivery, insurance, and prices from five providers, plus what to check before booking."
 pubDate: 2026-09-28
 tags: ["santa teresa", "atv rental", "getting around", "travel tips"]
-image: "/photos/fleet-canam-side-1200.webp"
-imageAlt: "A Can-Am 4x4 ATV from the Rent ATV Santa Teresa fleet, side view, with front and rear racks"
+image: "/photos/atv-beach-sunset-1200.webp"
+imageAlt: "A rental ATV parked under the trees at the edge of Mar Azul beach at sunset, near Santa Teresa"
 featured: false
 tldr:
   - "Rent ATV Santa Teresa is my pick for a fully automatic 4x4 delivered free to your accommodation, from $65/day for short rentals down to $50/day for long stays."
@@ -159,16 +159,30 @@ Tripadvisor was left out because it's a review platform rather than a rental pro
 
 Conditions change quickly after rain, so ask about licence requirements, passenger rules, fuel, insurance limits, deposits, and prohibited areas. Never assume riding on beaches, after dark, or across a river is allowed just because an ATV can physically handle it.
 
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
+  <img
+    src="/photos/no-driving-beach-sign-1200.webp"
+    srcset="/photos/no-driving-beach-sign-800.webp 800w, /photos/no-driving-beach-sign-1200.webp 1200w"
+    sizes="(min-width: 1024px) 700px, 100vw"
+    alt="A beach access sign in Santa Teresa reading No conducir en la playa, Do not drive on beach"
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>
+
 ### What matters most on Santa Teresa roads
 
 Match the vehicle to the route and your experience. Washboard corrugations and dust dominate many dry-season rides on the unpaved roads, while green-season routes can develop mud, deep ruts, water at low points, and slippery climbs. My [guide to getting around Santa Teresa](/blog/getting-around-santa-teresa) covers which roads are paved and which aren't.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/jungle-tunnel-road-1200.webp"
-    srcset="/photos/jungle-tunnel-road-800.webp 800w, /photos/jungle-tunnel-road-1200.webp 1200w"
+    src="/photos/side-road-atv-view-1200.webp"
+    srcset="/photos/side-road-atv-view-800.webp 800w, /photos/side-road-atv-view-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="An unpaved road through a tunnel of jungle trees near Santa Teresa"
+    alt="A dirt side road in Santa Teresa seen from the seat of an ATV, with dry-season dust and loose gravel"
     width="1200"
     height="900"
     loading="lazy"

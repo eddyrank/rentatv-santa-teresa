@@ -21,6 +21,20 @@ When I first started operating here, I watched a lot of visitors figure this out
 
 The main road from Santa Teresa through to [Mal País](/atv-rentals-mal-pais) is paved, which surprises some people who expect a fully off-road experience. What is not paved are the side roads, the tracks up to hillside villas, the routes through the hills toward Manzanillo, and large sections north of Santa Teresa toward Playa Hermosa and beyond.
 
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
+  <img
+    src="/photos/main-street-paved-1200.webp"
+    srcset="/photos/main-street-paved-800.webp 800w, /photos/main-street-paved-1200.webp 1200w"
+    sizes="(min-width: 1024px) 700px, 100vw"
+    alt="The paved main street through Santa Teresa, lined with palms, shops, and parked motorbikes"
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>
+
 In the dry season, from December to April, the unpaved sections are heavily corrugated and dusty. In the green season, from May to November, they soften after heavy rain, with potholes and standing water at the lower points.
 
 This is not a complaint. It is part of what makes Santa Teresa feel the way it does. But it means that transportation options matter more here than in a typical beach town.
@@ -55,6 +69,20 @@ Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose
 
 **They have storage.** Every quad we rent comes with a locking cargo box on the back. Beach bags, towels, groceries, and surf accessories fit without strapping anything to the outside.
 
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
+  <img
+    src="/photos/fleet-honda-side-1200.webp"
+    srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
+    sizes="(min-width: 1024px) 700px, 100vw"
+    alt="Honda 4x4 ATV from the rental fleet with a locking rear cargo box and passenger backrest"
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>
+
 **They cost less than daily taxis for multi-day stays.** At $60 per day for a rental of three to seven days, the math works in favour of renting if you are moving around more than once or twice a day.
 
 ## How far can you actually go
@@ -68,6 +96,20 @@ From the centre of Santa Teresa you can comfortably reach:
 - **Montezuma:** around 22 km, approximately 50 minutes
 
 These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make the longer run toward Montezuma.
+
+<div class="media-frame my-8" style="aspect-ratio: 4/3">
+  <img
+    src="/photos/malpais-tidepools-sunset-1200.webp"
+    srcset="/photos/malpais-tidepools-sunset-800.webp 800w, /photos/malpais-tidepools-sunset-1200.webp 1200w"
+    sizes="(min-width: 1024px) 700px, 100vw"
+    alt="Low-tide rock pools at Mal País at sunset, an easy ride south from Santa Teresa"
+    width="1200"
+    height="900"
+    loading="lazy"
+    decoding="async"
+    class="h-full w-full object-cover"
+  />
+</div>
 
 ## What you need to rent
 

@@ -78,10 +78,10 @@ Travelers can review general destination information through the [Costa Rica Tou
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/jungle-tunnel-road-1200.webp"
-    srcset="/photos/jungle-tunnel-road-800.webp 800w, /photos/jungle-tunnel-road-1200.webp 1200w"
+    src="/photos/gravel-road-junction-1200.webp"
+    srcset="/photos/gravel-road-junction-800.webp 800w, /photos/gravel-road-junction-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="An unpaved jungle road near Santa Teresa with ruts and loose surface"
+    alt="A gravel road junction in Santa Teresa with potholes and patches of loose surface"
     width="1200"
     height="900"
     loading="lazy"

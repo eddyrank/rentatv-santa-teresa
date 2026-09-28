@@ -65,7 +65,7 @@ Every post must have image fields in its frontmatter. If a real photo has not be
 
 ### Hero image must be unique per post
 
-Never reuse a hero image (the frontmatter `image` field) that is already the hero of another published post. Check the other files in `src/content/blog/` before picking one. The real photos available are in `public/photos/` (each as `-800.webp` and `-1200.webp`): `coast-road-beach`, `cove-sunset`, `fleet-canam-side`, `fleet-honda-side`, `fleet-kymco-front`, `jungle-trail`, `jungle-tunnel-road`, `malpais-cove`, `manzanillo-headland`. Pick whichever of these best fits the post's specific topic; use the frontmatter `image` field with the `-1200` path.
+Never reuse a hero image (the frontmatter `image` field) that is already the hero of another published post. Check the other files in `src/content/blog/` before picking one. The real photos available are in `public/photos/` (each as `-800.webp` and `-1200.webp`): `atv-beach-sunset` (quad parked at Mar Azul beach at sunset), `coast-road-beach`, `cove-sunset`, `dirt-side-road` (potholed side road with parked SUVs), `fleet-canam-side`, `fleet-honda-side`, `fleet-kymco-front`, `gravel-road-junction`, `jungle-trail`, `jungle-tunnel-road`, `main-street-paved` (the paved main street through town), `malpais-cove`, `malpais-tidepools-sunset`, `manzanillo-headland`, `no-driving-beach-sign` ("No conducir en la playa / Do not drive on beach"), `side-road-atv-view` (dirt road from the rider's seat). Pick whichever of these best fits the post's specific topic; use the frontmatter `image` field with the `-1200` path.
 
 ### Body images — two to three per post
 
