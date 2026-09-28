@@ -69,7 +69,7 @@ export const nav = [
   {
     label: 'ATV rentals',
     children: [
-      { label: 'Santa Teresa', href: '/atv-rentals' },
+      { label: 'Santa Teresa', href: '/' },
       { label: 'Mal País', href: '/atv-rentals-mal-pais' },
     ],
   },

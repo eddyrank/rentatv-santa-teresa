@@ -7,6 +7,12 @@ import { writeFileSync } from 'node:fs';
 // /page/ with a 307, which search engines treat as temporary. _redirects
 // rules run before that, so emit an explicit 301 for every built page.
 // Generated from the build output so new pages and posts are covered.
+// Retired URLs are listed below and 301 to the page that absorbed them.
+const retiredPages = {
+  // Merged into the home page so the two stopped competing for the same query.
+  'atv-rentals': '/',
+};
+
 const trailingSlashRedirects = {
   name: 'trailing-slash-301s',
   hooks: {
@@ -16,7 +22,11 @@ const trailingSlashRedirects = {
         .filter((path) => path && path !== '404')
         .sort()
         .map((path) => `/${path}/ /${path} 301`);
-      writeFileSync(new URL('_redirects', dir), rules.join('\n') + '\n');
+      const retired = Object.entries(retiredPages).flatMap(([from, to]) => [
+        `/${from} ${to} 301`,
+        `/${from}/ ${to} 301`,
+      ]);
+      writeFileSync(new URL('_redirects', dir), [...retired, ...rules].join('\n') + '\n');
     },
   },
 };

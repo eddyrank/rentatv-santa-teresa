@@ -22,7 +22,7 @@ Santa Teresa is a long coastal area, not a compact town where every beach, resta
 
 An ATV provides self-directed mobility throughout the day. A taxi is generally better for planned, occasional journeys where convenience matters more than having a vehicle continuously available.
 
-Delivery matters too. Some ATV rentals include free delivery and collection at key Santa Teresa-area locations, so you don't need to find a separate rental office.
+Delivery matters too. Some options for [ATV rental in Santa Teresa](/) include free delivery and collection at key locations along the coast, so you don't need to find a separate rental office.
 
 ### When a Taxi Is Usually the Simpler Choice
 
@@ -34,7 +34,7 @@ A taxi leaves navigation and vehicle control to someone familiar with local dust
 
 A quad suits licensed visitors making several trips a day between beaches, restaurants, surf breaks, shops, and accommodations. It's especially useful when plans change throughout the day.
 
-A fully automatic ATV fleet with Can-Am, Honda, and Kymco models offers straightforward controls, while 4x4 models can help on unpaved side roads and steep driveways. Rates decrease for rentals of three days or more with some providers, so compare multi-day terms rather than repeatedly booking single days.
+A fully automatic ATV fleet with Can-Am, Honda, and Kymco models offers straightforward controls, while 4x4 models can help on unpaved side roads and steep driveways. Rates decrease for rentals of three days or more with [some providers](/blog/best-atv-rentals-santa-teresa), so compare multi-day terms rather than repeatedly booking single days.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -92,7 +92,7 @@ Travelers can review general destination information through the [Costa Rica Tou
 
 ### ATV Access and Practical Limits
 
-Useful local features include 4x4 capability, ground clearance, [locking cargo boxes](/atv-rentals), and passenger seating designed for the vehicle. These can help with hills, smaller bags, beach gear, and repeated trips along the coast.
+Useful local features include 4x4 capability, ground clearance, locking cargo boxes, and passenger seating designed for the vehicle. These can help with hills, smaller bags, beach gear, and repeated trips along the coast.
 
 Use public roads only where permitted and follow local signs and rental instructions. Never assume beach riding is allowed, and avoid night riding, river crossings, or routes beyond your ability or rental agreement.
 

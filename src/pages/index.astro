@@ -10,8 +10,9 @@ import BookingWidget from '../components/BookingWidget.astro';
 import Photo from '../components/Photo.astro';
 import StatBand from '../components/StatBand.astro';
 import StickyCta from '../components/StickyCta.astro';
+import InfoCard from '../components/InfoCard.astro';
 import { site } from '../data/site';
-import { localBusinessSchema, websiteSchema, faqSchema } from '../data/schema';
+import { localBusinessSchema, websiteSchema, faqSchema, serviceSchema } from '../data/schema';
 
 const faqs = [
   {
@@ -30,19 +31,81 @@ const faqs = [
     q: 'What are the roads actually like?',
     a: 'The main coastal road through Santa Teresa is paved, but the side roads, hill routes, and the stretch toward Montezuma are unpaved and can get rutted and dusty in dry season, then soft and washed-out in green season. It is exactly why so many visitors ride quads here rather than drive. Inland routes toward Manzanillo include steep sections and river crossings, so ask us about current conditions before heading that way.',
   },
+  { q: 'Can two people ride one ATV?', a: 'Yes. Every quad in our fleet can accommodate one or two riders.' },
+  { q: 'Can I ride to Montezuma?', a: 'Yes. It is approximately 22 km and takes around 50 minutes depending on conditions.' },
+  { q: 'Is fuel included?', a: 'The tank is full when you pick up and is expected to come back full. Fuel itself is not included in the rental price, but you always start with a full tank.' },
+  { q: 'Are helmets included?', a: 'Yes. One helmet per rider, included with every rental.' },
+  { q: 'Can I rent for a week?', a: 'Yes. Longer rentals have discounted daily rates starting from 3 days.' },
 ];
 
-const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
+const schema = [
+  localBusinessSchema,
+  websiteSchema,
+  serviceSchema({
+    name: 'ATV rental in Santa Teresa, Costa Rica',
+    description:
+      'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $50/day.',
+    url: site.url,
+    offers: [
+      { price: 65, description: 'Daily rate for rentals under 3 days' },
+      { price: 60, description: 'Daily rate for rentals of 3 to 7 days' },
+      { price: 55, description: 'Daily rate for rentals over 7 days' },
+      { price: 50, description: 'Daily rate for rentals of two weeks or more' },
+    ],
+  }),
+  faqSchema(faqs),
+];
+
+const fleet = [
+  {
+    photo: 'fleet-canam-side',
+    alt: 'Red Can-Am Outlander 450 4x4 ATV available for rent in Santa Teresa',
+    name: 'Can-Am Outlander 4x4',
+    body: 'The Can-Am Outlander is one of the most capable machines we run. Fully automatic with selectable 4x4, it handles the unpaved tracks, the hill roads, and the muddy green-season sections without difficulty. A solid choice for riders who want to explore beyond the main road.',
+    specs: ['Fully automatic', 'Selectable 4x4', '1–2 riders', 'Locking cargo box'],
+  },
+  {
+    photo: 'fleet-honda-side',
+    alt: 'Honda ATV with front and rear racks available for rent in Santa Teresa',
+    name: 'Honda ATV',
+    body: 'The Honda in our fleet is reliable, easy to ride, and well suited to the coast road between Santa Teresa and Mal País. Fully automatic, comfortable for one or two riders, and fitted with a cargo box on the back for bags, towels, and beach gear.',
+    specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
+  },
+  {
+    photo: 'fleet-kymco-front',
+    alt: 'Black Kymco 4x4 ATV available for rent in Santa Teresa',
+    name: 'Kymco 4x4 ATV',
+    body: 'The Kymco is straightforward and easy to get comfortable on fast, a good fit if this is your first time on a quad or you just want simple, predictable handling on the coast road. Fully automatic, with the same locking cargo box and passenger seat as the rest of the fleet.',
+    specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
+  },
+];
+
+const included = [
+  'A helmet for every rider',
+  'Full tank at pickup, return it full (fuel itself isn\'t included in the rate)',
+  'Local route advice on where to ride',
+  'Basic liability insurance',
+  'Free delivery and collection in Santa Teresa',
+  'Roadside help anywhere we rent',
+  '4x4 storage box on every quad',
+];
+
+const bring = [
+  "A valid driver's license from your home country: the physical card, not a photo",
+  'Closed shoes (flip-flops are not safe on a quad)',
+  'Sunglasses or eye protection',
+  'A card or cash for the security deposit (from $500), refunded on return',
+];
 ---
 
 <BaseLayout
-  title="Rent ATV Santa Teresa | ATV Rentals, Costa Rica"
-  description="Rent an ATV in Santa Teresa, Costa Rica. Self-drive Can-Am, Honda and Kymco 4x4 quads by the day or week, from $50/day. Free hotel delivery."
+  title="ATV Rental Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
+  description="ATV rental in Santa Teresa, Costa Rica. Rent a fully automatic Can-Am, Honda or Kymco 4x4 quad by the day or week, from $50/day, with helmets and free hotel delivery."
   schema={schema}
 >
   <Hero
-    title="Rent an ATV and see Santa Teresa your way"
-    subtitle="Santa Teresa's side roads and hill routes are unpaved, and a quad handles them better than anything else. Rent by the day, or keep one for your whole stay."
+    title="ATV Rental in Santa Teresa, Costa Rica"
+    subtitle="Rent an ATV and see Santa Teresa your way. Santa Teresa's side roads and hill routes are unpaved, and a quad handles them better than anything else. Rent by the day, or keep one for your whole stay."
   />
 
   <!-- Stats: concrete numbers, the reference's "name counts directly" voice -->
@@ -74,7 +137,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
             box for your bag and towels, and a passenger seat with a backrest so two
             people can ride comfortably.
           </p>
-          <a href="/atv-rentals" class="btn-primary mt-8">See what's included</a>
+          <a href="#fleet" class="btn-primary mt-8">Compare the three quads</a>
         </div>
         <Photo
           name="fleet-canam-side"
@@ -84,6 +147,34 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
         />
       </div>
     </div>
+  </section>
+
+  <!-- Fleet detail -->
+  <section id="fleet" class="page-x section-y" aria-labelledby="fleet-heading">
+    <SectionHeading eyebrow="The fleet" title="Three machines, properly kept" subtitle="We run three models rather than whatever was cheapest, each picked for what it does well, and every one of them serviced between rentals, not once a season." />
+    <div class="mt-8 grid gap-6 md:grid-cols-3">
+      {fleet.map((quad) => (
+        <article class="flex flex-col">
+          <div class="photo-card">
+            <Photo name={quad.photo} alt={quad.alt} />
+          </div>
+          <h3 class="mt-4 text-h4">{quad.name}</h3>
+          <p class="mt-2 flex-1 text-base text-muted">{quad.body}</p>
+          <ul class="mt-4 flex flex-wrap gap-2">
+            {quad.specs.map((spec) => (
+              <li class="rounded-sm bg-surface px-3 py-1.5 text-body text-muted">{spec}</li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+    <p class="mt-8 max-w-3xl text-base text-muted">
+      Whichever machine you get, it is fully automatic, fitted with front and rear
+      cargo racks and a locking box on the back, and serviced between rentals rather
+      than once a season. Santa Teresa's combination of dust, salt air, rain, and
+      rough tracks is hard on vehicles, and regular maintenance is the only thing
+      that keeps any of them reliable.
+    </p>
   </section>
 
   <!-- Why a quad -->
@@ -109,7 +200,7 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
           Curious how visitors get around before they arrive? Read our guide to
           <a href="/blog/getting-around-santa-teresa" class="link-inline">getting around Santa Teresa</a>.
         </p>
-        <a href="/atv-rentals" class="btn-secondary mt-8">See rental options</a>
+        <a href="#rates" class="btn-secondary mt-8">See rental rates</a>
       </div>
 
       <div class="grid gap-6 sm:grid-cols-2">
@@ -128,6 +219,50 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
         class="rounded-media"
       />
     </div>
+    </div>
+  </section>
+
+  <!-- Rates -->
+  <section id="rates" class="page-x section-y" aria-labelledby="multi-day">
+    <SectionHeading eyebrow="Staying a while?" title="Rates drop from three days" subtitle="Santa Teresa runs several kilometres along the coast, and many visitors stay for a week or longer. Longer rentals give you a better daily rate and make it easier to explore Santa Teresa and the surrounding areas without arranging transportation every day." />
+    <div class="mt-8 grid gap-6 sm:grid-cols-4">
+      <InfoCard label="Under 3 days" value="$65/day" detail="Full-day rentals" />
+      <InfoCard label="3 to 7 days" value="$60/day" detail="The most popular range" />
+      <InfoCard label="Over 7 days" value="$55/day" detail="Weekly and longer" />
+      <InfoCard label="Two weeks+" value="$50/day" detail="Our best rate" />
+    </div>
+    <p class="mt-6 text-base text-muted">One security deposit covers the whole rental period regardless of length. If your quad develops a fault during your rental, we will bring a replacement rather than leave you without transportation. Full rates on the <a href="/pricing" class="link-inline">pricing page</a>.</p>
+  </section>
+
+  <!-- Included / bring -->
+  <section id="included" class="band-sand section-y" aria-labelledby="whats-included">
+    <div class="page-x">
+      <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+        <div>
+          <SectionHeading eyebrow="What you get" title="Included with every rental" />
+          <p class="mt-3 text-base text-muted">There are no complicated pickup arrangements. Tell us where you are staying and we can bring the ATV directly to your hotel, Airbnb, or accommodation in Santa Teresa.</p>
+          <ul class="mt-5 space-y-3">
+            {included.map((item) => (
+              <li class="flex items-start gap-3 text-base text-ink-2">
+                <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <SectionHeading eyebrow="What to bring" title="Turn up with these" />
+          <p class="mt-3 text-base text-muted">If you are visiting Santa Teresa to surf, a small bag with your sunglasses, towel, water, and other essentials can easily fit in the cargo box.</p>
+          <ul class="mt-5 space-y-3">
+            {bring.map((item) => (
+              <li class="flex items-start gap-3 text-base text-ink-2">
+                <svg class="mt-1 h-4 w-4 shrink-0 text-ink-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 8v4M12 16h.01" stroke-linecap="round" /></svg>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -181,31 +316,21 @@ const schema = [localBusinessSchema, websiteSchema, faqSchema(faqs)];
     </div>
   </section>
 
-  <!-- Photos -->
-  <section class="page-x section-y" aria-labelledby="gallery">
-    <SectionHeading eyebrow="What you are getting" title="The actual machine" />
-    <div class="mt-8 grid gap-6 sm:grid-cols-3">
-      <Photo
-        name="fleet-honda-side"
-        alt="Honda 4x4 ATV with locking rear cargo box and passenger backrest"
-        sizes="(min-width: 640px) 33vw, 100vw"
-        ratio="4/3"
-        class="rounded-media"
-      />
-      <Photo
-        name="fleet-canam-side"
-        alt="Red Can-Am 450 4x4 ATV parked in Santa Teresa"
-        sizes="(min-width: 640px) 33vw, 100vw"
-        ratio="4/3"
-        class="rounded-media"
-      />
-      <Photo
-        name="fleet-kymco-front"
-        alt="Black Kymco ATV parked with an ocean view over the jungle"
-        sizes="(min-width: 640px) 33vw, 100vw"
-        ratio="4/3"
-        class="rounded-media"
-      />
+  <!-- Surfers / taxi -->
+  <section class="band-sand section-y" aria-labelledby="explore">
+    <div class="page-x">
+      <SectionHeading eyebrow="Explore Santa Teresa, Mal País, and beyond" title="Get more out of your time here" />
+      <div class="mt-8 grid gap-6 lg:grid-cols-2">
+        <div class="card">
+          <h3 class="text-h4">ATV rental for surfers</h3>
+          <p class="mt-3 text-base text-muted">Santa Teresa is a surf destination, and having your own transportation can make it easier to move between different beaches and surf spots. An ATV gives you the flexibility to check the waves in Santa Teresa, ride toward Playa Hermosa, or explore the coast around Mal País when conditions change. The locking cargo box also gives you useful storage for smaller personal items while you are getting around.</p>
+        </div>
+        <div class="card">
+          <h3 class="text-h4">ATV rental vs. getting around by taxi</h3>
+          <p class="mt-3 text-base text-muted"><a href="/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around" class="link-inline">Taxis and shuttles</a> are useful for individual trips, but the costs can add up when you are moving around Santa Teresa several times a day. With your own ATV, you can go to the beach whenever you want, pick up groceries, get to restaurants and surf spots, and carry your bags and beach gear without waiting for a ride.</p>
+          <p class="mt-3 text-base text-muted">Not sure you need one at all? Read <a href="/blog/is-an-atv-necessary-for-getting-around-santa-teresa" class="link-inline">whether an ATV is necessary in Santa Teresa</a>.</p>
+        </div>
+      </div>
     </div>
   </section>
 

@@ -29,7 +29,7 @@ Choose an ATV for flexible beach-hopping and regular local outings with light ge
 
 An ATV generally suits one or two licensed riders staying around Santa Teresa, [Mal País](/atv-rentals-mal-pais), Playa Carmen, or Playa Hermosa. Its compact size makes it easy to park and position for repeated surf checks, restaurant visits, and errands.
 
-[A fully automatic ATV](/atv-rentals) needs no manual gear changes, so anyone can hop on and go. The fully automatic fleet available locally, with Can-Am, Honda, and Kymco models, typically adds 4x4 traction, passenger seating, and secure storage for everyday coast-road travel.
+A fully automatic ATV needs no manual gear changes, so anyone can hop on and go. The fully automatic fleet available locally, with Can-Am, Honda, and Kymco models, typically adds 4x4 traction, passenger seating, and secure storage for everyday coast-road travel.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -87,7 +87,7 @@ Never push through a questionable water crossing just because you have 4x4. If y
 
 ## Compare Cost Beyond the Daily Rate
 
-Compare the total cost for your whole stay, not just the advertised daily rate. Factor in fuel, delivery, insurance, parking, transfers, the security deposit, optional protection, and possible damage charges.
+Compare the total cost for your whole stay, not just [the advertised daily rate](/blog/best-atv-rentals-santa-teresa). Factor in fuel, delivery, insurance, parking, transfers, the security deposit, optional protection, and possible damage charges.
 
 Multi-day pricing changes the math since ATV rates drop after three days. [An occasional ride with a taxi or shuttle](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) can work fine, but doing that over and over across several days can end up costing more than just having your own vehicle.
 
@@ -174,7 +174,7 @@ A family arriving with airport luggage and staying at a hillside villa will usua
 
 Neither vehicle wins outright. An ATV suits frequent short trips, light packing, and one or two riders who don't mind the sun, dust, and rain. A rental car suits bigger groups, more luggage, and a preference for enclosed, weather-protected seating. Walk through the five-step framework above with your actual passengers, cargo, and route in mind, and the right choice tends to be obvious.
 
-If you land on an ATV, [renting one](/atv-rentals) in Santa Teresa is straightforward: it comes to your accommodation, we walk you through the controls, and it is collected from the same spot when your rental ends.
+If you land on a quad, [ATV rental in Santa Teresa](/) is straightforward: the quad comes to your accommodation, we walk you through the controls, and it is collected from the same spot when your rental ends.
 
 ## Frequently Asked Questions
 

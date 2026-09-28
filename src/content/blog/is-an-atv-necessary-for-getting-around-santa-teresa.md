@@ -98,7 +98,7 @@ A UTV offers side-by-side seating and more carrying space, though its larger foo
 
 For regional context before planning longer excursions, Costa Rica Tourism's [Nicoya Peninsula guide](https://www.visitcostarica.com/en/costa-rica/where-to-go/puntarenas) is worth a look. Route distance, road surface, weather, luggage, and your own riding confidence should carry more weight than a single advertised daily price.
 
-Published rates from other operators vary, so it's worth comparing more than one quote before you book. At Rent ATV Santa Teresa, rates decrease for rentals of three days or more, which is why the full-stay cost matters more than a one-day comparison.
+Published rates from other operators vary, so it's worth [comparing more than one quote](/blog/best-atv-rentals-santa-teresa) before you book. At Rent ATV Santa Teresa, rates decrease for rentals of three days or more, which is why the full-stay cost matters more than a one-day comparison.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -212,7 +212,7 @@ I offer free delivery and collection across Santa Teresa, Mal País, Playa Carme
 
 ## Conclusion
 
-There's no single right answer here. Look at where you're staying, how many trips you'll make each day, the season, and how comfortable you are on rough roads, and the decision usually becomes obvious. If it points toward an ATV, [renting one](/atv-rentals) in Santa Teresa is straightforward: it comes to your accommodation, I walk you through the controls, and it's collected from the same spot when you're done.
+There's no single right answer here. Look at where you're staying, how many trips you'll make each day, the season, and how comfortable you are on rough roads, and the decision usually becomes obvious. If it points toward a quad, [ATV rental in Santa Teresa](/) is straightforward: the quad comes to your accommodation, I walk you through the controls, and it's collected from the same spot when you're done.
 
 ## Frequently Asked Questions
 

@@ -6,8 +6,8 @@ Rent ATV Santa Teresa is a delivery-only ATV rental operator serving Santa Teres
 
 ## Pages
 
-- [Home](https://rentatvsantateresa.com/): Overview of the fleet, pricing, delivery area and booking.
-- [ATV rentals](https://rentatvsantateresa.com/atv-rentals): Full details of the Can-Am, Honda and Kymco fleet, what's included, and what to bring.
+- [ATV rental in Santa Teresa](https://rentatvsantateresa.com/): The Can-Am, Honda and Kymco fleet, rates, what's included, what to bring, delivery area and booking.
+- [ATV rentals in Mal País](https://rentatvsantateresa.com/atv-rentals-mal-pais): Rentals delivered to Mal País and the southern end of the coast.
 - [Pricing](https://rentatvsantateresa.com/pricing): Daily and weekly rental rates, deposit, fuel and delivery terms.
 - [FAQ](https://rentatvsantateresa.com/faq): Licence requirements, road conditions, insurance, breakdowns and gear.
 - [Blog](https://rentatvsantateresa.com/blog): Travel guides and local knowledge for visitors to Santa Teresa.

@@ -51,7 +51,7 @@ Airbnb has 8 million photographed listings to carry the emotional weight. This s
 | Route | Status | Description |
 |---|---|---|
 | `/` | Built, placeholder content | Hero, rental options, why-a-quad, route distances, location, FAQ, CTA |
-| `/atv-rentals` | Built, placeholder content | Fleet, what's included, what to bring, **guided rides**, **multi-day tiers**, routes |
+| `/atv-rentals` | Merged into `/` (301) | Fleet, included/bring, rates and FAQ now live on the home page |
 | `/pricing` | Built, **all figures are `$00`** | Rental rate table, deposits and extras |
 | `/faq` | Built, placeholder content | 13 questions in three groups, emits FAQPage schema |
 | `/about` | Built, placeholder content | Positioning, four commitments, service area |
@@ -96,7 +96,7 @@ Airbnb has 8 million photographed listings to carry the emotional weight. This s
 - [x] `WebSite` JSON-LD on homepage
 - [x] `BreadcrumbList` JSON-LD on all 5 interior pages, matching visible breadcrumbs
 - [x] `FAQPage` JSON-LD on homepage and `/faq`
-- [x] `Service` JSON-LD on `/atv-rentals`
+- [x] `Service` JSON-LD on `/` (formerly `/atv-rentals`)
 - [x] All JSON-LD blocks confirmed to parse as valid JSON
 - [x] Exactly one `<h1>` per page (verified across all 7 pages)
 - [x] Semantic landmarks: `header`, `nav`, `main`, `footer`, `section`, `article`, `address`
@@ -235,7 +235,7 @@ rentatv/
 │   ├── pages/
 │   │   ├── 404.astro
 │   │   ├── about.astro
-│   │   ├── atv-rentals.astro
+│   │   ├── atv-rentals-mal-pais.astro
 │   │   ├── contact.astro
 │   │   ├── faq.astro
 │   │   ├── index.astro
