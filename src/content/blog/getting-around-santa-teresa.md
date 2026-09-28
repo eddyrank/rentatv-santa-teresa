@@ -114,7 +114,7 @@ These are reasonable day-trip distances on an ATV, not marathon rides. Most visi
 
 ## My guides for each decision
 
-This page is the overview. When a visitor asks me something more specific, these are the guides I send them to.
+Almost every question I get on WhatsApp before someone books comes down to one of four decisions. I have written a full guide for each, so you can go straight to the one you are stuck on.
 
 ### Do you actually need an ATV?
 
