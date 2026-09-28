@@ -95,6 +95,27 @@ Body images are not Astro components (posts are plain markdown), so add them as 
 
 Every post needs a `tldr` list in its frontmatter: 3 to 4 short bullet points (the schema allows 2 to 5) summarizing the practical takeaways. The layout renders it as a "TL;DR" box between the hero image and the body, and the build fails if it is missing. Same voice rules as the body (first person where natural, no em dashes, accurate road and rate facts). Each bullet is one or two sentences a skimmer could act on, not a teaser.
 
+### Actionable lists go in a checklist callout
+
+When a list is something the reader will actually use (steps to take before arriving, things to check or ask, what to pack, what to bring to pickup), it is the most valuable part of that section and must pop. Render it as a checklist callout, not a plain markdown bullet list. Aim for one or two per post wherever there is a genuine reason; never force one. Plain markdown bullets stay for descriptive or comparison lists (pros and cons, lists of places, features).
+
+Posts are plain markdown, so write it as raw HTML. The `.checklist` styles live in `src/styles/global.css` (sand background, jungle-green left rule, green check markers):
+
+```html
+<aside class="checklist" aria-labelledby="unique-checklist-id">
+  <p id="unique-checklist-id" class="checklist-title">Before you arrive: 5 checks</p>
+  <ul>
+    <li>Open the exact property location in satellite view.</li>
+    <li>Ask whether the final access road is paved, gravel, or dirt.</li>
+  </ul>
+</aside>
+```
+
+- The title is short and concrete, ideally with the count ("Before you ride: 4 checks", "Pickup day: what to bring"). Give it an `id` that is unique within the post.
+- The callout replaces any lead-in sentence like "Use this checklist before you arrive:". Don't write both.
+- 3 to 7 items, each one action starting with a verb, one sentence, no em dashes.
+- Markdown doesn't render inside the `<aside>`, so links go in as `<a href="/...">` tags.
+
 ### Internal linking: every new post gets linked from every older post
 
 When publishing a new post, edit every existing post in `src/content/blog/` with an earlier `pubDate` and add one contextual link to the new post (`/blog/new-slug`). Put the link on an existing phrase in the body where the new post genuinely expands on the point, or lightly rework a sentence so it fits; never add a "related posts" list or a bare "read more" line, and never link from inside the TL;DR, a heading, or the FAQ. Skip an older post only if it already links to the new one. The new post should also link out to at least two relevant older posts. Run `npm run build` afterwards.
