@@ -21,6 +21,7 @@ export const localBusinessSchema = {
     `${site.url}/photos/fleet-honda-side-1200.webp`,
     `${site.url}/photos/fleet-kymco-front-1200.webp`,
   ],
+  logo: `${site.url}/logo.png`,
   priceRange: '$$',
   currenciesAccepted: 'CRC, USD',
   paymentAccepted: 'Cash, Credit Card',
