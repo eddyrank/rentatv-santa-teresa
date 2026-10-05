@@ -240,4 +240,4 @@ Alternatives include a UTV, bicycle, local bus where available, or transportatio
 
 ### When Is Renting an ATV in Santa Teresa Most Useful?
 
-An ATV is most useful for independent travel between several beaches or communities, particularly when staying away from the main coast road or above a steep access route. It is less necessary when most activities are concentrated close to your accommodation.
+An ATV is most useful for independent travel between [several beaches](/blog/exploring-santa-teresa-beaches-by-atv-safely) or communities, particularly when staying away from the main coast road or above a steep access route. It is less necessary when most activities are concentrated close to your accommodation.

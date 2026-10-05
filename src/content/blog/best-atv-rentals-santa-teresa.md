@@ -241,7 +241,7 @@ At Rent ATV Santa Teresa, daily rates run from $65 for rentals under three days 
 
 ### What are some of the best things to do in Santa Teresa, Costa Rica?
 
-Popular options include surf breaks, restaurants, and the beaches around Playa Carmen, Playa Hermosa, Santa Teresa, and Mal País. Use legal roads, plan longer trips during daylight, and ask for current route advice. Riding on the beach itself isn't allowed.
+Popular options include surf breaks, restaurants, and [the beaches around Playa Carmen, Playa Hermosa, Santa Teresa, and Mal País](/blog/exploring-santa-teresa-beaches-by-atv-safely). Use legal roads, plan longer trips during daylight, and ask for current route advice. Riding on the beach itself isn't allowed.
 
 ### Where is the best place to ride an ATV?
 

@@ -15,7 +15,7 @@ featured: true
 
 Beach days here usually mean moving between a surf break, a café, your accommodation, and a quieter stretch of coast someone mentioned the night before. Exploring Santa Teresa beaches by ATV gives you that flexibility, but it works best when you know which roads actually get you there, where legal access ends, and when to just turn around.
 
-This guide covers the routes linking Playa Carmen, Santa Teresa, Playa Hermosa, Manzanillo, Mal País, Mar Azul, and the viewpoints in between.
+This guide covers the routes linking Playa Carmen, Santa Teresa, Playa Hermosa, Manzanillo, <a href="/atv-rentals-mal-pais">Mal País</a>, Mar Azul, and the viewpoints in between.
 
 ## Why an ATV changes how you explore Santa Teresa
 
