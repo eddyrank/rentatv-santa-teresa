@@ -142,7 +142,7 @@ The driver needs to be at least 18, carry a valid driver's licence, and follow C
 
 Every rider wears a helmet, and passenger seating has to match what the ATV is actually approved for. Alcohol, drugs, speeding, and using your phone while riding can turn an easy coastal trip into a serious incident fast.
 
-I include <a href="https://rentatvsantateresa.com/" target="_blank" rel="nofollow noopener">a helmet for every rider and basic liability insurance</a> with every rental, and hand the quad over with a full tank, expecting it back the same way since fuel isn't included in the rate. Still confirm the current <a href="https://gobimba.com/atv-rental-in-santa-teresa-alternative-bimbas-e-bikes/" target="_blank" rel="nofollow noopener">insurance terms, deductible, damage exclusions, and deposit</a> with whoever you rent from, along with where you're actually allowed to ride.
+I include <a href="https://rentatvsantateresa.com/" target="_blank" rel="nofollow noopener">a helmet for every rider and basic liability insurance</a> with every rental, and hand the quad over with a full tank, expecting it back the same way since fuel isn't included in the rate. Still confirm the current insurance terms, deductible, damage exclusions, and deposit with whoever you rent from, along with where you're actually allowed to ride.
 
 ### Passengers and cargo
 
