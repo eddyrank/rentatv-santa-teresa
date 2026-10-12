@@ -150,7 +150,7 @@ Heat, road dust, darkness, and longer distances can still make even simple outin
 
 ### Best Fit: Several Days of Exploring
 
-An ATV can suit a licensed adult expecting repeated trips over several days and wanting to move according to surf conditions, meals, and changing plans. Passenger capacity must match the number of travelers using the quad.
+An ATV can suit a licensed adult expecting repeated trips over several days and wanting to move according to surf conditions, meals, and changing plans, or fit in a day trip such as [Montezuma waterfall by ATV](/blog/montezuma-waterfall-atv-santa-teresa). Passenger capacity must match the number of travelers using the quad.
 
 Use taxis for evenings out and any journey where poor visibility, weather, fatigue, or alcohol makes self-driving inappropriate. Convenience should never override a clear safety concern.
 

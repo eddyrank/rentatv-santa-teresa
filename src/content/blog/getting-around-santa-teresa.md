@@ -2,7 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
-updatedDate: 2026-09-28
+updatedDate: 2026-10-12
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -96,7 +96,7 @@ From the centre of Santa Teresa you can comfortably reach:
 - **Manzanillo:** around 14 km, 35 minutes depending on conditions
 - **Montezuma:** around 22 km, approximately 50 minutes
 
-These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make the longer run toward Montezuma.
+These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -114,7 +114,7 @@ These are reasonable day-trip distances on an ATV, not marathon rides. Most visi
 
 ## My guides for each decision
 
-Almost every question I get on WhatsApp before someone books comes down to one of four decisions. I have written a full guide for each, so you can go straight to the one you are stuck on.
+Almost every question I get on WhatsApp before someone books comes down to a handful of decisions, plus the inevitable "where should we ride?" I have written a full guide for each, so you can go straight to the one you are stuck on.
 
 ### Do you actually need an ATV?
 
@@ -131,6 +131,14 @@ A car makes sense for families, heavy luggage, and long drives across the penins
 ### Which ATV rental should you pick?
 
 If you have decided on a quad, the next question is who to rent from. I put together a comparison of [the best ATV rentals in Santa Teresa](/blog/best-atv-rentals-santa-teresa), covering vehicles, delivery, insurance, and prices from five providers, plus the checks I would run on any of them before handing over a deposit.
+
+### Where can you ride to the beaches?
+
+Most of my renters want to hop between Playa Carmen, Playa Hermosa, Manzanillo and Mal País. You can reach all of them by road, but riding on the sand itself is off limits. My guide to [exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) covers which routes suit a first-timer and where legal access ends.
+
+### Is Montezuma waterfall worth the ride?
+
+Yes, and it is the day trip I recommend most. The trick is taking the main road through Cóbano rather than the hill roads, and leaving early. My guide to [Montezuma waterfall by ATV](/blog/montezuma-waterfall-atv-santa-teresa) covers the route, where to park, the river hike and what to pack.
 
 ## What you need to rent
 

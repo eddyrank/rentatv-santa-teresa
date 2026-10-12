@@ -160,7 +160,7 @@ Rain, heat, dust, and passenger weight can tire out an inexperienced rider soone
 
 ### When to change the plan
 
-Turn around when rain cuts visibility, water gets too deep to judge, or the terrain is beyond what you're comfortable with. For longer trips toward Montezuma or the Cabo Blanco Absolute Natural Reserve, take the easier paved route through Cóbano instead of the difficult hill roads.
+Turn around when rain cuts visibility, water gets too deep to judge, or the terrain is beyond what you're comfortable with. For longer trips toward <a href="/blog/montezuma-waterfall-atv-santa-teresa">Montezuma and its waterfall</a> or the Cabo Blanco Absolute Natural Reserve, take the easier paved route through Cóbano instead of the difficult hill roads.
 
 I keep my ATVs serviced between rentals and offer roadside help and a replacement if something mechanical goes wrong that can't be fixed on-site. If that happens, stop somewhere safe and follow the provider's process instead of trying to fix it yourself on the roadside.
 

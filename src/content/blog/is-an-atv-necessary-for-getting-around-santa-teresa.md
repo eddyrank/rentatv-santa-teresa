@@ -102,7 +102,7 @@ Dust also cuts down your visibility behind other vehicles. Give yourself more fo
 
 Don't enter water you can't judge the depth, current, or surface of. After heavy rain, confirm the road you're planning to take is still passable before you leave.
 
-Night riding adds risk you don't need, because potholes, animals, road edges, and other people are harder to see. Save longer or unfamiliar routes for daylight whenever you can.
+Night riding adds risk you don't need, because potholes, animals, road edges, and other people are harder to see. Save longer or unfamiliar routes, like [the run to Montezuma waterfall](/blog/montezuma-waterfall-atv-santa-teresa), for daylight whenever you can.
 
 ## Compare an ATV With Other Transport Options
 

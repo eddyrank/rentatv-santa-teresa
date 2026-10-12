@@ -197,7 +197,7 @@ River crossings and steep inland tracks need more confidence than the paved main
 
 Choose Rent ATV Santa Teresa for a delivered, fully automatic 4x4; Vroom8 for the widest vehicle comparison; ATValerios for an experienced ATV specialist; Buggy Blue for visible cash and card rates; or Quad Tours Costa Rica when guided adventures are part of the plan.
 
-Start by deciding whether the ATV is daily transportation or a one-day activity. Then compare the total cost for your exact rental period, since a low headline price may apply to a different vehicle, payment method, or duration.
+Start by deciding whether the ATV is daily transportation or a one-day activity, like [a ride to Montezuma waterfall](/blog/montezuma-waterfall-atv-santa-teresa). Then compare the total cost for your exact rental period, since a low headline price may apply to a different vehicle, payment method, or duration.
 
 <aside class="checklist" aria-labelledby="before-booking-checklist">
   <p id="before-booking-checklist" class="checklist-title">Before you book: 8 checks</p>

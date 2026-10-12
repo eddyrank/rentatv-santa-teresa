@@ -53,7 +53,7 @@ Consider a car if your plans include Tambor Airport, longer highway stretches, o
 
 ## Compare Santa Teresa Road Conditions
 
-The main road through Santa Teresa is paved and runs parallel to several kilometres of open beach, though it turns partially unpaved on the stretch toward Montezuma. Corrugation and dust are part of daily life on the unpaved sections during the dry months, and in the green season you'll find mud, ruts, soft edges, and pooled water instead.
+The main road through Santa Teresa is paved and runs parallel to several kilometres of open beach, though it turns partially unpaved on [the stretch toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa). Corrugation and dust are part of daily life on the unpaved sections during the dry months, and in the green season you'll find mud, ruts, soft edges, and pooled water instead.
 
 Steep driveways leading to hillside villas can actually be harder than the coast road itself. Ask about that final approach to your accommodation, don't judge the whole trip by the main route alone.
 
