@@ -80,9 +80,9 @@ export function fleetOffersSchema(url: string) {
         priceCurrency: 'USD',
         availability: 'https://schema.org/InStock',
         itemOffered: {
-          '@type': 'Product',
+          '@type': 'Service',
           name: model.name,
-          category: 'Fully automatic ATV',
+          serviceType: 'Fully automatic ATV rental',
           image: `${site.url}/photos/${model.photo}-1200.webp`,
         },
         priceSpecification: rates.map((tier) => ({
