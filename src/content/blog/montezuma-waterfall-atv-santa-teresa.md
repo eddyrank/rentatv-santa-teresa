@@ -5,7 +5,7 @@ tldr:
   - "Montezuma is about 22 km from Santa Teresa, roughly 50 minutes by quad. Take the main road through Cóbano, not the hill roads through Mal País and Cabuya."
   - "Park at the lot by the trailhead on the south edge of Montezuma (expect a small cash fee) and hike 20 to 30 minutes up the river to the main fall."
   - "Wear closed shoes you can get wet, bring cash, water and a towel, and keep your licence and phone in the locking cargo box."
-  - "Leave in the morning, skip the cliff jumps, stay out of the river after heavy rain, and be back on the road well before dark."
+  - "Leave in the morning, swim in the main pool, and be back on the road before dark. If it rained hard overnight, save the swim for another day."
 pubDate: 2026-10-12
 image: "/photos/montezuma-waterfall-swimmers-1200.webp"
 imageAlt: "Swimmers in the pool at the base of the main Montezuma waterfall, with a tall white cascade dropping down dark rock"
@@ -62,11 +62,11 @@ The main fall is the tallest of the three, dropping into a wide, deep pool. The 
 </div>
 <p class="-mt-5 mb-8 text-micro text-muted">Photo: Vargob, <a href="https://commons.wikimedia.org/wiki/File:Waterfall_at_Montezuma.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, cropped.</p>
 
-## Staying safe at the waterfall
+## Swimming at the falls
 
-I will be blunt about this part. You will see people jumping from the rocks and swinging off ropes above the pools. People have been badly hurt and killed doing exactly that here. Depth changes, rocks hide under the surface, and the ledges are slick. Swim in the pool, enjoy the spray, and leave the jumping to someone else.
+The main pool is the best part of the trip. The water is cool after the ride, and you can swim right up into the spray. You will also see people jumping from the rocks and swinging off ropes. I leave that to them: the rocks are slippery and it is hard to judge the depth from above, so I stick to the swim.
 
-The river is also a different animal in the green season. After heavy rain the water rises and turns brown, the current picks up, and the river crossing on the hike gets dangerous. If it rained hard overnight or the water looks murky and fast, skip the swim and save the falls for a dry morning.
+In the green season, take a look at the river before you head up. On most mornings it is clear and calm. After a heavy night of rain it can run brown and fast, and on those days I would rather come back another morning.
 
 <aside class="checklist" aria-labelledby="montezuma-pack-checklist">
   <p id="montezuma-pack-checklist" class="checklist-title">Waterfall day: what to pack</p>
@@ -105,7 +105,7 @@ The same rules from my guide to [exploring the beaches by ATV safely](/blog/expl
 
 ## Conclusion
 
-Montezuma waterfall is the day trip I recommend most to people staying in Santa Teresa. The ride is long enough to feel like an adventure and short enough to fit around a morning surf. Take the main road through Cóbano, go early, wear real shoes, and treat the river with respect, and it is an easy, memorable day.
+Montezuma waterfall is the day trip I recommend most to people staying in Santa Teresa. The ride is long enough to feel like an adventure and short enough to fit around a morning surf. Take the main road through Cóbano, go early, wear real shoes, and it is an easy, memorable day.
 
 A quad makes it simple because you leave when you want and stop where you like. I deliver to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to walk you through the route before you set off. Rates start at $65 a day and drop to $60 a day for three to seven days.
 
@@ -125,6 +125,6 @@ No. The trail from the parking lot is easy to follow, and you can visit the fall
 
 ### Can I swim at Montezuma waterfall?
 
-Yes, the pool under the main fall is popular for swimming when the river is calm. Stay out after heavy rain, when the current gets strong, and do not jump from the rocks or rope swings.
+Yes, the pool under the main fall is popular for swimming when the river is calm. After heavy rain the river can run fast, so on those days it is better to come back another time.
 
 <p class="mt-10 text-micro text-muted">Header photo: Vlad Podvorny, <a href="https://commons.wikimedia.org/wiki/File:Waterfall_in_Montezuma_-_panoramio.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, cropped.</p>
