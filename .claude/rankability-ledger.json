@@ -1,0 +1,22 @@
+{
+  "_about": "Read and updated by the weekly 'RentATV weekly blog autopilot' cloud routine. client_id is the RentATV workspace in Rankability. 'published' maps Rankability Copywriter job ids to the blog slug they became, so a draft is never published twice. 'next_topics' is the queue the routine starts new Rankability Autopilot drafts from, top first; edit it freely.",
+  "client_id": "39ece63e-909f-46f9-b719-58b69145a707",
+  "published": {
+    "26ddcb61-2479-4ce6-b925-7bd64d4cb6b4": "page:/atv-rentals-mal-pais",
+    "61a8b423-a28f-4485-9d9b-ce3ecbe6030d": "atv-vs-rental-car-in-santa-teresa-how-to-choose",
+    "29463a84-b954-4315-a097-d1d8581fe215": "santa-teresa-atv-vs-taxi-which-is-better-for-getting-around",
+    "2d7ad4c0-4555-45f6-8705-20b64dbd1e67": "is-an-atv-necessary-for-getting-around-santa-teresa",
+    "07d20ba5-d4a4-44e6-8c9d-85295e12a816": "best-atv-rentals-santa-teresa",
+    "636f205d-917d-480d-95fd-0634a0c80cda": "exploring-santa-teresa-beaches-by-atv-safely",
+    "386d686d-550f-4cde-9445-e2728fd9f8f9": "montezuma-waterfall-atv-santa-teresa",
+    "3a56c163-6d95-4f1f-80c7-935f811a51f0": "cabo-blanco-reserve-atv"
+  },
+  "next_topics": [
+    "Santa Teresa rainy season roads",
+    "Playa Hermosa Santa Teresa by ATV",
+    "Mal Pais tide pools by ATV",
+    "best sunset spots Santa Teresa Costa Rica",
+    "ATV rental requirements Costa Rica",
+    "things to do in Santa Teresa Costa Rica besides surfing"
+  ]
+}
