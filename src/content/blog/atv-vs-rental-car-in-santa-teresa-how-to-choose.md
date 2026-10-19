@@ -19,7 +19,7 @@ Here's when each vehicle works well, what the local roads demand, and the costs 
 
 ## Start With How You Will Use Transport
 
-Santa Teresa stretches along a paved coastal road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you [depends on where you're staying](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), how many people you're traveling with, what you need to carry, and whether you're planning regional day trips.
+Santa Teresa stretches along a paved coastal road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you [depends on where you're staying](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), how many people you're traveling with, what you need to carry, and whether you're planning [regional day trips](/blog/cabo-blanco-reserve-atv).
 
 A quad is exposed, and that's exactly what makes it good for frequent short trips around town. A rental car gives you enclosed seating and more capacity, but it can be awkward on narrow access roads and rough tracks.
 

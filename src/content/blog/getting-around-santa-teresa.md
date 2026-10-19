@@ -2,7 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
-updatedDate: 2026-10-12
+updatedDate: 2026-10-19
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -96,7 +96,7 @@ From the centre of Santa Teresa you can comfortably reach:
 - **Manzanillo:** around 14 km, 35 minutes depending on conditions
 - **Montezuma:** around 22 km, approximately 50 minutes
 
-These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall.
+These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall, or all the way down to [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv) at the southern tip.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -139,6 +139,10 @@ Most of my renters want to hop between Playa Carmen, Playa Hermosa, Manzanillo a
 ### Is Montezuma waterfall worth the ride?
 
 Yes, and it is the day trip I recommend most. The trick is taking the main road through Cóbano rather than the hill roads, and leaving early. My guide to [Montezuma waterfall by ATV](/blog/montezuma-waterfall-atv-santa-teresa) covers the route, where to park, the river hike and what to pack.
+
+### Can you reach Cabo Blanco Reserve by ATV?
+
+Yes, as far as the entrance near Cabuya. From there you hike, because the reserve is protected and closed to vehicles. My guide to [Cabo Blanco Reserve by ATV](/blog/cabo-blanco-reserve-atv) covers the route past Montezuma, the days it is closed, and how much time to leave for the Sueco trail.
 
 ## What you need to rent
 
