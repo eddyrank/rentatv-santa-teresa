@@ -23,7 +23,7 @@ I take the main road every time. From Santa Teresa it is paved all the way inlan
 
 Door to door it is roughly 50 minutes at a relaxed pace. On the Can-Am Outlander 450 that is a comfortable ride, and because it is fully automatic there are no gears to think about on the hills.
 
-You will see shorter lines on the map through Mal País and Cabuya. I do not send renters that way. Those back roads have steep climbs, loose rock and river crossings that can rise fast after rain. They look like a shortcut and ride like a test. If you want more on how the roads around here connect, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) covers the whole network.
+You will see shorter lines on the map through [Mal País](/atv-rentals-mal-pais) and Cabuya. I do not send renters that way. Those back roads have steep climbs, loose rock and river crossings that can rise fast after rain. They look like a shortcut and ride like a test. If you want more on how the roads around here connect, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) covers the whole network.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
