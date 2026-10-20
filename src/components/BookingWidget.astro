@@ -265,7 +265,7 @@ const { compact = false } = Astro.props;
       // click), so push a dataLayer event explicitly. GTM trigger: Custom
       // Event named "whatsapp_click".
       window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'whatsapp_click', cta_location: 'booking_widget' });
+      window.dataLayer.push({ event: 'whatsapp_click', cta_location: 'booking_widget', page_path: location.pathname });
       window.open(url, '_blank', 'noopener');
     });
   })();

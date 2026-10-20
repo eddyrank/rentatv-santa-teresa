@@ -28,7 +28,7 @@ const { eyebrow, title, body, cta = true } = Astro.props;
         <h2 class="text-h3 on-dark-heading sm:text-h2">{title}</h2>
         <p class="mt-4 max-w-lg text-base leading-relaxed on-dark-body">{body}</p>
         {cta && (
-          <a href={whatsappLink()} class="btn-primary mt-8" rel="noopener" target="_blank">
+          <a href={whatsappLink()} data-cta="photo_band" class="btn-primary mt-8" rel="noopener" target="_blank">
             <WhatsAppIcon class="h-4 w-4" />
             Check availability
           </a>

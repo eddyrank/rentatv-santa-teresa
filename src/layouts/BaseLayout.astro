@@ -109,5 +109,29 @@ const schemaBlocks = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
     </main>
     <Footer />
     <MobileBar />
+
+    <!-- WhatsApp is the only lead channel, so every booking link pushes the
+         same dataLayer event the BookingWidget does (GTM trigger: Custom Event
+         "whatsapp_click"). One delegated listener covers every page; each link
+         names itself with data-cta. Matching on our number skips ShareBar's
+         wa.me/?text= share links, which aren't leads. -->
+    <script is:inline data-wa={`wa.me/${site.whatsappNumber}`}>
+      (function () {
+        var waPath = document.currentScript.dataset.wa;
+        function track(e) {
+          if (e.type === 'auxclick' && e.button !== 1) return;
+          var link = e.target.closest && e.target.closest('a[href]');
+          if (!link || link.href.indexOf(waPath) === -1) return;
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: 'whatsapp_click',
+            cta_location: link.dataset.cta || 'other',
+            page_path: location.pathname,
+          });
+        }
+        document.addEventListener('click', track, true);
+        document.addEventListener('auxclick', track, true);
+      })();
+    </script>
   </body>
 </html>

@@ -22,7 +22,7 @@ const {
     <h2 class="text-h3 on-dark-heading sm:text-h2">{title}</h2>
     <p class="mx-auto mt-3 max-w-lg text-base on-dark-body">{body}</p>
     <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-      <a href={message ? whatsappLink(message) : whatsappLink()} class="btn-primary" rel="noopener" target="_blank">
+      <a href={message ? whatsappLink(message) : whatsappLink()} data-cta="cta_band" class="btn-primary" rel="noopener" target="_blank">
         <WhatsAppIcon class="h-4 w-4" />
         Message us on WhatsApp
       </a>
