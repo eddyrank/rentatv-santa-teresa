@@ -84,7 +84,7 @@ In the green season, take a look at the river before you head up. On most mornin
 
 The falls take two to three hours with the hike and a swim. That leaves time for the rest of Montezuma, which has a very different feel from Santa Teresa: smaller, slower, with a main beach right in front of the village and a string of quieter coves along the coast. The road carries on south to Cabuya and [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv), but that is really a day of its own.
 
-My usual plan: leave Santa Teresa around 8, be at the trailhead before the crowds arrive mid-morning, hike and swim, then ride back into the village for lunch and an hour on the beach. Fill up in Cóbano on the way home and you are back in Santa Teresa by mid-afternoon with daylight to spare. The ride back is always slower than the ride out. Your legs are tired and the sun is in a different place.
+My usual plan: leave Santa Teresa around 8, be at the trailhead before the crowds arrive mid-morning, hike and swim, then ride back into the village for lunch and an hour on the beach. Fill up in Cóbano on the way home and you are back in Santa Teresa by mid-afternoon with daylight to spare. The ride back is always slower than the ride out. Your legs are tired and the sun is in a different place. If you want something shorter for another day, [the ride up to Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) is only about 14 km and does not take the whole day.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

@@ -59,7 +59,7 @@ Use the established beach access points and park fully off the travel lane where
 
 ### Playa Hermosa and Manzanillo
 
-The route north is mostly flat and manageable for careful beginners. Services get less frequent past central Santa Teresa, so carry water, charge your phone, and check your fuel before continuing toward Manzanillo.
+The route north is mostly flat and manageable for careful beginners. Services get less frequent past central Santa Teresa, so carry water, charge your phone, and check your fuel before continuing toward [Manzanillo](/blog/manzanillo-beach-atv-santa-teresa).
 
 Rain can turn a shallow dip into a puddle fast and soften the road edges. Approach every wet section slowly rather than assuming it rides the same as it did yesterday.
 
