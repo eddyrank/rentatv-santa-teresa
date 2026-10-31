@@ -166,7 +166,7 @@ I keep my ATVs serviced between rentals and offer roadside help and a replacemen
 
 ## Build a sensible Santa Teresa beach itinerary
 
-An easy day can start at Playa Carmen, continue into Santa Teresa for lunch and supplies, and finish with an afternoon stop at Playa Hermosa. That keeps the riding distances manageable and leaves room to reassess the weather and traffic along the way.
+An easy day can start at Playa Carmen, continue into Santa Teresa for lunch and supplies, and finish with [an afternoon stop at Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa). That keeps the riding distances manageable and leaves room to reassess the weather and traffic along the way.
 
 For something quieter, ride from Santa Teresa toward Manzanillo and check your fuel and daylight before heading back. If Mal País and Mar Azul interest you, make that coast its own half-day trip with slower riding and more stops. For more on how the roads connect across town, see my guide to <a href="/blog/getting-around-santa-teresa">getting around Santa Teresa</a>.
 

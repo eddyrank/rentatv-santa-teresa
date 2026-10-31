@@ -21,7 +21,7 @@ Doing Cabo Blanco Reserve by ATV is a self-drive day trip, not a tour. The quad 
 
 The reserve is about 30 km from Santa Teresa, and I allow a bit over an hour each way at a relaxed pace. I take the long way every time. From Santa Teresa the main road is paved inland to Cóbano, where you should fill the tank because there is nothing past it worth counting on. From Cóbano you drop down to Montezuma, then follow the coast road south to the small village of Cabuya. The reserve entrance is a few minutes past Cabuya at the end of the road.
 
-Once you leave the pavement after Cóbano, the surface changes from stretch to stretch: some sections are smooth, others are rutted, and in the green season some of it turns to mud. Ride it slowly, especially the steep descent into Montezuma. If you have not been out that way before, my guide to [riding to Montezuma waterfall](/blog/montezuma-waterfall-atv-santa-teresa) covers the first two thirds of this route in detail.
+Once you leave the pavement after Cóbano, the surface changes from stretch to stretch: some sections are smooth, others are rutted, and in the green season some of it turns to mud. Ride it slowly, especially the steep descent into Montezuma. If you have not been out that way before, my guide to [riding to Montezuma waterfall](/blog/montezuma-waterfall-atv-santa-teresa) covers the first two thirds of this route in detail. If this is your first day on a quad, a warm-up ride [up to Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) the day before is time well spent.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

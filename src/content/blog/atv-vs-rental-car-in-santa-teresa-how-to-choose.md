@@ -27,7 +27,7 @@ Choose an ATV for flexible beach-hopping and regular local outings with light ge
 
 ### When an ATV Usually Makes Sense
 
-An ATV generally suits one or two licensed riders staying around Santa Teresa, [Mal País](/atv-rentals-mal-pais), Playa Carmen, or Playa Hermosa. Its compact size makes it easy to park and position for repeated surf checks, restaurant visits, and errands, and it also makes the quieter run up to [Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) an easy afternoon trip.
+An ATV generally suits one or two licensed riders staying around Santa Teresa, [Mal País](/atv-rentals-mal-pais), Playa Carmen, or [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa). Its compact size makes it easy to park and position for repeated surf checks, restaurant visits, and errands, and it also makes the quieter run up to [Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) an easy afternoon trip.
 
 A fully automatic ATV needs no manual gear changes, so anyone can hop on and go. The fully automatic fleet available locally, with Can-Am, Honda, and Kymco models, typically adds 4x4 traction, passenger seating, and secure storage for everyday coast-road travel.
 

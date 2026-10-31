@@ -40,7 +40,7 @@ Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are sprea
 
 ## 1. Rent ATV Santa Teresa: best for delivered automatic 4x4 transport
 
-Rent ATV Santa Teresa is my self-drive rental for licensed visitors staying in Santa Teresa, Playa Carmen, Playa Hermosa, or Mal País. The quad comes to you, which suits travelers who need flexible transportation between accommodation, restaurants, surf spots, and shops.
+Rent ATV Santa Teresa is my self-drive rental for licensed visitors staying in Santa Teresa, Playa Carmen, [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa), or Mal País. The quad comes to you, which suits travelers who need flexible transportation between accommodation, restaurants, surf spots, and shops.
 
 The fleet is fully automatic Can-Am, Honda, and Kymco models, so there are no gears to learn. 4x4 is useful on rough roads, muddy sections, and the steep driveways up to hillside villas.
 

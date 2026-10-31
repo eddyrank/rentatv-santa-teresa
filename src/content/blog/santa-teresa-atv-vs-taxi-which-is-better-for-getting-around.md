@@ -64,7 +64,7 @@ Next, compare that figure with the full ATV total, not merely its advertised dai
 
 ### Costs That Are Easy to Miss
 
-Taxi calculations should account for waiting time, late-night availability, longer journeys toward Mal País or Playa Hermosa, and extra rides caused by forgotten equipment. Ask whether the quoted amount covers the whole group and any luggage.
+Taxi calculations should account for waiting time, late-night availability, longer journeys toward Mal País or [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa), and extra rides caused by forgotten equipment. Ask whether the quoted amount covers the whole group and any luggage.
 
 ATV costs may include fuel and a refundable security deposit. Unsafe riding, prohibited use, or damage outside the rental terms can create additional costs that are far greater than the fuel bill.
 

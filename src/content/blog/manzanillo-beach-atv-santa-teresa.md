@@ -13,7 +13,7 @@ tags: ["manzanillo", "atv routes", "santa teresa", "day trips"]
 featured: false
 ---
 
-North of Playa Hermosa the road gets quiet fast. Fewer villas, fewer motorbikes, more jungle pressing in on both sides. That stretch leads up to Manzanillo, a small beach most visitors never see because it does not show up on the same lists as [Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) or [Cabo Blanco](/blog/cabo-blanco-reserve-atv). I like sending people there on a slow afternoon after they have already hit the obvious stops and want somewhere with nobody else on it.
+North of [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) the road gets quiet fast. Fewer villas, fewer motorbikes, more jungle pressing in on both sides. That stretch leads up to Manzanillo, a small beach most visitors never see because it does not show up on the same lists as [Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) or [Cabo Blanco](/blog/cabo-blanco-reserve-atv). I like sending people there on a slow afternoon after they have already hit the obvious stops and want somewhere with nobody else on it.
 
 ## The ride up to Manzanillo
 

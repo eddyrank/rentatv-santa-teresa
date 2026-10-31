@@ -2,7 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
-updatedDate: 2026-10-26
+updatedDate: 2026-10-31
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -135,6 +135,10 @@ If you have decided on a quad, the next question is who to rent from. I put toge
 ### Where can you ride to the beaches?
 
 Most of my renters want to hop between Playa Carmen, Playa Hermosa, Manzanillo and Mal País. You can reach all of them by road, but riding on the sand itself is off limits. My guide to [exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) covers which routes suit a first-timer and where legal access ends.
+
+### What is the easiest beach ride out of town?
+
+Playa Hermosa. It is about 5 km north, around 12 minutes on a quad, with a wide surf beach and far fewer people than the middle of Santa Teresa. My guide to [Playa Hermosa by ATV](/blog/playa-hermosa-atv-santa-teresa) covers the road, the surf and swimming conditions, and how not to end up at the wrong Playa Hermosa.
 
 ### Is the ride up to Manzanillo worth it?
 

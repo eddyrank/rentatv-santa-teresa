@@ -35,7 +35,7 @@ A quad earns its keep for hillside villas, [Mal País](/atv-rentals-mal-pais) ac
 
 Check the exact property pin instead of relying on a general Santa Teresa address. Ask about the driveway gradient, distance from the coast road, surface condition, gate access, parking, and how close you are to groceries.
 
-Common journeys include Playa Carmen to Santa Teresa, Santa Teresa to Playa Hermosa, and Santa Teresa to Mal País. The distances look short on a map, but dust, traffic, potholes, standing water, and ruts can slow you down more than you'd expect.
+Common journeys include Playa Carmen to Santa Teresa, [Santa Teresa to Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa), and Santa Teresa to Mal País. The distances look short on a map, but dust, traffic, potholes, standing water, and ruts can slow you down more than you'd expect.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
