@@ -57,7 +57,7 @@ export const websiteSchema = {
 };
 
 /**
- * One Offer per machine, each carrying the tiered daily rate as
+ * One flat Offer per machine (no itemOffered, see note below), each carrying the tiered daily rate as
  * UnitPriceSpecifications (unitCode DAY) with the rental-length band each tier
  * applies to. Rates come from site.ts, so they cannot drift from the page.
  */
@@ -79,12 +79,11 @@ export function fleetOffersSchema(url: string) {
         url,
         priceCurrency: 'USD',
         availability: 'https://schema.org/InStock',
-        itemOffered: {
-          '@type': 'Service',
-          name: model.name,
-          serviceType: 'Fully automatic ATV rental',
-          image: `${site.url}/photos/${model.photo}-1200.webp`,
-        },
+        description: `Fully automatic ${model.name}, rented by the day.`,
+        image: `${site.url}/photos/${model.photo}-1200.webp`,
+        // No itemOffered: Google read the nested per-model entity as a Product
+        // missing offers/review/aggregateRating (Search Console, Oct 2026).
+        // Keeping the offer flat leaves Google nothing to classify as a product.
         priceSpecification: rates.map((tier) => ({
           '@type': 'UnitPriceSpecification',
           price: tier.price,
