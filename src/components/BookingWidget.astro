@@ -10,7 +10,7 @@
  * quotes the correct rate. The owner still confirms — this is a request, not
  * a confirmed booking.
  */
-import { site, whatsappLink } from '../data/site';
+import { site, whatsappLink, rates } from '../data/site';
 
 interface Props {
   compact?: boolean; // true = sidebar / card variant, false = full-width
@@ -140,17 +140,14 @@ const { compact = false } = Astro.props;
   </p>
 </div>
 
-<script is:inline data-wa={`https://wa.me/${site.whatsappNumber}`}>
+<script is:inline data-wa={`https://wa.me/${site.whatsappNumber}`} data-rates={JSON.stringify(rates)}>
   (function () {
     const WA_BASE = document.currentScript.dataset.wa;
 
-    // Rate tiers matching the pricing page.
-    const RATES = [
-      { minDays: 14, rate: 50, label: 'two-week rate' },
-      { minDays: 7,  rate: 55, label: 'weekly rate'   },
-      { minDays: 3,  rate: 60, label: '3-day+ rate'   },
-      { minDays: 1,  rate: 65, label: 'daily rate'    },
-    ];
+    // Rate tiers come from site.ts (via data-rates) so they always match the pricing page.
+    const RATES = JSON.parse(document.currentScript.dataset.rates)
+      .map(t => ({ minDays: t.minDays, rate: t.price, label: t.label.toLowerCase() + ' rate' }))
+      .sort((a, b) => b.minDays - a.minDays);
 
     const $ = id => document.getElementById(id);
     const pickup  = $('bw-pickup');

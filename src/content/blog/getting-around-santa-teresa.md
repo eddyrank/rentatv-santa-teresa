@@ -84,7 +84,7 @@ Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose
   />
 </div>
 
-**They cost less than daily taxis for multi-day stays.** At $60 per day for a rental of three to seven days, the math works in favour of renting if you are moving around more than once or twice a day.
+**They cost less than daily taxis for multi-day stays.** At $70 per day, with 10% off for rentals over a week, the math works in favour of renting if you are moving around more than once or twice a day.
 
 ## How far can you actually go
 

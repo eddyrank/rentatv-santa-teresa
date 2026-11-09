@@ -112,7 +112,7 @@ A UTV offers side-by-side seating and more carrying space, though its larger foo
 
 For regional context before planning longer excursions, Costa Rica Tourism's [Nicoya Peninsula guide](https://www.visitcostarica.com/en/costa-rica/where-to-go/puntarenas) is worth a look. Route distance, road surface, weather, luggage, and your own riding confidence should carry more weight than a single advertised daily price.
 
-Published rates from other operators vary, so it's worth [comparing more than one quote](/blog/best-atv-rentals-santa-teresa) before you book. At Rent ATV Santa Teresa, rates decrease for rentals of three days or more, which is why the full-stay cost matters more than a one-day comparison.
+Published rates from other operators vary, so it's worth [comparing more than one quote](/blog/best-atv-rentals-santa-teresa) before you book. At Rent ATV Santa Teresa, rentals over seven days get 10% off the daily rate, which is why the full-stay cost matters more than a one-day comparison.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

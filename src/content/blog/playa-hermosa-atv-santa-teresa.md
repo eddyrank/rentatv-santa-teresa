@@ -5,7 +5,7 @@ tldr:
   - "Playa Hermosa is about 5 km north of Santa Teresa, around 12 minutes by ATV. It is the easiest beach run out of town."
   - "This is the Playa Hermosa on the Nicoya Peninsula, not the ones in Guanacaste or near Jacó. Check that your map pin says Santa Teresa or Cóbano."
   - "It is an open Pacific beach with no lifeguard. Watch the water before you go in, and do not swim alone."
-  - "I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $65 a day."
+  - "I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day."
 pubDate: 2026-10-31
 image: "/photos/palm-beach-cloudy-1200.webp"
 imageAlt: "Leaning coconut palms over a wide, nearly empty sand beach, with dark rocks offshore and grey storm clouds over the Pacific"
@@ -96,7 +96,7 @@ Because Hermosa is so close, it works well as the first stop of a longer afterno
   />
 </div>
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the ride to Playa Hermosa starts at your door. The locking cargo box takes a towel, water and a dry layer, and your board fits on the rack once it is strapped down properly. Rates start at $65 a day, dropping to $60 a day if you rent for three to seven days.
+I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the ride to Playa Hermosa starts at your door. The locking cargo box takes a towel, water and a dry layer, and your board fits on the rack once it is strapped down properly. Rates start at $70 a day, with 10% off if you rent for more than seven days.
 
 ## Conclusion
 

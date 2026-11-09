@@ -65,10 +65,8 @@ export const site = {
  * Offer schema all read these, so change a rate here and nowhere else.
  */
 export const rates = [
-  { label: 'Under 3 days', minDays: 1, maxDays: 2, price: 65, detail: 'Full-day rentals' },
-  { label: '3 to 7 days', minDays: 3, maxDays: 7, price: 60, detail: 'The most popular range' },
-  { label: 'Over 7 days', minDays: 8, maxDays: 13, price: 55, detail: 'Weekly and longer' },
-  { label: 'Two weeks+', minDays: 14, maxDays: undefined, price: 50, detail: 'Our best rate' },
+  { label: '1 to 7 days', minDays: 1, maxDays: 7, price: 70, detail: 'Daily and weekly rentals' },
+  { label: 'Over 7 days', minDays: 8, maxDays: undefined, price: 63, detail: '10% off every day of the rental' },
 ];
 
 /** Daily rate for a rental of `days` days. */

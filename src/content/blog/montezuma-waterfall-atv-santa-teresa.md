@@ -107,7 +107,7 @@ The same rules from my guide to [exploring the beaches by ATV safely](/blog/expl
 
 Montezuma waterfall is the day trip I recommend most to people staying in Santa Teresa. The ride is long enough to feel like an adventure and short enough to fit around a morning surf. Take the main road through Cóbano, go early, wear real shoes, and it is an easy, memorable day. If you want to get used to the quad first, [the short ride north to Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) makes a good first afternoon.
 
-A quad makes it simple because you leave when you want and stop where you like. I deliver to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to walk you through the route before you set off. Rates start at $65 a day and drop to $60 a day for three to seven days.
+A quad makes it simple because you leave when you want and stop where you like. I deliver to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to walk you through the route before you set off. Rates start at $70 a day, with 10% off for rentals over seven days.
 
 ## Frequently asked questions
 

@@ -86,7 +86,7 @@ Do not ride on the beaches along the way. Park at the road and walk onto the san
 
 Cabo Blanco Reserve by ATV is a full day: an hour of riding each way, a few hours on the trail, and a stop in Montezuma or Cabuya if you have the energy. Go on a day the reserve is open, take the main road through Cóbano, start early, and be home before dark. It is the quietest corner of the peninsula and well worth the ride.
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to go over the route with you before you leave. Rates start at $65 a day and drop to $60 a day for three to seven days.
+I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to go over the route with you before you leave. Rates start at $70 a day, with 10% off for rentals over seven days.
 
 ## Frequently asked questions
 

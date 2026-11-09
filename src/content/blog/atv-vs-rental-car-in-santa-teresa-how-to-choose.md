@@ -83,13 +83,13 @@ An enclosed car keeps the dust out. An ATV can be easier to steer carefully arou
 
 Heavy rain can cut traction fast and soften the low sections of road. Avoid riding at night when you don't have to, standing water, washouts, and changing surfaces are much harder to judge in the dark.
 
-Never push through a questionable water crossing just because you have 4x4. If you're considering a multi-day ATV rental, rates drop after three days, but let the weather forecast and safe route access guide how long you book, not just the price break.
+Never push through a questionable water crossing just because you have 4x4. If you're considering a multi-day ATV rental, rentals over seven days get 10% off, but let the weather forecast and safe route access guide how long you book, not just the price break.
 
 ## Compare Cost Beyond the Daily Rate
 
 Compare the total cost for your whole stay, not just [the advertised daily rate](/blog/best-atv-rentals-santa-teresa). Factor in fuel, delivery, insurance, parking, transfers, the security deposit, optional protection, and possible damage charges.
 
-Multi-day pricing changes the math since ATV rates drop after three days. [An occasional ride with a taxi or shuttle](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) can work fine, but doing that over and over across several days can end up costing more than just having your own vehicle.
+Multi-day pricing changes the math since ATV rentals over seven days get 10% off. [An occasional ride with a taxi or shuttle](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) can work fine, but doing that over and over across several days can end up costing more than just having your own vehicle.
 
 Before you book, confirm the fuel policy, deposit method, deductible, damage exclusions, and what the basic liability coverage actually protects. "Helmets and basic liability insurance included" doesn't mean every vehicle damage or rider expense is covered.
 

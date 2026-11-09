@@ -7,7 +7,7 @@ image: "/photos/atv-beach-sunset-1200.webp"
 imageAlt: "A rental ATV parked under the trees at the edge of Mar Azul beach at sunset, near Santa Teresa"
 featured: false
 tldr:
-  - "Rent ATV Santa Teresa is my pick for a fully automatic 4x4 delivered free to your accommodation, from $65/day for short rentals down to $50/day for long stays."
+  - "Rent ATV Santa Teresa is my pick for a fully automatic 4x4 delivered free to your accommodation, from $70/day, with 10% off for rentals over 7 days."
   - "Vroom8 suits people comparing ATVs, UTVs, and motorcycles in one place; ATValerios and Buggy Blue are local alternatives; Quad Tours Costa Rica suits guided tours."
   - "Compare the total cost for your exact dates (taxes, deposit, fuel, insurance), not the headline daily rate."
   - "Ask every provider whether beaches, night riding, and river crossings are allowed before you set off."
@@ -27,7 +27,7 @@ Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are sprea
       <tr><th>Provider</th><th>Best for</th><th>Starting price*</th><th>Key strength</th></tr>
     </thead>
     <tbody>
-      <tr><td>Rent ATV Santa Teresa</td><td>Delivered automatic 4x4 transport</td><td><a href="/pricing">From $50/day</a></td><td>Delivery, helmets, basic liability insurance, and roadside help</td></tr>
+      <tr><td>Rent ATV Santa Teresa</td><td>Delivered automatic 4x4 transport</td><td><a href="/pricing">From $70/day</a></td><td>Delivery, helmets, basic liability insurance, and roadside help</td></tr>
       <tr><td>Vroom8</td><td>Broad vehicle choice</td><td>Varies by listing</td><td>ATVs, UTVs, and motorcycles</td></tr>
       <tr><td>ATValerios</td><td>Established ATV specialist</td><td>From $70/day</td><td>Named Honda 420 model and local route support</td></tr>
       <tr><td>Buggy Blue</td><td>Clear cash versus card pricing</td><td>From $75/day + tax</td><td>Separate payment-method rates</td></tr>
@@ -66,7 +66,7 @@ The fleet is fully automatic Can-Am, Honda, and Kymco models, so there are no ge
 - A helmet for every rider and basic liability insurance included
 - Controls walkthrough at delivery, local route advice, and roadside help if something fails on the road
 
-**Pricing:** Daily rates run from $65 for rentals under three days down to $50 for long stays, with the full tiers on the [pricing page](/pricing). The refundable security deposit starts at $500. The quad arrives with a full tank and goes back full.
+**Pricing:** The daily rate is $70, with 10% off ($63 a day) for rentals over seven days, with full details on the [pricing page](/pricing). The refundable security deposit starts at $500. The quad arrives with a full tank and goes back full.
 
 **Ideal for:** Riders with a valid physical driver's licence who want a delivered ATV for several days of independent travel.
 
@@ -237,7 +237,7 @@ Every provider here suits someone. If what you want is a fully automatic 4x4 bro
 
 ### How much does it cost to rent an ATV for the day?
 
-At Rent ATV Santa Teresa, daily rates run from $65 for rentals under three days down to $50 for long stays. As listed on their websites in September 2026, ATValerios' Honda 420 starts at $70 per day, and Buggy Blue starts at $75 cash or $85 by card plus taxes. Confirm current rates and which vehicle a rate applies to before booking.
+At Rent ATV Santa Teresa, the daily rate is $70, with 10% off ($63 a day) for rentals over seven days. As listed on their websites in September 2026, ATValerios' Honda 420 starts at $70 per day, and Buggy Blue starts at $75 cash or $85 by card plus taxes. Confirm current rates and which vehicle a rate applies to before booking.
 
 ### What are some of the best things to do in Santa Teresa, Costa Rica?
 

@@ -35,7 +35,7 @@ const faqs = [
   { q: 'Can I ride to Montezuma?', a: 'Yes. It is approximately 22 km and takes around 50 minutes depending on conditions.' },
   { q: 'Is fuel included?', a: 'The tank is full when you pick up and is expected to come back full. Fuel itself is not included in the rental price, but you always start with a full tank.' },
   { q: 'Are helmets included?', a: 'Yes. One helmet per rider, included with every rental.' },
-  { q: 'Can I rent for a week?', a: 'Yes. Longer rentals have discounted daily rates starting from 3 days.' },
+  { q: 'Can I rent for a week?', a: 'Yes. Rentals over 7 days get 10% off the daily rate.' },
 ];
 
 const schema = [
@@ -44,7 +44,7 @@ const schema = [
   serviceSchema({
     name: 'ATV rental in Santa Teresa, Costa Rica',
     description:
-      'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $50/day.',
+      'Rent a fully automatic 4x4 ATV in Santa Teresa, Costa Rica. Mixed fleet of Can-Am, Honda and Kymco. Helmets and free hotel delivery included, full tank at pickup. From $70/day, 10% off over 7 days.',
     url: site.url,
     offers: rates.map((tier) => ({ price: tier.price, description: `Daily rate, ${tier.label.toLowerCase()}` })),
   }),
@@ -107,7 +107,7 @@ const bring = [
 
 <BaseLayout
   title="ATV Rental Santa Teresa, Costa Rica | Rent ATV Santa Teresa"
-  description="ATV rental in Santa Teresa, Costa Rica. Rent a fully automatic Can-Am, Honda or Kymco 4x4 quad by the day or week, from $50/day, with helmets and free hotel delivery."
+  description="ATV rental in Santa Teresa, Costa Rica. Rent a fully automatic Can-Am, Honda or Kymco 4x4 quad by the day or week, from $70/day, with helmets and free hotel delivery."
   schema={schema}
 >
   <Hero
@@ -231,8 +231,8 @@ const bring = [
 
   <!-- Rates -->
   <section id="rates" class="page-x section-y" aria-labelledby="multi-day">
-    <SectionHeading eyebrow="Staying a while?" title="Rates drop from three days" subtitle="Santa Teresa runs several kilometres along the coast, and many visitors stay for a week or longer. Longer rentals give you a better daily rate and make it easier to explore Santa Teresa and the surrounding areas without arranging transportation every day." />
-    <div class="mt-8 grid gap-6 sm:grid-cols-4">
+    <SectionHeading eyebrow="Staying a while?" title="10% off rentals over a week" subtitle="Santa Teresa runs several kilometres along the coast, and many visitors stay for a week or longer. Longer rentals give you a better daily rate and make it easier to explore Santa Teresa and the surrounding areas without arranging transportation every day." />
+    <div class="mt-8 grid gap-6 sm:grid-cols-2">
       {rates.map((tier) => (
         <InfoCard label={tier.label} value={`$${tier.price}/day`} detail={tier.detail} />
       ))}

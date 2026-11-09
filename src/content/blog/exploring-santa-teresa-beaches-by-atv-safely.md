@@ -49,7 +49,7 @@ Start with flatter, familiar routes before you consider remote roads or steep cl
 
 My fleet is fully automatic, Can-Am, Honda, and Kymco models, so there are no gears to manage. Automatic operation and four-wheel drive still need smooth throttle input, controlled braking, and careful steering on anything loose or wet.
 
-Rates drop the longer you rent: $65 a day for under three days, $60 a day for three to seven days, $55 a day for more than a week, and $50 a day for two weeks or longer. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that.
+Rates are $70 a day, and rentals over seven days get 10% off, which brings it to $63 a day. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that.
 
 ### Playa Carmen to Santa Teresa
 

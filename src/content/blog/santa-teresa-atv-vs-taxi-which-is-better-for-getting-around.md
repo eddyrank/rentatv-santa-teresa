@@ -34,7 +34,7 @@ A taxi leaves navigation and vehicle control to someone familiar with local dust
 
 A quad suits licensed visitors making several trips a day between beaches, restaurants, surf breaks, shops, and accommodations. It's especially useful when plans change throughout the day.
 
-A fully automatic ATV fleet with Can-Am, Honda, and Kymco models offers straightforward controls, while 4x4 models can help on unpaved side roads and steep driveways. Rates decrease for rentals of three days or more with [some providers](/blog/best-atv-rentals-santa-teresa), so compare multi-day terms rather than repeatedly booking single days.
+A fully automatic ATV fleet with Can-Am, Honda, and Kymco models offers straightforward controls, while 4x4 models can help on unpaved side roads and steep driveways. Rates decrease for longer rentals with [some providers](/blog/best-atv-rentals-santa-teresa), so compare multi-day terms rather than repeatedly booking single days.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

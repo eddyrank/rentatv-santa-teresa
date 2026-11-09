@@ -135,7 +135,7 @@ All four live in one file (`src/data/site.ts`) and propagate everywhere automati
 
 ### Resolved
 
-- ~~Pricing~~ — real rates in place: $65 under 3 days, $60 for 3–7, $55 over 7, $50 for two weeks or more.
+- ~~Pricing~~ — real rates in place: $70/day for 1–7 days, 10% off ($63/day) over 7 days.
 - ~~Fleet details~~ — corrected to Can-Am Outlander 450 4x4, single-model fleet, automatic, locking cargo box.
 - ~~Share image~~ — `og-default.jpg` generated from a real fleet photo.
 

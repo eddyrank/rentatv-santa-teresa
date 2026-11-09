@@ -5,7 +5,7 @@ tldr:
   - "Playa Manzanillo is about 14 km north of Santa Teresa, roughly 35 minutes by ATV depending on conditions."
   - "The road north past Playa Hermosa is unpaved. It is dusty and corrugated in the dry season and can get rutted and muddy in the green season."
   - "There is nothing to buy once you get there, so bring water, a snack and cash, and leave enough daylight for the ride back."
-  - "I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $65 a day."
+  - "I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day."
 pubDate: 2026-10-26
 image: "/photos/manzanillo-headland-1200.webp"
 imageAlt: "A quiet, empty beach at Manzanillo backed by a forested headland, with calm green water under an overcast sky"
@@ -70,7 +70,7 @@ I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if M
   />
 </div>
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the Manzanillo run can start right from your door. The locking cargo box on the back is enough for towels, water and a dry shirt, which is all you really need for a beach you are mostly visiting to sit on. Rates start at $65 a day, dropping to $60 a day if you are renting for three to seven days.
+I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the Manzanillo run can start right from your door. The locking cargo box on the back is enough for towels, water and a dry shirt, which is all you really need for a beach you are mostly visiting to sit on. Rates start at $70 a day, with 10% off if you are renting for more than seven days.
 
 ## Conclusion
 
