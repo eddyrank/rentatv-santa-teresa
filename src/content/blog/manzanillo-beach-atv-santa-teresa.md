@@ -39,7 +39,7 @@ A 4x4 quad handles this without much drama if you ride it at a sensible pace. Sl
 
 Manzanillo itself is a small beach backed by forest, with a headland that juts into the water at one end. There is no row of restaurants or beach bars waiting for you. Bring your own water and something to eat if you want to stay a while, because you cannot count on finding much once you arrive.
 
-The appeal is the quiet. On most days you get long stretches of sand with hardly anyone on it, which is a different experience from [the busier beaches closer to town](/blog/exploring-santa-teresa-beaches-by-atv-safely). The same rule applies here as everywhere along this coast: park the quad off the sand and walk in. Riding on the beach itself is not allowed, and I do not make exceptions for it.
+The appeal is the quiet. On most days you get long stretches of sand with hardly anyone on it, which is a different experience from [the busier beaches closer to town](/blog/exploring-santa-teresa-beaches-by-atv-safely). If you want a quiet stop without going this far, [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) make a good half-day instead of the full ride up here. The same rule applies here as everywhere along this coast: park the quad off the sand and walk in. Riding on the beach itself is not allowed, and I do not make exceptions for it.
 
 <aside class="checklist" aria-labelledby="manzanillo-checklist">
   <p id="manzanillo-checklist" class="checklist-title">Riding to Manzanillo: 5 things to bring</p>

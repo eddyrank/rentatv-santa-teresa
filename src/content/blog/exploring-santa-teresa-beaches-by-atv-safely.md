@@ -79,7 +79,7 @@ Rain can turn a shallow dip into a puddle fast and soften the road edges. Approa
 
 ### Mal País and Mar Azul
 
-Treat the coast south as a relaxed sightseeing route with time for beach stops and uneven surfaces. The shortest line on a map can lead toward a difficult hill, so route quality matters more than distance here.
+Treat the coast south as a relaxed sightseeing route with time for beach stops and uneven surfaces. The shortest line on a map can lead toward a difficult hill, so route quality matters more than distance here. If the tide pools near Mar Azul are the goal, I cover timing the visit around the tide and swell in [my guide to the Mal País tide pools by ATV](/blog/mal-pais-tide-pools-atv).
 
 Turn around when you hit deep flooding, heavy ruts, or visibility bad enough that the road feels uncertain. Pushing through a hard section creates more risk than just changing the day's plan.
 

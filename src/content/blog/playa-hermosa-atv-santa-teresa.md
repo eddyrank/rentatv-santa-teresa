@@ -80,7 +80,7 @@ The tide changes the whole beach. Low tide opens up firm sand and moves where th
 
 The dry season brings dusty roads, strong sun and more people. The green season brings greener hills, emptier beaches and rain that usually comes later in the day. November is often somewhere in between. For a beach visit, the swell, wind and rain on the day matter more than the month, and the [Instituto Meteorológico Nacional](https://www.imn.ac.cr/) forecast is worth a look before you set out.
 
-Because Hermosa is so close, it works well as the first stop of a longer afternoon. Carry on north to Manzanillo if you want somewhere even quieter, or head back through town and down to [Mal País](/atv-rentals-mal-pais) for sunset. Leave daylight for the return either way. The dirt roads up here have no streetlights.
+Because Hermosa is so close, it works well as the first stop of a longer afternoon. Carry on north to Manzanillo if you want somewhere even quieter, or head back through town and down to [Mal País](/atv-rentals-mal-pais) for sunset, with a stop at [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) if the tide is right. Leave daylight for the return either way. The dirt roads up here have no streetlights.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

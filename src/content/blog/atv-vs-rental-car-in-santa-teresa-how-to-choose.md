@@ -152,7 +152,7 @@ The goal isn't picking the most rugged-looking vehicle. It's matching the terrai
 
 ### Example Itineraries
 
-A couple staying in Playa Carmen for five days with light bags and frequent nearby outings will probably find an ATV practical. Both riders need to accept rain and dust exposure, wear helmets, and stay within passenger and cargo limits.
+A couple staying in Playa Carmen for five days with light bags and frequent nearby outings will probably find an ATV practical, with an easy half-day detour to [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) worked into one of those days. Both riders need to accept rain and dust exposure, wear helmets, and stay within passenger and cargo limits.
 
 A family arriving with airport luggage and staying at a hillside villa will usually do better with a capable rental car. The same goes if the itinerary includes regional drives or passengers who need enclosed seating.
 

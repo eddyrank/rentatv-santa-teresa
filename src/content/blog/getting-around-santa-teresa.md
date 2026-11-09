@@ -2,7 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
-updatedDate: 2026-10-31
+updatedDate: 2026-11-09
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -151,6 +151,10 @@ Yes, and it is the day trip I recommend most. The trick is taking the main road 
 ### Can you reach Cabo Blanco Reserve by ATV?
 
 Yes, as far as the entrance near Cabuya. From there you hike, because the reserve is protected and closed to vehicles. My guide to [Cabo Blanco Reserve by ATV](/blog/cabo-blanco-reserve-atv) covers the route past Montezuma, the days it is closed, and how much time to leave for the Sueco trail.
+
+### When can you actually get into the Mal País tide pools?
+
+Only around low tide, and only when the swell cooperates. The rocky shoreline at Mar Azul looks the same at a glance, but a low tide with a big swell running is not a day to go in. My guide to [the Mal País tide pools by ATV](/blog/mal-pais-tide-pools-atv) covers timing the ride around the tide chart and what to check before you step onto the rocks.
 
 ## What you need to rent
 

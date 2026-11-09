@@ -178,7 +178,7 @@ A practical decision should reflect how you'll actually use the vehicle, not a b
   />
 </div>
 
-A two-night stay near Playa Carmen with few planned outings may not justify keeping an ATV. A week in a hillside villa, with surf sessions, grocery runs, restaurant visits, and trips toward Playa Hermosa, Mal País, or the quieter beach at [Manzanillo](/blog/manzanillo-beach-atv-santa-teresa), usually favors having your own transportation.
+A two-night stay near Playa Carmen with few planned outings may not justify keeping an ATV. A week in a hillside villa, with surf sessions, grocery runs, restaurant visits, and trips toward Playa Hermosa, Mal País, the quieter beach at [Manzanillo](/blog/manzanillo-beach-atv-santa-teresa), or an afternoon at [the Mal País tide pools](/blog/mal-pais-tide-pools-atv), usually favors having your own transportation.
 
 If you're not comfortable controlling a vehicle on an unpaved road, don't rent one just for convenience. Confidence and safe judgment matter more than location.
 

@@ -62,7 +62,7 @@ If you want to reach the beach, be at the gate by around 9 and give yourself a t
 
 ## Why a quad works for this trip
 
-Cabo Blanco is far enough that a taxi there and back gets expensive, and there is no easy way to get picked up from Cabuya when you are done. With a quad you leave when you want, stop in Montezuma for a swim or lunch on the way home, and do not have to hike to a schedule. If a full day feels like too much, [the ride up to Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) is the shorter version of the same idea, a quiet beach without the long drive.
+Cabo Blanco is far enough that a taxi there and back gets expensive, and there is no easy way to get picked up from Cabuya when you are done. With a quad you leave when you want, stop in Montezuma for a swim or lunch on the way home, and do not have to hike to a schedule. If a full day feels like too much, [the ride up to Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) is the shorter version of the same idea, a quiet beach without the long drive, or stop at [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) on the way out of town for something even shorter.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
