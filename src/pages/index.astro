@@ -36,6 +36,9 @@ const faqs = [
   { q: 'Is fuel included?', a: 'The tank is full when you pick up and is expected to come back full. Fuel itself is not included in the rental price, but you always start with a full tank.' },
   { q: 'Are helmets included?', a: 'Yes. One helmet per rider, included with every rental.' },
   { q: 'Can I rent for a week?', a: 'Yes. Rentals over 7 days get 10% off the daily rate.' },
+  { q: 'Do you rent UTVs or side-by-sides?', a: 'No. Every machine in the fleet is a fully automatic ATV (quad) that carries up to two riders. If you need room for more people, rent two quads.' },
+  { q: 'What is the minimum age to rent an ATV?', a: 'You must be 18 or over to drive. Younger passengers can ride behind an adult driver, and youth helmets are available.' },
+  { q: 'Do you offer airport shuttles to Santa Teresa?', a: 'No. We rent ATVs, not transfers. Book a shuttle, the Puntarenas–Paquera ferry or a flight into Tambor, then send us your hotel name and the quad can be delivered when you arrive.' },
 ];
 
 const schema = [
@@ -73,6 +76,12 @@ const fleet = [
     body: 'The Kymco is straightforward and easy to get comfortable on fast, a good fit if this is your first time on a quad or you just want simple, predictable handling on the coast road. Fully automatic, with the same locking cargo box and passenger seat as the rest of the fleet.',
     specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
   },
+];
+
+const fleetCompare = [
+  { name: 'Can-Am Outlander 4x4', bestFor: 'Hill roads, Manzanillo, green-season mud', drive: 'Automatic, selectable 4x4' },
+  { name: 'Honda ATV', bestFor: 'The coast road between Santa Teresa and Mal País', drive: 'Automatic, 4x4' },
+  { name: 'Kymco 4x4 ATV', bestFor: 'First-time riders and easy days on the flat', drive: 'Automatic, 4x4' },
 ];
 
 const gallery = [
@@ -182,6 +191,36 @@ const bring = [
       rough tracks is hard on vehicles, and regular maintenance is the only thing
       that keeps any of them reliable.
     </p>
+
+    <!-- Side-by-side comparison: the scannable version of the cards above -->
+    <h3 id="compare-quads" class="mt-12 text-h4">Compare the ATV rentals in Santa Teresa</h3>
+    <div class="mt-4 overflow-x-auto rounded-media border border-hairline">
+      <table class="w-full min-w-[640px] border-collapse text-left text-base">
+        <caption class="sr-only">Comparison of the three ATV models available to rent in Santa Teresa</caption>
+        <thead class="bg-surface text-body text-muted">
+          <tr>
+            {['Quad', 'Best for', 'Drive', 'Riders', 'Storage', 'Daily rate'].map((h) => (
+              <th scope="col" class="px-4 py-3 font-semibold">{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {fleetCompare.map((row) => (
+            <tr class="border-t border-hairline align-top">
+              <th scope="row" class="px-4 py-3 font-semibold text-ink-2">{row.name}</th>
+              <td class="px-4 py-3 text-muted">{row.bestFor}</td>
+              <td class="px-4 py-3 text-muted">{row.drive}</td>
+              <td class="px-4 py-3 text-muted">1–2</td>
+              <td class="px-4 py-3 text-muted">Locking cargo box</td>
+              <td class="px-4 py-3 text-muted">${rates[0].price}, or ${rates[1].price} over 7 days</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-4 text-body text-muted">
+      All three are fully automatic ATVs (quads) with a passenger seat, not UTVs or side-by-sides. The price is the same for every machine; only the security deposit, from $500, varies by quad.
+    </p>
   </section>
 
   <!-- Why a quad -->
@@ -272,6 +311,36 @@ const bring = [
     </div>
   </section>
 
+  <!-- Rules and seasons: the practical detail competitors cover and we didn't -->
+  <section class="page-x section-y" aria-labelledby="before-you-ride">
+    <SectionHeading
+      eyebrow="Before you ride"
+      title="Rental rules and riding seasons"
+      subtitle="What renting an ATV in Santa Teresa actually involves, so nothing at pickup is a surprise."
+    />
+    <div class="mt-8 grid gap-6 lg:grid-cols-2">
+      <div class="card">
+        <h3 class="text-h4">The rental rules</h3>
+        <ul class="mt-4 space-y-3 text-base text-muted">
+          <li><strong class="text-ink-2">Minimum age:</strong> 18 to drive. Younger passengers can ride behind an adult, with a youth helmet.</li>
+          <li><strong class="text-ink-2">Licence:</strong> a valid car licence from your home country, carried with you. No motorcycle endorsement needed.</li>
+          <li><strong class="text-ink-2">Deposit:</strong> from $500 on card or in cash, one deposit for the whole rental, returned when the quad is collected.</li>
+          <li><strong class="text-ink-2">Insurance:</strong> basic liability is included. Optional damage cover is available per day and reduces what you owe if the quad comes back damaged.</li>
+          <li><strong class="text-ink-2">Riders:</strong> up to two people on every ATV. You can share the driving; just add everyone who will drive to the rental agreement.</li>
+          <li><strong class="text-ink-2">Fuel:</strong> full tank at pickup, full tank back. A refuelling charge comes off the deposit otherwise.</li>
+          <li><strong class="text-ink-2">Riding:</strong> helmets on, no alcohol, no protected beach sections or turtle nesting areas, and back before dark.</li>
+        </ul>
+        <p class="mt-4 text-body text-muted">Full details are in the <a href="/terms-and-conditions" class="link-inline">rental terms</a> and the <a href="/faq" class="link-inline">FAQ</a>.</p>
+      </div>
+      <div class="card">
+        <h3 class="text-h4">Dry season vs. green season</h3>
+        <p class="mt-4 text-base text-muted"><strong class="text-ink-2">Dry season, roughly December to April,</strong> is high season on the Nicoya Peninsula. The dirt roads turn to washboard and dust, sunglasses stop being optional, and quads book out around Christmas and Easter, so message a few days ahead.</p>
+        <p class="mt-4 text-base text-muted"><strong class="text-ink-2">Green season, roughly May to November,</strong> brings afternoon rain. Side roads soften, low points hold water, and the river crossings toward Manzanillo can run deep after a storm. Ride in the morning, and ask us what is passable that week.</p>
+        <p class="mt-4 text-base text-muted">Whatever the month, plan to be back before sunset, around 5:30pm. The roads are unlit and animals are hard to see after dark. For the tide pools at Mal País, time the ride for low tide: our <a href="/blog/mal-pais-tide-pools-atv" class="link-inline">tide pool guide</a> explains how.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- Where you can get -->
   <section class="page-x section-y" aria-labelledby="where">
     <SectionHeading
@@ -320,6 +389,13 @@ const bring = [
         </div>
       </div>
     </div>
+    <p class="mt-8 max-w-3xl text-base text-muted">
+      From Playa Santa Teresa you can ride north to <a href="/blog/playa-hermosa-atv-santa-teresa" class="link-inline">Playa Hermosa</a> and
+      <a href="/blog/manzanillo-beach-atv-santa-teresa" class="link-inline">Playa Manzanillo</a>, south through Mal País to the edge of the
+      <a href="/blog/cabo-blanco-reserve-atv" class="link-inline">Cabo Blanco reserve</a>, or inland over the hills to the
+      <a href="/blog/montezuma-waterfall-atv-santa-teresa" class="link-inline">Montezuma waterfall</a>. Each guide covers the route, the road
+      surface and how long the ride takes.
+    </p>
   </section>
 
   <!-- Photo gallery: shot on rides around Santa Teresa -->
@@ -351,6 +427,14 @@ const bring = [
           <h3 class="text-h4">ATV rental vs. getting around by taxi</h3>
           <p class="mt-3 text-base text-muted"><a href="/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around" class="link-inline">Taxis and shuttles</a> are useful for individual trips, but the costs can add up when you are moving around Santa Teresa several times a day. With your own ATV, you can go to the beach whenever you want, pick up groceries, get to restaurants and surf spots, and carry your bags and beach gear without waiting for a ride.</p>
           <p class="mt-3 text-base text-muted">Not sure you need one at all? Read <a href="/blog/is-an-atv-necessary-for-getting-around-santa-teresa" class="link-inline">whether an ATV is necessary in Santa Teresa</a>.</p>
+        </div>
+        <div class="card">
+          <h3 class="text-h4">Getting to Santa Teresa, then onto a quad</h3>
+          <p class="mt-3 text-base text-muted">Santa Teresa sits near the southern tip of the Nicoya Peninsula. Most visitors arrive by shared or private shuttle from San José or Liberia, by the car ferry from Puntarenas to Paquera, or on a short domestic flight into Tambor. We rent ATVs rather than run airport transfers, so book your shuttle or flight to Santa Teresa, then send us your hotel name on WhatsApp and the quad can be waiting when you arrive.</p>
+        </div>
+        <div class="card">
+          <h3 class="text-h4">What makes Santa Teresa worth riding</h3>
+          <p class="mt-3 text-base text-muted">The town is a string of surf breaks, cafés and guesthouses spread along several kilometres of coast, with Mal País to the south and Playa Carmen, Playa Hermosa and Manzanillo to the north. Very little of it is walkable in the heat, and most of the side roads are dirt. That spread-out layout, plus the beaches and jungle headlands within half an hour's ride, is why a quad is the way most people here get around.</p>
         </div>
       </div>
     </div>

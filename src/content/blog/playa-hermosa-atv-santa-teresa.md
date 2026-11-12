@@ -96,7 +96,7 @@ Because Hermosa is so close, it works well as the first stop of a longer afterno
   />
 </div>
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the ride to Playa Hermosa starts at your door. The locking cargo box takes a towel, water and a dry layer, and your board fits on the rack once it is strapped down properly. Rates start at $70 a day, with 10% off if you rent for more than seven days.
+I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank (see [how our ATV rentals in Santa Teresa work](/)), so the ride to Playa Hermosa starts at your door. The locking cargo box takes a towel, water and a dry layer, and your board fits on the rack once it is strapped down properly. Rates start at $70 a day, with 10% off if you rent for more than seven days.
 
 ## Conclusion
 

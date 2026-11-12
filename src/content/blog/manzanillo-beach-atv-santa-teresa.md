@@ -70,7 +70,7 @@ I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if M
   />
 </div>
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the Manzanillo run can start right from your door. The locking cargo box on the back is enough for towels, water and a dry shirt, which is all you really need for a beach you are mostly visiting to sit on. Rates start at $70 a day, with 10% off if you are renting for more than seven days.
+I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the Manzanillo run can start right from your door. The locking cargo box on the back is enough for towels, water and a dry shirt, which is all you really need for a beach you are mostly visiting to sit on. Rates start at $70 a day, with 10% off if you are renting for more than seven days, and the [Santa Teresa ATV rental page](/) compares the three quads.
 
 ## Conclusion
 

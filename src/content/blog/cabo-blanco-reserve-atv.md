@@ -78,7 +78,7 @@ Cabo Blanco is far enough that a taxi there and back gets expensive, and there i
   />
 </div>
 
-The Can-Am Outlander 450 is fully automatic and 4x4, which matters on the steep, broken sections after Cóbano. The locking rear cargo box holds water, a towel and a dry shirt while you are on the trail. Two people can ride on one quad, but it is a long day in the seat for a passenger, so if you are both comfortable driving, two quads are easier on the back. If you are still deciding between a quad and a car for trips like this, I compared them in [ATV vs rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose).
+The Can-Am Outlander 450 from our [ATV rental fleet in Santa Teresa](/) is fully automatic and 4x4, which matters on the steep, broken sections after Cóbano. The locking rear cargo box holds water, a towel and a dry shirt while you are on the trail. Two people can ride on one quad, but it is a long day in the seat for a passenger, so if you are both comfortable driving, two quads are easier on the back. If you are still deciding between a quad and a car for trips like this, I compared them in [ATV vs rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose).
 
 Do not ride on the beaches along the way. Park at the road and walk onto the sand. The same rules from my guide to [exploring the beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) apply all the way down the coast.
 

@@ -15,7 +15,7 @@ featured: false
 
 The first time I rode to Montezuma waterfall by ATV, I made the classic mistake. I left Santa Teresa at noon, stopped for a long lunch in town, and reached the pool just as the light was going orange. Beautiful. Then I spent the ride home racing the dark. Now I tell everyone the same thing: this is a morning trip, and it is one of the best days out you can have from here on a quad.
 
-Montezuma sits on the other side of the peninsula, about 22 km from Santa Teresa. The falls are a short hike from the edge of town: three cascades stacked up a jungle river, with a big swimming pool under the main drop. You do not need a guide or a tour. You need a quad, closed shoes, and a sensible start time.
+Montezuma sits on the other side of the peninsula, about 22 km from Santa Teresa. The falls are a short hike from the edge of town: three cascades stacked up a jungle river, with a big swimming pool under the main drop. You do not need a guide or a tour. You need [a rented quad from Santa Teresa](/), closed shoes, and a sensible start time.
 
 ## The route from Santa Teresa to Montezuma
 

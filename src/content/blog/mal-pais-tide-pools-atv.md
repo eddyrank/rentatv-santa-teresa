@@ -89,7 +89,7 @@ Wet rock here is slippery and sharp in places. I wear closed shoes for the ride 
   />
 </div>
 
-I ride the Can-Am Outlander down there because the locking cargo box on the back holds a dry bag, water and a towel while I am away from the quad on the rocks. If you are still deciding whether you want a quad for your whole stay rather than just this one trip, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) walks through that decision.
+I ride the Can-Am Outlander, one of the three quads in our [ATV rentals in Santa Teresa](/), down there because the locking cargo box on the back holds a dry bag, water and a towel while I am away from the quad on the rocks. If you are still deciding whether you want a quad for your whole stay rather than just this one trip, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) walks through that decision.
 
 ## Conclusion
 
