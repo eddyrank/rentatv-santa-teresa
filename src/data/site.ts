@@ -132,6 +132,7 @@ export const atvTours = [
   {
     id: 'montezuma-half-day',
     name: 'Montezuma waterfall ATV tour',
+    shortName: 'Half day: Montezuma falls',
     length: 'Half day, 4 to 5 hours',
     price: 180,
     stops: [
@@ -149,6 +150,7 @@ export const atvTours = [
   {
     id: 'waterfalls-full-day',
     name: 'Full-day waterfalls ATV tour',
+    shortName: 'Full day: 3 waterfalls',
     length: 'Full day, 8 hours',
     price: 280,
     stops: ['Montezuma waterfall', 'Cóbano waterfall', 'Tangomar waterfall'],

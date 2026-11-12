@@ -11,18 +11,43 @@
  * always quotes the correct price. The owner still confirms — this is a
  * request, not a confirmed booking. Only one widget per page (fixed ids).
  */
-import { site, atvFleet, utvFleet, weeklyDiscount } from '../data/site';
+import { site, atvFleet, utvFleet, atvTours, weeklyDiscount } from '../data/site';
 
 interface Props {
   compact?: boolean; // true = sidebar / card variant, false = full-width
-  kind?: 'atv' | 'utv';
+  kind?: 'atv' | 'utv' | 'tour';
 }
 const { compact = false, kind = 'atv' } = Astro.props;
 
 const isUtv = kind === 'utv';
+const isTour = kind === 'tour';
 
-// Everything that differs between the ATV and side-by-side versions.
-const config = isUtv
+// Everything that differs between the ATV, side-by-side and tour versions.
+// `fixed: true` means one date and one fixed price per vehicle (stored in rate8h).
+const config = isTour
+  ? {
+      vehicleLabel: 'Tour',
+      vehicles: atvTours.map((t) => ({
+        id: t.id,
+        name: t.name,
+        option: `${t.shortName} · $${t.price}/ATV`,
+        rate8h: t.price,
+        rate24h: t.price,
+        length: t.length,
+      })),
+      riderOptions: [1, 2, 3, 4, 5, 6, 7, 8],
+      countLabel: 'Number of ATVs (1 or 2 riders each)',
+      countNoun: ['ATV', 'ATVs'],
+      countMax: 4,
+      allow8h: false,
+      fixed: true,
+      dateLabel: 'Tour date',
+      discount: null,
+      intro: "Hi! I'd like to book an ATV tour from Santa Teresa.",
+      cta: 'booking_widget_tour',
+      note: 'Price is per ATV, 1 or 2 riders. Final price and start time confirmed by the owner on WhatsApp.',
+    }
+  : isUtv
   ? {
       vehicleLabel: 'Side-by-side',
       vehicles: utvFleet.map((u) => ({
@@ -37,6 +62,8 @@ const config = isUtv
       countNoun: ['side-by-side', 'side-by-sides'],
       countMax: 3,
       allow8h: true,
+      fixed: false,
+      dateLabel: 'Pickup date',
       discount: null,
       intro: "Hi! I'd like to request a side-by-side (UTV) rental in Santa Teresa.",
       cta: 'booking_widget_utv',
@@ -56,6 +83,8 @@ const config = isUtv
       countNoun: ['quad', 'quads'],
       countMax: 4,
       allow8h: false,
+      fixed: false,
+      dateLabel: 'Pickup date',
       discount: weeklyDiscount,
       intro: "Hi! I'd like to request a quad rental in Santa Teresa.",
       cta: 'booking_widget',
@@ -66,7 +95,13 @@ const fieldClass =
   'block w-full rounded-md border border-hairline bg-canvas px-4 py-3 text-base text-ink-2 transition duration-200 ease-airbnb hover:border-ink-2 focus:border-cta focus:outline-none focus:ring-1 focus:ring-cta';
 const labelClass = 'mb-1.5 block text-micro font-medium text-muted';
 const scriptData = {
-  vehicles: config.vehicles.map(({ id, name, rate8h, rate24h }) => ({ id, name, rate8h, rate24h })),
+  vehicles: config.vehicles.map((v) => ({
+    id: v.id, name: v.name, rate8h: v.rate8h, rate24h: v.rate24h,
+    length: 'length' in v ? v.length : null,
+    // Riders each vehicle can carry: side-by-sides by seat count, every ATV takes 2.
+    seats: isUtv ? utvFleet.find((u) => u.id === v.id)!.seats : 2,
+  })),
+  fixed: config.fixed,
   discount: config.discount,
   countNoun: config.countNoun,
   intro: config.intro,
@@ -109,12 +144,12 @@ const scriptData = {
 
     <!-- Pickup date -->
     <div>
-      <label for="bw-pickup" class={labelClass}>Pickup date</label>
+      <label for="bw-pickup" class={labelClass}>{config.dateLabel}</label>
       <input type="date" id="bw-pickup" class={fieldClass} />
     </div>
 
-    <!-- Return date (hidden for 8-hour rentals) -->
-    <div id="bw-return-row" class:list={[config.allow8h && 'hidden']}>
+    <!-- Return date (hidden for 8-hour rentals and tours) -->
+    <div id="bw-return-row" class:list={[(config.allow8h || config.fixed) && 'hidden']}>
       <label for="bw-return" class={labelClass}>Return date</label>
       <input type="date" id="bw-return" class={fieldClass} />
     </div>
@@ -141,7 +176,7 @@ const scriptData = {
 
     <!-- Hotel -->
     <div>
-      <label for="bw-hotel" class={labelClass}>Hotel or location (for delivery)</label>
+      <label for="bw-hotel" class={labelClass}>{isTour ? "Where you're staying" : 'Hotel or location (for delivery)'}</label>
       <input
         type="text"
         id="bw-hotel"
@@ -239,8 +274,14 @@ const scriptData = {
       const p = pickup.value;
       if (!p) return null;
 
-      if (is8h()) {
-        return { vehicle, count, days: 0, rate: vehicle.rate8h, label: '8 hours', total: vehicle.rate8h * count };
+      const numRiders = parseInt(riders.value, 10);
+      if (numRiders > vehicle.seats * count) {
+        const need = Math.ceil(numRiders / vehicle.seats);
+        return { error: `${numRiders} riders need at least ${need} ${noun(need)}: each one carries up to ${vehicle.seats}.` };
+      }
+
+      if (CFG.fixed || is8h()) {
+        return { vehicle, count, days: 0, rate: vehicle.rate8h, label: CFG.fixed ? vehicle.length : '8 hours', total: vehicle.rate8h * count };
       }
 
       const r = ret.value;
@@ -280,6 +321,8 @@ const scriptData = {
       priceEl.textContent = `$${q.total.toLocaleString()} USD`;
       rateNote.textContent = q.days
         ? `${q.days} day${q.days > 1 ? 's' : ''} × ${q.count} ${q.vehicle.name} × $${q.rate}/day (${q.label})`
+        : CFG.fixed
+        ? `${q.count} ${noun(q.count)} × $${q.rate} (${q.vehicle.name})`
         : `${q.count} ${q.vehicle.name} × $${q.rate} for 8 hours`;
       estimate.classList.remove('hidden');
 
@@ -297,21 +340,30 @@ const scriptData = {
             `📅 Return: ${formatDate(ret.value)}`,
             `⏱ Duration: ${q.days} day${q.days > 1 ? 's' : ''}`,
           ]
+        : CFG.fixed
+        ? [
+            `🗺 Tour: ${q.vehicle.name}`,
+            `📅 Date: ${formatDate(pickup.value)}`,
+            `⏱ Duration: ${q.label}`,
+          ]
         : [
             `📅 Date: ${formatDate(pickup.value)}`,
             `⏱ Duration: 8 hours`,
           ];
+      const Noun = noun(q.count).charAt(0).toUpperCase() + noun(q.count).slice(1);
 
       const lines = [
         CFG.intro,
         ``,
         ...when,
-        `🏍 ${noun(q.count).charAt(0).toUpperCase() + noun(q.count).slice(1)}: ${q.count} × ${q.vehicle.name}`,
+        CFG.fixed ? `🏍 ${Noun}: ${q.count}` : `🏍 ${Noun}: ${q.count} × ${q.vehicle.name}`,
         `👤 Riders: ${numRiders}`,
-        ...(hotelVal ? [`🏨 Delivery to: ${hotelVal}`] : []),
+        ...(hotelVal ? [CFG.fixed ? `🏨 Staying at: ${hotelVal}` : `🏨 Delivery to: ${hotelVal}`] : []),
         ``,
         q.days
           ? `💰 Estimated total: $${q.total} USD (${q.label} · $${q.rate}/day)`
+          : CFG.fixed
+          ? `💰 Estimated total: $${q.total} USD ($${q.rate} per ATV)`
           : `💰 Estimated total: $${q.total} USD (8 hours · $${q.rate} each)`,
         ``,
         `Please let me know if you have availability!`,
@@ -320,7 +372,7 @@ const scriptData = {
       return lines.join('\n');
     }
 
-    [pickup, ret, quads, model].forEach(el => el.addEventListener('change', update));
+    [pickup, ret, quads, model, riders].forEach(el => el.addEventListener('change', update));
     if (lengthSel) lengthSel.addEventListener('change', update);
 
     sendBtn.addEventListener('click', function () {

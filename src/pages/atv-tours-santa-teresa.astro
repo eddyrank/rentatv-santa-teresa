@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
-import PageHero from '../components/PageHero.astro';
+import BookingWidget from '../components/BookingWidget.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Faq from '../components/Faq.astro';
@@ -58,11 +58,39 @@ const schema = [
   }}
 >
   <Breadcrumb items={[{ label: 'ATV tours', href: '/atv-tours-santa-teresa' }]} />
-  <PageHero
-    eyebrow="Guided tours · Santa Teresa"
-    title="ATV tours from Santa Teresa to the Montezuma waterfalls"
-    subtitle="Ride with a local guide through the jungle and along the coast to the Montezuma waterfalls, with time to swim. Prices are per ATV, and one or two people can ride each quad."
-  />
+  <!-- Hero with the booking form, so visitors can request a tour straight away -->
+  <section class="page-x pt-6 pb-4 lg:pt-12" aria-labelledby="tours-hero">
+    <div class="grid items-start gap-8 lg:grid-cols-[6fr_5fr] lg:gap-12">
+      <div>
+        <p class="eyebrow">Guided tours · Santa Teresa</p>
+        <h1 id="tours-hero" class="mt-3 max-w-3xl text-h2 sm:text-h1">ATV tours from Santa Teresa to the Montezuma waterfalls</h1>
+        <p class="mt-4 max-w-2xl text-lead text-muted">
+          Ride with a local guide through the jungle and along the coast to the Montezuma waterfalls, with time
+          to swim. Prices are per ATV, and one or two people can ride each quad.
+        </p>
+        <dl class="mt-6 flex flex-wrap gap-x-10 gap-y-4 border-t border-hairline pt-6">
+          <div>
+            <dt class="text-body text-muted">Half day</dt>
+            <dd class="stat-num">${halfDay.price}<span class="text-h4 font-normal text-muted">/ATV</span></dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Full day</dt>
+            <dd class="stat-num">${fullDay.price}<span class="text-h4 font-normal text-muted">/ATV</span></dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Riders</dt>
+            <dd class="stat-num">1–2</dd>
+          </div>
+        </dl>
+        <div class="photo-card mt-8 hidden lg:block">
+          <Photo name="montezuma-waterfall-swimmers" alt="Swimmers in the pool below the Montezuma waterfall, the stop on the ATV tour from Santa Teresa" sizes="(min-width: 1024px) 50vw, 100vw" eager />
+        </div>
+      </div>
+      <div id="book-now">
+        <BookingWidget kind="tour" />
+      </div>
+    </div>
+  </section>
 
   <!-- Half-day tour -->
   <section class="page-x section-y" aria-labelledby="half-day">
