@@ -63,24 +63,97 @@ export const site = {
 };
 
 /**
- * Daily rates, per quad (not per person). Same for every machine in the fleet;
- * only the security deposit varies by quad. Pricing page, home page and the
- * Offer schema all read these, so change a rate here and nowhere else.
+ * ATV fleet and rates, per quad (not per person), from the operator's 2026
+ * price sheet. Rates differ by machine: 8-hour and 24-hour. Rentals longer
+ * than 7 days get `weeklyDiscount` off every 24-hour day. Home page, pricing
+ * page, booking widget and the Offer schema all read these, so change a rate
+ * here and nowhere else. Never name the operator on the site.
  */
-export const rates = [
-  { label: '1 to 7 days', minDays: 1, maxDays: 7, price: 70, detail: 'Daily and weekly rentals' },
-  { label: 'Over 7 days', minDays: 8, maxDays: undefined, price: 63, detail: '10% off every day of the rental' },
+export const weeklyDiscount = { minDays: 8, percent: 10 };
+
+export const atvFleet = [
+  {
+    id: 'kymco',
+    name: 'Kymco 300cc',
+    engine: '300cc',
+    transmission: 'Fully automatic',
+    rate8h: 60,
+    rate24h: 70,
+    bestFor: 'First-time riders and easy days on the coast road',
+    photo: 'fleet-kymco-front',
+    alt: 'Red Kymco 300cc ATV with a rear cargo box, available for rent in Santa Teresa',
+  },
+  {
+    id: 'honda',
+    name: 'Honda 420cc',
+    engine: '420cc',
+    transmission: 'Semi-automatic',
+    rate8h: 70,
+    rate24h: 80,
+    bestFor: 'Riders who want more power and are happy to shift with their foot',
+    photo: 'fleet-honda-side',
+    alt: 'Red Honda 420cc ATV with front and rear racks, available for rent in Santa Teresa',
+  },
+  {
+    id: 'yamaha',
+    name: 'Yamaha 450cc',
+    engine: '450cc',
+    transmission: 'Fully automatic',
+    rate8h: 80,
+    rate24h: 90,
+    bestFor: 'Hill roads, Manzanillo and green-season mud',
+    photo: 'fleet-yamaha-front',
+    alt: 'Green Yamaha 450cc ATV with a rear cargo box, parked on the sand in Santa Teresa',
+  },
 ];
 
-/** Daily rate for a rental of `days` days. */
-export function dailyRate(days: number) {
-  return rates.find((r) => days >= r.minDays && (r.maxDays === undefined || days <= r.maxDays))!.price;
+/** Cheapest 24-hour ATV rate: the "from $X/day" figure. */
+export const atvFromRate = Math.min(...atvFleet.map((q) => q.rate24h));
+
+/** Per-day rate for a quad whose 24h rate is `rate24h`, over a rental of `days` days. */
+export function atvDailyRate(rate24h: number, days: number) {
+  return days >= weeklyDiscount.minDays ? Math.round(rate24h * (1 - weeklyDiscount.percent / 100)) : rate24h;
 }
 
-export const fleetModels = [
-  { name: 'Can-Am Outlander 4x4', photo: 'fleet-canam-side' },
-  { name: 'Honda ATV', photo: 'fleet-honda-side' },
-  { name: 'Kymco 4x4 ATV', photo: 'fleet-kymco-front' },
+/** Side-by-sides (UTVs), from the same price sheet. */
+export const utvFleet = [
+  {
+    id: 'utv4', name: '4-seat side-by-side', model: 'Yamaha', engine: '1000cc', seats: 4, rate8h: 200, rate24h: 250,
+    photo: 'utv-4-seat', alt: 'Green Yamaha 1000cc 4-seat side-by-side (UTV) for rent in Santa Teresa',
+  },
+  {
+    id: 'utv5', name: '5-seat side-by-side', model: 'Honda Pioneer', engine: '1000cc', seats: 5, rate8h: 180, rate24h: 230,
+    photo: 'utv-5-seat', alt: 'Dark green Honda Pioneer 1000cc 5-seat side-by-side (UTV) for rent in Santa Teresa',
+  },
+];
+
+/** Guided ATV tours. Price is per ATV, 1 or 2 riders. */
+export const atvTours = [
+  {
+    id: 'montezuma-half-day',
+    name: 'Montezuma waterfall ATV tour',
+    length: 'Half day, 4 to 5 hours',
+    price: 180,
+    stops: [
+      'Leave from Santa Teresa',
+      'Stop at Playa Cuevas',
+      'Ride through the jungle',
+      'Visit Cabuya Island, if the tide is low',
+      'Arrive at the Montezuma waterfalls',
+      'Free time to swim and relax',
+      'Short visit to Montezuma village',
+      'Ride back to Santa Teresa',
+    ],
+    includes: ['A local guide', 'Fruit and a drink'],
+  },
+  {
+    id: 'waterfalls-full-day',
+    name: 'Full-day waterfalls ATV tour',
+    length: 'Full day, 8 hours',
+    price: 280,
+    stops: ['Montezuma waterfall', 'Cóbano waterfall', 'Tangomar waterfall'],
+    includes: ['A local guide'],
+  },
 ];
 
 /** Pre-fills the WhatsApp message so an inquiry arrives with context attached. */
@@ -95,8 +168,10 @@ export const nav = [
     children: [
       { label: 'Santa Teresa', href: '/' },
       { label: 'Mal País', href: '/atv-rentals-mal-pais' },
+      { label: 'UTV / side-by-side', href: '/utv-rentals-santa-teresa' },
     ],
   },
+  { label: 'Tours', href: '/atv-tours-santa-teresa' },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },

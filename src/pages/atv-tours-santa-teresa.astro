@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import PageHero from '../components/PageHero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Faq from '../components/Faq.astro';
+import Photo from '../components/Photo.astro';
+import { site, whatsappLink, atvTours, atvFromRate } from '../data/site';
+import { serviceSchema, faqSchema } from '../data/schema';
+
+const url = `${site.url}/atv-tours-santa-teresa`;
+const [halfDay, fullDay] = atvTours;
+
+const faqs = [
+  {
+    q: 'How much is an ATV tour in Santa Teresa?',
+    a: `The half-day Montezuma waterfall tour is $${halfDay.price} per ATV, and the full-day waterfalls tour is $${fullDay.price} per ATV. One or two people can ride each ATV, so two people sharing a quad pay the same price.`,
+  },
+  {
+    q: 'Do I need a licence for an ATV tour?',
+    a: "Yes. Whoever drives the ATV needs a valid driver's licence. A passenger riding behind the driver does not.",
+  },
+  {
+    q: 'Can we see Cabuya Island on the tour?',
+    a: 'Yes, if the tide is low. Cabuya Island can only be reached on foot at low tide, so the half-day tour stops there when the timing works.',
+  },
+  {
+    q: 'Can I do the Montezuma ride without a guide?',
+    a: `Yes. If you are comfortable riding on your own, rent an ATV from $${atvFromRate} a day and follow our Montezuma waterfall route guide. The tour suits first-time riders and anyone who would rather have someone local lead the way.`,
+  },
+  {
+    q: 'Is swimming possible at the Montezuma waterfall?',
+    a: 'Yes. The tour includes free time at the falls to swim. Bring a swimsuit, a towel and shoes you can walk in.',
+  },
+];
+
+const schema = [
+  serviceSchema({
+    name: 'Guided ATV tours from Santa Teresa, Costa Rica',
+    description: `Guided ATV tours from Santa Teresa to the Montezuma waterfalls: half day from $${halfDay.price} per ATV, full day to three waterfalls $${fullDay.price} per ATV.`,
+    url,
+    serviceType: 'ATV tour',
+    offers: atvTours.map((t) => ({ price: t.price, description: `${t.name}, ${t.length.toLowerCase()}, per ATV (1 or 2 riders)` })),
+  }),
+  faqSchema(faqs),
+];
+---
+
+<BaseLayout
+  title="ATV Tours Santa Teresa: Montezuma Waterfall | Rent ATV Santa Teresa"
+  description={`Guided ATV tours from Santa Teresa, Costa Rica: half day to the Montezuma waterfall for $${halfDay.price} per ATV, or a full day to three waterfalls for $${fullDay.price}. 1 or 2 riders per quad.`}
+  schema={schema}
+  mobileBar={{
+    title: 'ATV tours from Santa Teresa',
+    detail: `From $${halfDay.price} per ATV · 1 or 2 riders`,
+    message: "Hi! I'd like to book an ATV tour from Santa Teresa.",
+  }}
+>
+  <Breadcrumb items={[{ label: 'ATV tours', href: '/atv-tours-santa-teresa' }]} />
+  <PageHero
+    eyebrow="Guided tours · Santa Teresa"
+    title="ATV tours from Santa Teresa to the Montezuma waterfalls"
+    subtitle="Ride with a local guide through the jungle and along the coast to the Montezuma waterfalls, with time to swim. Prices are per ATV, and one or two people can ride each quad."
+  />
+
+  <!-- Half-day tour -->
+  <section class="page-x section-y" aria-labelledby="half-day">
+    <div class="grid gap-8 lg:grid-cols-2 lg:items-start lg:gap-12">
+      <div>
+        <p class="eyebrow">{halfDay.length}</p>
+        <h2 id="half-day" class="mt-2 text-h3 sm:text-h2">{halfDay.name}</h2>
+        <p class="mt-3 text-h4 font-semibold text-ink-2">${halfDay.price} per ATV <span class="text-base font-normal text-muted">(1 or 2 riders)</span></p>
+        <h3 class="mt-6 text-h4">The route</h3>
+        <ol class="mt-3 list-decimal space-y-2 pl-5 text-base text-muted">
+          {halfDay.stops.map((stop) => <li>{stop}</li>)}
+        </ol>
+        <h3 class="mt-6 text-h4">Included</h3>
+        <ul class="mt-3 space-y-2 text-base text-muted">
+          {halfDay.includes.map((item) => (
+            <li class="flex items-start gap-3">
+              <svg class="mt-1 h-4 w-4 shrink-0 text-cta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              {item}
+            </li>
+          ))}
+        </ul>
+        <a href={whatsappLink("Hi! I'd like to book the half-day ATV tour to the Montezuma waterfall.")} data-cta="tour_half_day" class="btn-primary mt-8" rel="noopener" target="_blank">Book the half-day tour</a>
+      </div>
+      <Photo
+        name="montezuma-waterfall-pool"
+        alt="The swimming pool below the main Montezuma waterfall, the end point of the ATV tour from Santa Teresa"
+        sizes="(min-width: 1024px) 50vw, 100vw"
+        ratio="4/3"
+        class="rounded-media"
+      />
+    </div>
+  </section>
+
+  <!-- Full-day tour -->
+  <section class="band-sand" aria-labelledby="full-day">
+    <div class="page-x section-y">
+      <div class="grid gap-8 lg:grid-cols-2 lg:items-start lg:gap-12">
+        <div>
+          <p class="eyebrow">{fullDay.length}</p>
+          <h2 id="full-day" class="mt-2 text-h3 sm:text-h2">{fullDay.name}</h2>
+          <p class="mt-3 text-h4 font-semibold text-ink-2">${fullDay.price} per ATV <span class="text-base font-normal text-muted">(1 or 2 riders)</span></p>
+          <p class="mt-4 text-base text-muted">A longer day on the quad with a local guide, visiting three waterfalls on the southern Nicoya Peninsula:</p>
+          <ul class="mt-3 list-disc space-y-2 pl-5 text-base text-muted">
+            {fullDay.stops.map((stop) => <li>{stop}</li>)}
+          </ul>
+          <a href={whatsappLink("Hi! I'd like to book the full-day waterfalls ATV tour.")} data-cta="tour_full_day" class="btn-primary mt-8" rel="noopener" target="_blank">Book the full-day tour</a>
+        </div>
+        <Photo
+          name="jungle-trail"
+          alt="A shaded track under the trees beside a beach on the southern Nicoya Peninsula"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          ratio="4/3"
+          class="rounded-media"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Requirements + self-guided alternative -->
+  <section class="page-x section-y" aria-labelledby="tour-practical">
+    <SectionHeading eyebrow="Good to know" title="Before you book a tour" />
+    <div class="mt-8 grid gap-6 lg:grid-cols-2">
+      <div class="card">
+        <h3 class="text-h4">What you need</h3>
+        <ul class="mt-4 space-y-3 text-base text-muted">
+          <li><strong class="text-ink-2">Licence:</strong> the driver of each ATV needs a valid driver's licence.</li>
+          <li><strong class="text-ink-2">Riders:</strong> one or two people per ATV, for the same price.</li>
+          <li><strong class="text-ink-2">Bring:</strong> closed shoes, a swimsuit and towel for the falls, sunscreen and sunglasses for the dust.</li>
+          <li><strong class="text-ink-2">Tides:</strong> the Cabuya Island stop depends on low tide, so your guide will time it on the day.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 class="text-h4">Rather ride it yourself?</h3>
+        <p class="mt-4 text-base text-muted">
+          The Montezuma waterfall is an easy self-guided day trip if you are comfortable on a quad.
+          <a href="/" class="link-inline">Rent an ATV in Santa Teresa</a> from ${atvFromRate} a day and follow our
+          <a href="/blog/montezuma-waterfall-atv-santa-teresa" class="link-inline">Montezuma waterfall route guide</a>, or head south to the
+          <a href="/blog/cabo-blanco-reserve-atv" class="link-inline">Cabo Blanco reserve</a>. Travelling as a bigger group? A
+          <a href="/utv-rentals-santa-teresa" class="link-inline">side-by-side</a> seats 4 or 5.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-x section-y pt-0" aria-labelledby="tour-faq">
+    <SectionHeading eyebrow="Questions" title="ATV tour questions" />
+    <div class="mt-8 max-w-3xl">
+      <Faq items={faqs} />
+    </div>
+  </section>
+
+  <CtaBand title="Book an ATV tour" body="Send your date, which tour and how many people. We reply in minutes during opening hours." message="Hi! I'd like to book an ATV tour from Santa Teresa." />
+</BaseLayout>

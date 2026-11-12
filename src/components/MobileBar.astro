@@ -2,19 +2,31 @@
 /**
  * Sticky mobile action bar. Most visitors arrive on a phone, and the hero CTA
  * is gone after one scroll. This keeps the single action that matters — start
- * a WhatsApp message — permanently within thumb reach.
+ * a WhatsApp message — permanently within thumb reach. Pages selling something
+ * other than ATV rental (UTVs, tours) pass their own text via BaseLayout.
  */
-import { whatsappLink } from '../data/site';
+import { whatsappLink, atvFromRate } from '../data/site';
 import WhatsAppIcon from './WhatsAppIcon.astro';
+
+interface Props {
+  title?: string;
+  detail?: string;
+  message?: string;
+}
+const {
+  title = 'ATV rental Santa Teresa',
+  detail = `From $${atvFromRate}/day · Free delivery`,
+  message,
+} = Astro.props;
 ---
 
 <div class="mobile-bar">
   <div class="flex items-center gap-3">
     <div class="min-w-0 flex-1">
-      <p class="truncate text-body font-semibold text-ink-2">ATV rental Santa Teresa</p>
-      <p class="truncate text-micro text-muted">From $70/day · Free delivery</p>
+      <p class="truncate text-body font-semibold text-ink-2">{title}</p>
+      <p class="truncate text-micro text-muted">{detail}</p>
     </div>
-    <a href={whatsappLink()} data-cta="mobile_bar" class="btn-primary shrink-0 px-5 py-2.5 text-body" rel="noopener" target="_blank">
+    <a href={message ? whatsappLink(message) : whatsappLink()} data-cta="mobile_bar" class="btn-primary shrink-0 px-5 py-2.5 text-body" rel="noopener" target="_blank">
       <WhatsAppIcon class="h-4 w-4" />
       Book
     </a>

@@ -7,7 +7,7 @@ image: "/photos/atv-beach-sunset-1200.webp"
 imageAlt: "A rental ATV parked under the trees at the edge of Mar Azul beach at sunset, near Santa Teresa"
 featured: false
 tldr:
-  - "Rent ATV Santa Teresa is my pick for a fully automatic 4x4 delivered free to your accommodation, from $70/day, with 10% off for rentals over 7 days."
+  - "Rent ATV Santa Teresa is my pick for a quad delivered free to your accommodation, from $70/day, with 10% off for rentals over 7 days, plus side-by-sides and guided tours."
   - "Vroom8 suits people comparing ATVs, UTVs, and motorcycles in one place; ATValerios and Buggy Blue are local alternatives; Quad Tours Costa Rica suits guided tours."
   - "Compare the total cost for your exact dates (taxes, deposit, fuel, insurance), not the headline daily rate."
   - "Ask every provider whether beaches, night riding, and river crossings are allowed before you set off."
@@ -15,7 +15,7 @@ tldr:
 
 The main coastal road through Santa Teresa is paved, but the side roads, hill routes, and many inland tracks are not. Those unpaved sections turn dusty and corrugated in the dry season and can develop mud and standing water in the rainy season. Comparing the best ATV rentals Santa Teresa has to offer helps you find practical transport for those changing conditions.
 
-This roundup considers pricing, automatic and 4x4 options, vehicle delivery, operating support, and suitability for local roads. Rent ATV Santa Teresa is the top overall pick for licensed visitors who want a fully automatic 4x4 delivered to their accommodation, but the other providers suit different vehicles, budgets, and tour plans.
+This roundup considers pricing, automatic and 4x4 options, vehicle delivery, operating support, and suitability for local roads. Rent ATV Santa Teresa is the top overall pick for licensed visitors who want a quad delivered to their accommodation, but the other providers suit different vehicles, budgets, and tour plans.
 
 ## Quick picks: Santa Teresa ATV rental comparison
 
@@ -27,7 +27,7 @@ Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are sprea
       <tr><th>Provider</th><th>Best for</th><th>Starting price*</th><th>Key strength</th></tr>
     </thead>
     <tbody>
-      <tr><td>Rent ATV Santa Teresa</td><td>Delivered automatic 4x4 transport</td><td><a href="/pricing">From $70/day</a></td><td>Delivery, helmets, basic liability insurance, and roadside help</td></tr>
+      <tr><td>Rent ATV Santa Teresa</td><td>Delivered ATVs, side-by-sides and tours</td><td><a href="/pricing">From $70/day</a></td><td>Delivery, helmets, basic liability insurance, and roadside help</td></tr>
       <tr><td>Vroom8</td><td>Broad vehicle choice</td><td>Varies by listing</td><td>ATVs, UTVs, and motorcycles</td></tr>
       <tr><td>ATValerios</td><td>Established ATV specialist</td><td>From $70/day</td><td>Named Honda 420 model and local route support</td></tr>
       <tr><td>Buggy Blue</td><td>Clear cash versus card pricing</td><td>From $75/day + tax</td><td>Separate payment-method rates</td></tr>
@@ -38,18 +38,18 @@ Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are sprea
 
 *Other providers' prices are as listed on their own websites in September 2026. Confirm current rates with each provider before booking.
 
-## 1. Rent ATV Santa Teresa: best for delivered automatic 4x4 transport
+## 1. Rent ATV Santa Teresa: best for delivered ATVs, side-by-sides and tours
 
 Rent ATV Santa Teresa is my self-drive rental for licensed visitors staying in Santa Teresa, Playa Carmen, [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa), or Mal País. The quad comes to you, which suits travelers who need flexible transportation between accommodation, restaurants, surf spots, and shops.
 
-The fleet is fully automatic Can-Am, Honda, and Kymco models, so there are no gears to learn. 4x4 is useful on rough roads, muddy sections, and the steep driveways up to hillside villas.
+The fleet is a Kymco 300cc and a Yamaha 450cc, both fully automatic, and a semi-automatic Honda 420cc. The Yamaha has the most power for rough roads, muddy sections, and the steep driveways up to hillside villas. Groups can rent a 4- or 5-seat side-by-side, and there are guided ATV tours to the Montezuma waterfalls.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
     src="/photos/fleet-honda-side-1200.webp"
     srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="Honda 4x4 ATV from the rental fleet with a locking rear cargo box and passenger backrest"
+    alt="Honda ATV from the rental fleet with a locking rear cargo box and passenger backrest"
     width="1200"
     height="900"
     loading="lazy"
@@ -60,17 +60,18 @@ The fleet is fully automatic Can-Am, Honda, and Kymco models, so there are no ge
 
 **Key features:**
 
-- Fully automatic Can-Am, Honda, and Kymco ATV fleet
-- 4x4, passenger seating, and a locking cargo box
+- Kymco, Honda and Yamaha quads, rented for 8 hours or by the day
+- Passenger seating and a locking cargo box on every quad
+- 4- and 5-seat side-by-sides and guided ATV tours
 - Free delivery and collection in Santa Teresa, Playa Carmen, Playa Hermosa, and Mal País
 - A helmet for every rider and basic liability insurance included
 - Controls walkthrough at delivery, local route advice, and roadside help if something fails on the road
 
-**Pricing:** The daily rate is $70, with 10% off ($63 a day) for rentals over seven days, with full details on the [pricing page](/pricing). The refundable security deposit starts at $500. The quad arrives with a full tank and goes back full.
+**Pricing:** $70 to $90 per 24 hours depending on the quad, or $60 to $80 for 8 hours, with 10% off every day for rentals over seven days, with full details on the [pricing page](/pricing). The refundable security deposit starts at $500. The quad arrives with a full tank and goes back full.
 
 **Ideal for:** Riders with a valid physical driver's licence who want a delivered ATV for several days of independent travel.
 
-**Bottom line:** This is the lead recommendation for practical multi-day mobility, especially when fully automatic operation and delivery to your accommodation are priorities.
+**Bottom line:** This is the lead recommendation for practical multi-day mobility, especially when delivery to your accommodation and a choice of quads are priorities.
 
 ## 2. Vroom8: best for the broadest vehicle selection
 
@@ -195,7 +196,7 @@ River crossings and steep inland tracks need more confidence than the paved main
 
 ## Which Santa Teresa ATV rental should you choose?
 
-Choose Rent ATV Santa Teresa for a delivered, fully automatic 4x4; Vroom8 for the widest vehicle comparison; ATValerios for an experienced ATV specialist; Buggy Blue for visible cash and card rates; or Quad Tours Costa Rica when guided adventures are part of the plan.
+Choose Rent ATV Santa Teresa for a delivered quad, side-by-side or guided tour; Vroom8 for the widest vehicle comparison; ATValerios for an experienced ATV specialist; Buggy Blue for visible cash and card rates; or Quad Tours Costa Rica when guided adventures are part of the plan.
 
 Start by deciding whether the ATV is daily transportation or a one-day activity, like [a ride to Montezuma waterfall](/blog/montezuma-waterfall-atv-santa-teresa), [a longer run to Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv), a quieter afternoon at [Playa Manzanillo](/blog/manzanillo-beach-atv-santa-teresa), or a tide-dependent stop at [the Mal País tide pools](/blog/mal-pais-tide-pools-atv). Then compare the total cost for your exact rental period, since a low headline price may apply to a different vehicle, payment method, or duration.
 
@@ -220,7 +221,7 @@ Those details matter more than a small difference in the advertised daily rate.
     src="/photos/fleet-kymco-front-1200.webp"
     srcset="/photos/fleet-kymco-front-800.webp 800w, /photos/fleet-kymco-front-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="Black Kymco ATV parked with an ocean view over the jungle above Santa Teresa"
+    alt="Red Kymco ATV from the rental fleet, parked on a sandy track in Santa Teresa"
     width="1200"
     height="900"
     loading="lazy"
@@ -231,7 +232,7 @@ Those details matter more than a small difference in the advertised daily rate.
 
 ## Conclusion
 
-Every provider here suits someone. If what you want is a fully automatic 4x4 brought to your door, with a helmet for every rider and someone to call if something goes wrong, my [ATV rental in Santa Teresa](/) is the simplest way to get around for the length of your stay.
+Every provider here suits someone. If what you want is a quad brought to your door, with a helmet for every rider and someone to call if something goes wrong, my [ATV rental in Santa Teresa](/) is the simplest way to get around for the length of your stay.
 
 ## Santa Teresa ATV rental FAQs
 

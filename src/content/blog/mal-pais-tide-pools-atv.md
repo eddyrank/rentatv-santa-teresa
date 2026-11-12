@@ -77,10 +77,10 @@ Wet rock here is slippery and sharp in places. I wear closed shoes for the ride 
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/fleet-canam-side-1200.webp"
-    srcset="/photos/fleet-canam-side-800.webp 800w, /photos/fleet-canam-side-1200.webp 1200w"
+    src="/photos/fleet-honda-side-1200.webp"
+    srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="Side view of a Can-Am Outlander 4x4 ATV from the rental fleet, with front and rear racks and a locking rear cargo box"
+    alt="Side view of a red Honda ATV from the rental fleet, with front and rear racks"
     width="1200"
     height="900"
     loading="lazy"
@@ -89,7 +89,7 @@ Wet rock here is slippery and sharp in places. I wear closed shoes for the ride 
   />
 </div>
 
-I ride the Can-Am Outlander, one of the three quads in our [ATV rentals in Santa Teresa](/), down there because the locking cargo box on the back holds a dry bag, water and a towel while I am away from the quad on the rocks. If you are still deciding whether you want a quad for your whole stay rather than just this one trip, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) walks through that decision.
+I ride the Yamaha 450, one of the three quads in our [ATV rentals in Santa Teresa](/), down there because the locking cargo box on the back holds a dry bag, water and a towel while I am away from the quad on the rocks. If you are still deciding whether you want a quad for your whole stay rather than just this one trip, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) walks through that decision.
 
 ## Conclusion
 

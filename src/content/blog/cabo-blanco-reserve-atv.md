@@ -66,10 +66,10 @@ Cabo Blanco is far enough that a taxi there and back gets expensive, and there i
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/fleet-canam-side-1200.webp"
-    srcset="/photos/fleet-canam-side-800.webp 800w, /photos/fleet-canam-side-1200.webp 1200w"
+    src="/photos/fleet-honda-side-1200.webp"
+    srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="Side view of a Can-Am Outlander 4x4 ATV from the rental fleet, with front and rear racks"
+    alt="Side view of a red Honda ATV from the rental fleet, with front and rear racks"
     width="1200"
     height="900"
     loading="lazy"
@@ -78,7 +78,7 @@ Cabo Blanco is far enough that a taxi there and back gets expensive, and there i
   />
 </div>
 
-The Can-Am Outlander 450 from our [ATV rental fleet in Santa Teresa](/) is fully automatic and 4x4, which matters on the steep, broken sections after Cóbano. The locking rear cargo box holds water, a towel and a dry shirt while you are on the trail. Two people can ride on one quad, but it is a long day in the seat for a passenger, so if you are both comfortable driving, two quads are easier on the back. If you are still deciding between a quad and a car for trips like this, I compared them in [ATV vs rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose).
+For this ride I would take the Yamaha 450 from our [ATV rental fleet in Santa Teresa](/): it is the most powerful quad we rent and fully automatic, which matters on the steep, broken sections after Cóbano. The locking rear cargo box holds water, a towel and a dry shirt while you are on the trail. Two people can ride on one quad, but it is a long day in the seat for a passenger, so if you are both comfortable driving, two quads are easier on the back. If you are still deciding between a quad and a car for trips like this, I compared them in [ATV vs rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose).
 
 Do not ride on the beaches along the way. Park at the road and walk onto the sand. The same rules from my guide to [exploring the beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) apply all the way down the coast.
 

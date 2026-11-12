@@ -144,7 +144,7 @@ Add up your expected trips across the whole stay. Convenience depends on where e
 
 Rental requirements vary by operator, but most require renters to be at least 18, ask for a valid driver's license or passport for identification, and expect you to show you can operate an ATV safely and responsibly. A fully automatic ATV takes manual gear changes out of the equation, but it still demands sound judgment, controlled braking, and constant road awareness.
 
-I run a fully automatic fleet with Can-Am, Honda, and Kymco models. Whichever operator you rent from, confirm helmet requirements, passenger limits, fuel expectations, insurance exclusions, optional damage coverage, and the security deposit before you take the keys.
+I rent Kymco, Honda and Yamaha quads: the Kymco and Yamaha are fully automatic, the Honda is semi-automatic. Whichever operator you rent from, confirm helmet requirements, passenger limits, fuel expectations, insurance exclusions, optional damage coverage, and the security deposit before you take the keys.
 
 Closed footwear gives you better grip and protection than flip-flops. Every rider should have a properly fitting helmet, including younger passengers where the operator allows them.
 

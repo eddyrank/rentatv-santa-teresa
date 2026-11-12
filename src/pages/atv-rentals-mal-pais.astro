@@ -7,7 +7,7 @@ import RouteStrip from '../components/RouteStrip.astro';
 import BookingWidget from '../components/BookingWidget.astro';
 import InfoCard from '../components/InfoCard.astro';
 import Photo from '../components/Photo.astro';
-import { site, whatsappLink } from '../data/site';
+import { site, whatsappLink, atvFleet, atvFromRate, atvDailyRate, weeklyDiscount } from '../data/site';
 import { serviceSchema, faqSchema } from '../data/schema';
 
 const faqs = [
@@ -49,42 +49,29 @@ const schema = [
   serviceSchema({
     name: 'ATV rentals in Mal País, Costa Rica',
     description:
-      'Rent a fully automatic 4x4 ATV in Mal País, Costa Rica, with free delivery to your hotel or Airbnb. Helmets included, full tank at pickup. From $70/day, 10% off over 7 days.',
+      `Rent a Kymco, Honda or Yamaha ATV in Mal País, Costa Rica, with free delivery to your hotel or Airbnb. Helmets included, full tank at pickup. From $${atvFromRate}/day, ${weeklyDiscount.percent}% off over 7 days.`,
     url: `${site.url}/atv-rentals-mal-pais`,
-    offers: [
-      { price: 70, description: 'Daily rate for rentals of 1 to 7 days' },
-      { price: 63, description: 'Daily rate for rentals over 7 days (10% off)' },
-    ],
+    offers: atvFleet.map((q) => ({ price: q.rate24h, description: `${q.name} ATV, 24-hour rate` })),
   }),
   faqSchema(faqs),
 ];
 
-const fleet = [
-  {
-    photo: 'fleet-canam-side',
-    alt: 'Red Can-Am Outlander 450 4x4 ATV available for rent in Mal País',
-    name: 'Can-Am Outlander 4x4',
-    body: "The Can-Am is the machine we point toward the longer rides: north into Santa Teresa for groceries and restaurants, or further out toward Manzanillo. Fully automatic with selectable 4x4, it copes well with the looser, less-maintained tracks around Mal País.",
-    specs: ['Fully automatic', 'Selectable 4x4', '1–2 riders', 'Locking cargo box'],
-  },
-  {
-    photo: 'fleet-honda-side',
-    alt: 'Honda ATV with front and rear racks available for rent in Mal País',
-    name: 'Honda ATV',
-    body: 'Reliable and easy to ride, the Honda suits the short hops most Mal País visitors actually make: down to the beach, along to Playa Carmen, or up the coast road into Santa Teresa. The cargo box on the back is enough for a beach bag and groceries.',
-    specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
-  },
-  {
-    photo: 'fleet-kymco-front',
-    alt: 'Black Kymco 4x4 ATV available for rent in Mal País',
-    name: 'Kymco 4x4 ATV',
-    body: 'Straightforward and easy to get comfortable on fast, a good fit if this is your first time on a quad. Given how spread out Mal País is, most guests find they are riding confidently within the first few minutes, well before the first grocery run.',
-    specs: ['Fully automatic', '1–2 riders', 'Front and rear racks', 'Locking cargo box'],
-  },
-];
+// Mal País-specific copy; rates, engine and transmission come from atvFleet in site.ts.
+const fleetCopy: Record<string, string> = {
+  kymco: 'Straightforward and quick to get comfortable on, a good fit if this is your first time on a quad. Fully automatic, and given how spread out Mal País is, most guests are riding confidently within the first few minutes, well before the first grocery run.',
+  honda: 'The Honda suits the short hops most Mal País visitors actually make: down to the beach, along to Playa Carmen, or up the coast road into Santa Teresa. It is semi-automatic, with a foot shifter and no clutch lever, so it suits riders who have been on a bike or quad before.',
+  yamaha: "The Yamaha 450 is the machine we point toward the longer rides: north into Santa Teresa for groceries and restaurants, or further out toward Manzanillo. Fully automatic and the most powerful quad we rent, it copes well with the looser, less-maintained tracks around Mal País.",
+};
+const fleet = atvFleet.map((q) => ({
+  ...q,
+  alt: q.alt.replace('Santa Teresa', 'Mal País'),
+  name: `${q.name} · $${q.rate24h}/day`,
+  body: fleetCopy[q.id],
+  specs: [q.engine, q.transmission, '1–2 riders', 'Locking cargo box'],
+}));
 
 const fleetShared =
-  "Whichever machine you get, it is fully automatic, fitted with front and rear cargo racks and a locking box on the back, and serviced between rentals rather than once a season. The unpaved roads around Mal País are hard on vehicles, and regular maintenance is the only thing that keeps any of them reliable.";
+  "Whichever machine you get, it is fitted with cargo racks and a locking box on the back, and serviced between rentals rather than once a season. The unpaved roads around Mal País are hard on vehicles, and regular maintenance is the only thing that keeps any of them reliable.";
 
 const included = [
   'A helmet for every rider',
@@ -93,7 +80,7 @@ const included = [
   'Basic liability insurance',
   'Free delivery and collection in Mal País',
   'Roadside help anywhere we rent',
-  '4x4 storage box on every quad',
+  'Locking storage box on every quad',
 ];
 
 const bring = [
@@ -120,7 +107,7 @@ const routeStops = [
 
 <BaseLayout
   title="ATV Rental Mal País | Rent ATV Santa Teresa"
-  description="Rent a 4x4 ATV in Mal País, Costa Rica. Free delivery to your hotel skips the long walk to shops and cafés up the coast. From $70/day."
+  description={`Rent an ATV in Mal País, Costa Rica. Free delivery to your hotel skips the long walk to shops and cafés up the coast. From $${atvFromRate}/day.`}
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'Mal País', href: '/atv-rentals-mal-pais' }]} />
@@ -140,16 +127,16 @@ const routeStops = [
           here get around that.
         </p>
         <p class="mt-4 max-w-lg text-base text-muted">
-          Every ATV comes with 4x4, a locking cargo box and helmets, and
+          Every ATV comes with a locking cargo box and helmets, and
           starts you off with a full tank. We deliver free to hotels, villas
           and Airbnbs anywhere in Mal País, so you are riding within minutes
           of arriving rather than arranging your own way to a rental counter.
         </p>
         <ul class="mt-6 flex flex-wrap gap-2">
           {[
-            'Can-Am, Honda & Kymco fleet',
-            'Fully automatic',
-            '4x4 selectable',
+            'Kymco, Honda & Yamaha fleet',
+            '300–450cc',
+            '8h or 24h rentals',
             'Locking cargo box',
             'Free delivery to Mal País',
             'Helmets included',
@@ -160,7 +147,7 @@ const routeStops = [
         <dl class="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-hairline pt-5">
           <div>
             <dt class="text-body text-muted">From</dt>
-            <dd class="stat-num">$70<span class="text-h4 font-normal text-muted">/day</span></dd>
+            <dd class="stat-num">${atvFromRate}<span class="text-h4 font-normal text-muted">/day</span></dd>
           </div>
           <div>
             <dt class="text-body text-muted">Delivery</dt>
@@ -261,9 +248,10 @@ const routeStops = [
   <!-- Rates -->
   <section class="page-x section-y" aria-labelledby="multi-day">
     <SectionHeading eyebrow="Staying a while?" title="10% off rentals over a week" subtitle="Many visitors choose Mal País specifically to stay put for a week or longer. If you're here for several days, renting day by day adds up fast, and a longer rental means you always have a way to reach Santa Teresa without arranging transportation every time." />
-    <div class="mt-8 grid gap-6 sm:grid-cols-4">
-      <InfoCard label="1 to 7 days" value="$70/day" detail="Daily and weekly rentals" />
-      <InfoCard label="Over 7 days" value="$63/day" detail="10% off every day of the rental" />
+    <div class="mt-8 grid gap-6 sm:grid-cols-3">
+      {atvFleet.map((q) => (
+        <InfoCard label={q.name} value={`$${q.rate24h}/day`} detail={`$${atvDailyRate(q.rate24h, weeklyDiscount.minDays)}/day over 7 days · $${q.rate8h} for 8 hours`} />
+      ))}
     </div>
     <p class="mt-6 text-base text-muted">One security deposit covers the whole rental period regardless of length. If your quad develops a fault during your rental, we will bring a replacement rather than leave you without transportation. Full rates on the <a href="/pricing" class="link-inline">pricing page</a>.</p>
   </section>

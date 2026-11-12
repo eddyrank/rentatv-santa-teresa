@@ -47,7 +47,7 @@ Road conditions, tides, wildlife nesting areas, and landowner rules can change. 
 
 Start with flatter, familiar routes before you consider remote roads or steep climbs. Plan around weather, fuel, daylight, and the confidence of the least experienced rider in your group.
 
-My fleet is fully automatic, Can-Am, Honda, and Kymco models, so there are no gears to manage. Automatic operation and four-wheel drive still need smooth throttle input, controlled braking, and careful steering on anything loose or wet.
+My fleet is Kymco, Honda and Yamaha quads. The Kymco and Yamaha are fully automatic, so there are no gears to manage, and the Honda is semi-automatic with a foot shifter. Any quad still needs smooth throttle input, controlled braking, and careful steering on anything loose or wet.
 
 Rates are $70 a day, and rentals over seven days get 10% off, which brings it to $63 a day. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that.
 
@@ -180,7 +180,7 @@ First-time riders should stick to flatter, familiar roads and skip the hillside 
 
 The best ATV beach day in Santa Teresa isn't the one that covers the most ground. It's the one built around legal access, terrain that matches your experience, daylight, and enough time to actually enjoy where you stop. Get those right and you can cover Playa Carmen, Santa Teresa, Playa Hermosa, and Manzanillo in one trip without rushing it.
 
-If you want a 4x4 quad with a full tank and a proper walkthrough before you head out, message me with your dates and I'll bring one to your door.
+If you want a quad with a full tank and a proper walkthrough before you head out, message me with your dates and I'll bring one to your door.
 
 ## Frequently asked questions
 

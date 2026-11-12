@@ -62,7 +62,7 @@ Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose
 
 [For most visitors staying more than a day or two](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), an [ATV rental in Santa Teresa](/) is the most practical option. The reasons are straightforward.
 
-**They handle the road.** Our 4x4 quads have proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
+**They handle the road.** Our quads have proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
 
 **They go where you want.** You can ride to Playa Carmen for breakfast, check different surf breaks along the coast, stop wherever you want, and get back before dark. The route is yours.
 
@@ -75,7 +75,7 @@ Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose
     src="/photos/fleet-honda-side-1200.webp"
     srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="Honda 4x4 ATV from the rental fleet with a locking rear cargo box and passenger backrest"
+    alt="Red Honda ATV from the rental fleet with a locking rear cargo box and passenger backrest"
     width="1200"
     height="900"
     loading="lazy"

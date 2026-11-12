@@ -1,0 +1,187 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import BookingWidget from '../components/BookingWidget.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Faq from '../components/Faq.astro';
+import InfoCard from '../components/InfoCard.astro';
+import Photo from '../components/Photo.astro';
+import { site, whatsappLink, utvFleet, atvFromRate } from '../data/site';
+import { serviceSchema, faqSchema } from '../data/schema';
+
+const url = `${site.url}/utv-rentals-santa-teresa`;
+const fromUtv8h = Math.min(...utvFleet.map((u) => u.rate8h));
+
+const faqs = [
+  {
+    q: 'What is the difference between a UTV and an ATV?',
+    a: 'An ATV (quad) is ridden like a motorbike, straddling the seat, and carries up to two people. A UTV, also called a side-by-side, is driven more like a small off-road car: you sit in seats with a steering wheel, and ours carry 4 or 5 people.',
+  },
+  {
+    q: 'How much does a side-by-side rental cost in Santa Teresa?',
+    a: `The 4-seat side-by-side is $${utvFleet[0].rate8h} for 8 hours or $${utvFleet[0].rate24h} for 24 hours. The 5-seat side-by-side is $${utvFleet[1].rate8h} for 8 hours or $${utvFleet[1].rate24h} for 24 hours. Prices are per vehicle, not per person.`,
+  },
+  {
+    q: 'Do I need a licence to drive a UTV?',
+    a: "Yes. The driver needs a valid driver's licence from their home country, carried with them. Passengers do not need one.",
+  },
+  {
+    q: 'Is a side-by-side or two ATVs better for a group of four?',
+    a: `A 4-seat side-by-side keeps everyone together and only needs one driver. Two ATVs from $${atvFromRate} each per day cost less, but need two licensed drivers and suit people who want to ride rather than be driven.`,
+  },
+  {
+    q: 'Where can I take a side-by-side?',
+    a: 'The same places as an ATV: the coast road from Mal País to Playa Hermosa, the dirt side roads and hill routes, and day trips toward Manzanillo or Montezuma. Ask us about current road conditions before heading inland after rain.',
+  },
+];
+
+const schema = [
+  serviceSchema({
+    name: 'UTV and side-by-side rental in Santa Teresa, Costa Rica',
+    description: `Rent a 1000cc side-by-side (UTV) for 4 or 5 people in Santa Teresa, Costa Rica, from $${fromUtv8h} for 8 hours.`,
+    url,
+    serviceType: 'UTV rental',
+    offers: utvFleet.flatMap((u) => [
+      { price: u.rate8h, description: `${u.name}, 8 hours` },
+      { price: u.rate24h, description: `${u.name}, 24 hours` },
+    ]),
+  }),
+  faqSchema(faqs),
+];
+---
+
+<BaseLayout
+  title="UTV & Side-by-Side Rental Santa Teresa | Rent ATV Santa Teresa"
+  description={`Rent a 1000cc side-by-side (UTV) for 4 or 5 people in Santa Teresa, Costa Rica, from $${fromUtv8h} for 8 hours. One driver, the whole group together.`}
+  schema={schema}
+  mobileBar={{
+    title: 'Side-by-side rental',
+    detail: `From $${fromUtv8h} for 8 hours · 4 or 5 seats`,
+    message: "Hi! I'd like to rent a side-by-side (UTV) in Santa Teresa.",
+  }}
+>
+  <Breadcrumb items={[{ label: 'UTV rentals', href: '/utv-rentals-santa-teresa' }]} />
+  <!-- Hero with the booking form, so a group can request a side-by-side straight away -->
+  <section class="page-x pt-6 pb-4 lg:pt-12" aria-labelledby="utv-hero">
+    <div class="grid items-start gap-8 lg:grid-cols-[6fr_5fr] lg:gap-12">
+      <div>
+        <p class="eyebrow">Side-by-sides · Santa Teresa</p>
+        <h1 id="utv-hero" class="mt-3 max-w-3xl text-h2 sm:text-h1">UTV and side-by-side rental in Santa Teresa</h1>
+        <p class="mt-4 max-w-2xl text-lead text-muted">
+          Travelling as a family or a group? A side-by-side seats 4 or 5 people with one driver, so everyone
+          rides together on the same dirt roads, hill routes and beach runs as the quads.
+        </p>
+        <dl class="mt-6 flex flex-wrap gap-x-10 gap-y-4 border-t border-hairline pt-6">
+          <div>
+            <dt class="text-body text-muted">From</dt>
+            <dd class="stat-num">${fromUtv8h}<span class="text-h4 font-normal text-muted">/8h</span></dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Seats</dt>
+            <dd class="stat-num">4–5</dd>
+          </div>
+          <div>
+            <dt class="text-body text-muted">Engine</dt>
+            <dd class="stat-num">1000cc</dd>
+          </div>
+        </dl>
+        <div class="photo-card mt-8 hidden lg:block">
+          <Photo name="utv-4-seat" alt={utvFleet[0].alt} sizes="(min-width: 1024px) 50vw, 100vw" eager />
+        </div>
+      </div>
+      <div id="book-now">
+        <BookingWidget kind="utv" />
+      </div>
+    </div>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="utv-rates">
+    <SectionHeading eyebrow="Rates" title="Two side-by-sides, both 1000cc" subtitle="Prices are per vehicle, not per person." />
+    <div class="mt-8 grid gap-6 md:grid-cols-2">
+      {utvFleet.map((u) => (
+        <article>
+          <div class="photo-card">
+            <Photo name={u.photo} alt={u.alt} sizes="(min-width: 768px) 50vw, 100vw" />
+          </div>
+          <h3 class="mt-4 text-h4">{u.model} {u.name}</h3>
+          <p class="mt-1 text-base text-muted">{u.engine} · seats {u.seats} · ${u.rate8h} for 8 hours · ${u.rate24h} for 24 hours</p>
+        </article>
+      ))}
+    </div>
+    <div class="mt-8 overflow-x-auto rounded-media border border-hairline">
+      <table class="w-full min-w-[520px] border-collapse text-left text-base">
+        <caption class="sr-only">Side-by-side (UTV) rental rates in Santa Teresa</caption>
+        <thead class="bg-surface text-body text-muted">
+          <tr>
+            {['Side-by-side', 'Engine', 'Seats', '8 hours', '24 hours'].map((h) => (
+              <th scope="col" class="px-4 py-3 font-semibold">{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {utvFleet.map((u) => (
+            <tr class="border-t border-hairline">
+              <th scope="row" class="px-4 py-3 font-semibold text-ink-2">{u.model} {u.seats}-seat</th>
+              <td class="px-4 py-3 text-muted">{u.engine}</td>
+              <td class="px-4 py-3 text-muted">{u.seats} people</td>
+              <td class="px-4 py-3 text-muted">${u.rate8h}</td>
+              <td class="px-4 py-3"><span class="font-semibold text-ink-2">${u.rate24h}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <div class="mt-8 grid gap-6 sm:grid-cols-3">
+      <InfoCard label="From" value={`$${fromUtv8h}`} detail="for 8 hours" />
+      <InfoCard label="Seats" value="4 or 5" detail="One licensed driver" />
+      <InfoCard label="Engine" value="1000cc" detail="Both side-by-sides" />
+    </div>
+    <p class="mt-6 max-w-3xl text-base text-muted">
+      Send your dates and group size on WhatsApp and we will confirm availability,
+      the deposit and delivery to where you are staying before you book.
+    </p>
+    <a href={whatsappLink("Hi! I'd like to rent a side-by-side (UTV) in Santa Teresa.")} data-cta="utv_rates" class="btn-primary mt-6" rel="noopener" target="_blank">Ask about a side-by-side</a>
+  </section>
+
+  <section class="band-sand" aria-labelledby="utv-vs-atv">
+    <div class="page-x section-y">
+      <div class="grid gap-8 lg:grid-cols-2 lg:items-center lg:gap-12">
+        <div>
+          <SectionHeading eyebrow="UTV or ATV?" title="Which one fits your trip" />
+          <p class="mt-6 text-base text-muted">
+            <strong class="text-ink-2">Choose a side-by-side</strong> if you are 3 to 5 people, travelling with
+            children, or only one of you wants to drive. Everyone sits in a seat with a
+            backrest, and there is one vehicle to park at the beach.
+          </p>
+          <p class="mt-4 text-base text-muted">
+            <strong class="text-ink-2">Choose ATVs</strong> if you are one or two people, or a group where
+            everyone wants to ride. Each quad carries up to two riders and costs from
+            ${atvFromRate} a day. Compare the quads on the <a href="/" class="link-inline">ATV rentals in Santa Teresa</a> page,
+            or see every price on the <a href="/pricing" class="link-inline">pricing page</a>.
+          </p>
+          <p class="mt-4 text-base text-muted">
+            Prefer a guide to lead the way? Our <a href="/atv-tours-santa-teresa" class="link-inline">ATV tours</a> go to the
+            Montezuma waterfalls and back.
+          </p>
+        </div>
+        <Photo
+          name="dirt-side-road"
+          alt="A dirt side road through the trees near Santa Teresa, the kind of route a side-by-side handles easily"
+          sizes="(min-width: 1024px) 50vw, 100vw"
+          ratio="4/3"
+          class="rounded-media"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="page-x section-y" aria-labelledby="utv-faq">
+    <SectionHeading eyebrow="Before you book" title="Side-by-side questions" />
+    <div class="mt-8 max-w-3xl">
+      <Faq items={faqs} />
+    </div>
+  </section>
+
+  <CtaBand title="Book a side-by-side" body="Send your dates and how many people. We reply in minutes during opening hours." message="Hi! I'd like to rent a side-by-side (UTV) in Santa Teresa." />
+</BaseLayout>

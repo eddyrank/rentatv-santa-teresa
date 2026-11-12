@@ -33,7 +33,7 @@ Manzanillo is about 14 km north of Santa Teresa, which works out to roughly 35 m
   />
 </div>
 
-A 4x4 quad handles this without much drama if you ride it at a sensible pace. Slow down over the washboard sections and anything that looks like standing water, and you will be fine. This is not a road I would take at speed, and it is not one I would try in a two-wheel-drive rental car.
+A quad handles this without much drama if you ride it at a sensible pace. Slow down over the washboard sections and anything that looks like standing water, and you will be fine. This is not a road I would take at speed, and it is not one I would try in a two-wheel-drive rental car.
 
 ## What's actually out there
 
@@ -61,7 +61,7 @@ I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if M
     src="/photos/fleet-kymco-front-1200.webp"
     srcset="/photos/fleet-kymco-front-800.webp 800w, /photos/fleet-kymco-front-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="A black 4x4 ATV with a locking cargo box and front rack, parked among palms with the ocean visible behind it"
+    alt="A red Kymco ATV with a locking cargo box and front rack, parked on the sand under the palms"
     width="1200"
     height="900"
     loading="lazy"

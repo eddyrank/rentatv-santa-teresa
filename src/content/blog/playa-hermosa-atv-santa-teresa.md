@@ -84,10 +84,10 @@ Because Hermosa is so close, it works well as the first stop of a longer afterno
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/fleet-canam-side-1200.webp"
-    srcset="/photos/fleet-canam-side-800.webp 800w, /photos/fleet-canam-side-1200.webp 1200w"
+    src="/photos/fleet-honda-side-1200.webp"
+    srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="A Can-Am Outlander 4x4 ATV seen from the side, with front and rear racks and a rear cargo box"
+    alt="A red Honda ATV seen from the side, with front and rear racks"
     width="1200"
     height="900"
     loading="lazy"

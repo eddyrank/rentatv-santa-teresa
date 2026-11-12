@@ -1,4 +1,4 @@
-import { site, rates, fleetModels } from './site';
+import { site, atvFleet, atvFromRate, atvDailyRate, weeklyDiscount } from './site';
 
 /**
  * AutoRental is a schema.org subtype of LocalBusiness and is the closest
@@ -11,15 +11,16 @@ export const localBusinessSchema = {
   '@id': `${site.url}/#business`,
   additionalType: 'https://www.wikidata.org/wiki/Q188841',
   name: site.name,
-  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $70 per day, with 10% off rentals over 7 days. Fully automatic 4x4 quads with locking cargo boxes. Helmets included. Free hotel delivery in Santa Teresa, Mal País, Playa Carmen and Playa Hermosa, with an extra fee to Cóbano or Cabuya.`,
+  description: `Self-drive ATV rentals in Santa Teresa, Costa Rica, from $${atvFromRate} per day, with ${weeklyDiscount.percent}% off rentals over 7 days. Kymco, Honda and Yamaha quads with locking cargo boxes, plus side-by-side (UTV) rentals and guided ATV tours. Helmets included. Free hotel delivery in Santa Teresa, Mal País, Playa Carmen and Playa Hermosa, with an extra fee to Cóbano or Cabuya.`,
   url: site.url,
   telephone: site.phoneDisplay,
   // Google uses this in rich results, so it must resolve. Points at the real
   // fleet photo rather than a path that does not exist.
   image: [
-    `${site.url}/photos/fleet-canam-side-1200.webp`,
     `${site.url}/photos/fleet-honda-side-1200.webp`,
     `${site.url}/photos/fleet-kymco-front-1200.webp`,
+    `${site.url}/photos/fleet-yamaha-front-1200.webp`,
+    `${site.url}/photos/utv-4-seat-1200.webp`,
   ],
   logo: `${site.url}/logo.png`,
   priceRange: '$$',
@@ -73,20 +74,23 @@ export function fleetOffersSchema(url: string) {
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'ATV rental rates',
-      itemListElement: fleetModels.map((model) => ({
+      itemListElement: atvFleet.map((model) => ({
         '@type': 'Offer',
-        name: `${model.name} rental`,
+        name: `${model.name} ATV rental`,
         url,
         priceCurrency: 'USD',
         availability: 'https://schema.org/InStock',
-        description: `Fully automatic ${model.name}, rented by the day.`,
+        description: `${model.transmission} ${model.name} ATV, rented for 8 hours ($${model.rate8h}) or by the 24-hour day.`,
         image: `${site.url}/photos/${model.photo}-1200.webp`,
         // No itemOffered: Google read the nested per-model entity as a Product
         // missing offers/review/aggregateRating (Search Console, Oct 2026).
         // Keeping the offer flat leaves Google nothing to classify as a product.
-        priceSpecification: rates.map((tier) => ({
+        priceSpecification: [
+          { label: '1 to 7 days', minDays: 1, maxDays: weeklyDiscount.minDays - 1 },
+          { label: 'Over 7 days', minDays: weeklyDiscount.minDays, maxDays: undefined },
+        ].map((tier) => ({
           '@type': 'UnitPriceSpecification',
-          price: tier.price,
+          price: atvDailyRate(model.rate24h, tier.minDays),
           priceCurrency: 'USD',
           unitCode: 'DAY',
           name: tier.label,
@@ -118,6 +122,7 @@ export function serviceSchema(opts: {
   name: string;
   description: string;
   url: string;
+  serviceType?: string;
   offers?: { price: number; description: string }[];
 }) {
   return {
@@ -126,7 +131,7 @@ export function serviceSchema(opts: {
     name: opts.name,
     description: opts.description,
     url: opts.url,
-    serviceType: 'ATV rental',
+    serviceType: opts.serviceType ?? 'ATV rental',
     provider: { '@id': `${site.url}/#business` },
     areaServed: site.areaServed.map((area) => ({ '@type': 'Place', name: area })),
     ...(opts.offers?.length

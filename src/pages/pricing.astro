@@ -5,23 +5,24 @@ import Breadcrumb from '../components/Breadcrumb.astro';
 import SectionHeading from '../components/SectionHeading.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Faq from '../components/Faq.astro';
-import { site, whatsappLink, rates, dailyRate } from '../data/site';
+import { site, whatsappLink, atvFleet, atvFromRate, atvDailyRate, weeklyDiscount } from '../data/site';
 import { fleetOffersSchema, faqSchema } from '../data/schema';
 import BookingWidget from '../components/BookingWidget.astro';
 
-// Worked totals, computed from the rate table so they can never disagree with it.
+// Worked totals per machine, computed from the rate data so they can never disagree with it.
 const exampleTotals = [1, 3, 5, 7, 10, 14].map((days) => ({
   days,
-  rate: dailyRate(days),
-  total: days * dailyRate(days),
+  totals: atvFleet.map((q) => days * atvDailyRate(q.rate24h, days)),
 }));
+const lowestWeekly = Math.min(...atvFleet.map((q) => atvDailyRate(q.rate24h, weeklyDiscount.minDays)));
+const highestDaily = Math.max(...atvFleet.map((q) => q.rate24h));
 
 // Deliberately no fares for the other options: they vary by operator, season
 // and route, and a stale number here would be worse than none.
 const comparison = [
   {
     option: 'ATV rental',
-    cost: `$${rates.at(-1)!.price}–$${rates[0].price} per day, per quad, not per person`,
+    cost: `$${lowestWeekly}–$${highestDaily} per day depending on the quad, per quad, not per person`,
     roads: 'Handles the unpaved side roads, hill driveways and green-season mud',
     bestFor: 'Stays of a few days or more with several trips a day',
   },
@@ -85,7 +86,7 @@ const extras = [
 
 <BaseLayout
   title="ATV Rental Prices Santa Teresa (2026) | Rent ATV Santa Teresa"
-  description="What an ATV rental costs in Santa Teresa, Costa Rica in 2026: $70/day, 10% off ($63/day) for rentals over 7 days, the $500 deposit explained, and how it compares to taxis, golf carts and cars."
+  description={`What an ATV rental costs in Santa Teresa, Costa Rica in 2026: from $${atvFromRate}/day by quad, 8-hour rates, ${weeklyDiscount.percent}% off over 7 days, the $500 deposit explained, plus side-by-side and tour prices.`}
   schema={schema}
 >
   <Breadcrumb items={[{ label: 'Pricing', href: '/pricing' }]} />
@@ -103,22 +104,26 @@ const extras = [
     />
 
     <div class="mt-8 overflow-x-auto">
-      <table class="w-full min-w-[28rem] border-collapse text-left text-base">
-        <caption class="sr-only">ATV rental rates in Santa Teresa by length of rental</caption>
+      <table class="w-full min-w-[36rem] border-collapse text-left text-base">
+        <caption class="sr-only">ATV rental rates in Santa Teresa by quad and length of rental</caption>
         <thead>
           <tr class="border-b border-hairline">
-            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Length of rental</th>
-            <th scope="col" class="py-3 text-body font-semibold text-muted">Any quad: Can-Am, Honda or Kymco</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Quad</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">8 hours</th>
+            <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">24 hours</th>
+            <th scope="col" class="py-3 text-body font-semibold text-muted">Per day, over 7 days</th>
           </tr>
         </thead>
         <tbody>
-          {rates.map((row) => (
+          {atvFleet.map((q) => (
             <tr class="border-b border-hairline">
-              <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.label}</th>
-              <td class="py-4">
-                <span class="text-h4 font-semibold text-ink-2">${row.price}</span>
-                <span class="ml-1 text-body text-muted">per day</span>
-              </td>
+              <th scope="row" class="py-4 pr-4 font-normal text-ink-2">
+                {q.name}
+                <span class="block text-body text-muted">{q.transmission}</span>
+              </th>
+              <td class="py-4 pr-4 text-muted">${q.rate8h}</td>
+              <td class="py-4 pr-4"><span class="text-h4 font-semibold text-ink-2">${q.rate24h}</span></td>
+              <td class="py-4 text-muted">${atvDailyRate(q.rate24h, weeklyDiscount.minDays)}</td>
             </tr>
           ))}
         </tbody>
@@ -126,9 +131,11 @@ const extras = [
     </div>
 
     <p class="mt-6 text-base text-muted">
-      All three machines are the same price; only the security deposit varies
-      by quad. See the fleet and what comes with each rental on the
-      <a href="/" class="link-inline">ATV rental in Santa Teresa</a> page.
+      The security deposit, from $500, also varies by quad. See the fleet and
+      what comes with each rental on the
+      <a href="/" class="link-inline">ATV rental in Santa Teresa</a> page. Need
+      room for more people? <a href="/utv-rentals-santa-teresa" class="link-inline">Side-by-side rentals</a> start
+      at $180 for 8 hours, and <a href="/atv-tours-santa-teresa" class="link-inline">guided ATV tours</a> start at $180 per ATV.
     </p>
   </section>
 
@@ -138,24 +145,26 @@ const extras = [
       <SectionHeading
         eyebrow="Total cost"
         title="What an ATV rental costs for your trip"
-        subtitle="The rate for the whole rental is set by its length, so a rental over 7 days gets 10% off every day, not just the extra ones. The deposit is on top, and you get it back."
+        subtitle={`The rate for the whole rental is set by its length, so a rental over 7 days gets ${weeklyDiscount.percent}% off every day, not just the extra ones. The deposit is on top, and you get it back.`}
       />
       <div class="mt-8 overflow-x-auto">
-        <table class="w-full min-w-[28rem] border-collapse text-left text-base">
-          <caption class="sr-only">Example total ATV rental cost in Santa Teresa by number of days</caption>
+        <table class="w-full min-w-[36rem] border-collapse text-left text-base">
+          <caption class="sr-only">Example total ATV rental cost in Santa Teresa by number of days and quad</caption>
           <thead>
             <tr class="border-b border-hairline">
               <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Rental length</th>
-              <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">Daily rate</th>
-              <th scope="col" class="py-3 text-body font-semibold text-muted">Total</th>
+              {atvFleet.map((q) => (
+                <th scope="col" class="py-3 pr-4 text-body font-semibold text-muted">{q.name}</th>
+              ))}
             </tr>
           </thead>
           <tbody>
             {exampleTotals.map((row) => (
               <tr class="border-b border-hairline">
                 <th scope="row" class="py-4 pr-4 font-normal text-ink-2">{row.days} {row.days === 1 ? 'day' : 'days'}</th>
-                <td class="py-4 pr-4 text-muted">${row.rate}</td>
-                <td class="py-4"><span class="text-h4 font-semibold text-ink-2">${row.total}</span></td>
+                {row.totals.map((t) => (
+                  <td class="py-4 pr-4"><span class="font-semibold text-ink-2">${t.toLocaleString()}</span></td>
+                ))}
               </tr>
             ))}
           </tbody>

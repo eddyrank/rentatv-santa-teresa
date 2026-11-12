@@ -29,14 +29,14 @@ Choose an ATV for flexible beach-hopping and regular local outings with light ge
 
 An ATV generally suits one or two licensed riders staying around Santa Teresa, [Mal País](/atv-rentals-mal-pais), Playa Carmen, or [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa). Its compact size makes it easy to park and position for repeated surf checks, restaurant visits, and errands, and it also makes the quieter run up to [Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) an easy afternoon trip.
 
-A fully automatic ATV needs no manual gear changes, so anyone can hop on and go. The fully automatic fleet available locally, with Can-Am, Honda, and Kymco models, typically adds 4x4 traction, passenger seating, and secure storage for everyday coast-road travel.
+A fully automatic ATV needs no manual gear changes, so anyone can hop on and go. The local fleet of Kymco, Honda and Yamaha models (the Kymco and Yamaha fully automatic, the Honda semi-automatic) adds passenger seating and secure storage for everyday coast-road travel.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
-    src="/photos/fleet-canam-side-1200.webp"
-    srcset="/photos/fleet-canam-side-800.webp 800w, /photos/fleet-canam-side-1200.webp 1200w"
+    src="/photos/fleet-honda-side-1200.webp"
+    srcset="/photos/fleet-honda-side-800.webp 800w, /photos/fleet-honda-side-1200.webp 1200w"
     sizes="(min-width: 1024px) 700px, 100vw"
-    alt="A Can-Am Outlander ATV from the rental fleet, set up with a locking cargo box"
+    alt="A red Honda ATV from the rental fleet, set up with front and rear racks"
     width="1200"
     height="900"
     loading="lazy"
