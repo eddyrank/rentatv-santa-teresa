@@ -17,7 +17,7 @@ North of [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) the road gets qui
 
 ## The ride up to Manzanillo
 
-Manzanillo is about 14 km north of Santa Teresa, which works out to roughly 35 minutes on an ATV depending on conditions. The road past Playa Hermosa is unpaved the rest of the way, and it is one of the routes I talk through with riders before they leave town. In the dry season, December to April, it is dusty and corrugated. In the green season, May to November, expect ruts and the odd muddy stretch after rain.
+Manzanillo is about 14 km north of Santa Teresa, which works out to roughly 35 minutes on an [ATV rental from Santa Teresa](/) depending on conditions. The road past Playa Hermosa is unpaved the rest of the way, and it is one of the routes I talk through with riders before they leave town. In the dry season, December to April, it is dusty and corrugated. In the green season, May to November, expect ruts and the odd muddy stretch after rain.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

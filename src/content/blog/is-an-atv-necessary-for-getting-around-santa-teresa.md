@@ -17,7 +17,7 @@ Your accommodation may look close to the beach on a map, yet sit above a steep, 
 
 ## The Short Answer: It Depends on Where You Stay
 
-An ATV isn't essential for every visitor, but it's often practical for anyone staying beyond one compact section of Santa Teresa. The community stretches along a coastal corridor, with accommodation, surf spots, restaurants, and shops spread across several areas.
+An ATV isn't essential for every visitor, but it's often practical to [rent an ATV in Santa Teresa](/) if you're staying beyond one compact section of town. The community stretches along a coastal corridor, with accommodation, surf spots, restaurants, and shops spread across several areas.
 
 Your decision comes down to four things: the exact property location, trip length, how many trips you'll actually make each day, and how comfortable you are controlling a quad on rough roads. A UTV, a larger utility vehicle with side-by-side seating, can suit some groups too, but it needs more parking space.
 

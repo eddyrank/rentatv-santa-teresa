@@ -21,7 +21,7 @@ This guide covers the routes linking Playa Carmen, Santa Teresa, Playa Hermosa, 
 
 Santa Teresa runs along a long coastal strip rather than around one compact center. The main coastal road is paved in a lot of stretches now, but an unpaved road, a hillside villa entrance, or a side route can still have gravel, mud, potholes, and steep sections.
 
-A self-drive ATV rental makes these connections easier, especially on a day when you want to check two or three surf breaks before picking one. Treat the quad as transportation, though, not as permission to ride onto every shoreline, private track, or undeveloped trail.
+A self-drive [Santa Teresa ATV rental](/) makes these connections easier, especially on a day when you want to check two or three surf breaks before picking one. Treat the quad as transportation, though, not as permission to ride onto every shoreline, private track, or undeveloped trail.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

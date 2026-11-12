@@ -20,7 +20,7 @@ This guide compares cost, access, safety, licensing, weather, and itinerary fit 
 
 Santa Teresa is a long coastal area, not a compact town where every beach, restaurant, surf spot, and accommodation sits within a few blocks. Your decision should reflect daily trip frequency, accommodation location, group size, current roads, and confidence behind the controls.
 
-An ATV provides self-directed mobility throughout the day. A taxi is generally better for planned, occasional journeys where convenience matters more than having a vehicle continuously available.
+An ATV, such as a [Santa Teresa ATV rental](/) delivered to your accommodation, provides self-directed mobility throughout the day. A taxi is generally better for planned, occasional journeys where convenience matters more than having a vehicle continuously available.
 
 Delivery matters too. Some options for [ATV rental in Santa Teresa](/) include free delivery and collection at key locations along the coast, so you don't need to find a separate rental office.
 

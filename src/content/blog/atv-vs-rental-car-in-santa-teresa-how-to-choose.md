@@ -21,7 +21,7 @@ Here's when each vehicle works well, what the local roads demand, and the costs 
 
 Santa Teresa stretches along a paved coastal road, with accommodation, beaches, restaurants, and shops spread out across a long coastal corridor. The right vehicle for you [depends on where you're staying](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), how many people you're traveling with, what you need to carry, and whether you're planning [regional day trips](/blog/cabo-blanco-reserve-atv).
 
-A quad is exposed, and that's exactly what makes it good for frequent short trips around town. A rental car gives you enclosed seating and more capacity, but it can be awkward on narrow access roads and rough tracks.
+A quad is exposed, and that's exactly what makes it good for frequent short trips around town, which is why most [Santa Teresa ATV rental](/) customers use one as everyday transport. A rental car gives you enclosed seating and more capacity, but it can be awkward on narrow access roads and rough tracks.
 
 Choose an ATV for flexible beach-hopping and regular local outings with light gear. Choose a car for airport transfers, family travel, heavier luggage, or longer trips outside the area.
 

@@ -15,7 +15,7 @@ featured: false
 
 The ride to Cabo Blanco is the one I save for guests who have already done Montezuma and want something quieter. You run out of town, out of traffic, and almost out of road. Then the forest closes in at the southern tip of the Nicoya Peninsula and you are standing at the gate of the oldest protected area in Costa Rica.
 
-Doing Cabo Blanco Reserve by ATV is a self-drive day trip, not a tour. The quad gets you from your hotel in Santa Teresa to the reserve entrance on your own schedule. Inside, you hike. Riding inside the reserve is not allowed, and I would not want it to be.
+Doing Cabo Blanco Reserve by ATV is a self-drive day trip, not a tour. If you [rent an ATV in Santa Teresa](/), the quad gets you from your hotel to the reserve entrance on your own schedule. Inside, you hike. Riding inside the reserve is not allowed, and I would not want it to be.
 
 ## The route from Santa Teresa to Cabo Blanco
 

@@ -19,7 +19,7 @@ This roundup considers pricing, automatic and 4x4 options, vehicle delivery, ope
 
 ## Quick picks: Santa Teresa ATV rental comparison
 
-Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are spread along coastal and inland roads. An ATV can therefore serve as daily transportation rather than simply an adventure activity, particularly when a small rental car is poorly matched to ruts or steep driveways (I compare the two in [ATV vs. rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose)).
+Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are spread along coastal and inland roads. An ATV can therefore serve as daily transportation rather than simply an adventure activity (the main reason [ATV rentals in Santa Teresa](/) are so common), particularly when a small rental car is poorly matched to ruts or steep driveways (I compare the two in [ATV vs. rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose)).
 
 <div class="table-wrap">
   <table>

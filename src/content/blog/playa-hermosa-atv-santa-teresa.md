@@ -13,7 +13,7 @@ tags: ["playa hermosa", "atv routes", "santa teresa", "beaches"]
 featured: false
 ---
 
-The first time I rode north to Playa Hermosa, I was back in town before my coffee had gone cold. It is that close. Playa Hermosa sits about 5 km north of Santa Teresa, and it is where I send people on their first afternoon with a quad: long beach, a lot of palms, far fewer people than the main stretch in town, and a ride short enough to get comfortable on the machine before trying anything longer.
+The first time I rode north to Playa Hermosa, I was back in town before my coffee had gone cold. It is that close. Playa Hermosa sits about 5 km north of Santa Teresa, and it is where I send people on their first afternoon after they [rent an ATV in Santa Teresa](/): long beach, a lot of palms, far fewer people than the main stretch in town, and a ride short enough to get comfortable on the machine before trying anything longer.
 
 ## Make sure it is the right Playa Hermosa
 

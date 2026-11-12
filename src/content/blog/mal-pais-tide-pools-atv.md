@@ -19,7 +19,7 @@ I once watched a couple crouched over a tide pool near Mar Azul, cameras out, ba
 
 The tide pools sit on the rocky shoreline around Mar Azul, the stretch of coast between Santa Teresa and Mal País. I take the main coast road south through Playa Carmen and into Mal País, the same paved stretch I use for most trips down that way, then watch for the turn toward the shoreline. Access points shift a little from season to season as the sand moves, so if you are not sure you have the right spot, ask locally before you commit to a side track.
 
-Park the quad off the road on firm ground, never on the sand or the rocks. From there you walk in. It is the same rule I give for every beach on this coast, covered in more detail in [my guide to exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely): the quad gets you close, your own feet do the rest.
+If you ride down on a [Santa Teresa ATV rental](/), park the quad off the road on firm ground, never on the sand or the rocks. From there you walk in. It is the same rule I give for every beach on this coast, covered in more detail in [my guide to exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely): the quad gets you close, your own feet do the rest.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

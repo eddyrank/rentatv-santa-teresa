@@ -209,6 +209,35 @@ const bring = [
     </p>
   </section>
 
+  <!-- More ways to ride: side-by-sides and guided tours -->
+  <section class="page-x section-y pt-0" aria-labelledby="more-ways">
+    <SectionHeading eyebrow="More ways to ride" title="Side-by-sides and guided ATV tours" subtitle="Travelling as a group, or would rather someone local leads the way? We rent those too." />
+    <div class="mt-8 grid gap-6 md:grid-cols-2">
+      <a href="/utv-rentals-santa-teresa" class="group flex flex-col">
+        <div class="photo-card">
+          <Photo name="utv-4-seat" alt={utvFleet[0].alt} sizes="(min-width: 768px) 50vw, 100vw" />
+        </div>
+        <h3 class="mt-4 text-h4 group-hover:underline">UTV and side-by-side rentals</h3>
+        <p class="mt-2 text-base text-muted">
+          1000cc side-by-sides for 4 or 5 people with one driver, from
+          ${Math.min(...utvFleet.map((u) => u.rate8h))} for 8 hours. Easier than two quads for families and groups.
+        </p>
+        <span class="link-inline mt-3 text-base">See side-by-side rentals</span>
+      </a>
+      <a href="/atv-tours-santa-teresa" class="group flex flex-col">
+        <div class="photo-card">
+          <Photo name="montezuma-waterfall-pool" alt="The pool below the Montezuma waterfall, where the guided ATV tour from Santa Teresa stops to swim" sizes="(min-width: 768px) 50vw, 100vw" />
+        </div>
+        <h3 class="mt-4 text-h4 group-hover:underline">Guided ATV tours to Montezuma</h3>
+        <p class="mt-2 text-base text-muted">
+          Ride with a local guide to the Montezuma waterfalls: a half day for ${atvTours[0].price} per ATV,
+          or a full day to three waterfalls for ${atvTours[1].price}. One or two riders per quad.
+        </p>
+        <span class="link-inline mt-3 text-base">See ATV tours</span>
+      </a>
+    </div>
+  </section>
+
   <!-- Why a quad -->
   <section class="band-sand" aria-labelledby="why-quad">
     <div class="page-x section-y">

@@ -96,7 +96,7 @@ From the centre of Santa Teresa you can comfortably reach:
 - **Manzanillo:** around 14 km, 35 minutes depending on conditions
 - **Montezuma:** around 22 km, approximately 50 minutes
 
-These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall, or all the way down to [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv) at the southern tip.
+These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors who book [ATV rentals in Santa Teresa](/) use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall, or all the way down to [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv) at the southern tip.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
