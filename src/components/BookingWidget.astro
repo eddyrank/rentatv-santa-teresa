@@ -140,9 +140,10 @@ const { compact = false } = Astro.props;
   </p>
 </div>
 
-<script is:inline data-wa={`https://wa.me/${site.whatsappNumber}`} data-rates={JSON.stringify(rates)}>
+<script is:inline data-wa={`https://wa.me/${site.whatsappNumber}`} data-ga4={site.ga4Id} data-rates={JSON.stringify(rates)}>
   (function () {
     const WA_BASE = document.currentScript.dataset.wa;
+    const GA4_ID = document.currentScript.dataset.ga4;
 
     // Rate tiers come from site.ts (via data-rates) so they always match the pricing page.
     const RATES = JSON.parse(document.currentScript.dataset.rates)
@@ -258,11 +259,18 @@ const { compact = false } = Astro.props;
     sendBtn.addEventListener('click', function () {
       const msg = buildMessage();
       const url = WA_BASE + '?text=' + encodeURIComponent(msg);
-      // GTM can't see this navigation natively (it's window.open, not a link
-      // click), so push a dataLayer event explicitly. GTM trigger: Custom
-      // Event named "whatsapp_click".
+      // This is window.open, not a link click, so GTM's only GA4 trigger
+      // (Link Click on wa.me) never fires for it. Send the GA4 event directly
+      // with a gtag-style command; the Google tag GTM loads reads it from the
+      // same dataLayer. Same event name as link clicks, so all leads count
+      // together; cta_location tells them apart.
       window.dataLayer = window.dataLayer || [];
       window.dataLayer.push({ event: 'whatsapp_click', cta_location: 'booking_widget', page_path: location.pathname });
+      (function gtag() { window.dataLayer.push(arguments); })('event', 'whatsapp_click', {
+        send_to: GA4_ID,
+        cta_location: 'booking_widget',
+        page_path: location.pathname,
+      });
       window.open(url, '_blank', 'noopener');
     });
   })();

@@ -43,6 +43,9 @@ export const site = {
   // Google Tag Manager container. Not tied to the domain — works the same on
   // localhost, the workers.dev preview URL, and the live domain once it's live.
   gtmId: 'GTM-N8MH829D',
+  // GA4 measurement ID loaded by that container's Google tag. The booking
+  // widget sends its lead event straight to it (see BookingWidget.astro).
+  ga4Id: 'G-CRKZRD21G7',
 
   hours: [
     { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], opens: '06:00', closes: '23:00', label: 'Every day', time: '6:00am – 11:00pm' },
