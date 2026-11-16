@@ -2,7 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
-updatedDate: 2026-11-09
+updatedDate: 2026-11-16
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -96,7 +96,7 @@ From the centre of Santa Teresa you can comfortably reach:
 - **Manzanillo:** around 14 km, 35 minutes depending on conditions
 - **Montezuma:** around 22 km, approximately 50 minutes
 
-These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors who book [ATV rentals in Santa Teresa](/) use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall, or all the way down to [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv) at the southern tip.
+These are reasonable day-trip distances on an ATV, not marathon rides. Most visitors who book [ATV rentals in Santa Teresa](/) use the quad primarily to move around the Santa Teresa and Mal País area and occasionally make [the longer run toward Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) for the waterfall, or all the way down to [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv) at the southern tip. On a shorter evening, the same roads double as the ride to [one of the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa).
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -155,6 +155,10 @@ Yes, as far as the entrance near Cabuya. From there you hike, because the reserv
 ### When can you actually get into the Mal País tide pools?
 
 Only around low tide, and only when the swell cooperates. The rocky shoreline at Mar Azul looks the same at a glance, but a low tide with a big swell running is not a day to go in. My guide to [the Mal País tide pools by ATV](/blog/mal-pais-tide-pools-atv) covers timing the ride around the tide chart and what to check before you step onto the rocks.
+
+### Where is the best place to watch the sunset?
+
+It depends on whether you want open sand, rock that catches the color, or a chair and a drink within reach of the water. My guide to [the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa) covers the beaches, the tide pools, and a few beachfront spots worth checking, plus how to time the ride home.
 
 ## What you need to rent
 

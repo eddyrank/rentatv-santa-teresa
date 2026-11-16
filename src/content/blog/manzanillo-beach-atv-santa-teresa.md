@@ -54,7 +54,7 @@ The appeal is the quiet. On most days you get long stretches of sand with hardly
 
 ## Timing it right
 
-I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if Manzanillo is the plan for the day, so there is time to enjoy the beach and still ride back while it is light. The road north has no streetlights, and riding it after dark is not something I recommend for a first-timer.
+I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if Manzanillo is the plan for the day, so there is time to enjoy the beach and still ride back while it is light. The road north has no streetlights, and riding it after dark is not something I recommend for a first-timer. If sunset is the actual goal, one of the closer options in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa) makes more sense than timing the full ride up here around it.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

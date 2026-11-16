@@ -93,7 +93,7 @@ I ride the Yamaha 450, one of the three quads in our [ATV rentals in Santa Teres
 
 ## Conclusion
 
-The Mal Pais tide pools are one of the quieter stops on this coast, and one of the easiest to reach on a quad. The ride down is simple. The only real decision is timing it around the tide and the swell rather than your own schedule. Get that right, leave before the water turns, and it is a nice half hour on the way to or from a longer day in [Mal País](/atv-rentals-mal-pais). If you want the quad for the ride down, message me with your dates and where you are staying and I will bring one to the door.
+The Mal Pais tide pools are one of the quieter stops on this coast, and one of the easiest to reach on a quad. The ride down is simple. The only real decision is timing it around the tide and the swell rather than your own schedule. Get that right, leave before the water turns, and it is a nice half hour on the way to or from a longer day in [Mal País](/atv-rentals-mal-pais). The same rocks are also one of the spots I send people to for sunset, timing allowing, covered in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa). If you want the quad for the ride down, message me with your dates and where you are staying and I will bring one to the door.
 
 ## Frequently asked questions
 
