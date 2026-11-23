@@ -2,7 +2,7 @@
 title: "Getting Around Santa Teresa: Why Most Visitors Rent an ATV"
 description: "Santa Teresa stretches several kilometres along the Pacific coast. Here is how visitors get around and why an ATV is the most practical option."
 pubDate: 2026-08-19
-updatedDate: 2026-11-16
+updatedDate: 2026-11-23
 tags: ["santa teresa", "getting around", "atv rental", "travel tips"]
 image: "/photos/jungle-tunnel-road-1200.webp"
 imageAlt: "An unpaved jungle road near Santa Teresa, the kind of side road an ATV handles easily"
@@ -132,6 +132,10 @@ A car makes sense for families, heavy luggage, and long drives across the penins
 
 If you have decided on a quad, the next question is who to rent from. I put together a comparison of [the best ATV rentals in Santa Teresa](/blog/best-atv-rentals-santa-teresa), covering vehicles, delivery, insurance, and prices from five providers, plus the checks I would run on any of them before handing over a deposit.
 
+### What do you actually need to rent one?
+
+A valid physical driver's licence and closed shoes, in practice. No age limit beyond a standard licence, no catch hidden in the fine print. My guide to [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa) covers exactly what to bring and where you cannot ride once you have the keys.
+
 ### Where can you ride to the beaches?
 
 Most of my renters want to hop between Playa Carmen, Playa Hermosa, Manzanillo and Mal País. You can reach all of them by road, but riding on the sand itself is off limits. My guide to [exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) covers which routes suit a first-timer and where legal access ends.
@@ -162,7 +166,7 @@ It depends on whether you want open sand, rock that catches the color, or a chai
 
 ## What you need to rent
 
-To [rent an ATV in Santa Teresa](/blog/best-atv-rentals-santa-teresa) you need a valid [physical driver's licence](/faq) from your home country. A photo of the licence on your phone is not accepted. The physical card is required. A standard car licence is sufficient.
+To [rent an ATV in Santa Teresa](/blog/best-atv-rentals-santa-teresa) you need a valid [physical driver's licence](/faq) from your home country, plus a couple of other things covered in my full rundown of [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). A photo of the licence on your phone is not accepted. The physical card is required. A standard car licence is sufficient.
 
 You also need closed shoes. Flip-flops are not safe on a quad and I will not hand over the keys if you are wearing them. It is the one rule I am strict about.
 

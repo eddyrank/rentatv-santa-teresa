@@ -104,7 +104,7 @@ When arranging collection, provide the exact accommodation name and a location p
 
 ## Choose Based on Safety, Licence, and Confidence
 
-Documentation requirements vary by provider. Some Santa Teresa rental operators list a passport or Costa Rican cédula, a valid driver's license, and a Visa or Mastercard for the security deposit, and require renters to be at least 18, though age and document requirements can vary by rental company.
+Documentation requirements vary by provider. Some Santa Teresa rental operators list a passport or Costa Rican cédula, a valid driver's license, and a Visa or Mastercard for the security deposit, and require renters to be at least 18, though age and document requirements can vary by rental company. I lay out exactly what I ask for in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa).
 
 [An ATV is not necessary or suitable for everyone](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), particularly anyone uncomfortable controlling a vehicle on loose, wet, or uneven surfaces. Local route advice and a controls walkthrough before you set off help, but they don't remove the risks that come from speed, weather, traffic, or poor judgment.
 

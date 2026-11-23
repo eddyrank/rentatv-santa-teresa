@@ -49,7 +49,7 @@ Start with flatter, familiar routes before you consider remote roads or steep cl
 
 My fleet is Kymco, Honda and Yamaha quads. The Kymco and Yamaha are fully automatic, so there are no gears to manage, and the Honda is semi-automatic with a foot shifter. Any quad still needs smooth throttle input, controlled braking, and careful steering on anything loose or wet.
 
-Rates are $70 a day, and rentals over seven days get 10% off, which brings it to $63 a day. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that.
+Rates are $70 a day, and rentals over seven days get 10% off, which brings it to $63 a day. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that, or my rundown of <a href="/blog/atv-rental-requirements-santa-teresa">what you actually need to rent one</a>.
 
 ### Playa Carmen to Santa Teresa
 

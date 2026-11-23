@@ -79,7 +79,7 @@ In the green season, from May to November, cloud banks can turn the whole sky or
 
 Most of the spots above are a short ride apart, which is the real advantage of having a quad for the evening rather than relying on a taxi that may take a while to show up. I [deliver the ATV to your hotel](/) in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day, with 10% off for rentals over a week.
 
-A couple of things matter more at sunset than during the day. Bring a physical driver's licence, since a photo on your phone is not accepted, and wear closed shoes rather than sandals. Ride on the road to reach the beach, then park and walk onto the sand. Quads do not go on the beach itself. And if you are tempted to stay for the afterglow somewhere past Mal País or up toward Manzanillo, think about the ride back first. An unfamiliar road in the dark, especially an unpaved one after rain, is a worse idea than the extra twenty minutes of color is worth.
+A couple of things matter more at sunset than during the day. Bring a physical driver's licence, since a photo on your phone is not accepted, and wear closed shoes rather than sandals. The full list of [what you need to rent an ATV here](/blog/atv-rental-requirements-santa-teresa) covers the rest. Ride on the road to reach the beach, then park and walk onto the sand. Quads do not go on the beach itself. And if you are tempted to stay for the afterglow somewhere past Mal País or up toward Manzanillo, think about the ride back first. An unfamiliar road in the dark, especially an unpaved one after rain, is a worse idea than the extra twenty minutes of color is worth.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

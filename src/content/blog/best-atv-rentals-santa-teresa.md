@@ -158,7 +158,7 @@ The review considered starting rates, vehicle choice, Santa Teresa-area coverage
 
 Tripadvisor was left out because it's a review platform rather than a rental provider. Facebook recommendations were treated as anecdotal, and taxis, shuttles, walking, and rental cars were left out because they're alternatives to an ATV rather than ATV companies (the [ATV vs. taxi comparison](/blog/santa-teresa-atv-vs-taxi-which-is-better-for-getting-around) covers that choice).
 
-Conditions change quickly after rain, so ask about licence requirements, passenger rules, fuel, insurance limits, deposits, and prohibited areas. Never assume riding on beaches, after dark, or across a river is allowed just because an ATV can physically handle it.
+Conditions change quickly after rain, so ask about [licence and other ATV rental requirements](/blog/atv-rental-requirements-santa-teresa), passenger rules, fuel, insurance limits, deposits, and prohibited areas. Never assume riding on beaches, after dark, or across a river is allowed just because an ATV can physically handle it.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img

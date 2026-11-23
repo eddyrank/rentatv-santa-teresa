@@ -142,7 +142,7 @@ Add up your expected trips across the whole stay. Convenience depends on where e
 
 ## Check Whether You Are a Suitable ATV Rider
 
-Rental requirements vary by operator, but most require renters to be at least 18, ask for a valid driver's license or passport for identification, and expect you to show you can operate an ATV safely and responsibly. A fully automatic ATV takes manual gear changes out of the equation, but it still demands sound judgment, controlled braking, and constant road awareness.
+Rental requirements vary by operator, but most require renters to be at least 18, ask for a valid driver's license or passport for identification, and expect you to show you can operate an ATV safely and responsibly. I lay out exactly what I ask for in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). A fully automatic ATV takes manual gear changes out of the equation, but it still demands sound judgment, controlled braking, and constant road awareness.
 
 I rent Kymco, Honda and Yamaha quads: the Kymco and Yamaha are fully automatic, the Honda is semi-automatic. Whichever operator you rent from, confirm helmet requirements, passenger limits, fuel expectations, insurance exclusions, optional damage coverage, and the security deposit before you take the keys.
 

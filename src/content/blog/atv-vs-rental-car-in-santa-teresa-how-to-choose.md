@@ -119,7 +119,7 @@ Use a car when your bags don't fit securely inside a locking cargo box or on app
 
 ## Make Safety and Legal Requirements Part of the Decision
 
-ATV renters need to meet the provider's minimum age requirement and carry a [valid physical driver's licence](/faq). Read the agreement before you head out, including permitted roads, restricted use, insurance terms, and who's responsible for damage.
+ATV renters need to meet the provider's minimum age requirement and carry a [valid physical driver's licence](/faq). I cover the rest of what I actually check for in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). Read the agreement before you head out, including permitted roads, restricted use, insurance terms, and who's responsible for damage.
 
 Every rider should wear a helmet, and the driver needs closed-toe footwear. Stay sober, slow down on loose surfaces, and ask for local route advice and a controls walkthrough before you head out if you haven't ridden a quad before.
 

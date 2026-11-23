@@ -61,7 +61,7 @@ These are not swimming pools. They are shallow pockets of seawater trapped in vo
   />
 </div>
 
-Wet rock here is slippery and sharp in places. I wear closed shoes for the ride down and switch to reef shoes or an old pair of trainers once I am moving across the rocks themselves. Flip-flops are a bad idea on this terrain, same as they are on the quad.
+Wet rock here is slippery and sharp in places. I wear closed shoes for the ride down and switch to reef shoes or an old pair of trainers once I am moving across the rocks themselves. Flip-flops are a bad idea on this terrain, same as they are on the quad. If you want the full list of what you need to rent in the first place, I cover it in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa).
 
 <aside class="checklist" aria-labelledby="tidepools-checklist">
   <p id="tidepools-checklist" class="checklist-title">Before you go: 6 checks</p>
