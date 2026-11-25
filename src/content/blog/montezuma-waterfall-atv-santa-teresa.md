@@ -13,17 +13,17 @@ tags: ["montezuma", "waterfalls", "day trips", "atv routes"]
 featured: false
 ---
 
-The first time I rode to Montezuma waterfall by ATV, I made the classic mistake. I picked up one of our [Santa Teresa ATV rentals](/), left at noon, stopped for a long lunch in town, and reached the pool just as the light was going orange. Beautiful. Then I spent the ride home racing the dark. Now I tell everyone the same thing: this is a morning trip, and it is one of the best days out you can have from here on a quad.
+The classic mistake with Montezuma waterfall by ATV is leaving at noon, stopping for a long lunch in town, and reaching the pool just as the light goes orange. Beautiful, until the ride home turns into a race against the dark. Have your [Santa Teresa ATV rental](/) sorted the day before and treat this as a morning trip. Done that way, it is one of the best days out you can have from here on a quad.
 
 Montezuma sits on the other side of the peninsula, about 22 km from Santa Teresa. The falls are a short hike from the edge of town: three cascades stacked up a jungle river, with a big swimming pool under the main drop. You do not need a guide or a tour. You need [a rented quad from Santa Teresa](/), closed shoes, and a sensible start time, plus the usual [paperwork to rent one](/blog/atv-rental-requirements-santa-teresa).
 
 ## The route from Santa Teresa to Montezuma
 
-I take the main road every time. From Santa Teresa it is paved all the way inland to Cóbano, which is also where you will find the gas station, so it is the natural place to top up. From Cóbano the road drops toward the coast and Montezuma. That last stretch is steep and winding, the surface changes, and in the green season it gets muddy and rutted. Take the descent slowly and stay in low speed on the bends.
+Take the main road. From Santa Teresa it is paved all the way inland to Cóbano, which is also where you will find the gas station, so it is the natural place to top up. From Cóbano the road drops toward the coast and Montezuma. That last stretch is steep and winding, the surface changes, and in the green season it gets muddy and rutted. Take the descent slowly and stay in low speed on the bends.
 
 Door to door it is roughly 50 minutes at a relaxed pace. On the Yamaha 450 that is a comfortable ride, and because it is fully automatic there are no gears to think about on the hills. If you would rather not ride it yourself, there is also a [guided ATV tour to the Montezuma waterfall](/atv-tours-santa-teresa).
 
-You will see shorter lines on the map through [Mal País](/atv-rentals-mal-pais) and Cabuya. I do not send renters that way. Those back roads have steep climbs, loose rock and river crossings that can rise fast after rain. They look like a shortcut and ride like a test. If you want more on how the roads around here connect, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) covers the whole network.
+You will see shorter lines on the map through [Mal País](/atv-rentals-mal-pais) and Cabuya. Skip them. Those back roads have steep climbs, loose rock and river crossings that can rise fast after rain. They look like a shortcut and ride like a test. If you want more on how the roads around here connect, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) covers the whole network.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -41,9 +41,9 @@ You will see shorter lines on the map through [Mal País](/atv-rentals-mal-pais)
 
 ## Parking and the hike to the falls
 
-Ride through Montezuma village and follow the road south toward Cabuya. Just past the bridge on the edge of town there is a parking lot at the trailhead. Someone usually collects a small fee in cash (around ₡2,000 last time I went). Park the quad, lock your things in the cargo box, and take the helmets with you or lock them to the rack.
+Ride through Montezuma village and follow the road south toward Cabuya. Just past the bridge on the edge of town there is a parking lot at the trailhead. Someone usually collects a small parking fee in cash, so bring some colones. Park the quad, lock your things in the cargo box, and take the helmets with you or lock them to the rack.
 
-From there it is a 20 to 30 minute walk upriver to the main fall. The first part is a proper trail. The second part is the river itself: you hop across boulders and wade through shallow sections, so the rocks are wet and slippery. This is where flip-flops end badly. I wear old trainers or water shoes and accept that they will get soaked.
+From there it is a 20 to 30 minute walk upriver to the main fall. The first part is a proper trail. The second part is the river itself: you hop across boulders and wade through shallow sections, so the rocks are wet and slippery. This is where flip-flops end badly. Wear old trainers or water shoes and accept that they will get soaked.
 
 The main fall is the tallest of the three, dropping into a wide, deep pool. The two upper falls are reached by a steep set of stairs and trail from the main pool, and there can be a small extra fee at the top. Travel guides report anything from free to a few thousand colones depending on the route and who is on duty, so [carry some cash for the upper trail](https://www.twoweeksincostarica.com/montezuma-waterfalls/) and treat the exact amount as a moving target.
 
@@ -64,9 +64,9 @@ The main fall is the tallest of the three, dropping into a wide, deep pool. The 
 
 ## Swimming at the falls
 
-The main pool is the best part of the trip. The water is cool after the ride, and you can swim right up into the spray. You will also see people jumping from the rocks and swinging off ropes. I leave that to them: the rocks are slippery and it is hard to judge the depth from above, so I stick to the swim.
+The main pool is the best part of the trip. The water is cool after the ride, and you can swim right up into the spray. You will also see people jumping from the rocks and swinging off ropes. The rocks are slippery and it is hard to judge the depth from above, so the swim is the safer choice.
 
-In the green season, take a look at the river before you head up. On most mornings it is clear and calm. After a heavy night of rain it can run brown and fast, and on those days I would rather come back another morning.
+In the green season, take a look at the river before you head up. On most mornings it is clear and calm. After a heavy night of rain it can run brown and fast, and on those days it is better to come back another morning.
 
 <aside class="checklist" aria-labelledby="montezuma-pack-checklist">
   <p id="montezuma-pack-checklist" class="checklist-title">Waterfall day: what to pack</p>
@@ -84,7 +84,7 @@ In the green season, take a look at the river before you head up. On most mornin
 
 The falls take two to three hours with the hike and a swim. That leaves time for the rest of Montezuma, which has a very different feel from Santa Teresa: smaller, slower, with a main beach right in front of the village and a string of quieter coves along the coast. The road carries on south to Cabuya and [Cabo Blanco Reserve](/blog/cabo-blanco-reserve-atv), but that is really a day of its own.
 
-My usual plan: leave Santa Teresa around 8, be at the trailhead before the crowds arrive mid-morning, hike and swim, then ride back into the village for lunch and an hour on the beach. Fill up in Cóbano on the way home and you are back in Santa Teresa by mid-afternoon with daylight to spare. The ride back is always slower than the ride out. Your legs are tired and the sun is in a different place. If you want something shorter for another day, [the ride up to Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) is only about 14 km and does not take the whole day, or [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) if you just want an hour by the water.
+A good plan: leave Santa Teresa around 8, be at the trailhead before the crowds arrive mid-morning, hike and swim, then ride back into the village for lunch and an hour on the beach. Fill up in Cóbano on the way home and you are back in Santa Teresa by mid-afternoon with daylight to spare. The ride back is always slower than the ride out. Your legs are tired and the sun is in a different place. If you want something shorter for another day, [the ride up to Manzanillo](/blog/manzanillo-beach-atv-santa-teresa) is only about 14 km and does not take the whole day, or [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) if you just want an hour by the water.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -105,9 +105,9 @@ The same rules from my guide to [exploring the beaches by ATV safely](/blog/expl
 
 ## Conclusion
 
-Montezuma waterfall is the day trip I recommend most to people staying in Santa Teresa. The ride is long enough to feel like an adventure and short enough to fit around a morning surf. Take the main road through Cóbano, go early, wear real shoes, and it is an easy, memorable day. Save catching the sunset for one of the closer options in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa) rather than timing this ride around it. If you want to get used to the quad first, [the short ride north to Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) makes a good first afternoon.
+Montezuma waterfall is the best day trip for most people staying in Santa Teresa. The ride is long enough to feel like an adventure and short enough to fit around a morning surf. Take the main road through Cóbano, go early, wear real shoes, and it is an easy, memorable day. Save catching the sunset for one of the closer options in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa) rather than timing this ride around it. If you want to get used to the quad first, [the short ride north to Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) makes a good first afternoon.
 
-A quad makes it simple because you leave when you want and stop where you like. I deliver to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to walk you through the route before you set off. Rates start at $70 a day, with 10% off for rentals over seven days.
+A quad makes it simple because you leave when you want and stop where you like. Quads can be delivered to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider. Rates start at $70 a day, with 10% off for rentals over seven days.
 
 ## Frequently asked questions
 

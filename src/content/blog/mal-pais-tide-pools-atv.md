@@ -3,7 +3,7 @@ title: "Mal Pais tide pools by ATV: timing the ride from Santa Teresa"
 description: "How to ride an ATV from Santa Teresa to the Mal Pais tide pools, time the tide and swell, and explore the rocky shoreline safely."
 tldr:
   - "The Mal Pais tide pools sit along the rocky shoreline at Mar Azul, between Santa Teresa and Mal País, and they only really show themselves around low tide."
-  - "I ride the paved coast road south through Playa Carmen into Mal País, then park off the road and walk in. The quad never goes on the sand or the rocks."
+  - "Take the paved coast road south through Playa Carmen into Mal País, then park off the road and walk in. The quad never goes on the sand or the rocks."
   - "Check the tide chart and the swell before you leave. A low tide with waves still reaching the rocks is not a day to go in the water."
   - "Bring reef shoes, drinking water and your physical licence for the ride, and leave the pools before the tide turns."
 pubDate: 2026-11-09
@@ -13,13 +13,13 @@ tags: ["mal pais", "tide pools", "atv routes", "safety tips"]
 featured: false
 ---
 
-I once watched a couple crouched over a tide pool near Mar Azul, cameras out, backs to the ocean, completely sure they were safe because the tide app on a phone said low tide. Nobody had looked at the swell. A set rolled in across the rocks behind them and soaked them both before they even saw it coming. That is the real lesson of the Mal Pais tide pools. Getting there on a quad is the easy part. Knowing when to go is what actually matters.
+The classic mistake at the Mal Pais tide pools is trusting a tide app and forgetting the swell. Low tide on the chart does not stop a set from rolling across the rocks behind you while you are crouched over a pool with your back to the ocean. Getting there on a quad is the easy part. Knowing when to go is what actually matters.
 
 ## Riding from Santa Teresa to Mar Azul
 
-The tide pools sit on the rocky shoreline around Mar Azul, the stretch of coast between Santa Teresa and Mal País. I take the main coast road south through Playa Carmen and into Mal País, the same paved stretch I use for most trips down that way, then watch for the turn toward the shoreline. Access points shift a little from season to season as the sand moves, so if you are not sure you have the right spot, ask locally before you commit to a side track.
+The tide pools sit on the rocky shoreline around Mar Azul, the stretch of coast between Santa Teresa and Mal País. Take the main coast road south through Playa Carmen and into Mal País, the same paved stretch that serves most trips down that way, then watch for the turn toward the shoreline. Access points shift a little from season to season as the sand moves, so if you are not sure you have the right spot, ask locally before you commit to a side track.
 
-If you ride down on a [Santa Teresa ATV rental](/), park the quad off the road on firm ground, never on the sand or the rocks. From there you walk in. It is the same rule I give for every beach on this coast, covered in more detail in [my guide to exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely): the quad gets you close, your own feet do the rest.
+If you ride down on a [Santa Teresa ATV rental](/), park the quad off the road on firm ground, never on the sand or the rocks. From there you walk in. It is the same rule for every beach on this coast, covered in more detail in [my guide to exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely): the quad gets you close, your own feet do the rest.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -37,9 +37,9 @@ If you ride down on a [Santa Teresa ATV rental](/), park the quad off the road o
 
 ## Timing it around the tide, not the clock
 
-I do not plan this trip by the hour. I plan it by the tide chart and the swell, in that order. Check the tide times before you leave Santa Teresa and aim to arrive 30 to 60 minutes before the lowest point of the day. That gives you a real window instead of a guess.
+Do not plan this trip by the hour. Plan it by the tide chart and the swell, in that order. Check the tide times before you leave Santa Teresa and aim to arrive 30 to 60 minutes before the lowest point of the day. That gives you a real window instead of a guess.
 
-Low tide alone does not mean the pools are safe to enter. A big swell offshore can still push water across the rocks even when the chart says you should have dry footing. I stand and watch the water for a few minutes before deciding anything. If sets are reaching the rocks or the pools themselves, I skip going in and settle for looking instead.
+Low tide alone does not mean the pools are safe to enter. A big swell offshore can still push water across the rocks even when the chart says you should have dry footing. Stand and watch the water for a few minutes before deciding anything. If sets are reaching the rocks or the pools themselves, skip going in and settle for looking instead.
 
 The green season tends to bring bigger, less predictable swell than the dry months. If you are unsure how the pools have been that week, ask at your hotel or around town before you ride out. Someone will know.
 
@@ -61,7 +61,7 @@ These are not swimming pools. They are shallow pockets of seawater trapped in vo
   />
 </div>
 
-Wet rock here is slippery and sharp in places. I wear closed shoes for the ride down and switch to reef shoes or an old pair of trainers once I am moving across the rocks themselves. Flip-flops are a bad idea on this terrain, same as they are on the quad. If you want the full list of what you need to rent in the first place, I cover it in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa).
+Wet rock here is slippery and sharp in places. Wear closed shoes for the ride down and switch to reef shoes or an old pair of trainers once you are moving across the rocks themselves. Flip-flops are a bad idea on this terrain, same as they are on the quad. If you want the full list of what you need to rent in the first place, it is in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa).
 
 <aside class="checklist" aria-labelledby="tidepools-checklist">
   <p id="tidepools-checklist" class="checklist-title">Before you go: 6 checks</p>
@@ -89,11 +89,11 @@ Wet rock here is slippery and sharp in places. I wear closed shoes for the ride 
   />
 </div>
 
-I ride the Yamaha 450, one of the three quads in our [ATV rentals in Santa Teresa](/), down there because the locking cargo box on the back holds a dry bag, water and a towel while I am away from the quad on the rocks. If you are still deciding whether you want a quad for your whole stay rather than just this one trip, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) walks through that decision.
+The Yamaha 450, one of the three quads in the [ATV rentals in Santa Teresa](/), suits this trip because the locking cargo box on the back holds a dry bag, water and a towel while you are away from the quad on the rocks. If you are still deciding whether you want a quad for your whole stay rather than just this one trip, my guide to [getting around Santa Teresa](/blog/getting-around-santa-teresa) walks through that decision.
 
 ## Conclusion
 
-The Mal Pais tide pools are one of the quieter stops on this coast, and one of the easiest to reach on a quad. The ride down is simple. The only real decision is timing it around the tide and the swell rather than your own schedule. Get that right, leave before the water turns, and it is a nice half hour on the way to or from a longer day in [Mal País](/atv-rentals-mal-pais). The same rocks are also one of the spots I send people to for sunset, timing allowing, covered in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa). If you want the quad for the ride down, message me with your dates and where you are staying and I will bring one to the door.
+The Mal Pais tide pools are one of the quieter stops on this coast, and one of the easiest to reach on a quad. The ride down is simple. The only real decision is timing it around the tide and the swell rather than your own schedule. Get that right, leave before the water turns, and it is a nice half hour on the way to or from a longer day in [Mal País](/atv-rentals-mal-pais). The same rocks are also one of the better spots for sunset, timing allowing, covered in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa).
 
 ## Frequently asked questions
 

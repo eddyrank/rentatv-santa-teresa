@@ -13,17 +13,17 @@ tags: ["sunset spots", "santa teresa beaches", "things to do", "atv routes"]
 featured: false
 ---
 
-Most evenings I end up parked at the edge of the sand with the engine off, watching the same thing everyone else here is watching. Santa Teresa faces almost due west into open Pacific, so the sunset is not a bonus. It is part of the day, and finding the best sunset spots in Santa Teresa is mostly about picking the mood you want and getting there before the light goes.
+Around sunset, half of Santa Teresa ends up at the edge of the sand watching the same thing. The town faces almost due west into open Pacific, so the sunset is not a bonus. It is part of the day, and finding the best sunset spots in Santa Teresa is mostly about picking the mood you want and getting there before the light goes.
 
 ## Where to watch from the sand
 
 ### The main beach and Playa Carmen
 
-Playa Santa Teresa and Playa Carmen run together along the same stretch of coast, and they are the easiest sunset spots because they are free, wide and right in front of town. I walk a few minutes past the busiest beach access points, usually toward the quieter end near Playa Carmen, and the crowd thins out fast. No reservation, no cover, just open sand and the horizon.
+Playa Santa Teresa and Playa Carmen run together along the same stretch of coast, and they are the easiest sunset spots because they are free, wide and right in front of town. Walk a few minutes past the busiest beach access points, toward the quieter end near Playa Carmen, and the crowd thins out fast. No reservation, no cover, just open sand and the horizon.
 
 ### Playa Hermosa for more room
 
-If you want more space than the main beach, [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) is about 5 km north and feels like a different beach entirely once the surf crowd clears out in the late afternoon. It is a longer, wider stretch of sand with far fewer people, which makes it my pick for anyone who wants the sunset without sharing it with half the town.
+If you want more space than the main beach, [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) is about 5 km north and feels like a different beach entirely once the surf crowd clears out in the late afternoon. It is a longer, wider stretch of sand with far fewer people, which makes it the pick for anyone who wants the sunset without sharing it with half the town.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -45,7 +45,7 @@ South of town, [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) add som
 
 ## A drink with the view
 
-Some evenings I want a chair and a menu, not just sand. A few beachfront spots in town are built for exactly that: Pranamar Villas has a tiki bar a few steps from the water, Banana Beach has tables right on the sand, and Tropico Latino's beach bar catches the same open view from a little further south. I like all three for different reasons, but I will not pretend their hours or evening events stay fixed. They change with the season and the crowd, so call ahead or check that day rather than showing up assuming anything is running.
+Some evenings call for a chair and a menu, not just sand. A few beachfront spots in town are built for exactly that: Pranamar Villas has a tiki bar a few steps from the water, Banana Beach has tables right on the sand, and Tropico Latino's beach bar catches the same open view from a little further south. Each has its own feel, but their hours and evening events do not stay fixed. They change with the season and the crowd, so call ahead or check that day rather than showing up assuming anything is running.
 
 ## Timing it around the tide
 
@@ -73,11 +73,11 @@ Some evenings I want a chair and a menu, not just sand. A few beachfront spots i
   />
 </div>
 
-In the green season, from May to November, cloud banks can turn the whole sky orange for twenty minutes after the sun is already down, so I rarely leave right when it disappears. In the dry season the horizon is usually clearer and sharper, which is its own kind of sunset. Neither is better. Just know which one you are planning for.
+In the green season, from May to November, cloud banks can turn the whole sky orange for twenty minutes after the sun is already down, so do not leave right when it disappears. In the dry season the horizon is usually clearer and sharper, which is its own kind of sunset. Neither is better. Just know which one you are planning for.
 
 ## Getting there by ATV
 
-Most of the spots above are a short ride apart, which is the real advantage of having a quad for the evening rather than relying on a taxi that may take a while to show up. I [deliver the ATV to your hotel](/) in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day, with 10% off for rentals over a week.
+Most of the spots above are a short ride apart, which is the real advantage of having a quad for the evening rather than relying on a taxi that may take a while to show up. Quads can be [delivered to your hotel](/) in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day, with 10% off for rentals over a week.
 
 A couple of things matter more at sunset than during the day. Bring a physical driver's licence, since a photo on your phone is not accepted, and wear closed shoes rather than sandals. The full list of [what you need to rent an ATV here](/blog/atv-rental-requirements-santa-teresa) covers the rest. Ride on the road to reach the beach, then park and walk onto the sand. Quads do not go on the beach itself. And if you are tempted to stay for the afterglow somewhere past Mal País or up toward Manzanillo, think about the ride back first. An unfamiliar road in the dark, especially an unpaved one after rain, is a worse idea than the extra twenty minutes of color is worth.
 
@@ -99,13 +99,13 @@ If you are still deciding whether a quad makes sense for your stay at all, I cov
 
 ## Conclusion
 
-The best sunset spot in Santa Teresa depends on what you want that evening: open sand and nobody around, tide pools catching the color, or a chair and a drink within reach of the water. Check the tide and the sunset time, get there with a few minutes to spare, and have your way home sorted before the light goes. Message me with your dates and where you are staying, and I will have a quad waiting so you are never choosing a sunset spot based on what you can walk to.
+The best sunset spot in Santa Teresa depends on what you want that evening: open sand and nobody around, tide pools catching the color, or a chair and a drink within reach of the water. Check the tide and the sunset time, get there with a few minutes to spare, and have your way home sorted before the light goes. With a quad, you are never choosing a sunset spot based on what you can walk to.
 
 ## Frequently asked questions
 
 ### Where is the best place to watch the sunset in Santa Teresa?
 
-I usually send people to the main beach or Playa Carmen first. They are free, wide and a short walk from most hotels. Head a little past the busiest access point and you will have more room than you expect.
+Start with the main beach or Playa Carmen. They are free, wide and a short walk from most hotels. Head a little past the busiest access point and you will have more room than you expect.
 
 ### Are there other good sunset spots besides the main beach?
 

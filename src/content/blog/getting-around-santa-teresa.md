@@ -11,12 +11,12 @@ tldr:
   - "Santa Teresa runs several kilometres along the coast, so walking only works if you stay close to the main strip."
   - "The main road through to Mal País is paved. Side roads, hill tracks, and the routes toward Manzanillo are not, and they get rough after rain."
   - "Taxis are fine for airport runs and late nights, but daily rides add up fast and you often wait a long time."
-  - "For stays longer than a day or two, a 4x4 ATV is the most practical option, and I deliver it free to hotels in Santa Teresa, Playa Carmen, and Mal País."
+  - "For stays longer than a day or two, a 4x4 ATV is the most practical option, and rentals deliver free to hotels in Santa Teresa, Playa Carmen, and Mal País."
 ---
 
 Santa Teresa is not a compact town. It runs several kilometres along a road that is paved through the main stretch and into Mal País, with side tracks, hill roads, and routes north toward Manzanillo that are unpaved and can get rough after rain. Getting from one end to the other, and to the areas around Playa Hermosa, Playa Carmen, and beyond, takes more than a short walk.
 
-When I first started operating here, I watched a lot of visitors figure this out the hard way. They arrived expecting a walkable beach town and found something more spread out and raw. Getting around Santa Teresa requires a plan.
+A lot of visitors arrive expecting a walkable beach town and find something more spread out and raw. Getting around Santa Teresa requires a plan.
 
 ## The roads here
 
@@ -62,13 +62,13 @@ Some visitors [rent a car](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose
 
 [For most visitors staying more than a day or two](/blog/is-an-atv-necessary-for-getting-around-santa-teresa), an [ATV rental in Santa Teresa](/) is the most practical option. The reasons are straightforward.
 
-**They handle the road.** Our quads have proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
+**They handle the road.** A decent quad has proper ground clearance and handle the unpaved side roads, the muddy green-season sections, and the steep driveways leading to hillside villas without difficulty.
 
 **They go where you want.** You can ride to Playa Carmen for breakfast, check different surf breaks along the coast, stop wherever you want, and get back before dark. The route is yours.
 
 **They are easy to park.** There is no driving around looking for a spot. ATVs park anywhere.
 
-**They have storage.** Every quad we rent comes with a locking cargo box on the back. Beach bags, towels, groceries, and surf accessories fit without strapping anything to the outside.
+**They have storage.** Most rental quads here come with a locking cargo box on the back. Beach bags, towels, groceries, and surf accessories fit without strapping anything to the outside.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -114,7 +114,7 @@ These are reasonable day-trip distances on an ATV, not marathon rides. Most visi
 
 ## My guides for each decision
 
-Almost every question I get on WhatsApp before someone books comes down to a handful of decisions, plus the inevitable "where should we ride?" I have written a full guide for each, so you can go straight to the one you are stuck on.
+Most of the planning comes down to a handful of decisions, plus the inevitable "where should we ride?" There is a full guide for each, so you can go straight to the one you are stuck on.
 
 ### Do you actually need an ATV?
 
@@ -134,11 +134,11 @@ If you have decided on a quad, the next question is who to rent from. I put toge
 
 ### What do you actually need to rent one?
 
-A valid physical driver's licence and closed shoes, in practice. No age limit beyond a standard licence, no catch hidden in the fine print. My guide to [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa) covers exactly what to bring and where you cannot ride once you have the keys.
+A valid physical driver's licence, in practice, plus closed shoes as common sense. No age limit beyond a standard licence, no catch hidden in the fine print. My guide to [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa) covers exactly what to bring and where you cannot ride once you have the keys.
 
 ### Where can you ride to the beaches?
 
-Most of my renters want to hop between Playa Carmen, Playa Hermosa, Manzanillo and Mal País. You can reach all of them by road, but riding on the sand itself is off limits. My guide to [exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) covers which routes suit a first-timer and where legal access ends.
+Most people with a quad want to hop between Playa Carmen, Playa Hermosa, Manzanillo and Mal País. You can reach all of them by road, but riding on the sand itself is off limits. My guide to [exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) covers which routes suit a first-timer and where legal access ends.
 
 ### What is the easiest beach ride out of town?
 
@@ -168,12 +168,12 @@ It depends on whether you want open sand, rock that catches the color, or a chai
 
 To [rent an ATV in Santa Teresa](/blog/best-atv-rentals-santa-teresa) you need a valid [physical driver's licence](/faq) from your home country, plus a couple of other things covered in my full rundown of [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). A photo of the licence on your phone is not accepted. The physical card is required. A standard car licence is sufficient.
 
-You also need closed shoes. Flip-flops are not safe on a quad and I will not hand over the keys if you are wearing them. It is the one rule I am strict about.
+Wear closed shoes too. Flip-flops are not safe on a quad, and sneakers are all it takes.
 
 ## Free hotel delivery
 
-The quad comes to you. Give your hotel or Airbnb address, the ATV arrives, I walk you through the controls, and you start from wherever you are staying. At the end of the rental it is collected from the same spot. For visitors staying on the hills above Santa Teresa, or anywhere that is a walk from the main road, this saves time at both ends of the trip.
+The quad comes to you. Give your hotel or Airbnb address, the ATV arrives, you get a walkthrough of the controls, and you start from wherever you are staying. At the end of the rental it is collected from the same spot. For visitors staying on the hills above Santa Teresa, or anywhere that is a walk from the main road, this saves time at both ends of the trip.
 
 ## Conclusion
 
-Getting around Santa Teresa comes down to where you are staying, how often you head out, and how comfortable you are on a mix of paved and unpaved roads. For short stays in the centre, walking and the odd taxi can be enough. For most visitors staying longer, a quad is the simplest way to cover the coast from Playa Hermosa to Mal País on your own schedule. If that is you, message me with your dates and where you are staying, and I will bring one to the door.
+Getting around Santa Teresa comes down to where you are staying, how often you head out, and how comfortable you are on a mix of paved and unpaved roads. For short stays in the centre, walking and the odd taxi can be enough. For most visitors staying longer, a quad is the simplest way to cover the coast from Playa Hermosa to Mal País on your own schedule. If that is you, the easiest setup is a quad delivered to wherever you are staying.

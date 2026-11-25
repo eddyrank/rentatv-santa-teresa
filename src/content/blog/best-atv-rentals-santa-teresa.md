@@ -7,7 +7,7 @@ image: "/photos/atv-beach-sunset-1200.webp"
 imageAlt: "A rental ATV parked under the trees at the edge of Mar Azul beach at sunset, near Santa Teresa"
 featured: false
 tldr:
-  - "Rent ATV Santa Teresa is my pick for a quad delivered free to your accommodation, from $70/day, with 10% off for rentals over 7 days, plus side-by-sides and guided tours."
+  - "Rent ATV Santa Teresa is the pick for a quad delivered free to your accommodation, from $70/day, with 10% off for rentals over 7 days, plus side-by-sides and guided tours."
   - "Vroom8 suits people comparing ATVs, UTVs, and motorcycles in one place; ATValerios and Buggy Blue are local alternatives; Quad Tours Costa Rica suits guided tours."
   - "Compare the total cost for your exact dates (taxes, deposit, fuel, insurance), not the headline daily rate."
   - "Ask every provider whether beaches, night riding, and river crossings are allowed before you set off."
@@ -40,7 +40,7 @@ Santa Teresa lies on Costa Rica's Nicoya Peninsula, where destinations are sprea
 
 ## 1. Rent ATV Santa Teresa: best for delivered ATVs, side-by-sides and tours
 
-Rent ATV Santa Teresa is my self-drive rental for licensed visitors staying in Santa Teresa, Playa Carmen, [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa), or Mal País. The quad comes to you, which suits travelers who need flexible transportation between accommodation, restaurants, surf spots, and shops.
+Rent ATV Santa Teresa arranges self-drive rentals for licensed visitors staying in Santa Teresa, Playa Carmen, [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa), or Mal País. The quad comes to you, which suits travelers who need flexible transportation between accommodation, restaurants, surf spots, and shops.
 
 The fleet is a Kymco 300cc and a Yamaha 450cc, both fully automatic, and a semi-automatic Honda 420cc. The Yamaha has the most power for rough roads, muddy sections, and the steep driveways up to hillside villas. Groups can rent a 4- or 5-seat side-by-side, and there are guided ATV tours to the Montezuma waterfalls.
 
@@ -232,7 +232,7 @@ Those details matter more than a small difference in the advertised daily rate.
 
 ## Conclusion
 
-Every provider here suits someone. If what you want is a quad brought to your door, with a helmet for every rider and someone to call if something goes wrong, my [ATV rental in Santa Teresa](/) is the simplest way to get around for the length of your stay.
+Every provider here suits someone. If what you want is a quad brought to your door, with a helmet for every rider and someone to call if something goes wrong, [ATV rental in Santa Teresa](/) through this site is the simplest way to get around for the length of your stay.
 
 ## Santa Teresa ATV rental FAQs
 

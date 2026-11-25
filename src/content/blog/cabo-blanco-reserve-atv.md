@@ -13,13 +13,13 @@ tags: ["cabo blanco", "day trips", "hiking", "atv routes"]
 featured: false
 ---
 
-The ride to Cabo Blanco is the one I save for guests who have already done Montezuma and want something quieter. You run out of town, out of traffic, and almost out of road. Then the forest closes in at the southern tip of the Nicoya Peninsula and you are standing at the gate of the oldest protected area in Costa Rica.
+Cabo Blanco is the ride to save for after you have done Montezuma and want something quieter. You run out of town, out of traffic, and almost out of road. Then the forest closes in at the southern tip of the Nicoya Peninsula and you are standing at the gate of the oldest protected area in Costa Rica.
 
-Doing Cabo Blanco Reserve by ATV is a self-drive day trip, not a tour. If you [rent an ATV in Santa Teresa](/), the quad gets you from your hotel to the reserve entrance on your own schedule. Inside, you hike. Riding inside the reserve is not allowed, and I would not want it to be. If this is your first rental, check the [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa) before you book, so the licence and shoes are sorted ahead of time.
+Doing Cabo Blanco Reserve by ATV is a self-drive day trip, not a tour. If you [rent an ATV in Santa Teresa](/), the quad gets you from your hotel to the reserve entrance on your own schedule. Inside, you hike. Riding inside the reserve is not allowed. If this is your first rental, check the [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa) before you book, so the licence and shoes are sorted ahead of time.
 
 ## The route from Santa Teresa to Cabo Blanco
 
-The reserve is about 30 km from Santa Teresa, and I allow a bit over an hour each way at a relaxed pace. I take the long way every time. From Santa Teresa the main road is paved inland to Cóbano, where you should fill the tank because there is nothing past it worth counting on. From Cóbano you drop down to Montezuma, then follow the coast road south to the small village of Cabuya. The reserve entrance is a few minutes past Cabuya at the end of the road.
+The reserve is about 30 km from Santa Teresa, so allow a bit over an hour each way at a relaxed pace, and take the long way. From Santa Teresa the main road is paved inland to Cóbano, where you should fill the tank because there is nothing past it worth counting on. From Cóbano you drop down to Montezuma, then follow the coast road south to the small village of Cabuya. The reserve entrance is a few minutes past Cabuya at the end of the road.
 
 Once you leave the pavement after Cóbano, the surface changes from stretch to stretch: some sections are smooth, others are rutted, and in the green season some of it turns to mud. Ride it slowly, especially the steep descent into Montezuma. If you have not been out that way before, my guide to [riding to Montezuma waterfall](/blog/montezuma-waterfall-atv-santa-teresa) covers the first two thirds of this route in detail. If this is your first day on a quad, a warm-up ride [up to Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) the day before is time well spent.
 
@@ -37,11 +37,11 @@ Once you leave the pavement after Cóbano, the surface changes from stretch to s
   />
 </div>
 
-There is a shorter line on the map from Mal País over the hills to Cabuya. I do not send renters that way. It has steep climbs, loose rock and river crossings, and after rain it is a different road from the one you saw on Google. It is fine for experienced riders who know it. For everyone else, the extra distance through Cóbano is worth it.
+There is a shorter line on the map from Mal País over the hills to Cabuya. Skip it. It has steep climbs, loose rock and river crossings, and after rain it is a different road from the one you saw on Google. It is fine for experienced riders who know it. For everyone else, the extra distance through Cóbano is worth it.
 
 ## Opening hours, fees and the trails
 
-Cabo Blanco Absolute Natural Reserve is open Wednesday to Sunday, roughly 8am to 4pm, and closed Monday and Tuesday. Last time I checked, the entrance fee for foreign visitors was around $12 plus tax, payable at the ranger station. Hours and fees change, so confirm before you ride all the way down there. Showing up on a Monday is a long way to go for a photo of a locked gate.
+Cabo Blanco Absolute Natural Reserve is open Wednesday to Sunday, roughly 8am to 4pm, and closed Monday and Tuesday. The entrance fee for foreign visitors has been around $12 plus tax, payable at the ranger station. Hours and fees change, so confirm before you ride all the way down there. Showing up on a Monday is a long way to go for a photo of a locked gate.
 
 The reserve protects a block of Pacific lowland tropical forest that was set aside in 1963, largely thanks to a Swedish and Danish couple who settled near Cabuya. That is where the trail names come from. The Danés trail is a shorter loop near the entrance. The [Sueco trail runs about 4.5 km down to the beach](https://www.lonelyplanet.com/points-of-interest/reserva-natural-absoluta-cabo-blanco/1201690) at Playa Cabo Blanco, and it is hilly, humid and slower than the distance suggests.
 
@@ -78,7 +78,7 @@ Cabo Blanco is far enough that a taxi there and back gets expensive, and there i
   />
 </div>
 
-For this ride I would take the Yamaha 450 from our [ATV rental fleet in Santa Teresa](/): it is the most powerful quad we rent and fully automatic, which matters on the steep, broken sections after Cóbano. The locking rear cargo box holds water, a towel and a dry shirt while you are on the trail. Two people can ride on one quad, but it is a long day in the seat for a passenger, so if you are both comfortable driving, two quads are easier on the back. If you are still deciding between a quad and a car for trips like this, I compared them in [ATV vs rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose).
+For this ride I would pick the Yamaha 450 from the [ATV rentals in Santa Teresa](/): it is the most powerful of the three quads and fully automatic, which matters on the steep, broken sections after Cóbano. The locking rear cargo box holds water, a towel and a dry shirt while you are on the trail. Two people can ride on one quad, but it is a long day in the seat for a passenger, so if you are both comfortable driving, two quads are easier on the back. If you are still deciding between a quad and a car for trips like this, I compared them in [ATV vs rental car in Santa Teresa](/blog/atv-vs-rental-car-in-santa-teresa-how-to-choose).
 
 Do not ride on the beaches along the way. Park at the road and walk onto the sand. The same rules from my guide to [exploring the beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely) apply all the way down the coast.
 
@@ -86,7 +86,7 @@ Do not ride on the beaches along the way. Park at the road and walk onto the san
 
 Cabo Blanco Reserve by ATV is a full day: an hour of riding each way, a few hours on the trail, and a stop in Montezuma or Cabuya if you have the energy. Go on a day the reserve is open, take the main road through Cóbano, start early, and be home before dark. It is the quietest corner of the peninsula and well worth the ride.
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, and I am happy to go over the route with you before you leave. Rates start at $70 a day, with 10% off for rentals over seven days.
+Quads can be delivered to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank and a helmet for each rider, so the day starts at your door. Rates start at $70 a day, with 10% off for rentals over seven days.
 
 ## Frequently asked questions
 

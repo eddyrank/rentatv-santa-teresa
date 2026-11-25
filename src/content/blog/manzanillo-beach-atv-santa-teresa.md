@@ -5,7 +5,7 @@ tldr:
   - "Playa Manzanillo is about 14 km north of Santa Teresa, roughly 35 minutes by ATV depending on conditions."
   - "The road north past Playa Hermosa is unpaved. It is dusty and corrugated in the dry season and can get rutted and muddy in the green season."
   - "There is nothing to buy once you get there, so bring water, a snack and cash, and leave enough daylight for the ride back."
-  - "I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day."
+  - "Quads can be delivered to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day."
 pubDate: 2026-10-26
 image: "/photos/manzanillo-headland-1200.webp"
 imageAlt: "A quiet, empty beach at Manzanillo backed by a forested headland, with calm green water under an overcast sky"
@@ -13,11 +13,11 @@ tags: ["manzanillo", "atv routes", "santa teresa", "day trips"]
 featured: false
 ---
 
-North of [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) the road gets quiet fast. Fewer villas, fewer motorbikes, more jungle pressing in on both sides. That stretch leads up to Manzanillo, a small beach most visitors never see because it does not show up on the same lists as [Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) or [Cabo Blanco](/blog/cabo-blanco-reserve-atv). I like sending people there on a slow afternoon after they have already hit the obvious stops and want somewhere with nobody else on it.
+North of [Playa Hermosa](/blog/playa-hermosa-atv-santa-teresa) the road gets quiet fast. Fewer villas, fewer motorbikes, more jungle pressing in on both sides. That stretch leads up to Manzanillo, a small beach most visitors never see because it does not show up on the same lists as [Montezuma](/blog/montezuma-waterfall-atv-santa-teresa) or [Cabo Blanco](/blog/cabo-blanco-reserve-atv). It is a good slow afternoon once you have already hit the obvious stops and want somewhere with nobody else on it.
 
 ## The ride up to Manzanillo
 
-Manzanillo is about 14 km north of Santa Teresa, which works out to roughly 35 minutes on an [ATV rental from Santa Teresa](/) depending on conditions. The road past Playa Hermosa is unpaved the rest of the way, and it is one of the routes I talk through with riders before they leave town. In the dry season, December to April, it is dusty and corrugated. In the green season, May to November, expect ruts and the odd muddy stretch after rain.
+Manzanillo is about 14 km north of Santa Teresa, which works out to roughly 35 minutes on an [ATV rental from Santa Teresa](/) depending on conditions. The road past Playa Hermosa is unpaved the rest of the way, so it is worth knowing what to expect before you leave town. In the dry season, December to April, it is dusty and corrugated. In the green season, May to November, expect ruts and the odd muddy stretch after rain.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -39,7 +39,7 @@ A quad handles this without much drama if you ride it at a sensible pace. Slow d
 
 Manzanillo itself is a small beach backed by forest, with a headland that juts into the water at one end. There is no row of restaurants or beach bars waiting for you. Bring your own water and something to eat if you want to stay a while, because you cannot count on finding much once you arrive.
 
-The appeal is the quiet. On most days you get long stretches of sand with hardly anyone on it, which is a different experience from [the busier beaches closer to town](/blog/exploring-santa-teresa-beaches-by-atv-safely). If you want a quiet stop without going this far, [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) make a good half-day instead of the full ride up here. The same rule applies here as everywhere along this coast: park the quad off the sand and walk in. Riding on the beach itself is not allowed, and I do not make exceptions for it.
+The appeal is the quiet. On most days you get long stretches of sand with hardly anyone on it, which is a different experience from [the busier beaches closer to town](/blog/exploring-santa-teresa-beaches-by-atv-safely). If you want a quiet stop without going this far, [the Mal País tide pools](/blog/mal-pais-tide-pools-atv) make a good half-day instead of the full ride up here. The same rule applies here as everywhere along this coast: park the quad off the sand and walk in. Riding on the beach itself is not allowed.
 
 <aside class="checklist" aria-labelledby="manzanillo-checklist">
   <p id="manzanillo-checklist" class="checklist-title">Riding to Manzanillo: 5 things to bring</p>
@@ -54,7 +54,7 @@ The appeal is the quiet. On most days you get long stretches of sand with hardly
 
 ## Timing it right
 
-I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if Manzanillo is the plan for the day, so there is time to enjoy the beach and still ride back while it is light. The road north has no streetlights, and riding it after dark is not something I recommend for a first-timer. If sunset is the actual goal, one of the closer options in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa) makes more sense than timing the full ride up here around it.
+Leave Santa Teresa by early-to-mid afternoon at the latest if Manzanillo is the plan for the day, so there is time to enjoy the beach and still ride back while it is light. The road north has no streetlights, and riding it after dark is not something I recommend for a first-timer. If sunset is the actual goal, one of the closer options in [my guide to the best sunset spots in Santa Teresa](/blog/sunset-spots-santa-teresa) makes more sense than timing the full ride up here around it.
 
 <div class="media-frame my-8" style="aspect-ratio: 4/3">
   <img
@@ -70,11 +70,11 @@ I tell people to leave Santa Teresa by early-to-mid afternoon at the latest if M
   />
 </div>
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, so the Manzanillo run can start right from your door. The locking cargo box on the back is enough for towels, water and a dry shirt, which is all you really need for a beach you are mostly visiting to sit on. Rates start at $70 a day, with 10% off if you are renting for more than seven days, and the [Santa Teresa ATV rental page](/) compares the three quads. If this is your first time renting, check the [licence and gear you need](/blog/atv-rental-requirements-santa-teresa) before you book.
+With a quad delivered to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, the Manzanillo run can start right from your door. The locking cargo box on the back is enough for towels, water and a dry shirt, which is all you really need for a beach you are mostly visiting to sit on. Rates start at $70 a day, with 10% off if you are renting for more than seven days, and the [Santa Teresa ATV rental page](/) compares the three quads. If this is your first time renting, check the [licence and gear you need](/blog/atv-rental-requirements-santa-teresa) before you book.
 
 ## Conclusion
 
-Manzanillo is not a must-see the way Montezuma or Cabo Blanco are, but that is exactly why I like recommending it. It is a quiet beach at the end of an honest dirt road, best saved for a day when you already have a quad and want somewhere with fewer people. Go with daylight to spare, bring what you need, and you will have one of the emptier stretches of this coast to yourself.
+Manzanillo is not a must-see the way Montezuma or Cabo Blanco are, but that is exactly why it is worth the ride. It is a quiet beach at the end of an honest dirt road, best saved for a day when you already have a quad and want somewhere with fewer people. Go with daylight to spare, bring what you need, and you will have one of the emptier stretches of this coast to yourself.
 
 ## Frequently asked questions
 

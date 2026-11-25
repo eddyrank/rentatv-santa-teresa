@@ -119,7 +119,7 @@ Use a car when your bags don't fit securely inside a locking cargo box or on app
 
 ## Make Safety and Legal Requirements Part of the Decision
 
-ATV renters need to meet the provider's minimum age requirement and carry a [valid physical driver's licence](/faq). I cover the rest of what I actually check for in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). Read the agreement before you head out, including permitted roads, restricted use, insurance terms, and who's responsible for damage.
+ATV renters need to meet the provider's minimum age requirement and carry a [valid physical driver's licence](/faq). The rest of what you need is in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). Read the agreement before you head out, including permitted roads, restricted use, insurance terms, and who's responsible for damage.
 
 Every rider should wear a helmet, and the driver needs closed-toe footwear. Stay sober, slow down on loose surfaces, and ask for local route advice and a controls walkthrough before you head out if you haven't ridden a quad before.
 
@@ -174,7 +174,7 @@ A family arriving with airport luggage and staying at a hillside villa will usua
 
 Neither vehicle wins outright. An ATV suits frequent short trips, light packing, and one or two riders who don't mind the sun, dust, and rain. A rental car suits bigger groups, more luggage, and a preference for enclosed, weather-protected seating. Walk through the five-step framework above with your actual passengers, cargo, and route in mind, and the right choice tends to be obvious.
 
-If you land on a quad, [ATV rental in Santa Teresa](/) is straightforward: the quad comes to your accommodation, we walk you through the controls, and it is collected from the same spot when your rental ends.
+If you land on a quad, [ATV rental in Santa Teresa](/) is straightforward: the quad comes to your accommodation, you get a walkthrough of the controls, and it is collected from the same spot when your rental ends.
 
 ## Frequently Asked Questions
 

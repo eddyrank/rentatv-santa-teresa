@@ -21,7 +21,7 @@ An ATV isn't essential for every visitor, but it's often practical to [rent an A
 
 Your decision comes down to four things: the exact property location, trip length, how many trips you'll actually make each day, and how comfortable you are controlling a quad on rough roads. A UTV, a larger utility vehicle with side-by-side seating, can suit some groups too, but it needs more parking space.
 
-Service matters as well. I keep the fleet serviced between rentals and offer roadside help and a replacement if something mechanical goes wrong, so a fault doesn't wreck your day.
+Service matters as well. Ask whether the rental includes roadside help and a replacement if something mechanical goes wrong, so a fault doesn't wreck your day.
 
 ### When You Can Probably Skip an ATV
 
@@ -142,9 +142,9 @@ Add up your expected trips across the whole stay. Convenience depends on where e
 
 ## Check Whether You Are a Suitable ATV Rider
 
-Rental requirements vary by operator, but most require renters to be at least 18, ask for a valid driver's license or passport for identification, and expect you to show you can operate an ATV safely and responsibly. I lay out exactly what I ask for in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). A fully automatic ATV takes manual gear changes out of the equation, but it still demands sound judgment, controlled braking, and constant road awareness.
+Rental requirements vary by operator, but most require renters to be at least 18, ask for a valid driver's license or passport for identification, and expect you to show you can operate an ATV safely and responsibly. The details are in [ATV rental requirements in Santa Teresa](/blog/atv-rental-requirements-santa-teresa). A fully automatic ATV takes manual gear changes out of the equation, but it still demands sound judgment, controlled braking, and constant road awareness.
 
-I rent Kymco, Honda and Yamaha quads: the Kymco and Yamaha are fully automatic, the Honda is semi-automatic. Whichever operator you rent from, confirm helmet requirements, passenger limits, fuel expectations, insurance exclusions, optional damage coverage, and the security deposit before you take the keys.
+Most rental quads here are Kymco, Honda or Yamaha: the Kymco and Yamaha are fully automatic, the Honda is semi-automatic. Whichever operator you rent from, confirm helmet requirements, passenger limits, fuel expectations, insurance exclusions, optional damage coverage, and the security deposit before you take the keys.
 
 Closed footwear gives you better grip and protection than flip-flops. Every rider should have a properly fitting helmet, including younger passengers where the operator allows them.
 
@@ -222,11 +222,11 @@ Confirm the following terms with any operator:
 - Breakdown and roadside assistance process
 - Restrictions involving beaches, water, and night use
 
-I offer free delivery and collection across Santa Teresa, Mal País, Playa Carmen, and Playa Hermosa. Helmets and basic liability insurance are included, and you get local route advice and a controls walkthrough before you head off, whether you've ridden before or not.
+Look for free delivery and collection across Santa Teresa, Mal País, Playa Carmen, and Playa Hermosa. Helmets and basic liability insurance should be included, along with a controls walkthrough before you head off, whether you've ridden before or not.
 
 ## Conclusion
 
-There's no single right answer here. Look at where you're staying, how many trips you'll make each day, the season, and how comfortable you are on rough roads, and the decision usually becomes obvious. If it points toward a quad, [ATV rental in Santa Teresa](/) is straightforward: the quad comes to your accommodation, I walk you through the controls, and it's collected from the same spot when you're done.
+There's no single right answer here. Look at where you're staying, how many trips you'll make each day, the season, and how comfortable you are on rough roads, and the decision usually becomes obvious. If it points toward a quad, [ATV rental in Santa Teresa](/) is straightforward: the quad comes to your accommodation, you get a walkthrough of the controls, and it's collected from the same spot when you're done.
 
 ## Frequently Asked Questions
 

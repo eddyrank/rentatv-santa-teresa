@@ -13,17 +13,27 @@ description: >
 
 ## Voice and perspective
 
-Every post is written in first person. The narrator is a person who lives and operates in Santa Teresa, knows the roads intimately, and is giving honest advice to a visitor. This builds trust, carries a real voice, and keeps people reading because feelings and personal experience are woven into practical information.
+The narrator is a local who knows the roads and is giving a visitor honest advice, like a friend who lives here. The narrator is **not** the rental company. This site connects visitors with local vendors (the footer and T&C say so), so posts never need to explain that, and never speak as the business that owns, delivers or hands over the quads.
+
+First person is fine for opinions and recommendations ("I would take the main road", "Playa Hermosa is my pick for a first ride"). Second person and plain instructions carry most of the advice ("Take the main road through Cóbano. Leave early.").
 
 Do this:
 
-> "I have ridden that road in the middle of the green season when the water was up to the footboards. It is passable on the Outlander. I would not try it in a regular car."
+> "That road floods in the green season, sometimes up to the footboards. A quad gets through at walking pace. I would not try it in a regular car."
 
 Not this:
 
 > "The road can become difficult during the rainy season."
 
-The first version is memorable. The second is forgettable.
+The first version is specific and memorable. The second is forgettable.
+
+### Never invent stories or claims
+
+Do not make up anecdotes, customers, or first-hand events. That means no "last month someone showed up…", no "the first time I rode…", no "I once watched a couple…", and no "I have had guests argue…". Do not claim personal habits or past visits ("last time I went it cost…", "most evenings I end up…"). If a claim cannot be backed up by `src/data/site.ts`, an official source, or something the owner confirmed, leave it out or phrase it as general advice ("the classic mistake is…").
+
+### Never write as the vendor
+
+Banned phrasings include: "I/we rent", "I/we deliver", "my/our fleet", "our quads", "my renters", "before I hand over the keys", "I will not rent to…", "message me and I'll bring one", "I walk you through the controls", and "I keep the ATVs serviced". Write it neutrally instead: "quads can be delivered to your hotel…", "the rental quads here are Kymco, Honda and Yamaha", "you get a walkthrough of the controls", "ask whether roadside help is included". Rates and delivery can be mentioned as facts, not as personal promises. The WhatsApp CTA comes from the layout, so the body never asks the reader to message anyone.
 
 ## Rules — no exceptions
 
@@ -93,7 +103,7 @@ Body images are not Astro components (posts are plain markdown), so add them as 
 
 ### TL;DR is required in every post
 
-Every post needs a `tldr` list in its frontmatter: 3 to 4 short bullet points (the schema allows 2 to 5) summarizing the practical takeaways. The layout renders it as a "TL;DR" box between the hero image and the body, and the build fails if it is missing. Same voice rules as the body (first person where natural, no em dashes, accurate road and rate facts). Each bullet is one or two sentences a skimmer could act on, not a teaser.
+Every post needs a `tldr` list in its frontmatter: 3 to 4 short bullet points (the schema allows 2 to 5) summarizing the practical takeaways. The layout renders it as a "TL;DR" box between the hero image and the body, and the build fails if it is missing. Same voice rules as the body (local advice, never vendor voice, no em dashes, accurate road and rate facts). Each bullet is one or two sentences a skimmer could act on, not a teaser.
 
 ### Actionable lists go in a checklist callout
 
@@ -126,7 +136,7 @@ An outbound link is a vote of confidence, so it has to verify a claim or strengt
 
 ### Pillar post: every new post gets a teaser in the hub
 
-`src/content/blog/getting-around-santa-teresa.md` is the pillar post. Its `## My guides for each decision` section has one H3 per post on the site: a question-style heading, two or three first-person sentences teasing the post's main takeaway, and a contextual link to it. When publishing a new post, add its H3 to that section (grouped with related guides, not just appended), and set the pillar's `updatedDate` to the publish date. This is in addition to the older-posts linking rule above.
+`src/content/blog/getting-around-santa-teresa.md` is the pillar post. Its `## My guides for each decision` section has one H3 per post on the site: a question-style heading, two or three sentences in the local-advice voice teasing the post's main takeaway, and a contextual link to it. When publishing a new post, add its H3 to that section (grouped with related guides, not just appended), and set the pillar's `updatedDate` to the publish date. This is in addition to the older-posts linking rule above.
 
 ## Frontmatter template (required for every post)
 
@@ -150,9 +160,9 @@ The `imageAlt` must be written even when the image path is empty. It describes t
 
 ## Body structure
 
-**Opening paragraph (no heading).** Hook the reader with something specific and personal. A moment, an observation, a concrete detail from being on the ground. Do not start with "Santa Teresa is..." or "If you are planning a trip." Start with something that makes the reader feel they are already there.
+**Opening paragraph (no heading).** Hook the reader with something specific: a concrete detail about the place, a common mistake visitors make, or a practical tension. Never an invented story. Do not start with "Santa Teresa is..." or "If you are planning a trip." Start with something that makes the reader feel they are already there.
 
-**Two to four H2 sections.** Each section answers one question the target reader actually has. Practical, specific, honest. Use personal anecdotes to illustrate points. Do not pad.
+**Two to four H2 sections.** Each section answers one question the target reader actually has. Practical, specific, honest. Use concrete local detail to illustrate points, never invented anecdotes. Do not pad.
 
 **Conclusion (H2, required, always the last section before any FAQ).** Every post ends with a `## Conclusion` section: a short summary of the takeaway that connects naturally to renting a quad. Not a hard sell. If the post has a Frequently Asked Questions section, the Conclusion goes immediately before it, as the bridge out of the practical content and into the FAQ. The WhatsApp CTA is added automatically by the layout; do not include it in the markdown.
 
@@ -161,7 +171,7 @@ The `imageAlt` must be written even when the image path is empty. It describes t
 - Honest over promotional. If something is difficult, say so.
 - Specific over general. "22 km and about 50 minutes" beats "a reasonable distance."
 - Short sentences after a complex thought. Let it land.
-- Active voice. "I take the coastal road" not "The coastal road is taken."
+- Active voice. "Take the coastal road" not "The coastal road should be taken."
 - No buzzwords: vibrant, stunning, paradise, hidden gem, off the beaten path.
 
 ## Target length
@@ -178,13 +188,12 @@ The `imageAlt` must be written even when the image path is empty. It describes t
 
 ## Facts to keep accurate
 
-- Fleet: Can-Am Outlander 450 4x4, fully automatic, locking rear cargo box, front and rear racks
+- `src/data/site.ts` is the source of truth for fleet, rates, discounts, UTVs and tours. Read it before quoting any number. As of Nov 2026, the quads are a Kymco 300cc (fully automatic), a Honda 420cc (semi-automatic, foot shifter) and a Yamaha 450cc (fully automatic). Rates start at $70 per 24 hours, with 10% off rentals over 7 days.
 - Delivery: free to hotels in Santa Teresa, Playa Carmen, Mal País
-- Rates: $65/day (under 3 days), $60/day (3-7 days), $55/day (7+ days), $50/day (14+ days)
 - Road: partially paved. Santa Teresa to Mal País and to Cobano is paved. Inland routes, northern routes toward Manzanillo, and the stretch toward Montezuma are unpaved.
 - Distances: Playa Carmen 0 km, Santa Teresa 2 km, Playa Hermosa 5 km, Manzanillo 14 km, Montezuma 22 km
 - Licence: physical driver's licence required, photo not accepted
-- Closed shoes required (no flip-flops)
+- Closed shoes are recommended, not enforced. Never say anyone gets turned away for sandals.
 
 ## Slug (filename) rules
 

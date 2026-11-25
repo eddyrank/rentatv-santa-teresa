@@ -2,7 +2,7 @@
 title: "Exploring Santa Teresa beaches by ATV safely"
 description: "A guide to exploring Santa Teresa beaches by ATV: safe routes, road conditions, access rules, and gear from Playa Carmen to Manzanillo."
 tldr:
-  - "Reach a beach by road and park at a legal access point, then walk the rest on foot. Riding directly on the sand is not something I allow."
+  - "Reach a beach by road and park at a legal access point, then walk the rest on foot. Riding directly on the sand is against the law."
   - "The coastal corridor through Santa Teresa is paved in places, but side roads, villa driveways, and the route north toward Manzanillo can still be rough, muddy, or washed out."
   - "Start with the flatter run between Playa Carmen, Santa Teresa, and Playa Hermosa before attempting the longer ride toward Mal País, Mar Azul, or Manzanillo."
   - "Bring a physical driver's licence, a helmet, closed shoes, and water, and turn back if flooding, poor visibility, or fatigue makes a section feel unsafe."
@@ -47,9 +47,9 @@ Road conditions, tides, wildlife nesting areas, and landowner rules can change. 
 
 Start with flatter, familiar routes before you consider remote roads or steep climbs. Plan around weather, fuel, daylight, and the confidence of the least experienced rider in your group.
 
-My fleet is Kymco, Honda and Yamaha quads. The Kymco and Yamaha are fully automatic, so there are no gears to manage, and the Honda is semi-automatic with a foot shifter. Any quad still needs smooth throttle input, controlled braking, and careful steering on anything loose or wet.
+The rental quads around here are mostly Kymco, Honda and Yamaha. The Kymco and Yamaha are fully automatic, so there are no gears to manage, and the Honda is semi-automatic with a foot shifter. Any quad still needs smooth throttle input, controlled braking, and careful steering on anything loose or wet.
 
-Rates are $70 a day, and rentals over seven days get 10% off, which brings it to $63 a day. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that, or my rundown of <a href="/blog/atv-rental-requirements-santa-teresa">what you actually need to rent one</a>.
+Rates start at $70 a day, and rentals over seven days get 10% off. Confirm the final rate, fuel policy, permitted areas, and deposit before you take the quad, and see my <a href="/blog/best-atv-rentals-santa-teresa">comparison of ATV rentals in Santa Teresa</a> if you want to check how providers differ on that, or my rundown of <a href="/blog/atv-rental-requirements-santa-teresa">what you actually need to rent one</a>.
 
 ### Playa Carmen to Santa Teresa
 
@@ -142,7 +142,7 @@ The driver needs to be at least 18, carry a valid driver's licence, and follow C
 
 Every rider wears a helmet, and passenger seating has to match what the ATV is actually approved for. Alcohol, drugs, speeding, and using your phone while riding can turn an easy coastal trip into a serious incident fast.
 
-I include [a helmet for every rider and basic liability insurance](/) with every rental, and hand the quad over with a full tank, expecting it back the same way since fuel isn't included in the rate. Still confirm the current insurance terms, deductible, damage exclusions, and deposit with whoever you rent from, along with where you're actually allowed to ride.
+The [quads listed on this site](/) come with a helmet for every rider and basic liability insurance, and with a full tank that you return full, since fuel isn't included in the rate. Still confirm the current insurance terms, deductible, damage exclusions, and deposit with whoever you rent from, along with where you're actually allowed to ride.
 
 ### Passengers and cargo
 
@@ -162,7 +162,7 @@ Rain, heat, dust, and passenger weight can tire out an inexperienced rider soone
 
 Turn around when rain cuts visibility, water gets too deep to judge, or the terrain is beyond what you're comfortable with. For longer trips toward <a href="/blog/montezuma-waterfall-atv-santa-teresa">Montezuma and its waterfall</a> or <a href="/blog/cabo-blanco-reserve-atv">the Cabo Blanco Absolute Natural Reserve</a>, take the easier paved route through Cóbano instead of the difficult hill roads.
 
-I keep my ATVs serviced between rentals and offer roadside help and a replacement if something mechanical goes wrong that can't be fixed on-site. If that happens, stop somewhere safe and follow the provider's process instead of trying to fix it yourself on the roadside.
+Ask whether the rental includes roadside help and a replacement if something mechanical goes wrong. If it does happen, stop somewhere safe and follow the provider's process instead of trying to fix it yourself on the roadside.
 
 ## Build a sensible Santa Teresa beach itinerary
 
@@ -180,7 +180,7 @@ First-time riders should stick to flatter, familiar roads and skip the hillside 
 
 The best ATV beach day in Santa Teresa isn't the one that covers the most ground. It's the one built around legal access, terrain that matches your experience, daylight, and enough time to actually enjoy where you stop. Get those right and you can cover Playa Carmen, Santa Teresa, Playa Hermosa, and Manzanillo in one trip without rushing it.
 
-If you want a quad with a full tank and a proper walkthrough before you head out, message me with your dates and I'll bring one to your door.
+Whoever you rent from, ask for a full tank and a proper walkthrough of the controls before you head out.
 
 ## Frequently asked questions
 

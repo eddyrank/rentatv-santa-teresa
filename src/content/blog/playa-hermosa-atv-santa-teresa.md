@@ -5,7 +5,7 @@ tldr:
   - "Playa Hermosa is about 5 km north of Santa Teresa, around 12 minutes by ATV. It is the easiest beach run out of town."
   - "This is the Playa Hermosa on the Nicoya Peninsula, not the ones in Guanacaste or near Jacó. Check that your map pin says Santa Teresa or Cóbano."
   - "It is an open Pacific beach with no lifeguard. Watch the water before you go in, and do not swim alone."
-  - "I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day."
+  - "Quads can be delivered to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank, and rates start at $70 a day."
 pubDate: 2026-10-31
 image: "/photos/palm-beach-cloudy-1200.webp"
 imageAlt: "Leaning coconut palms over a wide, nearly empty sand beach, with dark rocks offshore and grey storm clouds over the Pacific"
@@ -13,7 +13,7 @@ tags: ["playa hermosa", "atv routes", "santa teresa", "beaches"]
 featured: false
 ---
 
-The first time I rode north to Playa Hermosa, I was back in town before my coffee had gone cold. It is that close. Playa Hermosa sits about 5 km north of Santa Teresa, and it is where I send people on their first afternoon after they [rent an ATV in Santa Teresa](/): long beach, a lot of palms, far fewer people than the main stretch in town, and a ride short enough to get comfortable on the machine before trying anything longer.
+Playa Hermosa is close enough that you can ride up, look at the surf and be back in town before your coffee goes cold. It sits about 5 km north of Santa Teresa, and it is the obvious first afternoon after you [rent an ATV in Santa Teresa](/): long beach, a lot of palms, far fewer people than the main stretch in town, and a ride short enough to get comfortable on the machine before trying anything longer.
 
 ## Make sure it is the right Playa Hermosa
 
@@ -41,7 +41,7 @@ From the middle of Santa Teresa it is about 12 minutes by ATV. The main road thr
 
 Those unpaved stretches change with the season. In the dry months, December to April, they are dusty and corrugated. In the green season, May to November, low spots hold water and the edges go soft after rain. Slow down before the loose gravel, not on it. Watch for walkers, bikes and dogs near the hotel entrances, because someone always steps out where you do not expect it.
 
-When you get there, park the quad off the road on a firm patch, without blocking a driveway or a footpath, and walk the last bit. Riding on the sand is not allowed anywhere on this coast, even where you can see someone else's tracks. I cover that rule and the access points in more detail in [my guide to exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely).
+When you get there, park the quad off the road on a firm patch, without blocking a driveway or a footpath, and walk the last bit. Riding on the sand is not allowed anywhere on this coast, even where you can see someone else's tracks. The rule and the access points are covered in more detail in [my guide to exploring Santa Teresa beaches by ATV safely](/blog/exploring-santa-teresa-beaches-by-atv-safely).
 
 <aside class="checklist" aria-labelledby="hermosa-checklist">
   <p id="hermosa-checklist" class="checklist-title">Before you ride to Playa Hermosa: 5 checks</p>
@@ -96,7 +96,7 @@ Because Hermosa is so close, it works well as the first stop of a longer afterno
   />
 </div>
 
-I deliver the quad to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank (see [how our ATV rentals in Santa Teresa work](/)), so the ride to Playa Hermosa starts at your door, once you have sorted the [licence and gear you need to rent](/blog/atv-rental-requirements-santa-teresa). The locking cargo box takes a towel, water and a dry layer, and your board fits on the rack once it is strapped down properly. Rates start at $70 a day, with 10% off if you rent for more than seven days.
+Quads can be delivered to your hotel in Santa Teresa, Playa Carmen or Mal País with a full tank (see [how ATV rentals in Santa Teresa work](/)), so the ride to Playa Hermosa starts at your door, once you have sorted the [licence and gear you need to rent](/blog/atv-rental-requirements-santa-teresa). The locking cargo box takes a towel, water and a dry layer, and your board fits on the rack once it is strapped down properly. Rates start at $70 a day, with 10% off if you rent for more than seven days.
 
 ## Conclusion
 
